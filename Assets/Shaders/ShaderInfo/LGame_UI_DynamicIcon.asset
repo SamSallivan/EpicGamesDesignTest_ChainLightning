@@ -1,0 +1,475 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_UI_DynamicIcon
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 8
+  passCount: 3
+  subShaderCount: 2
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/UI/DynamicIcon
+  path: Assets/ABPack/Resources/Shaders/UI/LGame_UI_DynamicIcon.shader
+  GUID: 623d91c8f16c37247a3edfff34befeed
+  keywordStrs:
+  - 
+  - FOG_LINEAR
+  - FOG_EXP
+  - FOG_EXP2
+  - RectClip_On
+  - SHADOWS_DEPTH
+  - SHADOWS_CUBE
+  dependShader: []
+  gcInclude: []
+  warring: '
+
+    Use Alpha Clip'
+  shader: {fileID: 4800000, guid: 623d91c8f16c37247a3edfff34befeed, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 7544c1e164c5adf40a3ccf5cabf909d4
+    - 4558eea8461a96346900328c222d4629
+    - af48a3311aaf19644b553863aa86e6a9
+    - 05f0490230f195747af2effe3f262c72
+    - 05efe909def72f842af67b93fca3077c
+    - b58f0b17691bf344ca58d96dcc7fbe17
+    - 15cc0115114e1c546b8b9cf7c8cc2e02
+    - 5ad7629d8f93b0443bedefbb341b102f
+    - dbf207a438755174fba9843c93696061
+    - 153fc60234c2867418211fb53b3e2df6
+    - 76bd48671115da641988e27cb64afedb
+    - 88df904c65ac86642aea33dae94c73ec
+    - 0fa6b26f5935f234b9f89e21c63541ae
+    - 2748c7de13c04704ebad31b6955ffb7d
+    - fe127f978e800d94baf53200cf7ba9d7
+    - 89f7d5b9ca4e80545b82ba0d2d78d672
+    - b61788cf4692446468a5f099ed523b39
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 7
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 7544c1e164c5adf40a3ccf5cabf909d4
+    - 4558eea8461a96346900328c222d4629
+    - af48a3311aaf19644b553863aa86e6a9
+    - 05f0490230f195747af2effe3f262c72
+    - 05efe909def72f842af67b93fca3077c
+    - b58f0b17691bf344ca58d96dcc7fbe17
+    - 15cc0115114e1c546b8b9cf7c8cc2e02
+    - 5ad7629d8f93b0443bedefbb341b102f
+    - dbf207a438755174fba9843c93696061
+    - 153fc60234c2867418211fb53b3e2df6
+    - 76bd48671115da641988e27cb64afedb
+    - 88df904c65ac86642aea33dae94c73ec
+    - 0fa6b26f5935f234b9f89e21c63541ae
+    - 2748c7de13c04704ebad31b6955ffb7d
+    - fe127f978e800d94baf53200cf7ba9d7
+    - 89f7d5b9ca4e80545b82ba0d2d78d672
+    - b61788cf4692446468a5f099ed523b39
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 7
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_LINEAR
+    keywordStr: 4 FOG_LINEAR
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP
+    keywordStr: 4 FOG_EXP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP2
+    keywordStr: 4 FOG_EXP2
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - RectClip_On
+    keywordStr: 4 RectClip_On
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '8 '
+    users: []
+    passType: 8
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SHADOWS_DEPTH
+    keywordStr: 8 SHADOWS_DEPTH
+    users: []
+    passType: 8
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SHADOWS_CUBE
+    keywordStr: 8 SHADOWS_CUBE
+    users: []
+    passType: 8
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: RectClip_On
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_LINEAR
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP2
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_CUBE
+        tips: 
+    keywordCount: 6
+  - pass: 1
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_LINEAR
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP2
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_CUBE
+        tips: 
+    keywordCount: 5
+  - pass: 2
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_LINEAR
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP2
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_CUBE
+        tips: 
+    keywordCount: 5
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: RectClip_On
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_LINEAR
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_EXP
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_EXP2
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SHADOWS_DEPTH
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SHADOWS_CUBE
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 0
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 0
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 1
+        isFeature: 0
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: RectClip_On
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_LINEAR
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP2
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_CUBE
+          tips: 
+      keywordCount: 6
+    lightMode: ShadowCaster
+  - index: 0
+    lod: 0
+    passInfos:
+    - pass: 1
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_LINEAR
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP2
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_CUBE
+          tips: 
+      keywordCount: 5
+    lightMode: ForwardBase

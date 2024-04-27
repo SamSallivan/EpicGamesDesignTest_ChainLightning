@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_inbattle47_collectionMid
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 0480bf6a5d40b3b4d99dfe977be6de7c, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+  - first: {fileID: 4800000, guid: 810c5c87796581447bdd4092fadb89a4, type: 3}
+    second:
+      variants:
+      - keywords: _ATLASWALK_ON _BILLBOARD_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: d61b1115f81c6d94dbb7aaf6d11ee818, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: _WRAPMODE_ON
+        passType: 4
+      - keywords: _MASK_ON _WRAPMODE_ON
+        passType: 4

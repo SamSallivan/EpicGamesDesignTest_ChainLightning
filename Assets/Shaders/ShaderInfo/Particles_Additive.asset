@@ -1,0 +1,329 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: Particles_Additive
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 16
+  passCount: 1
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: Particles/Additive
+  path: Assets/ABPack/Resources/Shaders/builtin_shaders-5.6.4p4/DefaultResourcesExtra/Particles_Additive.shader
+  GUID: c0659d73c9ec388498c000bfb906147f
+  keywordStrs:
+  - 
+  - FOG_LINEAR
+  - FOG_EXP
+  - FOG_EXP2
+  - SOFTPARTICLES_ON
+  - RectClip_On
+  dependShader: []
+  gcInclude: []
+  warring: 
+  shader: {fileID: 4800000, guid: c0659d73c9ec388498c000bfb906147f, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 61d49b8aed148464ea888d4792b9bce8
+    - 84ce37a2363c93f4cba259be4e2a942b
+    - d56fa0f909f6ba744a5834f81158d2bb
+    - aa7d646a2f6cec844993987450a98119
+    - 9296ab4f68d9e4f4bbd118d711df7de3
+    - 300e51e92fb7e5f41af3208323642b33
+    - b720d79bcfed8dc408baac85e9574d56
+    - dabf6b53390df2d4dba048b0a00c153d
+    - 778f3e058216c124f8780a9e077c0f1b
+    - 88a439eec6d228b4d8c41652cb203065
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 61d49b8aed148464ea888d4792b9bce8
+    - 84ce37a2363c93f4cba259be4e2a942b
+    - d56fa0f909f6ba744a5834f81158d2bb
+    - aa7d646a2f6cec844993987450a98119
+    - 9296ab4f68d9e4f4bbd118d711df7de3
+    - 300e51e92fb7e5f41af3208323642b33
+    - b720d79bcfed8dc408baac85e9574d56
+    - dabf6b53390df2d4dba048b0a00c153d
+    - 778f3e058216c124f8780a9e077c0f1b
+    - 88a439eec6d228b4d8c41652cb203065
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_LINEAR
+    keywordStr: 4 FOG_LINEAR
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP
+    keywordStr: 4 FOG_EXP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP2
+    keywordStr: 4 FOG_EXP2
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SOFTPARTICLES_ON
+    keywordStr: 4 SOFTPARTICLES_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_LINEAR
+    - SOFTPARTICLES_ON
+    keywordStr: 4 FOG_LINEAR SOFTPARTICLES_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP
+    - SOFTPARTICLES_ON
+    keywordStr: 4 FOG_EXP SOFTPARTICLES_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP2
+    - SOFTPARTICLES_ON
+    keywordStr: 4 FOG_EXP2 SOFTPARTICLES_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - RectClip_On
+    keywordStr: 4 RectClip_On
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_LINEAR
+    - RectClip_On
+    keywordStr: 4 FOG_LINEAR RectClip_On
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP
+    - RectClip_On
+    keywordStr: 4 FOG_EXP RectClip_On
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP2
+    - RectClip_On
+    keywordStr: 4 FOG_EXP2 RectClip_On
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - RectClip_On
+    - SOFTPARTICLES_ON
+    keywordStr: 4 RectClip_On SOFTPARTICLES_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_LINEAR
+    - RectClip_On
+    - SOFTPARTICLES_ON
+    keywordStr: 4 FOG_LINEAR RectClip_On SOFTPARTICLES_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP
+    - RectClip_On
+    - SOFTPARTICLES_ON
+    keywordStr: 4 FOG_EXP RectClip_On SOFTPARTICLES_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP2
+    - RectClip_On
+    - SOFTPARTICLES_ON
+    keywordStr: 4 FOG_EXP2 RectClip_On SOFTPARTICLES_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: RectClip_On
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_LINEAR
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP2
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SOFTPARTICLES_ON
+        tips: 
+    keywordCount: 5
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: RectClip_On
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_LINEAR
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_EXP
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_EXP2
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SOFTPARTICLES_ON
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 0
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    lightMode: ForwardBase

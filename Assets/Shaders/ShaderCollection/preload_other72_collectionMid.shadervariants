@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_other72_collectionMid
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 826a780d04e01534eb8f6f234f4be107, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: DIRECTIONAL _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL _EMISSION _METALLICGLOSSMAP
+        passType: 4
+  - first: {fileID: 4800000, guid: 97e3e7b2b447f2a40b5e56a8d08bb0ea, type: 3}
+    second:
+      variants:
+      - keywords: SHADOWS_DEPTH _ENABLE_TRANSPARENT_SHADOW _TRANSPARENT_SHADOW
+        passType: 8

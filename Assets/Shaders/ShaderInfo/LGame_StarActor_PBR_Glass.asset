@@ -1,0 +1,603 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_StarActor_PBR_Glass
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 9
+  passCount: 3
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/StarActor/PBR_Glass
+  path: Assets/ABPack/Resources/Shaders/StarActor/LGame_StarActor_PBR_Glass.shader
+  GUID: f37cd94b2416b0942b8391056b775c1a
+  keywordStrs:
+  - 
+  - _EMISSION
+  - _METALLICGLOSSMAP
+  - SHADOWS_DEPTH
+  - _TRANSPARENT_SHADOW
+  - _ENABLE_TRANSPARENT_SHADOW
+  dependShader: []
+  gcInclude: []
+  warring: '
+
+    Has float count: 20'
+  shader: {fileID: 4800000, guid: f37cd94b2416b0942b8391056b775c1a, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 74bdade04884a7c42a26043527ad6d16
+    - 05305288e48443d4da7f2c9f21927bbd
+    - 956e7c55a0d53014c91ffbeb23924467
+    - 0d50abd96261e574286df1232b0a02a2
+    - 5396b62b1ae6a10419d68ff9e4db9b13
+    - f239ee8f4d79a9c4b81b41837519574d
+    - 07aafc59e54392845a5295b18a6a1054
+    - d887d958c2798b84fbd906bea3b958ea
+    - 08ac45c573d4b2b49adc65cc2d731644
+    - d5e6df7bfc322234985e5784334363ef
+    - 87eb0982270df8d4db30754644df227e
+    - 760eeba0df008cd42b911dd26d195fca
+    - 55526a722570d3f46ac500703650dafd
+    - 0a8be121254c54647a98a99185027af8
+    - 84d0989bbceb6cd4ab648dd2ce9e31a1
+    - 4c5054220f0d0a140baf9d842c4b3ad1
+    - 4525a218827c378498b1f9f89554e502
+    - 7714d9d786282604b9cd29c9807126ae
+    - f4d8ead683152104bb26e067f3d03134
+    - 0963a3ff111d18f4da62f75c70306501
+    - 1c5de9e6add79f347b8e9e88b5ba959a
+    - 4effff76756351245a95748264374e3c
+    - 871223cdd8d794e43a35ffde76a03b9e
+    - 64cd629e02ddcb94a8fd45faa89bfc94
+    - 6fa44eee2ebcc3342a21359502966f9b
+    - cef3ea73f662b3d42ad9eb9de54df718
+    - 4185892d510de6946b28b5682aec4d99
+    - bc3c9d83010faa0458d7ebd33df84a4c
+    - 374df9198dad64e4ca30a7ee5012ed3e
+    - 1e31b980bd3f84f4cb32236f2b0715d9
+    - 93c56bec63e61fc4ba5219a8d848568d
+    - 42232232b7443cf41a56d015e16cc683
+    - a46e27c8b5e6e204484552aacf3a4347
+    - 22ebf365ce8484d4fbe108fef2807a39
+    - b41bcb9673c21ad489978d859560c5f4
+    - b52854130deb24f49ac2cc4b9c06150e
+    - c646f5d2892b32343b4533b85519b209
+    - 5c91ee57abe4a944fb2304765ebd95ef
+    - 35709d6d9e2e3e442a5893d6cc0ccb1d
+    - 0caa4ac6fbd1848468d8b5f8ec0aab57
+    - 5c0a5936d87a0ae44925eff899da96ed
+    - c6dd5a7b57858b2409b766cd2e26da9d
+    - 6f0df81a4bb0b8945bde6fcc26a4ee39
+    - 006e580a9768b3a438a50a2a4fa062b7
+    - ce5c51cfad18d4d4296c07b141f7a8dd
+    - 4194ddfcb1de449468d8f8c6d2b779fb
+    - 1ad251b28f094d5419014f4d7383101d
+    - d4a3f63824e9dc44893aea5bcd7a344b
+    - 194b8731d69c71d47a6c9ae6b3c7086e
+    - 41dafee55fd1f1043a23f56216cf64eb
+    - 2be5435d4f02eb94a99b6d303477d35c
+    - 97eb63df86fa61445a7cedd21d8b182b
+    - 94345f17966a61c43b3235388ded9a58
+    - 59fc1f7d90ea98644aee037327f2f4e4
+    - 136da38b81651ec409286069c577d744
+    - 71a08ad92a680254ebb3135ec8899597
+    - 4a852abb8c4da784b91b1c63ce97e83f
+    - 038707d3f9367e048a2e542e0b0bc99b
+    - b4eea10bb5309bd4ca97e4766efe511a
+    - 77bc61f215a50a54795ad39a390e4a5f
+    - 4db467b03981a29469de4dc4373222c6
+    - 4ed71c3c7ef50084893d4eb7159bd49a
+    - 66a61f85c1132a24299054e57740fa70
+    - 3065498444178224ca4a5225c0218b15
+    - 1ceaa3e16bf86114c99997f2edbccf93
+    - 6588c5237cd41f24780432abc0a711f0
+    - 4555c192c61aa3445bc531a58268f6c7
+    - 26a7f2cf98bbce54c95f243c6813123a
+    - b978eee84483caf4d83930c0b7b59c82
+    - adc836ca513e16a48a9287cc2affc39c
+    - 5eabb9ab14ab7da40bc4abee7ccb82cf
+    - 2725982b91759d145b1efe4adb572b1b
+    - 7126447568e750947bd087b6a0383a9c
+    - 3a5b1bb040b1307468aa358f550886ed
+    - 020b2d595ade03c4ea1b9e059973eb21
+    - dd3984505d2e2e14599f8b3819ecc1bc
+    - 5c63ec8385375b14ebfc24af99aa548a
+    - a3ae17567a1e486418c965bbf2aec3fd
+    - 6cbe9eb30a8328349ad6791be6071a0e
+    - a27a3df91d42b0a4b81c65773870bcdf
+    - c88e1e8e8d3cb1e40b09d0f152733cfa
+    - 5ef255cdf1038484d8dea3107674879d
+    - 87d6253a9c7ca534dbce76a8a33a5e46
+    - a8d146f0801aa9c44b114e36e13169d6
+    - de867b6625db1e548ae58c8fd2f964b0
+    - a38c989e49325ea41af2cb78eee0869c
+    - b4225a4dab665d547bd40a5edc9c73c0
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _EMISSION
+    keywordStr: 4 _EMISSION
+    users:
+    - 0a8be121254c54647a98a99185027af8
+    - 0963a3ff111d18f4da62f75c70306501
+    - 871223cdd8d794e43a35ffde76a03b9e
+    - b41bcb9673c21ad489978d859560c5f4
+    - 6f0df81a4bb0b8945bde6fcc26a4ee39
+    - 006e580a9768b3a438a50a2a4fa062b7
+    - ce5c51cfad18d4d4296c07b141f7a8dd
+    - 1ad251b28f094d5419014f4d7383101d
+    - 4ed71c3c7ef50084893d4eb7159bd49a
+    - 1ceaa3e16bf86114c99997f2edbccf93
+    - 4555c192c61aa3445bc531a58268f6c7
+    - 26a7f2cf98bbce54c95f243c6813123a
+    - b978eee84483caf4d83930c0b7b59c82
+    - 7126447568e750947bd087b6a0383a9c
+    - 5c63ec8385375b14ebfc24af99aa548a
+    - a3ae17567a1e486418c965bbf2aec3fd
+    - 5ef255cdf1038484d8dea3107674879d
+    - 87d6253a9c7ca534dbce76a8a33a5e46
+    - a8d146f0801aa9c44b114e36e13169d6
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _METALLICGLOSSMAP
+    keywordStr: 4 _METALLICGLOSSMAP
+    users:
+    - 956e7c55a0d53014c91ffbeb23924467
+    - 07aafc59e54392845a5295b18a6a1054
+    - 1c5de9e6add79f347b8e9e88b5ba959a
+    - cef3ea73f662b3d42ad9eb9de54df718
+    - 4185892d510de6946b28b5682aec4d99
+    - c646f5d2892b32343b4533b85519b209
+    - 41dafee55fd1f1043a23f56216cf64eb
+    - 94345f17966a61c43b3235388ded9a58
+    - 71a08ad92a680254ebb3135ec8899597
+    - 038707d3f9367e048a2e542e0b0bc99b
+    - 6588c5237cd41f24780432abc0a711f0
+    - 3a5b1bb040b1307468aa358f550886ed
+    - a27a3df91d42b0a4b81c65773870bcdf
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _EMISSION
+    - _METALLICGLOSSMAP
+    keywordStr: 4 _EMISSION _METALLICGLOSSMAP
+    users:
+    - d5e6df7bfc322234985e5784334363ef
+    - 4c5054220f0d0a140baf9d842c4b3ad1
+    - 4525a218827c378498b1f9f89554e502
+    - 1e31b980bd3f84f4cb32236f2b0715d9
+    - 22ebf365ce8484d4fbe108fef2807a39
+    - 0caa4ac6fbd1848468d8b5f8ec0aab57
+    - d4a3f63824e9dc44893aea5bcd7a344b
+    - 020b2d595ade03c4ea1b9e059973eb21
+    - dd3984505d2e2e14599f8b3819ecc1bc
+    - c88e1e8e8d3cb1e40b09d0f152733cfa
+    - a38c989e49325ea41af2cb78eee0869c
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - SHADOWS_DEPTH
+    keywordStr: 8 SHADOWS_DEPTH
+    users: []
+    passType: 8
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 74bdade04884a7c42a26043527ad6d16
+    - 05305288e48443d4da7f2c9f21927bbd
+    - 956e7c55a0d53014c91ffbeb23924467
+    - 0d50abd96261e574286df1232b0a02a2
+    - 5396b62b1ae6a10419d68ff9e4db9b13
+    - f239ee8f4d79a9c4b81b41837519574d
+    - 07aafc59e54392845a5295b18a6a1054
+    - d887d958c2798b84fbd906bea3b958ea
+    - 08ac45c573d4b2b49adc65cc2d731644
+    - d5e6df7bfc322234985e5784334363ef
+    - 87eb0982270df8d4db30754644df227e
+    - 760eeba0df008cd42b911dd26d195fca
+    - 55526a722570d3f46ac500703650dafd
+    - 0a8be121254c54647a98a99185027af8
+    - 84d0989bbceb6cd4ab648dd2ce9e31a1
+    - 4c5054220f0d0a140baf9d842c4b3ad1
+    - 4525a218827c378498b1f9f89554e502
+    - 7714d9d786282604b9cd29c9807126ae
+    - f4d8ead683152104bb26e067f3d03134
+    - 0963a3ff111d18f4da62f75c70306501
+    - 1c5de9e6add79f347b8e9e88b5ba959a
+    - 4effff76756351245a95748264374e3c
+    - 871223cdd8d794e43a35ffde76a03b9e
+    - 64cd629e02ddcb94a8fd45faa89bfc94
+    - 6fa44eee2ebcc3342a21359502966f9b
+    - cef3ea73f662b3d42ad9eb9de54df718
+    - 4185892d510de6946b28b5682aec4d99
+    - bc3c9d83010faa0458d7ebd33df84a4c
+    - 374df9198dad64e4ca30a7ee5012ed3e
+    - 1e31b980bd3f84f4cb32236f2b0715d9
+    - 93c56bec63e61fc4ba5219a8d848568d
+    - 42232232b7443cf41a56d015e16cc683
+    - a46e27c8b5e6e204484552aacf3a4347
+    - 22ebf365ce8484d4fbe108fef2807a39
+    - b41bcb9673c21ad489978d859560c5f4
+    - b52854130deb24f49ac2cc4b9c06150e
+    - c646f5d2892b32343b4533b85519b209
+    - 5c91ee57abe4a944fb2304765ebd95ef
+    - 35709d6d9e2e3e442a5893d6cc0ccb1d
+    - 0caa4ac6fbd1848468d8b5f8ec0aab57
+    - 5c0a5936d87a0ae44925eff899da96ed
+    - c6dd5a7b57858b2409b766cd2e26da9d
+    - 6f0df81a4bb0b8945bde6fcc26a4ee39
+    - 006e580a9768b3a438a50a2a4fa062b7
+    - ce5c51cfad18d4d4296c07b141f7a8dd
+    - 4194ddfcb1de449468d8f8c6d2b779fb
+    - 1ad251b28f094d5419014f4d7383101d
+    - d4a3f63824e9dc44893aea5bcd7a344b
+    - 194b8731d69c71d47a6c9ae6b3c7086e
+    - 41dafee55fd1f1043a23f56216cf64eb
+    - 2be5435d4f02eb94a99b6d303477d35c
+    - 97eb63df86fa61445a7cedd21d8b182b
+    - 94345f17966a61c43b3235388ded9a58
+    - 59fc1f7d90ea98644aee037327f2f4e4
+    - 136da38b81651ec409286069c577d744
+    - 71a08ad92a680254ebb3135ec8899597
+    - 4a852abb8c4da784b91b1c63ce97e83f
+    - 038707d3f9367e048a2e542e0b0bc99b
+    - b4eea10bb5309bd4ca97e4766efe511a
+    - 77bc61f215a50a54795ad39a390e4a5f
+    - 4db467b03981a29469de4dc4373222c6
+    - 4ed71c3c7ef50084893d4eb7159bd49a
+    - 66a61f85c1132a24299054e57740fa70
+    - 3065498444178224ca4a5225c0218b15
+    - 1ceaa3e16bf86114c99997f2edbccf93
+    - 6588c5237cd41f24780432abc0a711f0
+    - 4555c192c61aa3445bc531a58268f6c7
+    - 26a7f2cf98bbce54c95f243c6813123a
+    - b978eee84483caf4d83930c0b7b59c82
+    - adc836ca513e16a48a9287cc2affc39c
+    - 5eabb9ab14ab7da40bc4abee7ccb82cf
+    - 2725982b91759d145b1efe4adb572b1b
+    - 7126447568e750947bd087b6a0383a9c
+    - 3a5b1bb040b1307468aa358f550886ed
+    - 020b2d595ade03c4ea1b9e059973eb21
+    - dd3984505d2e2e14599f8b3819ecc1bc
+    - 5c63ec8385375b14ebfc24af99aa548a
+    - a3ae17567a1e486418c965bbf2aec3fd
+    - 6cbe9eb30a8328349ad6791be6071a0e
+    - a27a3df91d42b0a4b81c65773870bcdf
+    - c88e1e8e8d3cb1e40b09d0f152733cfa
+    - 5ef255cdf1038484d8dea3107674879d
+    - 87d6253a9c7ca534dbce76a8a33a5e46
+    - a8d146f0801aa9c44b114e36e13169d6
+    - de867b6625db1e548ae58c8fd2f964b0
+    - a38c989e49325ea41af2cb78eee0869c
+    - b4225a4dab665d547bd40a5edc9c73c0
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _EMISSION
+    keywordStr: 4 _EMISSION
+    users:
+    - 0a8be121254c54647a98a99185027af8
+    - 0963a3ff111d18f4da62f75c70306501
+    - 871223cdd8d794e43a35ffde76a03b9e
+    - b41bcb9673c21ad489978d859560c5f4
+    - 6f0df81a4bb0b8945bde6fcc26a4ee39
+    - 006e580a9768b3a438a50a2a4fa062b7
+    - ce5c51cfad18d4d4296c07b141f7a8dd
+    - 1ad251b28f094d5419014f4d7383101d
+    - 4ed71c3c7ef50084893d4eb7159bd49a
+    - 1ceaa3e16bf86114c99997f2edbccf93
+    - 4555c192c61aa3445bc531a58268f6c7
+    - 26a7f2cf98bbce54c95f243c6813123a
+    - b978eee84483caf4d83930c0b7b59c82
+    - 7126447568e750947bd087b6a0383a9c
+    - 5c63ec8385375b14ebfc24af99aa548a
+    - a3ae17567a1e486418c965bbf2aec3fd
+    - 5ef255cdf1038484d8dea3107674879d
+    - 87d6253a9c7ca534dbce76a8a33a5e46
+    - a8d146f0801aa9c44b114e36e13169d6
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _METALLICGLOSSMAP
+    keywordStr: 4 _METALLICGLOSSMAP
+    users:
+    - 956e7c55a0d53014c91ffbeb23924467
+    - 07aafc59e54392845a5295b18a6a1054
+    - 1c5de9e6add79f347b8e9e88b5ba959a
+    - cef3ea73f662b3d42ad9eb9de54df718
+    - 4185892d510de6946b28b5682aec4d99
+    - c646f5d2892b32343b4533b85519b209
+    - 41dafee55fd1f1043a23f56216cf64eb
+    - 94345f17966a61c43b3235388ded9a58
+    - 71a08ad92a680254ebb3135ec8899597
+    - 038707d3f9367e048a2e542e0b0bc99b
+    - 6588c5237cd41f24780432abc0a711f0
+    - 3a5b1bb040b1307468aa358f550886ed
+    - a27a3df91d42b0a4b81c65773870bcdf
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _EMISSION
+    - _METALLICGLOSSMAP
+    keywordStr: 4 _EMISSION _METALLICGLOSSMAP
+    users:
+    - d5e6df7bfc322234985e5784334363ef
+    - 4c5054220f0d0a140baf9d842c4b3ad1
+    - 4525a218827c378498b1f9f89554e502
+    - 1e31b980bd3f84f4cb32236f2b0715d9
+    - 22ebf365ce8484d4fbe108fef2807a39
+    - 0caa4ac6fbd1848468d8b5f8ec0aab57
+    - d4a3f63824e9dc44893aea5bcd7a344b
+    - 020b2d595ade03c4ea1b9e059973eb21
+    - dd3984505d2e2e14599f8b3819ecc1bc
+    - c88e1e8e8d3cb1e40b09d0f152733cfa
+    - a38c989e49325ea41af2cb78eee0869c
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '8 '
+    users: []
+    passType: 8
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - SHADOWS_DEPTH
+    keywordStr: 8 SHADOWS_DEPTH
+    users: []
+    passType: 8
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SHADOWS_DEPTH
+    - _TRANSPARENT_SHADOW
+    keywordStr: 8 SHADOWS_DEPTH _TRANSPARENT_SHADOW
+    users: []
+    passType: 8
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SHADOWS_DEPTH
+    - _ENABLE_TRANSPARENT_SHADOW
+    keywordStr: 8 SHADOWS_DEPTH _ENABLE_TRANSPARENT_SHADOW
+    users: []
+    passType: 8
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SHADOWS_DEPTH
+    - _ENABLE_TRANSPARENT_SHADOW
+    - _TRANSPARENT_SHADOW
+    keywordStr: 8 SHADOWS_DEPTH _ENABLE_TRANSPARENT_SHADOW _TRANSPARENT_SHADOW
+    users: []
+    passType: 8
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 1
+  - pass: 1
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _METALLICGLOSSMAP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _EMISSION
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 3
+  - pass: 2
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _ENABLE_TRANSPARENT_SHADOW
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _TRANSPARENT_SHADOW
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 3
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _METALLICGLOSSMAP
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _EMISSION
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _ENABLE_TRANSPARENT_SHADOW
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _TRANSPARENT_SHADOW
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SHADOWS_DEPTH
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 100
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 0
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 1
+    - pass: 1
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _METALLICGLOSSMAP
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _EMISSION
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 3
+    lightMode: ShadowCaster

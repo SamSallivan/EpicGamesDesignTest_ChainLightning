@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_permanent17_collectionLow
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 843296359d52cdf42be0ecc1e1870868, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+  - first: {fileID: 4800000, guid: db50eea7cbcec0c438ad77d15bbe2c9b, type: 3}
+    second:
+      variants:
+      - keywords: SOFT_CLIP USE_HSV_COLOR
+        passType: 4

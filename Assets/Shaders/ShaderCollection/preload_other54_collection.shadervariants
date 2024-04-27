@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_other54_collection
+  m_Shaders:
+  - first: {fileID: 4800000, guid: dc98fbd2a660df743856cdba1700bb69, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL _HARD_SHADOW
+        passType: 4
+      - keywords: DIRECTIONAL _DUAL_RIMLIGHT _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL _GLINT
+        passType: 4
+      - keywords: DIRECTIONAL _GLINT _METALLICGLOSSMAP
+        passType: 4

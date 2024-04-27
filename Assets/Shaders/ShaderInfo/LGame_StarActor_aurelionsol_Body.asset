@@ -1,0 +1,2634 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_StarActor_aurelionsol_Body
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 89
+  passCount: 5
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/StarActor/aurelionsol_Body
+  path: Assets/ABPack/Resources/Shaders/StarActor/LGame_StarActor_aurelionsol_Body.shader
+  GUID: 7434ee52835355a409843a4a640f0adf
+  keywordStrs:
+  - 
+  - DIRECTIONAL
+  - SHADOWS_SCREEN
+  - LIGHTMAP_ON
+  - DIRLIGHTMAP_COMBINED
+  - DYNAMICLIGHTMAP_ON
+  - LIGHTMAP_SHADOW_MIXING
+  - SHADOWS_SHADOWMASK
+  - LIGHTPROBE_SH
+  - FOG_LINEAR
+  - FOG_EXP
+  - FOG_EXP2
+  - VERTEXLIGHT_ON
+  - SHADOWS_DEPTH
+  dependShader: []
+  gcInclude: []
+  warring: '
+
+    Has float count: 34
+
+    Use pow fcunction : 2
+
+    Use sin fcunction : 1
+
+'
+  shader: {fileID: 4800000, guid: 7434ee52835355a409843a4a640f0adf, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - 89844743f38dc1a42b041da2307232b6
+    - 42dfb4e731ab1ce4bb82a9952d83438f
+    - c5b1c92ecc01063418806c6823ca893f
+    - 37f843b297c70c1499eb2f578f4e39a4
+    - cc45cd3a1fb72474b98f955d93495b41
+    - ff716a349e9ba2f488eb652c442438d9
+    - 624f3dcf19a35d6448d585bb51b80102
+    - 9db9a756f8d98554fa780b9ccee33c4d
+    - 9aac8f6f426f8704e89379dad7a1e3fa
+    - 7337fe7e20c2c94448e9ba53c5ae1ee7
+    - 2f33b81cb7090ec468a6a3ce06505bc4
+    - 22a7b5bbbbaf1214e8b9f28ae96af948
+    - c7db2f58e082d6143aba25a3b180e3d8
+    - 9cf6a8ecac891f04ca51bf938ca0f4ab
+    - 2880587b8767dd04fa830ec3e88029bb
+    - 77a5bf2d2c3cd4543907265e3b1c9a68
+    - 0bb308eed465118439347783de25ada3
+    - b5788c608cb3bea48809e858aa6cb831
+    - fe002d6874fd57e4da7ab7f818103936
+    - ce198f91fdb19a44e8716e69be8557ec
+    - 1ef7cd97f32dda848bd77873d2f1e2b9
+    - ec5edda3c619c44469006bbd2f1d48a2
+    - 6d57fd233e55b614e8a787a18f637e7d
+    - aa2d2e206bcf1f34b9fad119e010678b
+    - 04bcf3c13f4733e4f898ccc5be808281
+    - 358a8de66d1a3f84d9c8b2dc02e46123
+    - d5cfd6a2aadfc9147a757a5220850b66
+    - 970e396daa9b1e54d97882595c80d4ea
+    - c608454f44a77d942ab3460bd8e6fa8f
+    - 9d31d6288e012dd4e8763a2669fd9637
+    - 9efd0d15a0c67104483aa4857ef0fb04
+    - 8f1d8051314b8184fb4dbd7ed0898f44
+    - 8d26a03ed2b96514dabe96e415fb7eb5
+    - 9b2b1784bda7e26478ea1348f1ba56ba
+    - 760d65cb6bf70c54894b59cddb650875
+    - 4840c0bf7d766214cab9b45ab05b7909
+    - 74e84cec40fee214dbdc357ddea8c27d
+    - 14e453f074d11954fa27640287decc1a
+    - 362c6dd30d197f84caa8ab1857e3af59
+    - ac6934ea39bea9841bb9fa6c65310c70
+    - 7390603108f30ad4aaf1712a796eea9d
+    - 42a133e820bfef34fb3c659c2204cb66
+    - 6c85ff54f38d3ae4fb75389083cd0d30
+    - 9d87c35b176489d45901de722e4dad3f
+    - 8a9cee15cd18697489d9ea164c703277
+    - fb7babd647b51bc4194acf4669e0fd1f
+    - 2e7ab66c585913a49bc4827d5fa58d3e
+    - 0c678095014d5b64899a379f9618f22f
+    - 9476a4ec4b7ff5141b7d6799730b988a
+    - ef31e854bb121a24090fc50da043007e
+    - a62ea5c630f0fdc4a919125b7a5114cf
+    - 1ada2c6da7ecc6b4aac2c725bc681c71
+    - f02bf5aa09db9a549b43af190ef85c30
+    - dd971f2d0ac1ecf40bbe3848d951e52a
+    - 5b46d2faea0a4b941a6999beb554e395
+    - 59e8c72cc536a9b4a834020c1c438246
+    - 0069e41aa23a8eb43a83d28dd2d7dd70
+    - 8ab79491734b58a46bdccc01b1072bc8
+    - 8e1be1b490668e24e8ecc55f268af720
+    - fb3922e5d2b6b0e428a64fe6671da257
+    - d8b7c7b7cf111dc41b6edfaf9ca9f43a
+    - caa937c90da7d2a4c8846cb6828c9466
+    - 4a7cfb7174ba1a443a48c88dce2440d8
+    - bd07d79dd3bca2e498cc6df68b45e2b7
+    - 93a3aaa71076bf44bbc44a12051b76b8
+    - 85b46899942e24d428d89d0312a7b788
+    - d50cb57f943deaa429729f412a83cce7
+    - 1547caecab4b57c48a42c2db006b3314
+    - c14f767de5725cd4db9b375586d06f33
+    - 2ebb9e9168ba3d542acf6f10d607b109
+    - 171e85c6c3d4272448bb98a3c9f80d5a
+    - 33cf5c813256ab244a97bff8aac1a384
+    - 01958c7361aa97c488f5db935a14e139
+    - 300197dd1772a7c4aaefcf611fe84ae6
+    - 4c8d78d1730354d49a7501bb8e2b97c2
+    - 5aeaee793d0d2364da8cadad9e8a24ec
+    - 711c5bf0d9fbd3f47a69881abca3e6ee
+    - 0102050887b96e64593ad74b20e49b4e
+    - f52effd1b9804c8419e47efaef461a72
+    - e645d4438bbacc345b8ccd759e3d2e5a
+    - fec36ec43533a0840996eb9d160d06e7
+    - 89960aa79aa16a744bf8087eb97f7b8b
+    - a43276b752b1b1b44af71774abe47532
+    - c6d3488d6a4730442b8797a2f28c268a
+    - 294f9853107d3cf46b2e99c1398925c0
+    - eeee6bb85f85aa247ad1b1eedee75068
+    - f877ef4a27bd31543bcbdd7f00cc09b0
+    - e8642ac43e349954c97a5fc27c281d18
+    - 2fac5cdaa8a8e924498263cf2e18551a
+    - 5d797af6f9e4ccf448b0c3a5e26d3bf6
+    - 1cd1a7e2724445a43966531b479603f3
+    - b5a3e512258bd804f8e29723fb891297
+    - d8f483a41bd33774fbab06a1d57046d3
+    - 1c20656fc09202b45acb6fd4cd3a6d80
+    - ef1b8e7ee172f054dbb1cf766492b665
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - SHADOWS_DEPTH
+    keywordStr: 8 SHADOWS_DEPTH
+    users: []
+    passType: 8
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - 89844743f38dc1a42b041da2307232b6
+    - 42dfb4e731ab1ce4bb82a9952d83438f
+    - c5b1c92ecc01063418806c6823ca893f
+    - 37f843b297c70c1499eb2f578f4e39a4
+    - cc45cd3a1fb72474b98f955d93495b41
+    - ff716a349e9ba2f488eb652c442438d9
+    - 624f3dcf19a35d6448d585bb51b80102
+    - 9db9a756f8d98554fa780b9ccee33c4d
+    - 9aac8f6f426f8704e89379dad7a1e3fa
+    - 7337fe7e20c2c94448e9ba53c5ae1ee7
+    - 2f33b81cb7090ec468a6a3ce06505bc4
+    - 22a7b5bbbbaf1214e8b9f28ae96af948
+    - c7db2f58e082d6143aba25a3b180e3d8
+    - 9cf6a8ecac891f04ca51bf938ca0f4ab
+    - 2880587b8767dd04fa830ec3e88029bb
+    - 77a5bf2d2c3cd4543907265e3b1c9a68
+    - 0bb308eed465118439347783de25ada3
+    - b5788c608cb3bea48809e858aa6cb831
+    - fe002d6874fd57e4da7ab7f818103936
+    - ce198f91fdb19a44e8716e69be8557ec
+    - 1ef7cd97f32dda848bd77873d2f1e2b9
+    - ec5edda3c619c44469006bbd2f1d48a2
+    - 6d57fd233e55b614e8a787a18f637e7d
+    - aa2d2e206bcf1f34b9fad119e010678b
+    - 04bcf3c13f4733e4f898ccc5be808281
+    - 358a8de66d1a3f84d9c8b2dc02e46123
+    - d5cfd6a2aadfc9147a757a5220850b66
+    - 970e396daa9b1e54d97882595c80d4ea
+    - c608454f44a77d942ab3460bd8e6fa8f
+    - 9d31d6288e012dd4e8763a2669fd9637
+    - 9efd0d15a0c67104483aa4857ef0fb04
+    - 8f1d8051314b8184fb4dbd7ed0898f44
+    - 8d26a03ed2b96514dabe96e415fb7eb5
+    - 9b2b1784bda7e26478ea1348f1ba56ba
+    - 760d65cb6bf70c54894b59cddb650875
+    - 4840c0bf7d766214cab9b45ab05b7909
+    - 74e84cec40fee214dbdc357ddea8c27d
+    - 14e453f074d11954fa27640287decc1a
+    - 362c6dd30d197f84caa8ab1857e3af59
+    - ac6934ea39bea9841bb9fa6c65310c70
+    - 7390603108f30ad4aaf1712a796eea9d
+    - 42a133e820bfef34fb3c659c2204cb66
+    - 6c85ff54f38d3ae4fb75389083cd0d30
+    - 9d87c35b176489d45901de722e4dad3f
+    - 8a9cee15cd18697489d9ea164c703277
+    - fb7babd647b51bc4194acf4669e0fd1f
+    - 2e7ab66c585913a49bc4827d5fa58d3e
+    - 0c678095014d5b64899a379f9618f22f
+    - 9476a4ec4b7ff5141b7d6799730b988a
+    - ef31e854bb121a24090fc50da043007e
+    - a62ea5c630f0fdc4a919125b7a5114cf
+    - 1ada2c6da7ecc6b4aac2c725bc681c71
+    - f02bf5aa09db9a549b43af190ef85c30
+    - dd971f2d0ac1ecf40bbe3848d951e52a
+    - 5b46d2faea0a4b941a6999beb554e395
+    - 59e8c72cc536a9b4a834020c1c438246
+    - 0069e41aa23a8eb43a83d28dd2d7dd70
+    - 8ab79491734b58a46bdccc01b1072bc8
+    - 8e1be1b490668e24e8ecc55f268af720
+    - fb3922e5d2b6b0e428a64fe6671da257
+    - d8b7c7b7cf111dc41b6edfaf9ca9f43a
+    - caa937c90da7d2a4c8846cb6828c9466
+    - 4a7cfb7174ba1a443a48c88dce2440d8
+    - bd07d79dd3bca2e498cc6df68b45e2b7
+    - 93a3aaa71076bf44bbc44a12051b76b8
+    - 85b46899942e24d428d89d0312a7b788
+    - d50cb57f943deaa429729f412a83cce7
+    - 1547caecab4b57c48a42c2db006b3314
+    - c14f767de5725cd4db9b375586d06f33
+    - 2ebb9e9168ba3d542acf6f10d607b109
+    - 171e85c6c3d4272448bb98a3c9f80d5a
+    - 33cf5c813256ab244a97bff8aac1a384
+    - 01958c7361aa97c488f5db935a14e139
+    - 300197dd1772a7c4aaefcf611fe84ae6
+    - 4c8d78d1730354d49a7501bb8e2b97c2
+    - 5aeaee793d0d2364da8cadad9e8a24ec
+    - 711c5bf0d9fbd3f47a69881abca3e6ee
+    - 0102050887b96e64593ad74b20e49b4e
+    - f52effd1b9804c8419e47efaef461a72
+    - e645d4438bbacc345b8ccd759e3d2e5a
+    - fec36ec43533a0840996eb9d160d06e7
+    - 89960aa79aa16a744bf8087eb97f7b8b
+    - a43276b752b1b1b44af71774abe47532
+    - c6d3488d6a4730442b8797a2f28c268a
+    - 294f9853107d3cf46b2e99c1398925c0
+    - eeee6bb85f85aa247ad1b1eedee75068
+    - f877ef4a27bd31543bcbdd7f00cc09b0
+    - e8642ac43e349954c97a5fc27c281d18
+    - 2fac5cdaa8a8e924498263cf2e18551a
+    - 5d797af6f9e4ccf448b0c3a5e26d3bf6
+    - 1cd1a7e2724445a43966531b479603f3
+    - b5a3e512258bd804f8e29723fb891297
+    - d8f483a41bd33774fbab06a1d57046d3
+    - 1c20656fc09202b45acb6fd4cd3a6d80
+    - ef1b8e7ee172f054dbb1cf766492b665
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    keywordStr: 0 DIRECTIONAL
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    keywordStr: 0 DIRECTIONAL SHADOWS_SCREEN
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    keywordStr: 0 DIRECTIONAL LIGHTMAP_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    - SHADOWS_SCREEN
+    keywordStr: 0 DIRECTIONAL LIGHTMAP_ON SHADOWS_SCREEN
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - LIGHTMAP_ON
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - LIGHTMAP_ON
+    - SHADOWS_SCREEN
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON SHADOWS_SCREEN
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DYNAMICLIGHTMAP_ON
+    keywordStr: 0 DIRECTIONAL DYNAMICLIGHTMAP_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DYNAMICLIGHTMAP_ON
+    - SHADOWS_SCREEN
+    keywordStr: 0 DIRECTIONAL DYNAMICLIGHTMAP_ON SHADOWS_SCREEN
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DYNAMICLIGHTMAP_ON
+    - LIGHTMAP_ON
+    keywordStr: 0 DIRECTIONAL DYNAMICLIGHTMAP_ON LIGHTMAP_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DYNAMICLIGHTMAP_ON
+    - LIGHTMAP_ON
+    - SHADOWS_SCREEN
+    keywordStr: 0 DIRECTIONAL DYNAMICLIGHTMAP_ON LIGHTMAP_ON SHADOWS_SCREEN
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - DYNAMICLIGHTMAP_ON
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - DYNAMICLIGHTMAP_ON
+    - SHADOWS_SCREEN
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON SHADOWS_SCREEN
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - DYNAMICLIGHTMAP_ON
+    - LIGHTMAP_ON
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON LIGHTMAP_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - DYNAMICLIGHTMAP_ON
+    - LIGHTMAP_ON
+    - SHADOWS_SCREEN
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON LIGHTMAP_ON
+      SHADOWS_SCREEN
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    keywordStr: 0 DIRECTIONAL LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - SHADOWS_SCREEN
+    keywordStr: 0 DIRECTIONAL LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADOWS_SCREEN
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - LIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - LIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - SHADOWS_SCREEN
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING
+      SHADOWS_SCREEN
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DYNAMICLIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - SHADOWS_SCREEN
+    keywordStr: 0 DIRECTIONAL DYNAMICLIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADOWS_SCREEN
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DYNAMICLIGHTMAP_ON
+    - LIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    keywordStr: 0 DIRECTIONAL DYNAMICLIGHTMAP_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DYNAMICLIGHTMAP_ON
+    - LIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - SHADOWS_SCREEN
+    keywordStr: 0 DIRECTIONAL DYNAMICLIGHTMAP_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING
+      SHADOWS_SCREEN
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - DYNAMICLIGHTMAP_ON
+    - LIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON LIGHTMAP_ON
+      LIGHTMAP_SHADOW_MIXING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - DYNAMICLIGHTMAP_ON
+    - LIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - SHADOWS_SCREEN
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON LIGHTMAP_ON
+      LIGHTMAP_SHADOW_MIXING SHADOWS_SCREEN
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    - SHADOWS_SHADOWMASK
+    keywordStr: 0 DIRECTIONAL LIGHTMAP_ON SHADOWS_SHADOWMASK
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    - SHADOWS_SCREEN
+    - SHADOWS_SHADOWMASK
+    keywordStr: 0 DIRECTIONAL LIGHTMAP_ON SHADOWS_SCREEN SHADOWS_SHADOWMASK
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - LIGHTMAP_ON
+    - SHADOWS_SHADOWMASK
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON SHADOWS_SHADOWMASK
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - LIGHTMAP_ON
+    - SHADOWS_SCREEN
+    - SHADOWS_SHADOWMASK
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON SHADOWS_SCREEN SHADOWS_SHADOWMASK
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DYNAMICLIGHTMAP_ON
+    - SHADOWS_SCREEN
+    - SHADOWS_SHADOWMASK
+    keywordStr: 0 DIRECTIONAL DYNAMICLIGHTMAP_ON SHADOWS_SCREEN SHADOWS_SHADOWMASK
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DYNAMICLIGHTMAP_ON
+    - LIGHTMAP_ON
+    - SHADOWS_SHADOWMASK
+    keywordStr: 0 DIRECTIONAL DYNAMICLIGHTMAP_ON LIGHTMAP_ON SHADOWS_SHADOWMASK
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DYNAMICLIGHTMAP_ON
+    - LIGHTMAP_ON
+    - SHADOWS_SCREEN
+    - SHADOWS_SHADOWMASK
+    keywordStr: 0 DIRECTIONAL DYNAMICLIGHTMAP_ON LIGHTMAP_ON SHADOWS_SCREEN SHADOWS_SHADOWMASK
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - DYNAMICLIGHTMAP_ON
+    - LIGHTMAP_ON
+    - SHADOWS_SHADOWMASK
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON LIGHTMAP_ON
+      SHADOWS_SHADOWMASK
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - DYNAMICLIGHTMAP_ON
+    - LIGHTMAP_ON
+    - SHADOWS_SCREEN
+    - SHADOWS_SHADOWMASK
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON LIGHTMAP_ON
+      SHADOWS_SCREEN SHADOWS_SHADOWMASK
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - SHADOWS_SHADOWMASK
+    keywordStr: 0 DIRECTIONAL LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - SHADOWS_SCREEN
+    - SHADOWS_SHADOWMASK
+    keywordStr: 0 DIRECTIONAL LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADOWS_SCREEN SHADOWS_SHADOWMASK
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - LIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - SHADOWS_SHADOWMASK
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING
+      SHADOWS_SHADOWMASK
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - LIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - SHADOWS_SCREEN
+    - SHADOWS_SHADOWMASK
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING
+      SHADOWS_SCREEN SHADOWS_SHADOWMASK
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DYNAMICLIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - SHADOWS_SCREEN
+    - SHADOWS_SHADOWMASK
+    keywordStr: 0 DIRECTIONAL DYNAMICLIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADOWS_SCREEN
+      SHADOWS_SHADOWMASK
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DYNAMICLIGHTMAP_ON
+    - LIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - SHADOWS_SHADOWMASK
+    keywordStr: 0 DIRECTIONAL DYNAMICLIGHTMAP_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING
+      SHADOWS_SHADOWMASK
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DYNAMICLIGHTMAP_ON
+    - LIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - SHADOWS_SCREEN
+    - SHADOWS_SHADOWMASK
+    keywordStr: 0 DIRECTIONAL DYNAMICLIGHTMAP_ON LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING
+      SHADOWS_SCREEN SHADOWS_SHADOWMASK
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - DYNAMICLIGHTMAP_ON
+    - LIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - SHADOWS_SHADOWMASK
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON LIGHTMAP_ON
+      LIGHTMAP_SHADOW_MIXING SHADOWS_SHADOWMASK
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - DYNAMICLIGHTMAP_ON
+    - LIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - SHADOWS_SCREEN
+    - SHADOWS_SHADOWMASK
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON LIGHTMAP_ON
+      LIGHTMAP_SHADOW_MIXING SHADOWS_SCREEN SHADOWS_SHADOWMASK
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTPROBE_SH
+    keywordStr: 0 DIRECTIONAL LIGHTPROBE_SH
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    keywordStr: 0 DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    - LIGHTPROBE_SH
+    keywordStr: 0 DIRECTIONAL LIGHTMAP_ON LIGHTPROBE_SH
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    keywordStr: 0 DIRECTIONAL LIGHTMAP_ON LIGHTPROBE_SH SHADOWS_SCREEN
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - LIGHTMAP_ON
+    - LIGHTPROBE_SH
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON LIGHTPROBE_SH
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - LIGHTMAP_ON
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON LIGHTPROBE_SH SHADOWS_SCREEN
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_SHADOW_MIXING
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    keywordStr: 0 DIRECTIONAL LIGHTMAP_SHADOW_MIXING LIGHTPROBE_SH SHADOWS_SCREEN
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - LIGHTPROBE_SH
+    keywordStr: 0 DIRECTIONAL LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING LIGHTPROBE_SH
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    keywordStr: 0 DIRECTIONAL LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING LIGHTPROBE_SH SHADOWS_SCREEN
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - LIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - LIGHTPROBE_SH
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING
+      LIGHTPROBE_SH
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - LIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING
+      LIGHTPROBE_SH SHADOWS_SCREEN
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTPROBE_SH
+    - SHADOWS_SHADOWMASK
+    keywordStr: 0 DIRECTIONAL LIGHTPROBE_SH SHADOWS_SHADOWMASK
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    - SHADOWS_SHADOWMASK
+    keywordStr: 0 DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN SHADOWS_SHADOWMASK
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    - LIGHTPROBE_SH
+    - SHADOWS_SHADOWMASK
+    keywordStr: 0 DIRECTIONAL LIGHTMAP_ON LIGHTPROBE_SH SHADOWS_SHADOWMASK
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    - SHADOWS_SHADOWMASK
+    keywordStr: 0 DIRECTIONAL LIGHTMAP_ON LIGHTPROBE_SH SHADOWS_SCREEN SHADOWS_SHADOWMASK
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - LIGHTMAP_ON
+    - LIGHTPROBE_SH
+    - SHADOWS_SHADOWMASK
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON LIGHTPROBE_SH SHADOWS_SHADOWMASK
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - LIGHTMAP_ON
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    - SHADOWS_SHADOWMASK
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON LIGHTPROBE_SH SHADOWS_SCREEN
+      SHADOWS_SHADOWMASK
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_SHADOW_MIXING
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    - SHADOWS_SHADOWMASK
+    keywordStr: 0 DIRECTIONAL LIGHTMAP_SHADOW_MIXING LIGHTPROBE_SH SHADOWS_SCREEN
+      SHADOWS_SHADOWMASK
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - LIGHTPROBE_SH
+    - SHADOWS_SHADOWMASK
+    keywordStr: 0 DIRECTIONAL LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING LIGHTPROBE_SH SHADOWS_SHADOWMASK
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    - SHADOWS_SHADOWMASK
+    keywordStr: 0 DIRECTIONAL LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING LIGHTPROBE_SH SHADOWS_SCREEN
+      SHADOWS_SHADOWMASK
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - LIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - LIGHTPROBE_SH
+    - SHADOWS_SHADOWMASK
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING
+      LIGHTPROBE_SH SHADOWS_SHADOWMASK
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - LIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    - SHADOWS_SHADOWMASK
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON LIGHTMAP_SHADOW_MIXING
+      LIGHTPROBE_SH SHADOWS_SCREEN SHADOWS_SHADOWMASK
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_LINEAR
+    keywordStr: 0 FOG_LINEAR
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP
+    keywordStr: 0 FOG_EXP
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP2
+    keywordStr: 0 FOG_EXP2
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - VERTEXLIGHT_ON
+    keywordStr: 0 DIRECTIONAL VERTEXLIGHT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 0 DIRECTIONAL SHADOWS_SCREEN VERTEXLIGHT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DYNAMICLIGHTMAP_ON
+    - VERTEXLIGHT_ON
+    keywordStr: 0 DIRECTIONAL DYNAMICLIGHTMAP_ON VERTEXLIGHT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DYNAMICLIGHTMAP_ON
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 0 DIRECTIONAL DYNAMICLIGHTMAP_ON SHADOWS_SCREEN VERTEXLIGHT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - DYNAMICLIGHTMAP_ON
+    - VERTEXLIGHT_ON
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON VERTEXLIGHT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - DYNAMICLIGHTMAP_ON
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON SHADOWS_SCREEN
+      VERTEXLIGHT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_SHADOW_MIXING
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 0 DIRECTIONAL LIGHTMAP_SHADOW_MIXING SHADOWS_SCREEN VERTEXLIGHT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DYNAMICLIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 0 DIRECTIONAL DYNAMICLIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADOWS_SCREEN
+      VERTEXLIGHT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - DYNAMICLIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON LIGHTMAP_SHADOW_MIXING
+      SHADOWS_SCREEN VERTEXLIGHT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - SHADOWS_SHADOWMASK
+    - VERTEXLIGHT_ON
+    keywordStr: 0 DIRECTIONAL SHADOWS_SCREEN SHADOWS_SHADOWMASK VERTEXLIGHT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DYNAMICLIGHTMAP_ON
+    - SHADOWS_SCREEN
+    - SHADOWS_SHADOWMASK
+    - VERTEXLIGHT_ON
+    keywordStr: 0 DIRECTIONAL DYNAMICLIGHTMAP_ON SHADOWS_SCREEN SHADOWS_SHADOWMASK
+      VERTEXLIGHT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - DYNAMICLIGHTMAP_ON
+    - SHADOWS_SCREEN
+    - SHADOWS_SHADOWMASK
+    - VERTEXLIGHT_ON
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON SHADOWS_SCREEN
+      SHADOWS_SHADOWMASK VERTEXLIGHT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_SHADOW_MIXING
+    - SHADOWS_SCREEN
+    - SHADOWS_SHADOWMASK
+    - VERTEXLIGHT_ON
+    keywordStr: 0 DIRECTIONAL LIGHTMAP_SHADOW_MIXING SHADOWS_SCREEN SHADOWS_SHADOWMASK
+      VERTEXLIGHT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DYNAMICLIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - SHADOWS_SCREEN
+    - SHADOWS_SHADOWMASK
+    - VERTEXLIGHT_ON
+    keywordStr: 0 DIRECTIONAL DYNAMICLIGHTMAP_ON LIGHTMAP_SHADOW_MIXING SHADOWS_SCREEN
+      SHADOWS_SHADOWMASK VERTEXLIGHT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - DIRLIGHTMAP_COMBINED
+    - DYNAMICLIGHTMAP_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - SHADOWS_SCREEN
+    - SHADOWS_SHADOWMASK
+    - VERTEXLIGHT_ON
+    keywordStr: 0 DIRECTIONAL DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON LIGHTMAP_SHADOW_MIXING
+      SHADOWS_SCREEN SHADOWS_SHADOWMASK VERTEXLIGHT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTPROBE_SH
+    - VERTEXLIGHT_ON
+    keywordStr: 0 DIRECTIONAL LIGHTPROBE_SH VERTEXLIGHT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 0 DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN VERTEXLIGHT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_SHADOW_MIXING
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 0 DIRECTIONAL LIGHTMAP_SHADOW_MIXING LIGHTPROBE_SH SHADOWS_SCREEN
+      VERTEXLIGHT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    - SHADOWS_SHADOWMASK
+    - VERTEXLIGHT_ON
+    keywordStr: 0 DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN SHADOWS_SHADOWMASK VERTEXLIGHT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_SHADOW_MIXING
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    - SHADOWS_SHADOWMASK
+    - VERTEXLIGHT_ON
+    keywordStr: 0 DIRECTIONAL LIGHTMAP_SHADOW_MIXING LIGHTPROBE_SH SHADOWS_SCREEN
+      SHADOWS_SHADOWMASK VERTEXLIGHT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '8 '
+    users: []
+    passType: 8
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - SHADOWS_DEPTH
+    keywordStr: 8 SHADOWS_DEPTH
+    users: []
+    passType: 8
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: LIGHTMAP_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRLIGHTMAP_COMBINED
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DYNAMICLIGHTMAP_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: LIGHTMAP_SHADOW_MIXING
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SHADOWMASK
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: LIGHTPROBE_SH
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_LINEAR
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP2
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: VERTEXLIGHT_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 13
+  - pass: 1
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: LIGHTMAP_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRLIGHTMAP_COMBINED
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DYNAMICLIGHTMAP_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: LIGHTMAP_SHADOW_MIXING
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SHADOWMASK
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: LIGHTPROBE_SH
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_LINEAR
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP2
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: VERTEXLIGHT_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 13
+  - pass: 2
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: LIGHTMAP_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRLIGHTMAP_COMBINED
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DYNAMICLIGHTMAP_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: LIGHTMAP_SHADOW_MIXING
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SHADOWMASK
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: LIGHTPROBE_SH
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_LINEAR
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP2
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: VERTEXLIGHT_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 13
+  - pass: 3
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: LIGHTMAP_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRLIGHTMAP_COMBINED
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DYNAMICLIGHTMAP_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: LIGHTMAP_SHADOW_MIXING
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SHADOWMASK
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: LIGHTPROBE_SH
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_LINEAR
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP2
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: VERTEXLIGHT_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 13
+  - pass: 4
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: LIGHTMAP_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRLIGHTMAP_COMBINED
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DYNAMICLIGHTMAP_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: LIGHTMAP_SHADOW_MIXING
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SHADOWMASK
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: LIGHTPROBE_SH
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_LINEAR
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP2
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: VERTEXLIGHT_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 13
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: DIRECTIONAL
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SHADOWS_SCREEN
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: LIGHTMAP_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: DIRLIGHTMAP_COMBINED
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: DYNAMICLIGHTMAP_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: LIGHTMAP_SHADOW_MIXING
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SHADOWS_SHADOWMASK
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: LIGHTPROBE_SH
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_LINEAR
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_EXP
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_EXP2
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: VERTEXLIGHT_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SHADOWS_DEPTH
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 100
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 0
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRECTIONAL
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SCREEN
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: LIGHTMAP_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRLIGHTMAP_COMBINED
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DYNAMICLIGHTMAP_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: LIGHTMAP_SHADOW_MIXING
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SHADOWMASK
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: LIGHTPROBE_SH
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_LINEAR
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP2
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: VERTEXLIGHT_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 13
+    - pass: 1
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRECTIONAL
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SCREEN
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: LIGHTMAP_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRLIGHTMAP_COMBINED
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DYNAMICLIGHTMAP_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: LIGHTMAP_SHADOW_MIXING
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SHADOWMASK
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: LIGHTPROBE_SH
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_LINEAR
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP2
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: VERTEXLIGHT_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 13
+    - pass: 2
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRECTIONAL
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SCREEN
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: LIGHTMAP_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRLIGHTMAP_COMBINED
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DYNAMICLIGHTMAP_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: LIGHTMAP_SHADOW_MIXING
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SHADOWMASK
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: LIGHTPROBE_SH
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_LINEAR
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP2
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: VERTEXLIGHT_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 13
+    - pass: 3
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRECTIONAL
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SCREEN
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: LIGHTMAP_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRLIGHTMAP_COMBINED
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DYNAMICLIGHTMAP_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: LIGHTMAP_SHADOW_MIXING
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SHADOWMASK
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: LIGHTPROBE_SH
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_LINEAR
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP2
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: VERTEXLIGHT_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 13
+    lightMode: ShadowCaster

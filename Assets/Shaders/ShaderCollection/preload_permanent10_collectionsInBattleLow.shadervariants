@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_permanent10_collectionsInBattleLow
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 840946fdcfce0474582e14dcd33971c3, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+  - first: {fileID: 4800000, guid: bee05cb11340805448bef122866828c3, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+  - first: {fileID: 4800000, guid: e935460e6f7c9624db08d5d9e33e0c58, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: UNITY_USE_OWN_ALPHA
+        passType: 4
+      - keywords: USE_PARTMASK_RGBA
+        passType: 4

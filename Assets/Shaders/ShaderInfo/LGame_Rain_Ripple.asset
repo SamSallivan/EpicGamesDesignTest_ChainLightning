@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_Rain_Ripple
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 1
+  passCount: 1
+  subShaderCount: 0
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/Rain/Ripple
+  path: Assets/ABPack/Resources/Shaders/Project/LGame_Rain_Ripple.shader
+  GUID: 459c3cd6a1910af4da5959432e259ca1
+  keywordStrs:
+  - 
+  dependShader: []
+  gcInclude: []
+  warring: 
+  shader: {fileID: 4800000, guid: 459c3cd6a1910af4da5959432e259ca1, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - 00c258f3e1548b84b8dbd6db80263e88
+    - 113371b5d6e11a84f8ee4bb6c619c5af
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 4
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - 00c258f3e1548b84b8dbd6db80263e88
+    - 113371b5d6e11a84f8ee4bb6c619c5af
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 4
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines: []
+    keywordCount: 0
+  keywords: []
+  subShaderInfos: []

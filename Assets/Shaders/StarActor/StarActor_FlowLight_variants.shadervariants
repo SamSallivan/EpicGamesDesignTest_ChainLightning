@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: StarActor_FlowLight_variants
+  m_Shaders:
+    data:
+      first: {fileID: 4800000, guid: e1f958b0b8bdf8847a6438a7991d9ddb, type: 3}
+      second:
+        variants:
+        - keywords: 
+          passType: 0

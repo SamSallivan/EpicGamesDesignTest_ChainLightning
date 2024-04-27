@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_Effect_StarActor_BottleWater
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 1
+  passCount: 6
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/Effect/StarActor/BottleWater
+  path: Assets/ABPack/Resources/Shaders/StarActor/LGame_Effect_StarActor_BottleWater.shader
+  GUID: 7310bd92360ed6a4985a984604811605
+  keywordStrs:
+  - 
+  dependShader: []
+  gcInclude: []
+  warring: '
+
+    Has float count: 61
+
+    Use pow fcunction : 2
+
+    Use cos fcunction : 4
+
+    Use sin fcunction : 4
+
+'
+  shader: {fileID: 4800000, guid: 7310bd92360ed6a4985a984604811605, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - 32e92cb9781cdd445b0febc7adf30a54
+    - a6cdd3819286b584db5f85498d168d82
+    - c95f2c91f37f12d4c8a75d03e34d8b60
+    - 650754f3d94709446a8b2db3ec78a5cc
+    - 677104d41c5971f40a2aa738d68256be
+    - 172349e6fb0cf2e46bca5b2250dae300
+    - b0435b97945a95b4997ad4270d05c004
+    - 2c3b06652f991b84e8853d649e9e6ac0
+    - 454e114be80ac15408fea943353b3ce9
+    - 1a0c96607fa005541a1074eba6098758
+    - bda2a634eafb4db4e9efa21116c9e61c
+    - 54777cae30019bd41a1d2b1b10cd7d96
+    - 3202ac46248efbf41bdb3b5318714c49
+    - 99f6fc87977c23d43b79b2eab32367b4
+    - 1b7c629a7fb7b8e40a2134d3fbd452c7
+    - 11d0322c14545b948a172f87eab75f29
+    - fe38888e6e0135b458918e1fa8bd9e31
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - 32e92cb9781cdd445b0febc7adf30a54
+    - a6cdd3819286b584db5f85498d168d82
+    - c95f2c91f37f12d4c8a75d03e34d8b60
+    - 650754f3d94709446a8b2db3ec78a5cc
+    - 677104d41c5971f40a2aa738d68256be
+    - 172349e6fb0cf2e46bca5b2250dae300
+    - b0435b97945a95b4997ad4270d05c004
+    - 2c3b06652f991b84e8853d649e9e6ac0
+    - 454e114be80ac15408fea943353b3ce9
+    - 1a0c96607fa005541a1074eba6098758
+    - bda2a634eafb4db4e9efa21116c9e61c
+    - 54777cae30019bd41a1d2b1b10cd7d96
+    - 3202ac46248efbf41bdb3b5318714c49
+    - 99f6fc87977c23d43b79b2eab32367b4
+    - 1b7c629a7fb7b8e40a2134d3fbd452c7
+    - 11d0322c14545b948a172f87eab75f29
+    - fe38888e6e0135b458918e1fa8bd9e31
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines: []
+    keywordCount: 0
+  - pass: 1
+    passType: 0
+    keywordLines: []
+    keywordCount: 0
+  - pass: 2
+    passType: 0
+    keywordLines: []
+    keywordCount: 0
+  - pass: 3
+    passType: 0
+    keywordLines: []
+    keywordCount: 0
+  - pass: 4
+    passType: 0
+    keywordLines: []
+    keywordCount: 0
+  - pass: 5
+    passType: 0
+    keywordLines: []
+    keywordCount: 0
+  keywords: []
+  subShaderInfos:
+  - index: -1
+    lod: 100
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 1
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 2
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 3
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 4
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    lightMode: ForwardBase

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_inbattle63_collection
+  m_Shaders:
+  - first: {fileID: 4800000, guid: e7d09fb5a7582344d83199deb9e9f02c, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: _SOFTSHADOW_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 879888ae11cccbf47b9ea21d5172a885, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 2c3fc3c23868c274a8991b13e4e51f62, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: b76c1aca788a1ae4e93fb099191acefb, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4

@@ -1,0 +1,376 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: Unlit_TransparentAlphaSplitGray
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 16
+  passCount: 2
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: Unlit/Transparent Alpha Split Gray
+  path: Assets/ABPack/Resources/Shaders/Unlit_TransparentAlphaSplitGray.shader
+  GUID: e935460e6f7c9624db08d5d9e33e0c58
+  keywordStrs:
+  - 
+  - UNITY_UI_ALPHACLIP
+  - UNITY_USE_OWN_ALPHA
+  - USE_CURVE
+  - USE_PARTMASK_RGBA
+  dependShader: []
+  gcInclude: []
+  warring: '
+
+    Has float count: 16
+
+    Use Alpha Clip'
+  shader: {fileID: 4800000, guid: e935460e6f7c9624db08d5d9e33e0c58, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 3398cb9ff75999f4195a410de8555e23
+    - ab605e0fada9f314fa4222a712096db1
+    - c2c2fc92a4cfe23429db5af6a8d966f0
+    - ecc1c3dc611fb8e499cecac00b248fb5
+    - 330b1586a8b5b46488887e89613ea07d
+    - 4c041a39dbb1bfd4e826d6dbc5b389da
+    - dbc7d5ca72666654d964486b5ff3baf7
+    - 2658aa9a0536eed438bdd2abb1c714c1
+    - ece83aaa77dd69b4aba3293100aabf33
+    - cc3b4ae1fb686934c9e8991114a67b23
+    - ad1b3229bbb4e1e44bbe14f947b90b9b
+    - 12c83c0a20e12394e8bb0105b094e056
+    - a12020642de64764ea21a408b27ea8fb
+    - 1ca9a02499e13ee4eb6420aa908ef13b
+    - 224c2933db4d323459a6686a99a8babb
+    - 3504e62a9462fee43bdb03fc2b78f8d5
+    - d26166a83bb67114c898949c2e299b9b
+    - 79123ff208a271342b4b793ee6f15d69
+    - b31e9c524693dda44b2648116f89c909
+    - 13ea96390d300b946920e73b3d0aa903
+    - 8dbf911ceb89c9342ac33dcfffece40f
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNITY_USE_OWN_ALPHA
+    keywordStr: 4 UNITY_USE_OWN_ALPHA
+    users:
+    - 4c041a39dbb1bfd4e826d6dbc5b389da
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - USE_PARTMASK_RGBA
+    keywordStr: 4 USE_PARTMASK_RGBA
+    users:
+    - dbc7d5ca72666654d964486b5ff3baf7
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 3398cb9ff75999f4195a410de8555e23
+    - ab605e0fada9f314fa4222a712096db1
+    - c2c2fc92a4cfe23429db5af6a8d966f0
+    - ecc1c3dc611fb8e499cecac00b248fb5
+    - 330b1586a8b5b46488887e89613ea07d
+    - 4c041a39dbb1bfd4e826d6dbc5b389da
+    - dbc7d5ca72666654d964486b5ff3baf7
+    - 2658aa9a0536eed438bdd2abb1c714c1
+    - ece83aaa77dd69b4aba3293100aabf33
+    - cc3b4ae1fb686934c9e8991114a67b23
+    - ad1b3229bbb4e1e44bbe14f947b90b9b
+    - 12c83c0a20e12394e8bb0105b094e056
+    - a12020642de64764ea21a408b27ea8fb
+    - 1ca9a02499e13ee4eb6420aa908ef13b
+    - 224c2933db4d323459a6686a99a8babb
+    - 3504e62a9462fee43bdb03fc2b78f8d5
+    - d26166a83bb67114c898949c2e299b9b
+    - 79123ff208a271342b4b793ee6f15d69
+    - b31e9c524693dda44b2648116f89c909
+    - 13ea96390d300b946920e73b3d0aa903
+    - 8dbf911ceb89c9342ac33dcfffece40f
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNITY_UI_ALPHACLIP
+    keywordStr: 4 UNITY_UI_ALPHACLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNITY_USE_OWN_ALPHA
+    keywordStr: 4 UNITY_USE_OWN_ALPHA
+    users:
+    - 4c041a39dbb1bfd4e826d6dbc5b389da
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNITY_UI_ALPHACLIP
+    - UNITY_USE_OWN_ALPHA
+    keywordStr: 4 UNITY_UI_ALPHACLIP UNITY_USE_OWN_ALPHA
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - USE_CURVE
+    keywordStr: 4 USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNITY_UI_ALPHACLIP
+    - USE_CURVE
+    keywordStr: 4 UNITY_UI_ALPHACLIP USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNITY_USE_OWN_ALPHA
+    - USE_CURVE
+    keywordStr: 4 UNITY_USE_OWN_ALPHA USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNITY_UI_ALPHACLIP
+    - UNITY_USE_OWN_ALPHA
+    - USE_CURVE
+    keywordStr: 4 UNITY_UI_ALPHACLIP UNITY_USE_OWN_ALPHA USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - USE_PARTMASK_RGBA
+    keywordStr: 4 USE_PARTMASK_RGBA
+    users:
+    - dbc7d5ca72666654d964486b5ff3baf7
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNITY_UI_ALPHACLIP
+    - USE_PARTMASK_RGBA
+    keywordStr: 4 UNITY_UI_ALPHACLIP USE_PARTMASK_RGBA
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNITY_USE_OWN_ALPHA
+    - USE_PARTMASK_RGBA
+    keywordStr: 4 UNITY_USE_OWN_ALPHA USE_PARTMASK_RGBA
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNITY_UI_ALPHACLIP
+    - UNITY_USE_OWN_ALPHA
+    - USE_PARTMASK_RGBA
+    keywordStr: 4 UNITY_UI_ALPHACLIP UNITY_USE_OWN_ALPHA USE_PARTMASK_RGBA
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - USE_CURVE
+    - USE_PARTMASK_RGBA
+    keywordStr: 4 USE_CURVE USE_PARTMASK_RGBA
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNITY_UI_ALPHACLIP
+    - USE_CURVE
+    - USE_PARTMASK_RGBA
+    keywordStr: 4 UNITY_UI_ALPHACLIP USE_CURVE USE_PARTMASK_RGBA
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNITY_USE_OWN_ALPHA
+    - USE_CURVE
+    - USE_PARTMASK_RGBA
+    keywordStr: 4 UNITY_USE_OWN_ALPHA USE_CURVE USE_PARTMASK_RGBA
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNITY_UI_ALPHACLIP
+    - UNITY_USE_OWN_ALPHA
+    - USE_CURVE
+    - USE_PARTMASK_RGBA
+    keywordStr: 4 UNITY_UI_ALPHACLIP UNITY_USE_OWN_ALPHA USE_CURVE USE_PARTMASK_RGBA
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines: []
+    keywordCount: 0
+  - pass: 1
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: UNITY_UI_ALPHACLIP
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: UNITY_USE_OWN_ALPHA
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: USE_CURVE
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: USE_PARTMASK_RGBA
+        tips: 
+    keywordCount: 4
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: UNITY_UI_ALPHACLIP
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: UNITY_USE_OWN_ALPHA
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: USE_CURVE
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: USE_PARTMASK_RGBA
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 0
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    lightMode: ForwardBase

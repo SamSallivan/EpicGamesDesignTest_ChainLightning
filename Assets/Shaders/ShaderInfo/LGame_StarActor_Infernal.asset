@@ -1,0 +1,463 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_StarActor_Infernal
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 19
+  passCount: 3
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/StarActor/Infernal
+  path: Assets/ABPack/Resources/Shaders/StarActor/LGame_StarActor_Infernal.shader
+  GUID: 73ad5c176f7f3624089666ad9574c651
+  keywordStrs:
+  - 
+  - DIRECTIONAL
+  - SHADOWS_SCREEN
+  - _EMISSION
+  - _FASTEST_QUALITY
+  - _REFLECTION_CUBEMAP
+  - SHADOWS_DEPTH
+  dependShader: []
+  gcInclude: []
+  warring: '
+
+    Use pow fcunction : 2
+
+    Use sin fcunction : 1
+
+'
+  shader: {fileID: 4800000, guid: 73ad5c176f7f3624089666ad9574c651, type: 3}
+  used_variants: []
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users: []
+    passType: 4
+    isNeedPreload: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    keywordStr: 4 DIRECTIONAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EMISSION
+    keywordStr: 4 DIRECTIONAL _EMISSION
+    users: []
+    passType: 4
+    isNeedPreload: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _EMISSION
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _EMISSION
+    users: []
+    passType: 4
+    isNeedPreload: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY
+    users: []
+    passType: 4
+    isNeedPreload: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY
+    users: []
+    passType: 4
+    isNeedPreload: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EMISSION
+    - _FASTEST_QUALITY
+    keywordStr: 4 DIRECTIONAL _EMISSION _FASTEST_QUALITY
+    users: []
+    passType: 4
+    isNeedPreload: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _EMISSION
+    - _FASTEST_QUALITY
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _EMISSION _FASTEST_QUALITY
+    users: []
+    passType: 4
+    isNeedPreload: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EMISSION
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _EMISSION _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _EMISSION
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _EMISSION _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EMISSION
+    - _FASTEST_QUALITY
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _EMISSION _FASTEST_QUALITY _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _EMISSION
+    - _FASTEST_QUALITY
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _EMISSION _FASTEST_QUALITY _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '8 '
+    users: []
+    passType: 8
+    isNeedPreload: 0
+  - alwaysInclude: 0
+    keywords:
+    - SHADOWS_DEPTH
+    keywordStr: 8 SHADOWS_DEPTH
+    users: []
+    passType: 8
+    isNeedPreload: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 3
+  - pass: 1
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _FASTEST_QUALITY
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _EMISSION
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _REFLECTION_CUBEMAP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 6
+  - pass: 2
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 3
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _FASTEST_QUALITY
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _EMISSION
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _REFLECTION_CUBEMAP
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: DIRECTIONAL
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SHADOWS_SCREEN
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SHADOWS_DEPTH
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 300
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 0
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRECTIONAL
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SCREEN
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 3
+    - pass: 1
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 1
+        isFeature: 0
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _FASTEST_QUALITY
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _EMISSION
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _REFLECTION_CUBEMAP
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRECTIONAL
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SCREEN
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 6
+    lightMode: ForwardBase

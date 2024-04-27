@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_Effect_ModelTransparent_NoShadow
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 2
+  passCount: 2
+  subShaderCount: 2
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/Effect/Model Transparent(No Shadow)
+  path: Assets/ABPack/Resources/Shaders/Effect/LGame_Effect_ModelTransparent_NoShadow.shader
+  GUID: cbff0bb64b895f045acefb789fc1cece
+  keywordStrs:
+  - 
+  - _USE_DIRECT_GPU_SKINNING
+  dependShader: []
+  gcInclude: []
+  warring: 
+  shader: {fileID: 4800000, guid: cbff0bb64b895f045acefb789fc1cece, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 4b59b11f4941e06448c749ba9c100a05
+    - 5ab9f39f18fcdfb42b68fc919ee8da04
+    - 4f5545b5fbd19894f943b269db5863c8
+    - 6e9bbc1293d311843ad6f457a249111a
+    - c08391131abaf2b4083a70075c5e2d66
+    - 3ed3c2bcad183c044bd2100d76c0c6eb
+    - 613eed461507bc84cadbf29b9265b552
+    - fcbba8f511d1065428b5c54247f9a023
+    - dca366651e8147c4497d5b951216f616
+    - 04f64402f4df5a647bdefceb2b49f501
+    - 72849a3562644bf4d8b0a69a3e6e1698
+    - 97aa2ddafdc2cb044835ea60b0984b21
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 4 _USE_DIRECT_GPU_SKINNING
+    users:
+    - 3b5ee711afed6fa44a75fc9440fd81ab
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 4b59b11f4941e06448c749ba9c100a05
+    - 5ab9f39f18fcdfb42b68fc919ee8da04
+    - 4f5545b5fbd19894f943b269db5863c8
+    - 6e9bbc1293d311843ad6f457a249111a
+    - c08391131abaf2b4083a70075c5e2d66
+    - 3ed3c2bcad183c044bd2100d76c0c6eb
+    - 613eed461507bc84cadbf29b9265b552
+    - fcbba8f511d1065428b5c54247f9a023
+    - dca366651e8147c4497d5b951216f616
+    - 04f64402f4df5a647bdefceb2b49f501
+    - 72849a3562644bf4d8b0a69a3e6e1698
+    - 97aa2ddafdc2cb044835ea60b0984b21
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 4 _USE_DIRECT_GPU_SKINNING
+    users:
+    - 3b5ee711afed6fa44a75fc9440fd81ab
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _USE_DIRECT_GPU_SKINNING
+        tips: 
+    keywordCount: 1
+  - pass: 1
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _USE_DIRECT_GPU_SKINNING
+        tips: 
+    keywordCount: 1
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _USE_DIRECT_GPU_SKINNING
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 75
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    lightMode: ForwardBase
+  - index: 0
+    lod: 5
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 1
+        isFeature: 0
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _USE_DIRECT_GPU_SKINNING
+          tips: 
+      keywordCount: 1
+    lightMode: ForwardBase

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: starActor_collection_LGame_Effect_Default_PreZ
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 76686e746900cd547b557b693ddd43ed, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: _WRAPMODE_ON
+        passType: 4
+      - keywords: _DISSOLVE_ON _WRAPMODE_ON
+        passType: 4
+      - keywords: _DISSOLVE_ON _SCREENUV_ON _WRAPMODE_ON
+        passType: 4

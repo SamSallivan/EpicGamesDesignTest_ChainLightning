@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_other42_collectionLow
+  m_Shaders:
+  - first: {fileID: 4800000, guid: ccdc7aa5ad17a2147b707e1fac196c4c, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION
+        passType: 4
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: 99d6a31baed98694c872258a11f80e38, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: DIRECTIONAL _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL _NORMALMAP
+        passType: 4

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_outbattle2_collectionLow
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 3870bbeee4ab9b4479bfba697943a7c7, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: _GrayTexEnable
+        passType: 4
+  - first: {fileID: 4800000, guid: 4ceb73bc148699b469361531d6062548, type: 3}
+    second:
+      variants:
+      - keywords: ANTI_FLICKER UNITY_COLORSPACE_GAMMA
+        passType: 0
+  - first: {fileID: 4800000, guid: 8ce0a6f4c8cae334d8a5617f302b6769, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: e9a20661dacc086488529508e5baceef, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 1

@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_Effect_CurveAnimTest
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 1
+  passCount: 1
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/Effect/CurveAnimTest
+  path: Assets/ABPack/Resources/Shaders/Effect/LGame_Effect_CurveAnimTest.shader
+  GUID: 0480bf6a5d40b3b4d99dfe977be6de7c
+  keywordStrs:
+  - 
+  dependShader: []
+  gcInclude: []
+  warring: '
+
+    Use cos fcunction : 1
+
+    Use sin fcunction : 1
+
+'
+  shader: {fileID: 4800000, guid: 0480bf6a5d40b3b4d99dfe977be6de7c, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - f9021bf2bb044cf4bbf433885a0967f8
+    - 2e378df124232114aa09e9ab0d48b795
+    - eb1a13ee558def949a027166b6c23535
+    - 74a6eacea216b12498078f7ef0c3b21f
+    - 567ec9ece3e0b3b4ebcee726ccef92cf
+    - 896aa26e6691d6a43b3d729cf741df9d
+    - c41ad5cf819a128458ecc45667230bef
+    - fcfc9cd08c2e0e946968d2a9ffe5d8bd
+    - 8f3ccf70cda55bc4eb9a2f9277f1f693
+    - 03f1dd1e575f58c45a350d6f02f65be1
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 7
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - f9021bf2bb044cf4bbf433885a0967f8
+    - 2e378df124232114aa09e9ab0d48b795
+    - eb1a13ee558def949a027166b6c23535
+    - 74a6eacea216b12498078f7ef0c3b21f
+    - 567ec9ece3e0b3b4ebcee726ccef92cf
+    - 896aa26e6691d6a43b3d729cf741df9d
+    - c41ad5cf819a128458ecc45667230bef
+    - fcfc9cd08c2e0e946968d2a9ffe5d8bd
+    - 8f3ccf70cda55bc4eb9a2f9277f1f693
+    - 03f1dd1e575f58c45a350d6f02f65be1
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 7
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines: []
+    keywordCount: 0
+  keywords: []
+  subShaderInfos:
+  - index: -1
+    lod: 100
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    lightMode: ForwardBase

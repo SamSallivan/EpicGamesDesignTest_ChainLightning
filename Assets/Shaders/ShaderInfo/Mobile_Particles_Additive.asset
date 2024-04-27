@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: Mobile_Particles_Additive
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 4
+  passCount: 1
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: Mobile/Particles/Additive
+  path: Assets/ABPack/Resources/Shaders/builtin_shaders-5.6.4p4/DefaultResourcesExtra/Mobile/Mobile_Particles_Additive.shader
+  GUID: a51ee662247b5074684ca21021d30d2b
+  keywordStrs:
+  - 
+  - FOG_LINEAR
+  - FOG_EXP
+  - FOG_EXP2
+  dependShader: []
+  gcInclude: []
+  warring: 
+  shader: {fileID: 4800000, guid: a51ee662247b5074684ca21021d30d2b, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - 24b7b0d7dee6ff249976626c6f007d7a
+    - 10933dfdd4968ae4ebae57543bb76f02
+    - 78d1f3b52d475b343ba79fafe0961882
+    - 4e9f9e4e70d6c6b4f850cf2f8a7477fa
+    - d32414b4610c70d4dab2ad962c733bca
+    - a6a0ffdcff4f4c9408240d0f6cc3b777
+    - 42877e228e00a4044812a8447a3c2ef2
+    - 9a145253c6c4b0041ba398434d0eaf66
+    - b060bf66db4293b49b1f07ba9bff8735
+    - 4d537892402e4f0469a54b3fffdf97a1
+    - 496be4887dbdb0d41b7ef003bb403abe
+    - b35720e81436dd34aa5c6864e044e4a1
+    - 8bfd95f0867c5b14fa9ae5fe07367d49
+    - 666f0864b9663ba48a58cd72829a454a
+    - 69a65ab442e299b4a92581851509884d
+    - 6522655b8f41e244c8c761463f164505
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - 24b7b0d7dee6ff249976626c6f007d7a
+    - 10933dfdd4968ae4ebae57543bb76f02
+    - 78d1f3b52d475b343ba79fafe0961882
+    - 4e9f9e4e70d6c6b4f850cf2f8a7477fa
+    - d32414b4610c70d4dab2ad962c733bca
+    - a6a0ffdcff4f4c9408240d0f6cc3b777
+    - 42877e228e00a4044812a8447a3c2ef2
+    - 9a145253c6c4b0041ba398434d0eaf66
+    - b060bf66db4293b49b1f07ba9bff8735
+    - 4d537892402e4f0469a54b3fffdf97a1
+    - 496be4887dbdb0d41b7ef003bb403abe
+    - b35720e81436dd34aa5c6864e044e4a1
+    - 8bfd95f0867c5b14fa9ae5fe07367d49
+    - 666f0864b9663ba48a58cd72829a454a
+    - 69a65ab442e299b4a92581851509884d
+    - 6522655b8f41e244c8c761463f164505
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_LINEAR
+    keywordStr: 0 FOG_LINEAR
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP
+    keywordStr: 0 FOG_EXP
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP2
+    keywordStr: 0 FOG_EXP2
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_LINEAR
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP2
+        tips: 
+    keywordCount: 3
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_LINEAR
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_EXP
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_EXP2
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 0
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    lightMode: ForwardBase

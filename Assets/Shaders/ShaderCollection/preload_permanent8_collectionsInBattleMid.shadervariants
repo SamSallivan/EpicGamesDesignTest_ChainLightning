@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_permanent8_collectionsInBattleMid
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 323bf3520738f7145b2078b7e4fe8e42, type: 3}
+    second:
+      variants:
+      - keywords: _USE_DIRECT_GPU_SKINNING
+        passType: 4
+  - first: {fileID: 4800000, guid: dd89cf5b9246416f84610a006f916af7, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+  - first: {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: OUTLINE_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 623d91c8f16c37247a3edfff34befeed, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4

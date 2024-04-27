@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: Sprites_Default
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 4
+  passCount: 1
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: Sprites/Default
+  path: Assets/ABPack/Resources/Shaders/builtin_shaders-5.6.4p4/DefaultResourcesExtra/Sprites_Default.shader
+  GUID: 514670867cb301644bda04586a0e73ca
+  keywordStrs:
+  - 
+  - ETC1_EXTERNAL_ALPHA
+  - PIXELSNAP_ON
+  dependShader: []
+  gcInclude: []
+  warring: 
+  shader: {fileID: 4800000, guid: 514670867cb301644bda04586a0e73ca, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 868c6fbb6977bc8469f726ffa89ae563
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - ETC1_EXTERNAL_ALPHA
+    keywordStr: 4 ETC1_EXTERNAL_ALPHA
+    users:
+    - 0c8ebbabe2321d547ae9d51f95ef0796
+    - aa89d114901e6ce4e8f39ab98e4f5938
+    - 7cd2bdd71c02fe84caeb402048685632
+    - f1a1bffaff3605545955b2d813843365
+    - 54a86eecc66fd8146aebed31a8c433d5
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 868c6fbb6977bc8469f726ffa89ae563
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - ETC1_EXTERNAL_ALPHA
+    keywordStr: 4 ETC1_EXTERNAL_ALPHA
+    users:
+    - 0c8ebbabe2321d547ae9d51f95ef0796
+    - aa89d114901e6ce4e8f39ab98e4f5938
+    - 7cd2bdd71c02fe84caeb402048685632
+    - f1a1bffaff3605545955b2d813843365
+    - 54a86eecc66fd8146aebed31a8c433d5
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - PIXELSNAP_ON
+    keywordStr: 4 PIXELSNAP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - ETC1_EXTERNAL_ALPHA
+    - PIXELSNAP_ON
+    keywordStr: 4 ETC1_EXTERNAL_ALPHA PIXELSNAP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: PIXELSNAP_ON
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: ETC1_EXTERNAL_ALPHA
+        tips: 
+    keywordCount: 2
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: PIXELSNAP_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: ETC1_EXTERNAL_ALPHA
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 0
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    lightMode: ForwardBase

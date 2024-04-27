@@ -1,0 +1,615 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_Scene_StarActor_Overlay
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 16
+  passCount: 2
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/Scene/StarActor/Overlay
+  path: Assets/ABPack/Resources/Shaders/StarActor/LGame_Scene_StarActor_Overlay.shader
+  GUID: 1c537df9baa55ac4ba30318c09360f73
+  keywordStrs:
+  - 
+  - _GRADIENT_ON
+  - MaskTex_On
+  - DissolveTex_On
+  - FlowTex_On
+  dependShader: []
+  gcInclude: []
+  warring: '
+
+    Has float count: 22'
+  shader: {fileID: 4800000, guid: 1c537df9baa55ac4ba30318c09360f73, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - c4874fbf096221448bdf485a8a06af58
+    - f63e2343e4980634eb6f21ff911d4ccf
+    - e4cc2b8458cd7a54d9a84471d78f1c39
+    - 2b8e2137ba4e359439852a778261a901
+    - c9477400b7e06964487e26713bb4f4b7
+    - 31c278522a421b44eac9c874c4e16b1a
+    - 2028f5d88ef55b44aba1cfd2e2b78c63
+    - f17c819ab1ec4f24295fe464dd6ed330
+    - c0b6827b2b7111e4daa373c1ab2b9d5e
+    - 453faa91bfea9364fa2f38786b6882aa
+    - 1fdbffab0db08704e9f3555b04bc42f5
+    - 0a59a942729145e4ea1d7d104f3d474f
+    - cf160653f9ea0fd4ca7f7fd47d180110
+    - 5cd3de04d77343d44bda3e20521a5819
+    - d0f5218d21b23ed46bc2bd933ae7d89e
+    - b63e9928374addb4e8474b3933c8750c
+    - 5f4d5259cc48c1d4691d89bee7feb916
+    - 1119410d349d934428e9580425b32491
+    - 0f08051caeb9a304286f1c05001d50c8
+    - b8954b9f92234e142994342b12f11a2b
+    - 14b5d6d22c0e4504997f80ea47dd557a
+    - 7d609e020e920364e927d30ce28aa4ad
+    - de8223322b5a4c1489745792054967b5
+    - c6642ed2743e36747bd7a10c69d6a976
+    - f6903079f8d180341bc589f7b9dd6beb
+    - 239dd7a9cc8068945ae430b7bbb69a7e
+    - 1bbfc32b5f6549d40914196486af37fc
+    - 82d816effdf3c9b4bb47ee36a338568a
+    - 6bc3a1799a5b7d94d8770480c4bd8c4e
+    - bb3d3641b876db541b576033f9447cf7
+    - d8579e7c6ffe3544bb01f17ff9ad5b46
+    - ec2f2e36d0d7a9e46acb2b277a4f2bbd
+    - 089bba5b4bcf9cd4cb1a48226e51ad2a
+    - b7dbb80e272c0c14ea08d87cc18dd1a8
+    - 936451102526ed54da71d391e56e94f9
+    - 2216dc606b5d31042bc30535029ff7ec
+    - f5e7cdd0032753648a1a8aa61f836d57
+    - bc89ba9218b4b9941bf3aebf514f460f
+    - 65c57aee15dbbcd40a21128541f09027
+    - d8a2c9e1c1d1ded459c1f6d46af20fe5
+    - d0e8ac17d908065408933ffd2c12b3cd
+    - 67b3dd67f4c7462408e01610bdc4ff30
+    - 1d4d7b27d2fb0d24ea1fb768fe89aaa2
+    - 77a4444d922570c4d9fcb8e90fdcbb04
+    - a3ea7fb4fd8e0414ebd5562aebf3f704
+    - 578d9484c1b71c449b4f8a97be0cea5e
+    - a8de6c5b8c639f446b14337231a74592
+    - c27cf2ccaca3202499b3c4d57b7ffb29
+    - e1bd1ed001d504440b936fc7dcaa22f4
+    - 88e51005cda5e3b458cc36ed853ec452
+    - a5015abf3cb95864e952324e4e50fe07
+    - c4b3e320ec6e45e4c9b2f6d18b0c5940
+    - 65887d5c0daa3fb4b8df0ae775c7cced
+    - 61834a8d5ae3952458c1ec91879e0189
+    - 12a489fe4fd88ad48bf73c2ab0a59367
+    - 700ee064efac1ef48ace1007ff40d103
+    - 85a7f721e5f82514a8915dda9fc1ed84
+    - 2c8259d9bad815e43941630e0f7f6f12
+    - ae0b41e578742974ba142c6953a92070
+    - 923beccbf34e68d48a0f5b817c2eb7df
+    - df155fdd6ff5a8b4b81ef57842139e7e
+    - 9ed37d27377ff204183c69de7dc7f4c4
+    - 06438be7f2d60ad479579f91d1410a88
+    - 8180faec61457f941a257d8220275579
+    - 4b16973fe2cdc0f45be498d974cabb5c
+    - 410945d3705ef4f4c93134e82196e3ff
+    - d7710970180ab9e46ae1876ed564a433
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    keywordStr: 0 _GRADIENT_ON
+    users:
+    - 1119410d349d934428e9580425b32491
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - MaskTex_On
+    keywordStr: 0 MaskTex_On
+    users:
+    - e4cc2b8458cd7a54d9a84471d78f1c39
+    - f17c819ab1ec4f24295fe464dd6ed330
+    - b8954b9f92234e142994342b12f11a2b
+    - 7d609e020e920364e927d30ce28aa4ad
+    - 1bbfc32b5f6549d40914196486af37fc
+    - d8579e7c6ffe3544bb01f17ff9ad5b46
+    - 936451102526ed54da71d391e56e94f9
+    - 2216dc606b5d31042bc30535029ff7ec
+    - a5015abf3cb95864e952324e4e50fe07
+    - c4b3e320ec6e45e4c9b2f6d18b0c5940
+    - 9ed37d27377ff204183c69de7dc7f4c4
+    - 4b16973fe2cdc0f45be498d974cabb5c
+    - 410945d3705ef4f4c93134e82196e3ff
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - MaskTex_On
+    - _GRADIENT_ON
+    keywordStr: 0 MaskTex_On _GRADIENT_ON
+    users:
+    - c9477400b7e06964487e26713bb4f4b7
+    - b7dbb80e272c0c14ea08d87cc18dd1a8
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DissolveTex_On
+    - _GRADIENT_ON
+    keywordStr: 0 DissolveTex_On _GRADIENT_ON
+    users:
+    - 65c57aee15dbbcd40a21128541f09027
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DissolveTex_On
+    - MaskTex_On
+    keywordStr: 0 DissolveTex_On MaskTex_On
+    users:
+    - 06438be7f2d60ad479579f91d1410a88
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FlowTex_On
+    keywordStr: 0 FlowTex_On
+    users:
+    - 0a59a942729145e4ea1d7d104f3d474f
+    - cf160653f9ea0fd4ca7f7fd47d180110
+    - 5cd3de04d77343d44bda3e20521a5819
+    - d8a2c9e1c1d1ded459c1f6d46af20fe5
+    - 578d9484c1b71c449b4f8a97be0cea5e
+    - ae0b41e578742974ba142c6953a92070
+    - 923beccbf34e68d48a0f5b817c2eb7df
+    - df155fdd6ff5a8b4b81ef57842139e7e
+    - 8180faec61457f941a257d8220275579
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FlowTex_On
+    - _GRADIENT_ON
+    keywordStr: 0 FlowTex_On _GRADIENT_ON
+    users:
+    - a3ea7fb4fd8e0414ebd5562aebf3f704
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FlowTex_On
+    - MaskTex_On
+    keywordStr: 0 FlowTex_On MaskTex_On
+    users:
+    - 88e51005cda5e3b458cc36ed853ec452
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FlowTex_On
+    - MaskTex_On
+    - _GRADIENT_ON
+    keywordStr: 0 FlowTex_On MaskTex_On _GRADIENT_ON
+    users:
+    - f5e7cdd0032753648a1a8aa61f836d57
+    - 1d4d7b27d2fb0d24ea1fb768fe89aaa2
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DissolveTex_On
+    - FlowTex_On
+    - MaskTex_On
+    keywordStr: 0 DissolveTex_On FlowTex_On MaskTex_On
+    users:
+    - d0e8ac17d908065408933ffd2c12b3cd
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - c4874fbf096221448bdf485a8a06af58
+    - f63e2343e4980634eb6f21ff911d4ccf
+    - e4cc2b8458cd7a54d9a84471d78f1c39
+    - 2b8e2137ba4e359439852a778261a901
+    - c9477400b7e06964487e26713bb4f4b7
+    - 31c278522a421b44eac9c874c4e16b1a
+    - 2028f5d88ef55b44aba1cfd2e2b78c63
+    - f17c819ab1ec4f24295fe464dd6ed330
+    - c0b6827b2b7111e4daa373c1ab2b9d5e
+    - 453faa91bfea9364fa2f38786b6882aa
+    - 1fdbffab0db08704e9f3555b04bc42f5
+    - 0a59a942729145e4ea1d7d104f3d474f
+    - cf160653f9ea0fd4ca7f7fd47d180110
+    - 5cd3de04d77343d44bda3e20521a5819
+    - d0f5218d21b23ed46bc2bd933ae7d89e
+    - b63e9928374addb4e8474b3933c8750c
+    - 5f4d5259cc48c1d4691d89bee7feb916
+    - 1119410d349d934428e9580425b32491
+    - 0f08051caeb9a304286f1c05001d50c8
+    - b8954b9f92234e142994342b12f11a2b
+    - 14b5d6d22c0e4504997f80ea47dd557a
+    - 7d609e020e920364e927d30ce28aa4ad
+    - de8223322b5a4c1489745792054967b5
+    - c6642ed2743e36747bd7a10c69d6a976
+    - f6903079f8d180341bc589f7b9dd6beb
+    - 239dd7a9cc8068945ae430b7bbb69a7e
+    - 1bbfc32b5f6549d40914196486af37fc
+    - 82d816effdf3c9b4bb47ee36a338568a
+    - 6bc3a1799a5b7d94d8770480c4bd8c4e
+    - bb3d3641b876db541b576033f9447cf7
+    - d8579e7c6ffe3544bb01f17ff9ad5b46
+    - ec2f2e36d0d7a9e46acb2b277a4f2bbd
+    - 089bba5b4bcf9cd4cb1a48226e51ad2a
+    - b7dbb80e272c0c14ea08d87cc18dd1a8
+    - 936451102526ed54da71d391e56e94f9
+    - 2216dc606b5d31042bc30535029ff7ec
+    - f5e7cdd0032753648a1a8aa61f836d57
+    - bc89ba9218b4b9941bf3aebf514f460f
+    - 65c57aee15dbbcd40a21128541f09027
+    - d8a2c9e1c1d1ded459c1f6d46af20fe5
+    - d0e8ac17d908065408933ffd2c12b3cd
+    - 67b3dd67f4c7462408e01610bdc4ff30
+    - 1d4d7b27d2fb0d24ea1fb768fe89aaa2
+    - 77a4444d922570c4d9fcb8e90fdcbb04
+    - a3ea7fb4fd8e0414ebd5562aebf3f704
+    - 578d9484c1b71c449b4f8a97be0cea5e
+    - a8de6c5b8c639f446b14337231a74592
+    - c27cf2ccaca3202499b3c4d57b7ffb29
+    - e1bd1ed001d504440b936fc7dcaa22f4
+    - 88e51005cda5e3b458cc36ed853ec452
+    - a5015abf3cb95864e952324e4e50fe07
+    - c4b3e320ec6e45e4c9b2f6d18b0c5940
+    - 65887d5c0daa3fb4b8df0ae775c7cced
+    - 61834a8d5ae3952458c1ec91879e0189
+    - 12a489fe4fd88ad48bf73c2ab0a59367
+    - 700ee064efac1ef48ace1007ff40d103
+    - 85a7f721e5f82514a8915dda9fc1ed84
+    - 2c8259d9bad815e43941630e0f7f6f12
+    - ae0b41e578742974ba142c6953a92070
+    - 923beccbf34e68d48a0f5b817c2eb7df
+    - df155fdd6ff5a8b4b81ef57842139e7e
+    - 9ed37d27377ff204183c69de7dc7f4c4
+    - 06438be7f2d60ad479579f91d1410a88
+    - 8180faec61457f941a257d8220275579
+    - 4b16973fe2cdc0f45be498d974cabb5c
+    - 410945d3705ef4f4c93134e82196e3ff
+    - d7710970180ab9e46ae1876ed564a433
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    keywordStr: 0 _GRADIENT_ON
+    users:
+    - 1119410d349d934428e9580425b32491
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - MaskTex_On
+    keywordStr: 0 MaskTex_On
+    users:
+    - e4cc2b8458cd7a54d9a84471d78f1c39
+    - f17c819ab1ec4f24295fe464dd6ed330
+    - b8954b9f92234e142994342b12f11a2b
+    - 7d609e020e920364e927d30ce28aa4ad
+    - 1bbfc32b5f6549d40914196486af37fc
+    - d8579e7c6ffe3544bb01f17ff9ad5b46
+    - 936451102526ed54da71d391e56e94f9
+    - 2216dc606b5d31042bc30535029ff7ec
+    - a5015abf3cb95864e952324e4e50fe07
+    - c4b3e320ec6e45e4c9b2f6d18b0c5940
+    - 9ed37d27377ff204183c69de7dc7f4c4
+    - 4b16973fe2cdc0f45be498d974cabb5c
+    - 410945d3705ef4f4c93134e82196e3ff
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - MaskTex_On
+    - _GRADIENT_ON
+    keywordStr: 0 MaskTex_On _GRADIENT_ON
+    users:
+    - c9477400b7e06964487e26713bb4f4b7
+    - b7dbb80e272c0c14ea08d87cc18dd1a8
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DissolveTex_On
+    keywordStr: 0 DissolveTex_On
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DissolveTex_On
+    - _GRADIENT_ON
+    keywordStr: 0 DissolveTex_On _GRADIENT_ON
+    users:
+    - 65c57aee15dbbcd40a21128541f09027
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DissolveTex_On
+    - MaskTex_On
+    keywordStr: 0 DissolveTex_On MaskTex_On
+    users:
+    - 06438be7f2d60ad479579f91d1410a88
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DissolveTex_On
+    - MaskTex_On
+    - _GRADIENT_ON
+    keywordStr: 0 DissolveTex_On MaskTex_On _GRADIENT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FlowTex_On
+    keywordStr: 0 FlowTex_On
+    users:
+    - 0a59a942729145e4ea1d7d104f3d474f
+    - cf160653f9ea0fd4ca7f7fd47d180110
+    - 5cd3de04d77343d44bda3e20521a5819
+    - d8a2c9e1c1d1ded459c1f6d46af20fe5
+    - 578d9484c1b71c449b4f8a97be0cea5e
+    - ae0b41e578742974ba142c6953a92070
+    - 923beccbf34e68d48a0f5b817c2eb7df
+    - df155fdd6ff5a8b4b81ef57842139e7e
+    - 8180faec61457f941a257d8220275579
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FlowTex_On
+    - _GRADIENT_ON
+    keywordStr: 0 FlowTex_On _GRADIENT_ON
+    users:
+    - a3ea7fb4fd8e0414ebd5562aebf3f704
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FlowTex_On
+    - MaskTex_On
+    keywordStr: 0 FlowTex_On MaskTex_On
+    users:
+    - 88e51005cda5e3b458cc36ed853ec452
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FlowTex_On
+    - MaskTex_On
+    - _GRADIENT_ON
+    keywordStr: 0 FlowTex_On MaskTex_On _GRADIENT_ON
+    users:
+    - f5e7cdd0032753648a1a8aa61f836d57
+    - 1d4d7b27d2fb0d24ea1fb768fe89aaa2
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DissolveTex_On
+    - FlowTex_On
+    keywordStr: 0 DissolveTex_On FlowTex_On
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DissolveTex_On
+    - FlowTex_On
+    - _GRADIENT_ON
+    keywordStr: 0 DissolveTex_On FlowTex_On _GRADIENT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DissolveTex_On
+    - FlowTex_On
+    - MaskTex_On
+    keywordStr: 0 DissolveTex_On FlowTex_On MaskTex_On
+    users:
+    - d0e8ac17d908065408933ffd2c12b3cd
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DissolveTex_On
+    - FlowTex_On
+    - MaskTex_On
+    - _GRADIENT_ON
+    keywordStr: 0 DissolveTex_On FlowTex_On MaskTex_On _GRADIENT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines: []
+    keywordCount: 0
+  - pass: 1
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _GRADIENT_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: MaskTex_On
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: DissolveTex_On
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: FlowTex_On
+        tips: 
+    keywordCount: 4
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _GRADIENT_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: MaskTex_On
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: DissolveTex_On
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: FlowTex_On
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 0
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    lightMode: ForwardBase

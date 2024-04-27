@@ -1,0 +1,213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: TextMeshPro_Mobile_DistanceField_Batch
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 8
+  passCount: 2
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: TextMeshPro/Mobile/Distance Field Batch
+  path: Assets/ABPack/Resources/Shaders/TextMeshPro/TextMeshPro_Mobile_DistanceField_Batch.shader
+  GUID: 01386c3c29c064f43af2f67218390fd6
+  keywordStrs:
+  - 
+  - UNITY_UI_ALPHACLIP
+  - SOFT_CLIP
+  - USE_CURVE
+  dependShader: []
+  gcInclude: []
+  warring: '
+
+    Has float count: 71
+
+    Use Alpha Clip
+
+    Use cos fcunction : 1
+
+    Use sin fcunction : 1
+
+'
+  shader: {fileID: 4800000, guid: 01386c3c29c064f43af2f67218390fd6, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 5360640add551ae4c8fbf148b580da6f
+    - ffe64e7b150cacc45aeacfe467174884
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 5360640add551ae4c8fbf148b580da6f
+    - ffe64e7b150cacc45aeacfe467174884
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNITY_UI_ALPHACLIP
+    keywordStr: 4 UNITY_UI_ALPHACLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SOFT_CLIP
+    keywordStr: 4 SOFT_CLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SOFT_CLIP
+    - UNITY_UI_ALPHACLIP
+    keywordStr: 4 SOFT_CLIP UNITY_UI_ALPHACLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - USE_CURVE
+    keywordStr: 4 USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNITY_UI_ALPHACLIP
+    - USE_CURVE
+    keywordStr: 4 UNITY_UI_ALPHACLIP USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SOFT_CLIP
+    - USE_CURVE
+    keywordStr: 4 SOFT_CLIP USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SOFT_CLIP
+    - UNITY_UI_ALPHACLIP
+    - USE_CURVE
+    keywordStr: 4 SOFT_CLIP UNITY_UI_ALPHACLIP USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines: []
+    keywordCount: 0
+  - pass: 1
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: SOFT_CLIP
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: UNITY_UI_ALPHACLIP
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: USE_CURVE
+        tips: 
+    keywordCount: 3
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: SOFT_CLIP
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: UNITY_UI_ALPHACLIP
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: USE_CURVE
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 0
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    lightMode: ForwardBase

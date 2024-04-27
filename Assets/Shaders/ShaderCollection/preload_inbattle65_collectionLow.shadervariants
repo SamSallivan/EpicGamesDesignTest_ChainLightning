@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_inbattle65_collectionLow
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 2b7a608456de033478beb89c7230f333, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+  - first: {fileID: 4800000, guid: 7009d51939842d14facccea01aa55377, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+  - first: {fileID: 4800000, guid: d1283ba5b5f8fba41a136aacb5c332b2, type: 3}
+    second:
+      variants:
+      - keywords: _FOW_ON
+        passType: 4

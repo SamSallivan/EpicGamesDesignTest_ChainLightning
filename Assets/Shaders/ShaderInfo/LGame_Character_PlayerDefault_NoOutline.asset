@@ -1,0 +1,5211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_Character_PlayerDefault_NoOutline
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 289
+  passCount: 2
+  subShaderCount: 2
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/Character/PlayerDefault_NoOutline
+  path: Assets/ABPack/Resources/Shaders/LGameShader/LGame_Character_PlayerDefault_NoOutline.shader
+  GUID: 396e205359c93524189ca3640a095496
+  keywordStrs:
+  - 
+  - _USE_DIRECT_GPU_SKINNING
+  - _ALPHABLEND_ON
+  - _RIMLIGHT
+  - _DISSOLVE
+  - _METAL
+  - _FLOWLIGHTUV
+  - _FLOWLIGHTSCREEN
+  - _SUBTEX
+  dependShader: []
+  gcInclude: []
+  warring: 
+  shader: {fileID: 4800000, guid: 396e205359c93524189ca3640a095496, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - ec558a2de749ad04c85c11f21599f42e
+    - 2b85d7c9e6eb9f9468b9412742633c6b
+    - 8f6739a81582a3d4ab3b316dd872f4a1
+    - 09dacb0d9a532f449bd8373fcf2bdf79
+    - 9940f71cd6d9e9b4197486e052f38afe
+    - 52d865559e9530f47ba0ac5f610ee057
+    - 69265d013e830ec44b5f75287f02f50a
+    - c7424d32f13a26e43a36aaf45df292c9
+    - c247e8914b6f65d4a982dabb55a967f5
+    - 0d1d7c0be5fbf544db83ecc3e5551500
+    - a07a0d1f2c158604b83a1347d3a2bea3
+    - 071355bcc67bf0540a7560ed92a8be26
+    - 9ba4cf96af0f43648838b54d42611e8f
+    - 56589fdb58bb6a64ea7e01ad6d5907a8
+    - d2da27bec32b3e244ac273579ee91b7c
+    - f8cb417b5316ca54a86466ba3a03e1a8
+    - 28fb558c98b782244a1ae75de8d4694e
+    - 06e15157ae247af4eb12713088195b08
+    - 9c9fe6c14b89f224b9eba7dce94d247a
+    - 0b67f394af8503344a4419f8d69608d0
+    - 621ac35cfcbb1ad40bd2bfca631391d7
+    - d8d5137eae45a0a4691964ebfe0cfdde
+    - 87e449397168ed44eaca69c0c889698e
+    - 7e7bce50c9ce5d94fa952a5b514b0c27
+    - c07c46b50e387b84a9b46ea3fe532bb4
+    - 9d85e427fc610424fa07a66209ea138c
+    - 6aadeb38a2254d14d9db2aa62a57b4f6
+    - dc07637cde0721d42b3dc95d94054770
+    - 18a5b9ec081967242a2ce6802cdbae59
+    - 2284e762ae35e5c429da1e61b18b6e3f
+    - 85a3c3d57189aa747a044673f68a83ca
+    - 742983bef0a6ad84a9ebea73798d0364
+    - 48e26e8ef320aa246a51d9bb02638266
+    - 1670351a446cccd4ebca430109dc7449
+    - a6cb7f8d931599e42898b562ee386612
+    - 94947ed348edb1e40ad5cc4740098601
+    - cddd8bcb690af9b4d928dbdfbe3389c0
+    - 68a73cc2e58124f4f92fff85e4099051
+    - 0d8d8d9c0ba521c48ae5ba9518c9984b
+    - 0d86ba591d519604aa53af404b53b770
+    - 4e2252b1eb07c2c48b30fda7827a2d81
+    - 7b0f2e684e5517f4097fa0c3e0e70f5a
+    - f5d500194e9c47542948d86842e06b29
+    - 732387db34e0d304cb86bc0c2fc27b4e
+    - a49fb70768618ca49b16f683c48956d2
+    - 781bf3e08b2abea48a7ea1008a9edf0e
+    - c1d61c99d7fe0504b9b68f50a2ddfebe
+    - 2f921ce5bf1ffa94c8dde69ed2d4a7a6
+    - 9074d7b1b8f9b29418d0e643ec0ca3ed
+    - 00b24113b6912f147a8fb03d974653fb
+    - 344a694359e307a4e86fe8bf480721c8
+    - 3465ef5331f5f3449a6d3bc36e2b15e1
+    - 4f12cd588b811d241b439f271e4ce223
+    - 368bbd39eef24d34fad0bb337693dc0f
+    - c87ea479089ea424588f72bbb23224cb
+    - 1de56a3bdb7188f47962ee583d1645be
+    - d2ad41ecce7e6de4fa4239c2023593ed
+    - ba27e1bd0f0447540bfbe109c6f7549d
+    - af0fe56f113f3304b9e8703b75e9e695
+    - 8b2b628695c44e44a881b70e60d067ec
+    - 8722f2a3ba70a494789c4519862e54dd
+    - 88af43dc8757e7f40a8dc68b28a13836
+    - 94bf8589d6590a8488b87ca535776b72
+    - dd5cd5ace8172544bb2b2a64783527b8
+    - bdde8cdb60f58a049abf490de9569e07
+    - 156856156d8b4384e85ba34532fbd002
+    - 347cbb048111e2b42aaccaef882e2d2f
+    - ccae4b86c8e737e4d97ce5eec52374d1
+    - eb283a2014466a841a7de1e8f3c711be
+    - d4c34759b7d7c5b49b29e493a54e700e
+    - f9071b941dadfe4448aa5a6919116048
+    - 9ff9efb1efeb36442b2882488ebebcdd
+    - e4cad6c771ddd1e4689796d544a23b02
+    - 03f4042c0fb3cb545b7ebcc4c4754379
+    - 3b3c3657fcc1f314e8c0c34cd2058ed5
+    - e1b74abe1f6cc1f439319cd427c0fb45
+    - 8f49c9a98f0414d42ac855924a000287
+    - c18c6315e63c95549aca2e3a8504c085
+    - f8bf78bc3249e194fb9f7a92033aa360
+    - a21f7bdb30c2c7546b9220a7cca6adc0
+    - e498e9043c77606459c697f182bc5af6
+    - 7523abdd27dc25a40b47bb37e5634f30
+    - 197b269a431e2b64cbce00fd8d606fb3
+    - 283b71832b932864b8f0f4d1244f2fc1
+    - 3a0ef6b68ebf11e4496ceeea258add49
+    - 7b1bb090386e9774cb5140345fada39e
+    - 5aaa98b4ff785ce44b3cbba0f7a7d4a6
+    - 9908ff224c7a0f94bbbbd055bb93518c
+    - 47edee2600f92894ba63a4db3f8e84f5
+    - 6e5adefbad43cef4a835916c90087faa
+    - 6f943cd6c60c11a428ac794f92e022af
+    - 41ba50552f85e0f489326259d57f699d
+    - 21ded9fdddf19e7458814a44b2923c9a
+    - c7fb2fd3f4a3f9748928c01082f66faf
+    - 44b6a7f1b22fbb141b28251b9f0b184a
+    - df2d858121a78914cb25a03f488e74e3
+    - 85cebdc608da3684a89c7c46cec71a0e
+    - 4b8ff99adb7c02741b0d51321d072b41
+    - a5a545d60adc4604a95e527ec983f1a7
+    - 7a3db1cbb557bcc4596803d21661b186
+    - 9f683c157ea20c54d90ef7e2c8fa8774
+    - 0ffc75e4e5e3ea84487a60058248f6da
+    - 5d02c40ecd87cab449c087c7e3088c22
+    - 9c59b499e74906b46a7e409a010d1047
+    - 26dd0d33b1611074b81f451c64e5c2eb
+    - 3bfa77ce99646e9478d19d05ee025f65
+    - 8c1d76c2c6b1779418acc27134fd41eb
+    - 330eeebde71e02446b29ec0feff73248
+    - 6e603b5b58916284f8d9cde0d1174219
+    - 0b0d82b5a8e94aaa92f0ce8b5b7445cc
+    - 822332ad8984ca64b9a969365fddf6a7
+    - ff397b51d8ce12c46b7faa5ba5855e04
+    - c091fbba0ebafa24db683838896e1a0f
+    - 357afcf1de44a644f992accdf941a5c8
+    - 76048cdc0bb92784c9b8af6cc1ead63d
+    - ccc61eeb1130f1e4783b8630520cf75e
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 3
+    lod: 7
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '13 '
+    users:
+    - ec558a2de749ad04c85c11f21599f42e
+    - 2b85d7c9e6eb9f9468b9412742633c6b
+    - 8f6739a81582a3d4ab3b316dd872f4a1
+    - 09dacb0d9a532f449bd8373fcf2bdf79
+    - 9940f71cd6d9e9b4197486e052f38afe
+    - 52d865559e9530f47ba0ac5f610ee057
+    - 69265d013e830ec44b5f75287f02f50a
+    - c7424d32f13a26e43a36aaf45df292c9
+    - c247e8914b6f65d4a982dabb55a967f5
+    - 0d1d7c0be5fbf544db83ecc3e5551500
+    - a07a0d1f2c158604b83a1347d3a2bea3
+    - 071355bcc67bf0540a7560ed92a8be26
+    - 9ba4cf96af0f43648838b54d42611e8f
+    - 56589fdb58bb6a64ea7e01ad6d5907a8
+    - d2da27bec32b3e244ac273579ee91b7c
+    - f8cb417b5316ca54a86466ba3a03e1a8
+    - 28fb558c98b782244a1ae75de8d4694e
+    - 06e15157ae247af4eb12713088195b08
+    - 9c9fe6c14b89f224b9eba7dce94d247a
+    - 0b67f394af8503344a4419f8d69608d0
+    - 621ac35cfcbb1ad40bd2bfca631391d7
+    - d8d5137eae45a0a4691964ebfe0cfdde
+    - 87e449397168ed44eaca69c0c889698e
+    - 7e7bce50c9ce5d94fa952a5b514b0c27
+    - c07c46b50e387b84a9b46ea3fe532bb4
+    - 9d85e427fc610424fa07a66209ea138c
+    - 6aadeb38a2254d14d9db2aa62a57b4f6
+    - dc07637cde0721d42b3dc95d94054770
+    - 18a5b9ec081967242a2ce6802cdbae59
+    - 2284e762ae35e5c429da1e61b18b6e3f
+    - 85a3c3d57189aa747a044673f68a83ca
+    - 742983bef0a6ad84a9ebea73798d0364
+    - 48e26e8ef320aa246a51d9bb02638266
+    - 1670351a446cccd4ebca430109dc7449
+    - a6cb7f8d931599e42898b562ee386612
+    - 94947ed348edb1e40ad5cc4740098601
+    - cddd8bcb690af9b4d928dbdfbe3389c0
+    - 68a73cc2e58124f4f92fff85e4099051
+    - 0d8d8d9c0ba521c48ae5ba9518c9984b
+    - 0d86ba591d519604aa53af404b53b770
+    - 4e2252b1eb07c2c48b30fda7827a2d81
+    - 7b0f2e684e5517f4097fa0c3e0e70f5a
+    - f5d500194e9c47542948d86842e06b29
+    - 732387db34e0d304cb86bc0c2fc27b4e
+    - a49fb70768618ca49b16f683c48956d2
+    - 781bf3e08b2abea48a7ea1008a9edf0e
+    - c1d61c99d7fe0504b9b68f50a2ddfebe
+    - 2f921ce5bf1ffa94c8dde69ed2d4a7a6
+    - 9074d7b1b8f9b29418d0e643ec0ca3ed
+    - 00b24113b6912f147a8fb03d974653fb
+    - 344a694359e307a4e86fe8bf480721c8
+    - 3465ef5331f5f3449a6d3bc36e2b15e1
+    - 4f12cd588b811d241b439f271e4ce223
+    - 368bbd39eef24d34fad0bb337693dc0f
+    - c87ea479089ea424588f72bbb23224cb
+    - 1de56a3bdb7188f47962ee583d1645be
+    - d2ad41ecce7e6de4fa4239c2023593ed
+    - ba27e1bd0f0447540bfbe109c6f7549d
+    - af0fe56f113f3304b9e8703b75e9e695
+    - 8b2b628695c44e44a881b70e60d067ec
+    - 8722f2a3ba70a494789c4519862e54dd
+    - 88af43dc8757e7f40a8dc68b28a13836
+    - 94bf8589d6590a8488b87ca535776b72
+    - dd5cd5ace8172544bb2b2a64783527b8
+    - bdde8cdb60f58a049abf490de9569e07
+    - 156856156d8b4384e85ba34532fbd002
+    - 347cbb048111e2b42aaccaef882e2d2f
+    - ccae4b86c8e737e4d97ce5eec52374d1
+    - eb283a2014466a841a7de1e8f3c711be
+    - d4c34759b7d7c5b49b29e493a54e700e
+    - f9071b941dadfe4448aa5a6919116048
+    - 9ff9efb1efeb36442b2882488ebebcdd
+    - e4cad6c771ddd1e4689796d544a23b02
+    - 03f4042c0fb3cb545b7ebcc4c4754379
+    - 3b3c3657fcc1f314e8c0c34cd2058ed5
+    - e1b74abe1f6cc1f439319cd427c0fb45
+    - 8f49c9a98f0414d42ac855924a000287
+    - c18c6315e63c95549aca2e3a8504c085
+    - f8bf78bc3249e194fb9f7a92033aa360
+    - a21f7bdb30c2c7546b9220a7cca6adc0
+    - e498e9043c77606459c697f182bc5af6
+    - 7523abdd27dc25a40b47bb37e5634f30
+    - 197b269a431e2b64cbce00fd8d606fb3
+    - 283b71832b932864b8f0f4d1244f2fc1
+    - 3a0ef6b68ebf11e4496ceeea258add49
+    - 7b1bb090386e9774cb5140345fada39e
+    - 5aaa98b4ff785ce44b3cbba0f7a7d4a6
+    - 9908ff224c7a0f94bbbbd055bb93518c
+    - 47edee2600f92894ba63a4db3f8e84f5
+    - 6e5adefbad43cef4a835916c90087faa
+    - 6f943cd6c60c11a428ac794f92e022af
+    - 41ba50552f85e0f489326259d57f699d
+    - 21ded9fdddf19e7458814a44b2923c9a
+    - c7fb2fd3f4a3f9748928c01082f66faf
+    - 44b6a7f1b22fbb141b28251b9f0b184a
+    - df2d858121a78914cb25a03f488e74e3
+    - 85cebdc608da3684a89c7c46cec71a0e
+    - 4b8ff99adb7c02741b0d51321d072b41
+    - a5a545d60adc4604a95e527ec983f1a7
+    - 7a3db1cbb557bcc4596803d21661b186
+    - 9f683c157ea20c54d90ef7e2c8fa8774
+    - 0ffc75e4e5e3ea84487a60058248f6da
+    - 5d02c40ecd87cab449c087c7e3088c22
+    - 9c59b499e74906b46a7e409a010d1047
+    - 26dd0d33b1611074b81f451c64e5c2eb
+    - 3bfa77ce99646e9478d19d05ee025f65
+    - 8c1d76c2c6b1779418acc27134fd41eb
+    - 330eeebde71e02446b29ec0feff73248
+    - 6e603b5b58916284f8d9cde0d1174219
+    - 0b0d82b5a8e94aaa92f0ce8b5b7445cc
+    - 822332ad8984ca64b9a969365fddf6a7
+    - ff397b51d8ce12c46b7faa5ba5855e04
+    - c091fbba0ebafa24db683838896e1a0f
+    - 357afcf1de44a644f992accdf941a5c8
+    - 76048cdc0bb92784c9b8af6cc1ead63d
+    - ccc61eeb1130f1e4783b8630520cf75e
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    keywordStr: 0 _ALPHABLEND_ON
+    users:
+    - ec558a2de749ad04c85c11f21599f42e
+    - 8f6739a81582a3d4ab3b316dd872f4a1
+    - 09dacb0d9a532f449bd8373fcf2bdf79
+    - 9940f71cd6d9e9b4197486e052f38afe
+    - 52d865559e9530f47ba0ac5f610ee057
+    - 69265d013e830ec44b5f75287f02f50a
+    - c7424d32f13a26e43a36aaf45df292c9
+    - c247e8914b6f65d4a982dabb55a967f5
+    - 0d1d7c0be5fbf544db83ecc3e5551500
+    - a07a0d1f2c158604b83a1347d3a2bea3
+    - 071355bcc67bf0540a7560ed92a8be26
+    - 56589fdb58bb6a64ea7e01ad6d5907a8
+    - 9c9fe6c14b89f224b9eba7dce94d247a
+    - 0b67f394af8503344a4419f8d69608d0
+    - 7e7bce50c9ce5d94fa952a5b514b0c27
+    - c07c46b50e387b84a9b46ea3fe532bb4
+    - 9d85e427fc610424fa07a66209ea138c
+    - 6aadeb38a2254d14d9db2aa62a57b4f6
+    - 18a5b9ec081967242a2ce6802cdbae59
+    - 2284e762ae35e5c429da1e61b18b6e3f
+    - 85a3c3d57189aa747a044673f68a83ca
+    - 742983bef0a6ad84a9ebea73798d0364
+    - 1670351a446cccd4ebca430109dc7449
+    - cddd8bcb690af9b4d928dbdfbe3389c0
+    - 68a73cc2e58124f4f92fff85e4099051
+    - 0d8d8d9c0ba521c48ae5ba9518c9984b
+    - 0d86ba591d519604aa53af404b53b770
+    - 4e2252b1eb07c2c48b30fda7827a2d81
+    - 7b0f2e684e5517f4097fa0c3e0e70f5a
+    - f5d500194e9c47542948d86842e06b29
+    - 732387db34e0d304cb86bc0c2fc27b4e
+    - a49fb70768618ca49b16f683c48956d2
+    - 781bf3e08b2abea48a7ea1008a9edf0e
+    - c1d61c99d7fe0504b9b68f50a2ddfebe
+    - 3465ef5331f5f3449a6d3bc36e2b15e1
+    - c87ea479089ea424588f72bbb23224cb
+    - 88af43dc8757e7f40a8dc68b28a13836
+    - 94bf8589d6590a8488b87ca535776b72
+    - dd5cd5ace8172544bb2b2a64783527b8
+    - bdde8cdb60f58a049abf490de9569e07
+    - 156856156d8b4384e85ba34532fbd002
+    - 347cbb048111e2b42aaccaef882e2d2f
+    - d4c34759b7d7c5b49b29e493a54e700e
+    - 9ff9efb1efeb36442b2882488ebebcdd
+    - e4cad6c771ddd1e4689796d544a23b02
+    - 03f4042c0fb3cb545b7ebcc4c4754379
+    - 8f49c9a98f0414d42ac855924a000287
+    - a21f7bdb30c2c7546b9220a7cca6adc0
+    - e498e9043c77606459c697f182bc5af6
+    - 4b8ff99adb7c02741b0d51321d072b41
+    - 7a3db1cbb557bcc4596803d21661b186
+    - 9f683c157ea20c54d90ef7e2c8fa8774
+    - 0ffc75e4e5e3ea84487a60058248f6da
+    - 9c59b499e74906b46a7e409a010d1047
+    - 26dd0d33b1611074b81f451c64e5c2eb
+    - 3bfa77ce99646e9478d19d05ee025f65
+    - 8c1d76c2c6b1779418acc27134fd41eb
+    - 330eeebde71e02446b29ec0feff73248
+    - 6e603b5b58916284f8d9cde0d1174219
+    - 0b0d82b5a8e94aaa92f0ce8b5b7445cc
+    - 822332ad8984ca64b9a969365fddf6a7
+    - 357afcf1de44a644f992accdf941a5c8
+    - 76048cdc0bb92784c9b8af6cc1ead63d
+    - ccc61eeb1130f1e4783b8630520cf75e
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 3
+    lod: 7
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    keywordStr: 13 _ALPHABLEND_ON
+    users:
+    - ec558a2de749ad04c85c11f21599f42e
+    - 8f6739a81582a3d4ab3b316dd872f4a1
+    - 09dacb0d9a532f449bd8373fcf2bdf79
+    - 9940f71cd6d9e9b4197486e052f38afe
+    - 52d865559e9530f47ba0ac5f610ee057
+    - 69265d013e830ec44b5f75287f02f50a
+    - c7424d32f13a26e43a36aaf45df292c9
+    - c247e8914b6f65d4a982dabb55a967f5
+    - 0d1d7c0be5fbf544db83ecc3e5551500
+    - a07a0d1f2c158604b83a1347d3a2bea3
+    - 071355bcc67bf0540a7560ed92a8be26
+    - 56589fdb58bb6a64ea7e01ad6d5907a8
+    - 9c9fe6c14b89f224b9eba7dce94d247a
+    - 0b67f394af8503344a4419f8d69608d0
+    - 7e7bce50c9ce5d94fa952a5b514b0c27
+    - c07c46b50e387b84a9b46ea3fe532bb4
+    - 9d85e427fc610424fa07a66209ea138c
+    - 6aadeb38a2254d14d9db2aa62a57b4f6
+    - 18a5b9ec081967242a2ce6802cdbae59
+    - 2284e762ae35e5c429da1e61b18b6e3f
+    - 85a3c3d57189aa747a044673f68a83ca
+    - 742983bef0a6ad84a9ebea73798d0364
+    - 1670351a446cccd4ebca430109dc7449
+    - cddd8bcb690af9b4d928dbdfbe3389c0
+    - 68a73cc2e58124f4f92fff85e4099051
+    - 0d8d8d9c0ba521c48ae5ba9518c9984b
+    - 0d86ba591d519604aa53af404b53b770
+    - 4e2252b1eb07c2c48b30fda7827a2d81
+    - 7b0f2e684e5517f4097fa0c3e0e70f5a
+    - f5d500194e9c47542948d86842e06b29
+    - 732387db34e0d304cb86bc0c2fc27b4e
+    - a49fb70768618ca49b16f683c48956d2
+    - 781bf3e08b2abea48a7ea1008a9edf0e
+    - c1d61c99d7fe0504b9b68f50a2ddfebe
+    - 3465ef5331f5f3449a6d3bc36e2b15e1
+    - c87ea479089ea424588f72bbb23224cb
+    - 88af43dc8757e7f40a8dc68b28a13836
+    - 94bf8589d6590a8488b87ca535776b72
+    - dd5cd5ace8172544bb2b2a64783527b8
+    - bdde8cdb60f58a049abf490de9569e07
+    - 156856156d8b4384e85ba34532fbd002
+    - 347cbb048111e2b42aaccaef882e2d2f
+    - d4c34759b7d7c5b49b29e493a54e700e
+    - 9ff9efb1efeb36442b2882488ebebcdd
+    - e4cad6c771ddd1e4689796d544a23b02
+    - 03f4042c0fb3cb545b7ebcc4c4754379
+    - 8f49c9a98f0414d42ac855924a000287
+    - a21f7bdb30c2c7546b9220a7cca6adc0
+    - e498e9043c77606459c697f182bc5af6
+    - 4b8ff99adb7c02741b0d51321d072b41
+    - 7a3db1cbb557bcc4596803d21661b186
+    - 9f683c157ea20c54d90ef7e2c8fa8774
+    - 0ffc75e4e5e3ea84487a60058248f6da
+    - 9c59b499e74906b46a7e409a010d1047
+    - 26dd0d33b1611074b81f451c64e5c2eb
+    - 3bfa77ce99646e9478d19d05ee025f65
+    - 8c1d76c2c6b1779418acc27134fd41eb
+    - 330eeebde71e02446b29ec0feff73248
+    - 6e603b5b58916284f8d9cde0d1174219
+    - 0b0d82b5a8e94aaa92f0ce8b5b7445cc
+    - 822332ad8984ca64b9a969365fddf6a7
+    - 357afcf1de44a644f992accdf941a5c8
+    - 76048cdc0bb92784c9b8af6cc1ead63d
+    - ccc61eeb1130f1e4783b8630520cf75e
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _RIMLIGHT
+    keywordStr: 0 _RIMLIGHT
+    users:
+    - 2f921ce5bf1ffa94c8dde69ed2d4a7a6
+    - 7523abdd27dc25a40b47bb37e5634f30
+    - 7b1bb090386e9774cb5140345fada39e
+    - 5aaa98b4ff785ce44b3cbba0f7a7d4a6
+    - 9908ff224c7a0f94bbbbd055bb93518c
+    - 47edee2600f92894ba63a4db3f8e84f5
+    - c7fb2fd3f4a3f9748928c01082f66faf
+    - 44b6a7f1b22fbb141b28251b9f0b184a
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 3
+    lod: 7
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _RIMLIGHT
+    keywordStr: 13 _RIMLIGHT
+    users:
+    - 2f921ce5bf1ffa94c8dde69ed2d4a7a6
+    - 7523abdd27dc25a40b47bb37e5634f30
+    - 7b1bb090386e9774cb5140345fada39e
+    - 5aaa98b4ff785ce44b3cbba0f7a7d4a6
+    - 9908ff224c7a0f94bbbbd055bb93518c
+    - 47edee2600f92894ba63a4db3f8e84f5
+    - c7fb2fd3f4a3f9748928c01082f66faf
+    - 44b6a7f1b22fbb141b28251b9f0b184a
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _RIMLIGHT
+    keywordStr: 0 _ALPHABLEND_ON _RIMLIGHT
+    users:
+    - 28fb558c98b782244a1ae75de8d4694e
+    - 3b3c3657fcc1f314e8c0c34cd2058ed5
+    - e1b74abe1f6cc1f439319cd427c0fb45
+    - c18c6315e63c95549aca2e3a8504c085
+    - 283b71832b932864b8f0f4d1244f2fc1
+    - 3a0ef6b68ebf11e4496ceeea258add49
+    - a5a545d60adc4604a95e527ec983f1a7
+    - 5d02c40ecd87cab449c087c7e3088c22
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 2
+    lod: 7
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _RIMLIGHT
+    keywordStr: 13 _ALPHABLEND_ON _RIMLIGHT
+    users:
+    - 28fb558c98b782244a1ae75de8d4694e
+    - 3b3c3657fcc1f314e8c0c34cd2058ed5
+    - e1b74abe1f6cc1f439319cd427c0fb45
+    - c18c6315e63c95549aca2e3a8504c085
+    - 283b71832b932864b8f0f4d1244f2fc1
+    - 3a0ef6b68ebf11e4496ceeea258add49
+    - a5a545d60adc4604a95e527ec983f1a7
+    - 5d02c40ecd87cab449c087c7e3088c22
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    keywordStr: 0 _DISSOLVE
+    users:
+    - af0fe56f113f3304b9e8703b75e9e695
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    keywordStr: 13 _DISSOLVE
+    users:
+    - af0fe56f113f3304b9e8703b75e9e695
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    keywordStr: 0 _FLOWLIGHTUV
+    users:
+    - 00b24113b6912f147a8fb03d974653fb
+    - 1de56a3bdb7188f47962ee583d1645be
+    - ba27e1bd0f0447540bfbe109c6f7549d
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    keywordStr: 13 _FLOWLIGHTUV
+    users:
+    - 00b24113b6912f147a8fb03d974653fb
+    - 1de56a3bdb7188f47962ee583d1645be
+    - ba27e1bd0f0447540bfbe109c6f7549d
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTUV
+    users:
+    - 9ba4cf96af0f43648838b54d42611e8f
+    - 344a694359e307a4e86fe8bf480721c8
+    - 4f12cd588b811d241b439f271e4ce223
+    - 368bbd39eef24d34fad0bb337693dc0f
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTUV
+    users:
+    - 9ba4cf96af0f43648838b54d42611e8f
+    - 344a694359e307a4e86fe8bf480721c8
+    - 4f12cd588b811d241b439f271e4ce223
+    - 368bbd39eef24d34fad0bb337693dc0f
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTUV _RIMLIGHT
+    users:
+    - d8d5137eae45a0a4691964ebfe0cfdde
+    - f8bf78bc3249e194fb9f7a92033aa360
+    - 85cebdc608da3684a89c7c46cec71a0e
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTUV _RIMLIGHT
+    users:
+    - d8d5137eae45a0a4691964ebfe0cfdde
+    - f8bf78bc3249e194fb9f7a92033aa360
+    - 85cebdc608da3684a89c7c46cec71a0e
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTUV
+    users:
+    - 9074d7b1b8f9b29418d0e643ec0ca3ed
+    - d2ad41ecce7e6de4fa4239c2023593ed
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTUV
+    users:
+    - 9074d7b1b8f9b29418d0e643ec0ca3ed
+    - d2ad41ecce7e6de4fa4239c2023593ed
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _RIMLIGHT
+    keywordStr: 0 _FLOWLIGHTSCREEN _RIMLIGHT
+    users:
+    - 06e15157ae247af4eb12713088195b08
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 2
+    lod: 7
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _RIMLIGHT
+    keywordStr: 13 _FLOWLIGHTSCREEN _RIMLIGHT
+    users:
+    - 06e15157ae247af4eb12713088195b08
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTUV _RIMLIGHT _SUBTEX
+    users:
+    - df2d858121a78914cb25a03f488e74e3
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTUV _RIMLIGHT _SUBTEX
+    users:
+    - df2d858121a78914cb25a03f488e74e3
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '13 '
+    users:
+    - ec558a2de749ad04c85c11f21599f42e
+    - 2b85d7c9e6eb9f9468b9412742633c6b
+    - 8f6739a81582a3d4ab3b316dd872f4a1
+    - 09dacb0d9a532f449bd8373fcf2bdf79
+    - 9940f71cd6d9e9b4197486e052f38afe
+    - 52d865559e9530f47ba0ac5f610ee057
+    - 69265d013e830ec44b5f75287f02f50a
+    - c7424d32f13a26e43a36aaf45df292c9
+    - c247e8914b6f65d4a982dabb55a967f5
+    - 0d1d7c0be5fbf544db83ecc3e5551500
+    - a07a0d1f2c158604b83a1347d3a2bea3
+    - 071355bcc67bf0540a7560ed92a8be26
+    - 9ba4cf96af0f43648838b54d42611e8f
+    - 56589fdb58bb6a64ea7e01ad6d5907a8
+    - d2da27bec32b3e244ac273579ee91b7c
+    - f8cb417b5316ca54a86466ba3a03e1a8
+    - 28fb558c98b782244a1ae75de8d4694e
+    - 06e15157ae247af4eb12713088195b08
+    - 9c9fe6c14b89f224b9eba7dce94d247a
+    - 0b67f394af8503344a4419f8d69608d0
+    - 621ac35cfcbb1ad40bd2bfca631391d7
+    - d8d5137eae45a0a4691964ebfe0cfdde
+    - 87e449397168ed44eaca69c0c889698e
+    - 7e7bce50c9ce5d94fa952a5b514b0c27
+    - c07c46b50e387b84a9b46ea3fe532bb4
+    - 9d85e427fc610424fa07a66209ea138c
+    - 6aadeb38a2254d14d9db2aa62a57b4f6
+    - dc07637cde0721d42b3dc95d94054770
+    - 18a5b9ec081967242a2ce6802cdbae59
+    - 2284e762ae35e5c429da1e61b18b6e3f
+    - 85a3c3d57189aa747a044673f68a83ca
+    - 742983bef0a6ad84a9ebea73798d0364
+    - 48e26e8ef320aa246a51d9bb02638266
+    - 1670351a446cccd4ebca430109dc7449
+    - a6cb7f8d931599e42898b562ee386612
+    - 94947ed348edb1e40ad5cc4740098601
+    - cddd8bcb690af9b4d928dbdfbe3389c0
+    - 68a73cc2e58124f4f92fff85e4099051
+    - 0d8d8d9c0ba521c48ae5ba9518c9984b
+    - 0d86ba591d519604aa53af404b53b770
+    - 4e2252b1eb07c2c48b30fda7827a2d81
+    - 7b0f2e684e5517f4097fa0c3e0e70f5a
+    - f5d500194e9c47542948d86842e06b29
+    - 732387db34e0d304cb86bc0c2fc27b4e
+    - a49fb70768618ca49b16f683c48956d2
+    - 781bf3e08b2abea48a7ea1008a9edf0e
+    - c1d61c99d7fe0504b9b68f50a2ddfebe
+    - 2f921ce5bf1ffa94c8dde69ed2d4a7a6
+    - 9074d7b1b8f9b29418d0e643ec0ca3ed
+    - 00b24113b6912f147a8fb03d974653fb
+    - 344a694359e307a4e86fe8bf480721c8
+    - 3465ef5331f5f3449a6d3bc36e2b15e1
+    - 4f12cd588b811d241b439f271e4ce223
+    - 368bbd39eef24d34fad0bb337693dc0f
+    - c87ea479089ea424588f72bbb23224cb
+    - 1de56a3bdb7188f47962ee583d1645be
+    - d2ad41ecce7e6de4fa4239c2023593ed
+    - ba27e1bd0f0447540bfbe109c6f7549d
+    - af0fe56f113f3304b9e8703b75e9e695
+    - 8b2b628695c44e44a881b70e60d067ec
+    - 8722f2a3ba70a494789c4519862e54dd
+    - 88af43dc8757e7f40a8dc68b28a13836
+    - 94bf8589d6590a8488b87ca535776b72
+    - dd5cd5ace8172544bb2b2a64783527b8
+    - bdde8cdb60f58a049abf490de9569e07
+    - 156856156d8b4384e85ba34532fbd002
+    - 347cbb048111e2b42aaccaef882e2d2f
+    - ccae4b86c8e737e4d97ce5eec52374d1
+    - eb283a2014466a841a7de1e8f3c711be
+    - d4c34759b7d7c5b49b29e493a54e700e
+    - f9071b941dadfe4448aa5a6919116048
+    - 9ff9efb1efeb36442b2882488ebebcdd
+    - e4cad6c771ddd1e4689796d544a23b02
+    - 03f4042c0fb3cb545b7ebcc4c4754379
+    - 3b3c3657fcc1f314e8c0c34cd2058ed5
+    - e1b74abe1f6cc1f439319cd427c0fb45
+    - 8f49c9a98f0414d42ac855924a000287
+    - c18c6315e63c95549aca2e3a8504c085
+    - f8bf78bc3249e194fb9f7a92033aa360
+    - a21f7bdb30c2c7546b9220a7cca6adc0
+    - e498e9043c77606459c697f182bc5af6
+    - 7523abdd27dc25a40b47bb37e5634f30
+    - 197b269a431e2b64cbce00fd8d606fb3
+    - 283b71832b932864b8f0f4d1244f2fc1
+    - 3a0ef6b68ebf11e4496ceeea258add49
+    - 7b1bb090386e9774cb5140345fada39e
+    - 5aaa98b4ff785ce44b3cbba0f7a7d4a6
+    - 9908ff224c7a0f94bbbbd055bb93518c
+    - 47edee2600f92894ba63a4db3f8e84f5
+    - 6e5adefbad43cef4a835916c90087faa
+    - 6f943cd6c60c11a428ac794f92e022af
+    - 41ba50552f85e0f489326259d57f699d
+    - 21ded9fdddf19e7458814a44b2923c9a
+    - c7fb2fd3f4a3f9748928c01082f66faf
+    - 44b6a7f1b22fbb141b28251b9f0b184a
+    - df2d858121a78914cb25a03f488e74e3
+    - 85cebdc608da3684a89c7c46cec71a0e
+    - 4b8ff99adb7c02741b0d51321d072b41
+    - a5a545d60adc4604a95e527ec983f1a7
+    - 7a3db1cbb557bcc4596803d21661b186
+    - 9f683c157ea20c54d90ef7e2c8fa8774
+    - 0ffc75e4e5e3ea84487a60058248f6da
+    - 5d02c40ecd87cab449c087c7e3088c22
+    - 9c59b499e74906b46a7e409a010d1047
+    - 26dd0d33b1611074b81f451c64e5c2eb
+    - 3bfa77ce99646e9478d19d05ee025f65
+    - 8c1d76c2c6b1779418acc27134fd41eb
+    - 330eeebde71e02446b29ec0feff73248
+    - 6e603b5b58916284f8d9cde0d1174219
+    - 0b0d82b5a8e94aaa92f0ce8b5b7445cc
+    - 822332ad8984ca64b9a969365fddf6a7
+    - ff397b51d8ce12c46b7faa5ba5855e04
+    - c091fbba0ebafa24db683838896e1a0f
+    - 357afcf1de44a644f992accdf941a5c8
+    - 76048cdc0bb92784c9b8af6cc1ead63d
+    - ccc61eeb1130f1e4783b8630520cf75e
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    keywordStr: 13 _ALPHABLEND_ON
+    users:
+    - ec558a2de749ad04c85c11f21599f42e
+    - 8f6739a81582a3d4ab3b316dd872f4a1
+    - 09dacb0d9a532f449bd8373fcf2bdf79
+    - 9940f71cd6d9e9b4197486e052f38afe
+    - 52d865559e9530f47ba0ac5f610ee057
+    - 69265d013e830ec44b5f75287f02f50a
+    - c7424d32f13a26e43a36aaf45df292c9
+    - c247e8914b6f65d4a982dabb55a967f5
+    - 0d1d7c0be5fbf544db83ecc3e5551500
+    - a07a0d1f2c158604b83a1347d3a2bea3
+    - 071355bcc67bf0540a7560ed92a8be26
+    - 56589fdb58bb6a64ea7e01ad6d5907a8
+    - 9c9fe6c14b89f224b9eba7dce94d247a
+    - 0b67f394af8503344a4419f8d69608d0
+    - 7e7bce50c9ce5d94fa952a5b514b0c27
+    - c07c46b50e387b84a9b46ea3fe532bb4
+    - 9d85e427fc610424fa07a66209ea138c
+    - 6aadeb38a2254d14d9db2aa62a57b4f6
+    - 18a5b9ec081967242a2ce6802cdbae59
+    - 2284e762ae35e5c429da1e61b18b6e3f
+    - 85a3c3d57189aa747a044673f68a83ca
+    - 742983bef0a6ad84a9ebea73798d0364
+    - 1670351a446cccd4ebca430109dc7449
+    - cddd8bcb690af9b4d928dbdfbe3389c0
+    - 68a73cc2e58124f4f92fff85e4099051
+    - 0d8d8d9c0ba521c48ae5ba9518c9984b
+    - 0d86ba591d519604aa53af404b53b770
+    - 4e2252b1eb07c2c48b30fda7827a2d81
+    - 7b0f2e684e5517f4097fa0c3e0e70f5a
+    - f5d500194e9c47542948d86842e06b29
+    - 732387db34e0d304cb86bc0c2fc27b4e
+    - a49fb70768618ca49b16f683c48956d2
+    - 781bf3e08b2abea48a7ea1008a9edf0e
+    - c1d61c99d7fe0504b9b68f50a2ddfebe
+    - 3465ef5331f5f3449a6d3bc36e2b15e1
+    - c87ea479089ea424588f72bbb23224cb
+    - 88af43dc8757e7f40a8dc68b28a13836
+    - 94bf8589d6590a8488b87ca535776b72
+    - dd5cd5ace8172544bb2b2a64783527b8
+    - bdde8cdb60f58a049abf490de9569e07
+    - 156856156d8b4384e85ba34532fbd002
+    - 347cbb048111e2b42aaccaef882e2d2f
+    - d4c34759b7d7c5b49b29e493a54e700e
+    - 9ff9efb1efeb36442b2882488ebebcdd
+    - e4cad6c771ddd1e4689796d544a23b02
+    - 03f4042c0fb3cb545b7ebcc4c4754379
+    - 8f49c9a98f0414d42ac855924a000287
+    - a21f7bdb30c2c7546b9220a7cca6adc0
+    - e498e9043c77606459c697f182bc5af6
+    - 4b8ff99adb7c02741b0d51321d072b41
+    - 7a3db1cbb557bcc4596803d21661b186
+    - 9f683c157ea20c54d90ef7e2c8fa8774
+    - 0ffc75e4e5e3ea84487a60058248f6da
+    - 9c59b499e74906b46a7e409a010d1047
+    - 26dd0d33b1611074b81f451c64e5c2eb
+    - 3bfa77ce99646e9478d19d05ee025f65
+    - 8c1d76c2c6b1779418acc27134fd41eb
+    - 330eeebde71e02446b29ec0feff73248
+    - 6e603b5b58916284f8d9cde0d1174219
+    - 0b0d82b5a8e94aaa92f0ce8b5b7445cc
+    - 822332ad8984ca64b9a969365fddf6a7
+    - 357afcf1de44a644f992accdf941a5c8
+    - 76048cdc0bb92784c9b8af6cc1ead63d
+    - ccc61eeb1130f1e4783b8630520cf75e
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _RIMLIGHT
+    keywordStr: 13 _RIMLIGHT
+    users:
+    - 2f921ce5bf1ffa94c8dde69ed2d4a7a6
+    - 7523abdd27dc25a40b47bb37e5634f30
+    - 7b1bb090386e9774cb5140345fada39e
+    - 5aaa98b4ff785ce44b3cbba0f7a7d4a6
+    - 9908ff224c7a0f94bbbbd055bb93518c
+    - 47edee2600f92894ba63a4db3f8e84f5
+    - c7fb2fd3f4a3f9748928c01082f66faf
+    - 44b6a7f1b22fbb141b28251b9f0b184a
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _RIMLIGHT
+    keywordStr: 13 _ALPHABLEND_ON _RIMLIGHT
+    users:
+    - 28fb558c98b782244a1ae75de8d4694e
+    - 3b3c3657fcc1f314e8c0c34cd2058ed5
+    - e1b74abe1f6cc1f439319cd427c0fb45
+    - c18c6315e63c95549aca2e3a8504c085
+    - 283b71832b932864b8f0f4d1244f2fc1
+    - 3a0ef6b68ebf11e4496ceeea258add49
+    - a5a545d60adc4604a95e527ec983f1a7
+    - 5d02c40ecd87cab449c087c7e3088c22
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    keywordStr: 13 _DISSOLVE
+    users:
+    - af0fe56f113f3304b9e8703b75e9e695
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    keywordStr: 13 _FLOWLIGHTUV
+    users:
+    - 00b24113b6912f147a8fb03d974653fb
+    - 1de56a3bdb7188f47962ee583d1645be
+    - ba27e1bd0f0447540bfbe109c6f7549d
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTUV
+    users:
+    - 9ba4cf96af0f43648838b54d42611e8f
+    - 344a694359e307a4e86fe8bf480721c8
+    - 4f12cd588b811d241b439f271e4ce223
+    - 368bbd39eef24d34fad0bb337693dc0f
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTUV _RIMLIGHT
+    users:
+    - d8d5137eae45a0a4691964ebfe0cfdde
+    - f8bf78bc3249e194fb9f7a92033aa360
+    - 85cebdc608da3684a89c7c46cec71a0e
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTUV
+    users:
+    - 9074d7b1b8f9b29418d0e643ec0ca3ed
+    - d2ad41ecce7e6de4fa4239c2023593ed
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _RIMLIGHT
+    keywordStr: 13 _FLOWLIGHTSCREEN _RIMLIGHT
+    users:
+    - 06e15157ae247af4eb12713088195b08
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTUV _RIMLIGHT _SUBTEX
+    users:
+    - df2d858121a78914cb25a03f488e74e3
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - ec558a2de749ad04c85c11f21599f42e
+    - 2b85d7c9e6eb9f9468b9412742633c6b
+    - 8f6739a81582a3d4ab3b316dd872f4a1
+    - 09dacb0d9a532f449bd8373fcf2bdf79
+    - 9940f71cd6d9e9b4197486e052f38afe
+    - 52d865559e9530f47ba0ac5f610ee057
+    - 69265d013e830ec44b5f75287f02f50a
+    - c7424d32f13a26e43a36aaf45df292c9
+    - c247e8914b6f65d4a982dabb55a967f5
+    - 0d1d7c0be5fbf544db83ecc3e5551500
+    - a07a0d1f2c158604b83a1347d3a2bea3
+    - 071355bcc67bf0540a7560ed92a8be26
+    - 9ba4cf96af0f43648838b54d42611e8f
+    - 56589fdb58bb6a64ea7e01ad6d5907a8
+    - d2da27bec32b3e244ac273579ee91b7c
+    - f8cb417b5316ca54a86466ba3a03e1a8
+    - 28fb558c98b782244a1ae75de8d4694e
+    - 06e15157ae247af4eb12713088195b08
+    - 9c9fe6c14b89f224b9eba7dce94d247a
+    - 0b67f394af8503344a4419f8d69608d0
+    - 621ac35cfcbb1ad40bd2bfca631391d7
+    - d8d5137eae45a0a4691964ebfe0cfdde
+    - 87e449397168ed44eaca69c0c889698e
+    - 7e7bce50c9ce5d94fa952a5b514b0c27
+    - c07c46b50e387b84a9b46ea3fe532bb4
+    - 9d85e427fc610424fa07a66209ea138c
+    - 6aadeb38a2254d14d9db2aa62a57b4f6
+    - dc07637cde0721d42b3dc95d94054770
+    - 18a5b9ec081967242a2ce6802cdbae59
+    - 2284e762ae35e5c429da1e61b18b6e3f
+    - 85a3c3d57189aa747a044673f68a83ca
+    - 742983bef0a6ad84a9ebea73798d0364
+    - 48e26e8ef320aa246a51d9bb02638266
+    - 1670351a446cccd4ebca430109dc7449
+    - a6cb7f8d931599e42898b562ee386612
+    - 94947ed348edb1e40ad5cc4740098601
+    - cddd8bcb690af9b4d928dbdfbe3389c0
+    - 68a73cc2e58124f4f92fff85e4099051
+    - 0d8d8d9c0ba521c48ae5ba9518c9984b
+    - 0d86ba591d519604aa53af404b53b770
+    - 4e2252b1eb07c2c48b30fda7827a2d81
+    - 7b0f2e684e5517f4097fa0c3e0e70f5a
+    - f5d500194e9c47542948d86842e06b29
+    - 732387db34e0d304cb86bc0c2fc27b4e
+    - a49fb70768618ca49b16f683c48956d2
+    - 781bf3e08b2abea48a7ea1008a9edf0e
+    - c1d61c99d7fe0504b9b68f50a2ddfebe
+    - 2f921ce5bf1ffa94c8dde69ed2d4a7a6
+    - 9074d7b1b8f9b29418d0e643ec0ca3ed
+    - 00b24113b6912f147a8fb03d974653fb
+    - 344a694359e307a4e86fe8bf480721c8
+    - 3465ef5331f5f3449a6d3bc36e2b15e1
+    - 4f12cd588b811d241b439f271e4ce223
+    - 368bbd39eef24d34fad0bb337693dc0f
+    - c87ea479089ea424588f72bbb23224cb
+    - 1de56a3bdb7188f47962ee583d1645be
+    - d2ad41ecce7e6de4fa4239c2023593ed
+    - ba27e1bd0f0447540bfbe109c6f7549d
+    - af0fe56f113f3304b9e8703b75e9e695
+    - 8b2b628695c44e44a881b70e60d067ec
+    - 8722f2a3ba70a494789c4519862e54dd
+    - 88af43dc8757e7f40a8dc68b28a13836
+    - 94bf8589d6590a8488b87ca535776b72
+    - dd5cd5ace8172544bb2b2a64783527b8
+    - bdde8cdb60f58a049abf490de9569e07
+    - 156856156d8b4384e85ba34532fbd002
+    - 347cbb048111e2b42aaccaef882e2d2f
+    - ccae4b86c8e737e4d97ce5eec52374d1
+    - eb283a2014466a841a7de1e8f3c711be
+    - d4c34759b7d7c5b49b29e493a54e700e
+    - f9071b941dadfe4448aa5a6919116048
+    - 9ff9efb1efeb36442b2882488ebebcdd
+    - e4cad6c771ddd1e4689796d544a23b02
+    - 03f4042c0fb3cb545b7ebcc4c4754379
+    - 3b3c3657fcc1f314e8c0c34cd2058ed5
+    - e1b74abe1f6cc1f439319cd427c0fb45
+    - 8f49c9a98f0414d42ac855924a000287
+    - c18c6315e63c95549aca2e3a8504c085
+    - f8bf78bc3249e194fb9f7a92033aa360
+    - a21f7bdb30c2c7546b9220a7cca6adc0
+    - e498e9043c77606459c697f182bc5af6
+    - 7523abdd27dc25a40b47bb37e5634f30
+    - 197b269a431e2b64cbce00fd8d606fb3
+    - 283b71832b932864b8f0f4d1244f2fc1
+    - 3a0ef6b68ebf11e4496ceeea258add49
+    - 7b1bb090386e9774cb5140345fada39e
+    - 5aaa98b4ff785ce44b3cbba0f7a7d4a6
+    - 9908ff224c7a0f94bbbbd055bb93518c
+    - 47edee2600f92894ba63a4db3f8e84f5
+    - 6e5adefbad43cef4a835916c90087faa
+    - 6f943cd6c60c11a428ac794f92e022af
+    - 41ba50552f85e0f489326259d57f699d
+    - 21ded9fdddf19e7458814a44b2923c9a
+    - c7fb2fd3f4a3f9748928c01082f66faf
+    - 44b6a7f1b22fbb141b28251b9f0b184a
+    - df2d858121a78914cb25a03f488e74e3
+    - 85cebdc608da3684a89c7c46cec71a0e
+    - 4b8ff99adb7c02741b0d51321d072b41
+    - a5a545d60adc4604a95e527ec983f1a7
+    - 7a3db1cbb557bcc4596803d21661b186
+    - 9f683c157ea20c54d90ef7e2c8fa8774
+    - 0ffc75e4e5e3ea84487a60058248f6da
+    - 5d02c40ecd87cab449c087c7e3088c22
+    - 9c59b499e74906b46a7e409a010d1047
+    - 26dd0d33b1611074b81f451c64e5c2eb
+    - 3bfa77ce99646e9478d19d05ee025f65
+    - 8c1d76c2c6b1779418acc27134fd41eb
+    - 330eeebde71e02446b29ec0feff73248
+    - 6e603b5b58916284f8d9cde0d1174219
+    - 0b0d82b5a8e94aaa92f0ce8b5b7445cc
+    - 822332ad8984ca64b9a969365fddf6a7
+    - ff397b51d8ce12c46b7faa5ba5855e04
+    - c091fbba0ebafa24db683838896e1a0f
+    - 357afcf1de44a644f992accdf941a5c8
+    - 76048cdc0bb92784c9b8af6cc1ead63d
+    - ccc61eeb1130f1e4783b8630520cf75e
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 3
+    lod: 7
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    keywordStr: 0 _ALPHABLEND_ON
+    users:
+    - ec558a2de749ad04c85c11f21599f42e
+    - 8f6739a81582a3d4ab3b316dd872f4a1
+    - 09dacb0d9a532f449bd8373fcf2bdf79
+    - 9940f71cd6d9e9b4197486e052f38afe
+    - 52d865559e9530f47ba0ac5f610ee057
+    - 69265d013e830ec44b5f75287f02f50a
+    - c7424d32f13a26e43a36aaf45df292c9
+    - c247e8914b6f65d4a982dabb55a967f5
+    - 0d1d7c0be5fbf544db83ecc3e5551500
+    - a07a0d1f2c158604b83a1347d3a2bea3
+    - 071355bcc67bf0540a7560ed92a8be26
+    - 56589fdb58bb6a64ea7e01ad6d5907a8
+    - 9c9fe6c14b89f224b9eba7dce94d247a
+    - 0b67f394af8503344a4419f8d69608d0
+    - 7e7bce50c9ce5d94fa952a5b514b0c27
+    - c07c46b50e387b84a9b46ea3fe532bb4
+    - 9d85e427fc610424fa07a66209ea138c
+    - 6aadeb38a2254d14d9db2aa62a57b4f6
+    - 18a5b9ec081967242a2ce6802cdbae59
+    - 2284e762ae35e5c429da1e61b18b6e3f
+    - 85a3c3d57189aa747a044673f68a83ca
+    - 742983bef0a6ad84a9ebea73798d0364
+    - 1670351a446cccd4ebca430109dc7449
+    - cddd8bcb690af9b4d928dbdfbe3389c0
+    - 68a73cc2e58124f4f92fff85e4099051
+    - 0d8d8d9c0ba521c48ae5ba9518c9984b
+    - 0d86ba591d519604aa53af404b53b770
+    - 4e2252b1eb07c2c48b30fda7827a2d81
+    - 7b0f2e684e5517f4097fa0c3e0e70f5a
+    - f5d500194e9c47542948d86842e06b29
+    - 732387db34e0d304cb86bc0c2fc27b4e
+    - a49fb70768618ca49b16f683c48956d2
+    - 781bf3e08b2abea48a7ea1008a9edf0e
+    - c1d61c99d7fe0504b9b68f50a2ddfebe
+    - 3465ef5331f5f3449a6d3bc36e2b15e1
+    - c87ea479089ea424588f72bbb23224cb
+    - 88af43dc8757e7f40a8dc68b28a13836
+    - 94bf8589d6590a8488b87ca535776b72
+    - dd5cd5ace8172544bb2b2a64783527b8
+    - bdde8cdb60f58a049abf490de9569e07
+    - 156856156d8b4384e85ba34532fbd002
+    - 347cbb048111e2b42aaccaef882e2d2f
+    - d4c34759b7d7c5b49b29e493a54e700e
+    - 9ff9efb1efeb36442b2882488ebebcdd
+    - e4cad6c771ddd1e4689796d544a23b02
+    - 03f4042c0fb3cb545b7ebcc4c4754379
+    - 8f49c9a98f0414d42ac855924a000287
+    - a21f7bdb30c2c7546b9220a7cca6adc0
+    - e498e9043c77606459c697f182bc5af6
+    - 4b8ff99adb7c02741b0d51321d072b41
+    - 7a3db1cbb557bcc4596803d21661b186
+    - 9f683c157ea20c54d90ef7e2c8fa8774
+    - 0ffc75e4e5e3ea84487a60058248f6da
+    - 9c59b499e74906b46a7e409a010d1047
+    - 26dd0d33b1611074b81f451c64e5c2eb
+    - 3bfa77ce99646e9478d19d05ee025f65
+    - 8c1d76c2c6b1779418acc27134fd41eb
+    - 330eeebde71e02446b29ec0feff73248
+    - 6e603b5b58916284f8d9cde0d1174219
+    - 0b0d82b5a8e94aaa92f0ce8b5b7445cc
+    - 822332ad8984ca64b9a969365fddf6a7
+    - 357afcf1de44a644f992accdf941a5c8
+    - 76048cdc0bb92784c9b8af6cc1ead63d
+    - ccc61eeb1130f1e4783b8630520cf75e
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 3
+    lod: 7
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _ALPHABLEND_ON _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _RIMLIGHT
+    keywordStr: 0 _RIMLIGHT
+    users:
+    - 2f921ce5bf1ffa94c8dde69ed2d4a7a6
+    - 7523abdd27dc25a40b47bb37e5634f30
+    - 7b1bb090386e9774cb5140345fada39e
+    - 5aaa98b4ff785ce44b3cbba0f7a7d4a6
+    - 9908ff224c7a0f94bbbbd055bb93518c
+    - 47edee2600f92894ba63a4db3f8e84f5
+    - c7fb2fd3f4a3f9748928c01082f66faf
+    - 44b6a7f1b22fbb141b28251b9f0b184a
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 3
+    lod: 7
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _RIMLIGHT
+    keywordStr: 0 _ALPHABLEND_ON _RIMLIGHT
+    users:
+    - 28fb558c98b782244a1ae75de8d4694e
+    - 3b3c3657fcc1f314e8c0c34cd2058ed5
+    - e1b74abe1f6cc1f439319cd427c0fb45
+    - c18c6315e63c95549aca2e3a8504c085
+    - 283b71832b932864b8f0f4d1244f2fc1
+    - 3a0ef6b68ebf11e4496ceeea258add49
+    - a5a545d60adc4604a95e527ec983f1a7
+    - 5d02c40ecd87cab449c087c7e3088c22
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 2
+    lod: 7
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _ALPHABLEND_ON _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    keywordStr: 0 _DISSOLVE
+    users:
+    - af0fe56f113f3304b9e8703b75e9e695
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _DISSOLVE _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _RIMLIGHT
+    keywordStr: 0 _DISSOLVE _RIMLIGHT
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _DISSOLVE _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _METAL
+    keywordStr: 0 _METAL
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _METAL
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _METAL _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _METAL
+    keywordStr: 0 _ALPHABLEND_ON _METAL
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _METAL
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _ALPHABLEND_ON _METAL _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _METAL
+    - _RIMLIGHT
+    keywordStr: 0 _METAL _RIMLIGHT
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _METAL
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _METAL _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _METAL
+    - _RIMLIGHT
+    keywordStr: 0 _ALPHABLEND_ON _METAL _RIMLIGHT
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _METAL
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _ALPHABLEND_ON _METAL _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _METAL
+    keywordStr: 0 _DISSOLVE _METAL
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _METAL
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _DISSOLVE _METAL _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _METAL
+    - _RIMLIGHT
+    keywordStr: 0 _DISSOLVE _METAL _RIMLIGHT
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _METAL
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _DISSOLVE _METAL _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    keywordStr: 0 _FLOWLIGHTUV
+    users:
+    - 00b24113b6912f147a8fb03d974653fb
+    - 1de56a3bdb7188f47962ee583d1645be
+    - ba27e1bd0f0447540bfbe109c6f7549d
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _FLOWLIGHTUV _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTUV
+    users:
+    - 9ba4cf96af0f43648838b54d42611e8f
+    - 344a694359e307a4e86fe8bf480721c8
+    - 4f12cd588b811d241b439f271e4ce223
+    - 368bbd39eef24d34fad0bb337693dc0f
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTUV _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    keywordStr: 0 _FLOWLIGHTUV _RIMLIGHT
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _FLOWLIGHTUV _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTUV _RIMLIGHT
+    users:
+    - d8d5137eae45a0a4691964ebfe0cfdde
+    - f8bf78bc3249e194fb9f7a92033aa360
+    - 85cebdc608da3684a89c7c46cec71a0e
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTUV _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTUV
+    users:
+    - 9074d7b1b8f9b29418d0e643ec0ca3ed
+    - d2ad41ecce7e6de4fa4239c2023593ed
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTUV _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTUV _RIMLIGHT
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTUV _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _METAL
+    keywordStr: 0 _FLOWLIGHTUV _METAL
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _METAL
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _FLOWLIGHTUV _METAL _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _METAL
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTUV _METAL
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _METAL
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTUV _METAL _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _METAL
+    - _RIMLIGHT
+    keywordStr: 0 _FLOWLIGHTUV _METAL _RIMLIGHT
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _METAL
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _FLOWLIGHTUV _METAL _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _METAL
+    - _RIMLIGHT
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTUV _METAL _RIMLIGHT
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _METAL
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTUV _METAL _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _METAL
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTUV _METAL
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _METAL
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTUV _METAL _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _METAL
+    - _RIMLIGHT
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTUV _METAL _RIMLIGHT
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _METAL
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTUV _METAL _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    keywordStr: 0 _FLOWLIGHTSCREEN
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _FLOWLIGHTSCREEN _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTSCREEN
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTSCREEN _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _RIMLIGHT
+    keywordStr: 0 _FLOWLIGHTSCREEN _RIMLIGHT
+    users:
+    - 06e15157ae247af4eb12713088195b08
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 2
+    lod: 7
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _FLOWLIGHTSCREEN _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _RIMLIGHT
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTSCREEN _RIMLIGHT
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTSCREEN _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTSCREEN
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTSCREEN _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _RIMLIGHT
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTSCREEN _RIMLIGHT
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTSCREEN _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    keywordStr: 0 _FLOWLIGHTSCREEN _METAL
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _FLOWLIGHTSCREEN _METAL _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTSCREEN _METAL
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTSCREEN _METAL _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _RIMLIGHT
+    keywordStr: 0 _FLOWLIGHTSCREEN _METAL _RIMLIGHT
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _FLOWLIGHTSCREEN _METAL _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _RIMLIGHT
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTSCREEN _METAL _RIMLIGHT
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTSCREEN _METAL _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTSCREEN _METAL
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTSCREEN _METAL _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _RIMLIGHT
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTSCREEN _METAL _RIMLIGHT
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTSCREEN _METAL _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _SUBTEX
+    keywordStr: 0 _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _SUBTEX
+    keywordStr: 0 _ALPHABLEND_ON _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _ALPHABLEND_ON _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 0 _RIMLIGHT _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 0 _ALPHABLEND_ON _RIMLIGHT _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _ALPHABLEND_ON _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _SUBTEX
+    keywordStr: 0 _DISSOLVE _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _DISSOLVE _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 0 _DISSOLVE _RIMLIGHT _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _DISSOLVE _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _METAL
+    - _SUBTEX
+    keywordStr: 0 _METAL _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _METAL
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _METAL _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _METAL
+    - _SUBTEX
+    keywordStr: 0 _ALPHABLEND_ON _METAL _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _METAL
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _ALPHABLEND_ON _METAL _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 0 _METAL _RIMLIGHT _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _METAL _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 0 _ALPHABLEND_ON _METAL _RIMLIGHT _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _ALPHABLEND_ON _METAL _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _METAL
+    - _SUBTEX
+    keywordStr: 0 _DISSOLVE _METAL _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _METAL
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _DISSOLVE _METAL _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 0 _DISSOLVE _METAL _RIMLIGHT _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _DISSOLVE _METAL _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _SUBTEX
+    keywordStr: 0 _FLOWLIGHTUV _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _FLOWLIGHTUV _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _SUBTEX
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTUV _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTUV _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 0 _FLOWLIGHTUV _RIMLIGHT _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _FLOWLIGHTUV _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTUV _RIMLIGHT _SUBTEX
+    users:
+    - df2d858121a78914cb25a03f488e74e3
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTUV _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _SUBTEX
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTUV _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTUV _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTUV _RIMLIGHT _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTUV _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _METAL
+    - _SUBTEX
+    keywordStr: 0 _FLOWLIGHTUV _METAL _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _METAL
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _FLOWLIGHTUV _METAL _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _METAL
+    - _SUBTEX
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTUV _METAL _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _METAL
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTUV _METAL _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 0 _FLOWLIGHTUV _METAL _RIMLIGHT _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _FLOWLIGHTUV _METAL _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTUV _METAL _RIMLIGHT _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTUV _METAL _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _METAL
+    - _SUBTEX
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTUV _METAL _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _METAL
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTUV _METAL _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTUV _METAL _RIMLIGHT _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTUV _METAL _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _SUBTEX
+    keywordStr: 0 _FLOWLIGHTSCREEN _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _FLOWLIGHTSCREEN _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _SUBTEX
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTSCREEN _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTSCREEN _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 0 _FLOWLIGHTSCREEN _RIMLIGHT _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _FLOWLIGHTSCREEN _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTSCREEN _RIMLIGHT _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTSCREEN _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _SUBTEX
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTSCREEN _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTSCREEN _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTSCREEN _RIMLIGHT _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTSCREEN _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _SUBTEX
+    keywordStr: 0 _FLOWLIGHTSCREEN _METAL _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _FLOWLIGHTSCREEN _METAL _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _SUBTEX
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTSCREEN _METAL _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTSCREEN _METAL _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 0 _FLOWLIGHTSCREEN _METAL _RIMLIGHT _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _FLOWLIGHTSCREEN _METAL _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTSCREEN _METAL _RIMLIGHT _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _ALPHABLEND_ON _FLOWLIGHTSCREEN _METAL _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _SUBTEX
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTSCREEN _METAL _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTSCREEN _METAL _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTSCREEN _METAL _RIMLIGHT _SUBTEX
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 0 _DISSOLVE _FLOWLIGHTSCREEN _METAL _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '13 '
+    users:
+    - ec558a2de749ad04c85c11f21599f42e
+    - 2b85d7c9e6eb9f9468b9412742633c6b
+    - 8f6739a81582a3d4ab3b316dd872f4a1
+    - 09dacb0d9a532f449bd8373fcf2bdf79
+    - 9940f71cd6d9e9b4197486e052f38afe
+    - 52d865559e9530f47ba0ac5f610ee057
+    - 69265d013e830ec44b5f75287f02f50a
+    - c7424d32f13a26e43a36aaf45df292c9
+    - c247e8914b6f65d4a982dabb55a967f5
+    - 0d1d7c0be5fbf544db83ecc3e5551500
+    - a07a0d1f2c158604b83a1347d3a2bea3
+    - 071355bcc67bf0540a7560ed92a8be26
+    - 9ba4cf96af0f43648838b54d42611e8f
+    - 56589fdb58bb6a64ea7e01ad6d5907a8
+    - d2da27bec32b3e244ac273579ee91b7c
+    - f8cb417b5316ca54a86466ba3a03e1a8
+    - 28fb558c98b782244a1ae75de8d4694e
+    - 06e15157ae247af4eb12713088195b08
+    - 9c9fe6c14b89f224b9eba7dce94d247a
+    - 0b67f394af8503344a4419f8d69608d0
+    - 621ac35cfcbb1ad40bd2bfca631391d7
+    - d8d5137eae45a0a4691964ebfe0cfdde
+    - 87e449397168ed44eaca69c0c889698e
+    - 7e7bce50c9ce5d94fa952a5b514b0c27
+    - c07c46b50e387b84a9b46ea3fe532bb4
+    - 9d85e427fc610424fa07a66209ea138c
+    - 6aadeb38a2254d14d9db2aa62a57b4f6
+    - dc07637cde0721d42b3dc95d94054770
+    - 18a5b9ec081967242a2ce6802cdbae59
+    - 2284e762ae35e5c429da1e61b18b6e3f
+    - 85a3c3d57189aa747a044673f68a83ca
+    - 742983bef0a6ad84a9ebea73798d0364
+    - 48e26e8ef320aa246a51d9bb02638266
+    - 1670351a446cccd4ebca430109dc7449
+    - a6cb7f8d931599e42898b562ee386612
+    - 94947ed348edb1e40ad5cc4740098601
+    - cddd8bcb690af9b4d928dbdfbe3389c0
+    - 68a73cc2e58124f4f92fff85e4099051
+    - 0d8d8d9c0ba521c48ae5ba9518c9984b
+    - 0d86ba591d519604aa53af404b53b770
+    - 4e2252b1eb07c2c48b30fda7827a2d81
+    - 7b0f2e684e5517f4097fa0c3e0e70f5a
+    - f5d500194e9c47542948d86842e06b29
+    - 732387db34e0d304cb86bc0c2fc27b4e
+    - a49fb70768618ca49b16f683c48956d2
+    - 781bf3e08b2abea48a7ea1008a9edf0e
+    - c1d61c99d7fe0504b9b68f50a2ddfebe
+    - 2f921ce5bf1ffa94c8dde69ed2d4a7a6
+    - 9074d7b1b8f9b29418d0e643ec0ca3ed
+    - 00b24113b6912f147a8fb03d974653fb
+    - 344a694359e307a4e86fe8bf480721c8
+    - 3465ef5331f5f3449a6d3bc36e2b15e1
+    - 4f12cd588b811d241b439f271e4ce223
+    - 368bbd39eef24d34fad0bb337693dc0f
+    - c87ea479089ea424588f72bbb23224cb
+    - 1de56a3bdb7188f47962ee583d1645be
+    - d2ad41ecce7e6de4fa4239c2023593ed
+    - ba27e1bd0f0447540bfbe109c6f7549d
+    - af0fe56f113f3304b9e8703b75e9e695
+    - 8b2b628695c44e44a881b70e60d067ec
+    - 8722f2a3ba70a494789c4519862e54dd
+    - 88af43dc8757e7f40a8dc68b28a13836
+    - 94bf8589d6590a8488b87ca535776b72
+    - dd5cd5ace8172544bb2b2a64783527b8
+    - bdde8cdb60f58a049abf490de9569e07
+    - 156856156d8b4384e85ba34532fbd002
+    - 347cbb048111e2b42aaccaef882e2d2f
+    - ccae4b86c8e737e4d97ce5eec52374d1
+    - eb283a2014466a841a7de1e8f3c711be
+    - d4c34759b7d7c5b49b29e493a54e700e
+    - f9071b941dadfe4448aa5a6919116048
+    - 9ff9efb1efeb36442b2882488ebebcdd
+    - e4cad6c771ddd1e4689796d544a23b02
+    - 03f4042c0fb3cb545b7ebcc4c4754379
+    - 3b3c3657fcc1f314e8c0c34cd2058ed5
+    - e1b74abe1f6cc1f439319cd427c0fb45
+    - 8f49c9a98f0414d42ac855924a000287
+    - c18c6315e63c95549aca2e3a8504c085
+    - f8bf78bc3249e194fb9f7a92033aa360
+    - a21f7bdb30c2c7546b9220a7cca6adc0
+    - e498e9043c77606459c697f182bc5af6
+    - 7523abdd27dc25a40b47bb37e5634f30
+    - 197b269a431e2b64cbce00fd8d606fb3
+    - 283b71832b932864b8f0f4d1244f2fc1
+    - 3a0ef6b68ebf11e4496ceeea258add49
+    - 7b1bb090386e9774cb5140345fada39e
+    - 5aaa98b4ff785ce44b3cbba0f7a7d4a6
+    - 9908ff224c7a0f94bbbbd055bb93518c
+    - 47edee2600f92894ba63a4db3f8e84f5
+    - 6e5adefbad43cef4a835916c90087faa
+    - 6f943cd6c60c11a428ac794f92e022af
+    - 41ba50552f85e0f489326259d57f699d
+    - 21ded9fdddf19e7458814a44b2923c9a
+    - c7fb2fd3f4a3f9748928c01082f66faf
+    - 44b6a7f1b22fbb141b28251b9f0b184a
+    - df2d858121a78914cb25a03f488e74e3
+    - 85cebdc608da3684a89c7c46cec71a0e
+    - 4b8ff99adb7c02741b0d51321d072b41
+    - a5a545d60adc4604a95e527ec983f1a7
+    - 7a3db1cbb557bcc4596803d21661b186
+    - 9f683c157ea20c54d90ef7e2c8fa8774
+    - 0ffc75e4e5e3ea84487a60058248f6da
+    - 5d02c40ecd87cab449c087c7e3088c22
+    - 9c59b499e74906b46a7e409a010d1047
+    - 26dd0d33b1611074b81f451c64e5c2eb
+    - 3bfa77ce99646e9478d19d05ee025f65
+    - 8c1d76c2c6b1779418acc27134fd41eb
+    - 330eeebde71e02446b29ec0feff73248
+    - 6e603b5b58916284f8d9cde0d1174219
+    - 0b0d82b5a8e94aaa92f0ce8b5b7445cc
+    - 822332ad8984ca64b9a969365fddf6a7
+    - ff397b51d8ce12c46b7faa5ba5855e04
+    - c091fbba0ebafa24db683838896e1a0f
+    - 357afcf1de44a644f992accdf941a5c8
+    - 76048cdc0bb92784c9b8af6cc1ead63d
+    - ccc61eeb1130f1e4783b8630520cf75e
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    keywordStr: 13 _ALPHABLEND_ON
+    users:
+    - ec558a2de749ad04c85c11f21599f42e
+    - 8f6739a81582a3d4ab3b316dd872f4a1
+    - 09dacb0d9a532f449bd8373fcf2bdf79
+    - 9940f71cd6d9e9b4197486e052f38afe
+    - 52d865559e9530f47ba0ac5f610ee057
+    - 69265d013e830ec44b5f75287f02f50a
+    - c7424d32f13a26e43a36aaf45df292c9
+    - c247e8914b6f65d4a982dabb55a967f5
+    - 0d1d7c0be5fbf544db83ecc3e5551500
+    - a07a0d1f2c158604b83a1347d3a2bea3
+    - 071355bcc67bf0540a7560ed92a8be26
+    - 56589fdb58bb6a64ea7e01ad6d5907a8
+    - 9c9fe6c14b89f224b9eba7dce94d247a
+    - 0b67f394af8503344a4419f8d69608d0
+    - 7e7bce50c9ce5d94fa952a5b514b0c27
+    - c07c46b50e387b84a9b46ea3fe532bb4
+    - 9d85e427fc610424fa07a66209ea138c
+    - 6aadeb38a2254d14d9db2aa62a57b4f6
+    - 18a5b9ec081967242a2ce6802cdbae59
+    - 2284e762ae35e5c429da1e61b18b6e3f
+    - 85a3c3d57189aa747a044673f68a83ca
+    - 742983bef0a6ad84a9ebea73798d0364
+    - 1670351a446cccd4ebca430109dc7449
+    - cddd8bcb690af9b4d928dbdfbe3389c0
+    - 68a73cc2e58124f4f92fff85e4099051
+    - 0d8d8d9c0ba521c48ae5ba9518c9984b
+    - 0d86ba591d519604aa53af404b53b770
+    - 4e2252b1eb07c2c48b30fda7827a2d81
+    - 7b0f2e684e5517f4097fa0c3e0e70f5a
+    - f5d500194e9c47542948d86842e06b29
+    - 732387db34e0d304cb86bc0c2fc27b4e
+    - a49fb70768618ca49b16f683c48956d2
+    - 781bf3e08b2abea48a7ea1008a9edf0e
+    - c1d61c99d7fe0504b9b68f50a2ddfebe
+    - 3465ef5331f5f3449a6d3bc36e2b15e1
+    - c87ea479089ea424588f72bbb23224cb
+    - 88af43dc8757e7f40a8dc68b28a13836
+    - 94bf8589d6590a8488b87ca535776b72
+    - dd5cd5ace8172544bb2b2a64783527b8
+    - bdde8cdb60f58a049abf490de9569e07
+    - 156856156d8b4384e85ba34532fbd002
+    - 347cbb048111e2b42aaccaef882e2d2f
+    - d4c34759b7d7c5b49b29e493a54e700e
+    - 9ff9efb1efeb36442b2882488ebebcdd
+    - e4cad6c771ddd1e4689796d544a23b02
+    - 03f4042c0fb3cb545b7ebcc4c4754379
+    - 8f49c9a98f0414d42ac855924a000287
+    - a21f7bdb30c2c7546b9220a7cca6adc0
+    - e498e9043c77606459c697f182bc5af6
+    - 4b8ff99adb7c02741b0d51321d072b41
+    - 7a3db1cbb557bcc4596803d21661b186
+    - 9f683c157ea20c54d90ef7e2c8fa8774
+    - 0ffc75e4e5e3ea84487a60058248f6da
+    - 9c59b499e74906b46a7e409a010d1047
+    - 26dd0d33b1611074b81f451c64e5c2eb
+    - 3bfa77ce99646e9478d19d05ee025f65
+    - 8c1d76c2c6b1779418acc27134fd41eb
+    - 330eeebde71e02446b29ec0feff73248
+    - 6e603b5b58916284f8d9cde0d1174219
+    - 0b0d82b5a8e94aaa92f0ce8b5b7445cc
+    - 822332ad8984ca64b9a969365fddf6a7
+    - 357afcf1de44a644f992accdf941a5c8
+    - 76048cdc0bb92784c9b8af6cc1ead63d
+    - ccc61eeb1130f1e4783b8630520cf75e
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _ALPHABLEND_ON _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _RIMLIGHT
+    keywordStr: 13 _RIMLIGHT
+    users:
+    - 2f921ce5bf1ffa94c8dde69ed2d4a7a6
+    - 7523abdd27dc25a40b47bb37e5634f30
+    - 7b1bb090386e9774cb5140345fada39e
+    - 5aaa98b4ff785ce44b3cbba0f7a7d4a6
+    - 9908ff224c7a0f94bbbbd055bb93518c
+    - 47edee2600f92894ba63a4db3f8e84f5
+    - c7fb2fd3f4a3f9748928c01082f66faf
+    - 44b6a7f1b22fbb141b28251b9f0b184a
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _RIMLIGHT
+    keywordStr: 13 _ALPHABLEND_ON _RIMLIGHT
+    users:
+    - 28fb558c98b782244a1ae75de8d4694e
+    - 3b3c3657fcc1f314e8c0c34cd2058ed5
+    - e1b74abe1f6cc1f439319cd427c0fb45
+    - c18c6315e63c95549aca2e3a8504c085
+    - 283b71832b932864b8f0f4d1244f2fc1
+    - 3a0ef6b68ebf11e4496ceeea258add49
+    - a5a545d60adc4604a95e527ec983f1a7
+    - 5d02c40ecd87cab449c087c7e3088c22
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _ALPHABLEND_ON _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    keywordStr: 13 _DISSOLVE
+    users:
+    - af0fe56f113f3304b9e8703b75e9e695
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _DISSOLVE _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _RIMLIGHT
+    keywordStr: 13 _DISSOLVE _RIMLIGHT
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _DISSOLVE _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _METAL
+    keywordStr: 13 _METAL
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _METAL
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _METAL _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _METAL
+    keywordStr: 13 _ALPHABLEND_ON _METAL
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _METAL
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _ALPHABLEND_ON _METAL _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _METAL
+    - _RIMLIGHT
+    keywordStr: 13 _METAL _RIMLIGHT
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _METAL
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _METAL _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _METAL
+    - _RIMLIGHT
+    keywordStr: 13 _ALPHABLEND_ON _METAL _RIMLIGHT
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _METAL
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _ALPHABLEND_ON _METAL _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _METAL
+    keywordStr: 13 _DISSOLVE _METAL
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _METAL
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _DISSOLVE _METAL _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _METAL
+    - _RIMLIGHT
+    keywordStr: 13 _DISSOLVE _METAL _RIMLIGHT
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _METAL
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _DISSOLVE _METAL _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    keywordStr: 13 _FLOWLIGHTUV
+    users:
+    - 00b24113b6912f147a8fb03d974653fb
+    - 1de56a3bdb7188f47962ee583d1645be
+    - ba27e1bd0f0447540bfbe109c6f7549d
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _FLOWLIGHTUV _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTUV
+    users:
+    - 9ba4cf96af0f43648838b54d42611e8f
+    - 344a694359e307a4e86fe8bf480721c8
+    - 4f12cd588b811d241b439f271e4ce223
+    - 368bbd39eef24d34fad0bb337693dc0f
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTUV _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    keywordStr: 13 _FLOWLIGHTUV _RIMLIGHT
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _FLOWLIGHTUV _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTUV _RIMLIGHT
+    users:
+    - d8d5137eae45a0a4691964ebfe0cfdde
+    - f8bf78bc3249e194fb9f7a92033aa360
+    - 85cebdc608da3684a89c7c46cec71a0e
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTUV _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTUV
+    users:
+    - 9074d7b1b8f9b29418d0e643ec0ca3ed
+    - d2ad41ecce7e6de4fa4239c2023593ed
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTUV _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTUV _RIMLIGHT
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTUV _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _METAL
+    keywordStr: 13 _FLOWLIGHTUV _METAL
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _METAL
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _FLOWLIGHTUV _METAL _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _METAL
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTUV _METAL
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _METAL
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTUV _METAL _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _METAL
+    - _RIMLIGHT
+    keywordStr: 13 _FLOWLIGHTUV _METAL _RIMLIGHT
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _METAL
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _FLOWLIGHTUV _METAL _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _METAL
+    - _RIMLIGHT
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTUV _METAL _RIMLIGHT
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _METAL
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTUV _METAL _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _METAL
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTUV _METAL
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _METAL
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTUV _METAL _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _METAL
+    - _RIMLIGHT
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTUV _METAL _RIMLIGHT
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _METAL
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTUV _METAL _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    keywordStr: 13 _FLOWLIGHTSCREEN
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _FLOWLIGHTSCREEN _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTSCREEN
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTSCREEN _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _RIMLIGHT
+    keywordStr: 13 _FLOWLIGHTSCREEN _RIMLIGHT
+    users:
+    - 06e15157ae247af4eb12713088195b08
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _FLOWLIGHTSCREEN _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _RIMLIGHT
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTSCREEN _RIMLIGHT
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTSCREEN _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTSCREEN
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTSCREEN _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _RIMLIGHT
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTSCREEN _RIMLIGHT
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTSCREEN _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    keywordStr: 13 _FLOWLIGHTSCREEN _METAL
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _FLOWLIGHTSCREEN _METAL _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTSCREEN _METAL
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTSCREEN _METAL _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _RIMLIGHT
+    keywordStr: 13 _FLOWLIGHTSCREEN _METAL _RIMLIGHT
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _FLOWLIGHTSCREEN _METAL _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _RIMLIGHT
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTSCREEN _METAL _RIMLIGHT
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTSCREEN _METAL _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTSCREEN _METAL
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTSCREEN _METAL _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _RIMLIGHT
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTSCREEN _METAL _RIMLIGHT
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _RIMLIGHT
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTSCREEN _METAL _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _SUBTEX
+    keywordStr: 13 _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _SUBTEX
+    keywordStr: 13 _ALPHABLEND_ON _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _ALPHABLEND_ON _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 13 _RIMLIGHT _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 13 _ALPHABLEND_ON _RIMLIGHT _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _ALPHABLEND_ON _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _SUBTEX
+    keywordStr: 13 _DISSOLVE _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _DISSOLVE _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 13 _DISSOLVE _RIMLIGHT _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _DISSOLVE _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _METAL
+    - _SUBTEX
+    keywordStr: 13 _METAL _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _METAL
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _METAL _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _METAL
+    - _SUBTEX
+    keywordStr: 13 _ALPHABLEND_ON _METAL _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _METAL
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _ALPHABLEND_ON _METAL _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 13 _METAL _RIMLIGHT _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _METAL _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 13 _ALPHABLEND_ON _METAL _RIMLIGHT _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _ALPHABLEND_ON _METAL _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _METAL
+    - _SUBTEX
+    keywordStr: 13 _DISSOLVE _METAL _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _METAL
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _DISSOLVE _METAL _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 13 _DISSOLVE _METAL _RIMLIGHT _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _DISSOLVE _METAL _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _SUBTEX
+    keywordStr: 13 _FLOWLIGHTUV _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _FLOWLIGHTUV _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _SUBTEX
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTUV _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTUV _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 13 _FLOWLIGHTUV _RIMLIGHT _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _FLOWLIGHTUV _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTUV _RIMLIGHT _SUBTEX
+    users:
+    - df2d858121a78914cb25a03f488e74e3
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTUV _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _SUBTEX
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTUV _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTUV _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTUV _RIMLIGHT _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTUV _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _METAL
+    - _SUBTEX
+    keywordStr: 13 _FLOWLIGHTUV _METAL _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _METAL
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _FLOWLIGHTUV _METAL _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _METAL
+    - _SUBTEX
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTUV _METAL _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _METAL
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTUV _METAL _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 13 _FLOWLIGHTUV _METAL _RIMLIGHT _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTUV
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _FLOWLIGHTUV _METAL _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTUV _METAL _RIMLIGHT _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTUV
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTUV _METAL _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _METAL
+    - _SUBTEX
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTUV _METAL _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _METAL
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTUV _METAL _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTUV _METAL _RIMLIGHT _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTUV
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTUV _METAL _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _SUBTEX
+    keywordStr: 13 _FLOWLIGHTSCREEN _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _FLOWLIGHTSCREEN _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _SUBTEX
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTSCREEN _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTSCREEN _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 13 _FLOWLIGHTSCREEN _RIMLIGHT _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _FLOWLIGHTSCREEN _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTSCREEN _RIMLIGHT _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTSCREEN _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _SUBTEX
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTSCREEN _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTSCREEN _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTSCREEN _RIMLIGHT _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTSCREEN _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _SUBTEX
+    keywordStr: 13 _FLOWLIGHTSCREEN _METAL _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _FLOWLIGHTSCREEN _METAL _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _SUBTEX
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTSCREEN _METAL _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTSCREEN _METAL _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 13 _FLOWLIGHTSCREEN _METAL _RIMLIGHT _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _FLOWLIGHTSCREEN _METAL _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTSCREEN _METAL _RIMLIGHT _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ALPHABLEND_ON
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _ALPHABLEND_ON _FLOWLIGHTSCREEN _METAL _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _SUBTEX
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTSCREEN _METAL _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTSCREEN _METAL _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTSCREEN _METAL _RIMLIGHT _SUBTEX
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE
+    - _FLOWLIGHTSCREEN
+    - _METAL
+    - _RIMLIGHT
+    - _SUBTEX
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 13 _DISSOLVE _FLOWLIGHTSCREEN _METAL _RIMLIGHT _SUBTEX _USE_DIRECT_GPU_SKINNING
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _SUBTEX
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _DISSOLVE
+        tips: 
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _ALPHABLEND_ON
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _METAL
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _RIMLIGHT
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _FLOWLIGHTUV
+        tips: 
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _FLOWLIGHTSCREEN
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _USE_DIRECT_GPU_SKINNING
+        tips: 
+    keywordCount: 8
+  - pass: 1
+    passType: 0
+    keywordLines: []
+    keywordCount: 0
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _SUBTEX
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _DISSOLVE
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _ALPHABLEND_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _METAL
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _RIMLIGHT
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _FLOWLIGHTUV
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _FLOWLIGHTSCREEN
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _USE_DIRECT_GPU_SKINNING
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 75
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    lightMode: ForwardBase
+  - index: 0
+    lod: 5
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 1
+        isFeature: 0
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _SUBTEX
+          tips: 
+      - hasUnderscoreVariant: 1
+        isFeature: 0
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _DISSOLVE
+          tips: 
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _ALPHABLEND_ON
+          tips: 
+      - hasUnderscoreVariant: 1
+        isFeature: 0
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _METAL
+          tips: 
+      - hasUnderscoreVariant: 1
+        isFeature: 0
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _RIMLIGHT
+          tips: 
+      - hasUnderscoreVariant: 1
+        isFeature: 0
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _FLOWLIGHTUV
+          tips: 
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _FLOWLIGHTSCREEN
+          tips: 
+      - hasUnderscoreVariant: 1
+        isFeature: 0
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _USE_DIRECT_GPU_SKINNING
+          tips: 
+      keywordCount: 8
+    lightMode: ForwardBase

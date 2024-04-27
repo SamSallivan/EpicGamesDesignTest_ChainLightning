@@ -1,0 +1,1315 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: TextMeshPro_DistanceField
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 90
+  passCount: 2
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: TextMeshPro/Distance Field
+  path: Assets/ABPack/Resources/Shaders/TextMeshPro/TextMeshPro_DistanceField.shader
+  GUID: 68e6db2ebdc24f95958faec2be5558d6
+  keywordStrs:
+  - 
+  - UNITY_UI_CLIP_RECT
+  - UNITY_UI_ALPHACLIP
+  - SOFT_CLIP
+  - OUTLINE_ON
+  - UNDERLAY_ON
+  - USE_CURVE
+  - UNDERLAY_INNER
+  - BEVEL_ON
+  - GLOW_ON
+  dependShader: []
+  gcInclude: []
+  warring: '
+
+    Has float count: 74
+
+    Use Alpha Clip
+
+    Use cos fcunction : 1
+
+    Use sin fcunction : 1
+
+'
+  shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
+  used_variants: []
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNITY_UI_CLIP_RECT
+    keywordStr: 4 UNITY_UI_CLIP_RECT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNITY_UI_ALPHACLIP
+    keywordStr: 4 UNITY_UI_ALPHACLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNITY_UI_ALPHACLIP
+    - UNITY_UI_CLIP_RECT
+    keywordStr: 4 UNITY_UI_ALPHACLIP UNITY_UI_CLIP_RECT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SOFT_CLIP
+    keywordStr: 4 SOFT_CLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SOFT_CLIP
+    - UNITY_UI_ALPHACLIP
+    keywordStr: 4 SOFT_CLIP UNITY_UI_ALPHACLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - OUTLINE_ON
+    keywordStr: 4 OUTLINE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - OUTLINE_ON
+    - UNITY_UI_ALPHACLIP
+    keywordStr: 4 OUTLINE_ON UNITY_UI_ALPHACLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - OUTLINE_ON
+    - SOFT_CLIP
+    keywordStr: 4 OUTLINE_ON SOFT_CLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - OUTLINE_ON
+    - SOFT_CLIP
+    - UNITY_UI_ALPHACLIP
+    keywordStr: 4 OUTLINE_ON SOFT_CLIP UNITY_UI_ALPHACLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNDERLAY_ON
+    keywordStr: 4 UNDERLAY_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNDERLAY_ON
+    - UNITY_UI_CLIP_RECT
+    keywordStr: 4 UNDERLAY_ON UNITY_UI_CLIP_RECT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNDERLAY_ON
+    - UNITY_UI_ALPHACLIP
+    keywordStr: 4 UNDERLAY_ON UNITY_UI_ALPHACLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNDERLAY_ON
+    - UNITY_UI_ALPHACLIP
+    - UNITY_UI_CLIP_RECT
+    keywordStr: 4 UNDERLAY_ON UNITY_UI_ALPHACLIP UNITY_UI_CLIP_RECT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SOFT_CLIP
+    - UNDERLAY_ON
+    keywordStr: 4 SOFT_CLIP UNDERLAY_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SOFT_CLIP
+    - UNDERLAY_ON
+    - UNITY_UI_ALPHACLIP
+    keywordStr: 4 SOFT_CLIP UNDERLAY_ON UNITY_UI_ALPHACLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - OUTLINE_ON
+    - UNDERLAY_ON
+    keywordStr: 4 OUTLINE_ON UNDERLAY_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - OUTLINE_ON
+    - UNDERLAY_ON
+    - UNITY_UI_ALPHACLIP
+    keywordStr: 4 OUTLINE_ON UNDERLAY_ON UNITY_UI_ALPHACLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - OUTLINE_ON
+    - SOFT_CLIP
+    - UNDERLAY_ON
+    keywordStr: 4 OUTLINE_ON SOFT_CLIP UNDERLAY_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - OUTLINE_ON
+    - SOFT_CLIP
+    - UNDERLAY_ON
+    - UNITY_UI_ALPHACLIP
+    keywordStr: 4 OUTLINE_ON SOFT_CLIP UNDERLAY_ON UNITY_UI_ALPHACLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - USE_CURVE
+    keywordStr: 4 USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNITY_UI_ALPHACLIP
+    - USE_CURVE
+    keywordStr: 4 UNITY_UI_ALPHACLIP USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SOFT_CLIP
+    - USE_CURVE
+    keywordStr: 4 SOFT_CLIP USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SOFT_CLIP
+    - UNITY_UI_ALPHACLIP
+    - USE_CURVE
+    keywordStr: 4 SOFT_CLIP UNITY_UI_ALPHACLIP USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - OUTLINE_ON
+    - USE_CURVE
+    keywordStr: 4 OUTLINE_ON USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - OUTLINE_ON
+    - UNITY_UI_ALPHACLIP
+    - USE_CURVE
+    keywordStr: 4 OUTLINE_ON UNITY_UI_ALPHACLIP USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - OUTLINE_ON
+    - SOFT_CLIP
+    - USE_CURVE
+    keywordStr: 4 OUTLINE_ON SOFT_CLIP USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - OUTLINE_ON
+    - SOFT_CLIP
+    - UNITY_UI_ALPHACLIP
+    - USE_CURVE
+    keywordStr: 4 OUTLINE_ON SOFT_CLIP UNITY_UI_ALPHACLIP USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNDERLAY_ON
+    - USE_CURVE
+    keywordStr: 4 UNDERLAY_ON USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNDERLAY_ON
+    - UNITY_UI_ALPHACLIP
+    - USE_CURVE
+    keywordStr: 4 UNDERLAY_ON UNITY_UI_ALPHACLIP USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SOFT_CLIP
+    - UNDERLAY_ON
+    - USE_CURVE
+    keywordStr: 4 SOFT_CLIP UNDERLAY_ON USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SOFT_CLIP
+    - UNDERLAY_ON
+    - UNITY_UI_ALPHACLIP
+    - USE_CURVE
+    keywordStr: 4 SOFT_CLIP UNDERLAY_ON UNITY_UI_ALPHACLIP USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - OUTLINE_ON
+    - UNDERLAY_ON
+    - USE_CURVE
+    keywordStr: 4 OUTLINE_ON UNDERLAY_ON USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - OUTLINE_ON
+    - UNDERLAY_ON
+    - UNITY_UI_ALPHACLIP
+    - USE_CURVE
+    keywordStr: 4 OUTLINE_ON UNDERLAY_ON UNITY_UI_ALPHACLIP USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - OUTLINE_ON
+    - SOFT_CLIP
+    - UNDERLAY_ON
+    - USE_CURVE
+    keywordStr: 4 OUTLINE_ON SOFT_CLIP UNDERLAY_ON USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - OUTLINE_ON
+    - SOFT_CLIP
+    - UNDERLAY_ON
+    - UNITY_UI_ALPHACLIP
+    - USE_CURVE
+    keywordStr: 4 OUTLINE_ON SOFT_CLIP UNDERLAY_ON UNITY_UI_ALPHACLIP USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNDERLAY_INNER
+    keywordStr: 4 UNDERLAY_INNER
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNDERLAY_INNER
+    - UNITY_UI_CLIP_RECT
+    keywordStr: 4 UNDERLAY_INNER UNITY_UI_CLIP_RECT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNDERLAY_INNER
+    - UNITY_UI_ALPHACLIP
+    keywordStr: 4 UNDERLAY_INNER UNITY_UI_ALPHACLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNDERLAY_INNER
+    - UNITY_UI_ALPHACLIP
+    - UNITY_UI_CLIP_RECT
+    keywordStr: 4 UNDERLAY_INNER UNITY_UI_ALPHACLIP UNITY_UI_CLIP_RECT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SOFT_CLIP
+    - UNDERLAY_INNER
+    keywordStr: 4 SOFT_CLIP UNDERLAY_INNER
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SOFT_CLIP
+    - UNDERLAY_INNER
+    - UNITY_UI_ALPHACLIP
+    keywordStr: 4 SOFT_CLIP UNDERLAY_INNER UNITY_UI_ALPHACLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - OUTLINE_ON
+    - UNDERLAY_INNER
+    keywordStr: 4 OUTLINE_ON UNDERLAY_INNER
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - OUTLINE_ON
+    - UNDERLAY_INNER
+    - UNITY_UI_ALPHACLIP
+    keywordStr: 4 OUTLINE_ON UNDERLAY_INNER UNITY_UI_ALPHACLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - OUTLINE_ON
+    - SOFT_CLIP
+    - UNDERLAY_INNER
+    keywordStr: 4 OUTLINE_ON SOFT_CLIP UNDERLAY_INNER
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - OUTLINE_ON
+    - SOFT_CLIP
+    - UNDERLAY_INNER
+    - UNITY_UI_ALPHACLIP
+    keywordStr: 4 OUTLINE_ON SOFT_CLIP UNDERLAY_INNER UNITY_UI_ALPHACLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNDERLAY_INNER
+    - USE_CURVE
+    keywordStr: 4 UNDERLAY_INNER USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNDERLAY_INNER
+    - UNITY_UI_ALPHACLIP
+    - USE_CURVE
+    keywordStr: 4 UNDERLAY_INNER UNITY_UI_ALPHACLIP USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SOFT_CLIP
+    - UNDERLAY_INNER
+    - USE_CURVE
+    keywordStr: 4 SOFT_CLIP UNDERLAY_INNER USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SOFT_CLIP
+    - UNDERLAY_INNER
+    - UNITY_UI_ALPHACLIP
+    - USE_CURVE
+    keywordStr: 4 SOFT_CLIP UNDERLAY_INNER UNITY_UI_ALPHACLIP USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - OUTLINE_ON
+    - UNDERLAY_INNER
+    - USE_CURVE
+    keywordStr: 4 OUTLINE_ON UNDERLAY_INNER USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - OUTLINE_ON
+    - UNDERLAY_INNER
+    - UNITY_UI_ALPHACLIP
+    - USE_CURVE
+    keywordStr: 4 OUTLINE_ON UNDERLAY_INNER UNITY_UI_ALPHACLIP USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - OUTLINE_ON
+    - SOFT_CLIP
+    - UNDERLAY_INNER
+    - USE_CURVE
+    keywordStr: 4 OUTLINE_ON SOFT_CLIP UNDERLAY_INNER USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - OUTLINE_ON
+    - SOFT_CLIP
+    - UNDERLAY_INNER
+    - UNITY_UI_ALPHACLIP
+    - USE_CURVE
+    keywordStr: 4 OUTLINE_ON SOFT_CLIP UNDERLAY_INNER UNITY_UI_ALPHACLIP USE_CURVE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - BEVEL_ON
+    keywordStr: 4 BEVEL_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - BEVEL_ON
+    - UNITY_UI_CLIP_RECT
+    keywordStr: 4 BEVEL_ON UNITY_UI_CLIP_RECT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - BEVEL_ON
+    - UNITY_UI_ALPHACLIP
+    keywordStr: 4 BEVEL_ON UNITY_UI_ALPHACLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - BEVEL_ON
+    - UNITY_UI_ALPHACLIP
+    - UNITY_UI_CLIP_RECT
+    keywordStr: 4 BEVEL_ON UNITY_UI_ALPHACLIP UNITY_UI_CLIP_RECT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - BEVEL_ON
+    - UNDERLAY_ON
+    keywordStr: 4 BEVEL_ON UNDERLAY_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - BEVEL_ON
+    - UNDERLAY_ON
+    - UNITY_UI_CLIP_RECT
+    keywordStr: 4 BEVEL_ON UNDERLAY_ON UNITY_UI_CLIP_RECT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - BEVEL_ON
+    - UNDERLAY_ON
+    - UNITY_UI_ALPHACLIP
+    keywordStr: 4 BEVEL_ON UNDERLAY_ON UNITY_UI_ALPHACLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - BEVEL_ON
+    - UNDERLAY_ON
+    - UNITY_UI_ALPHACLIP
+    - UNITY_UI_CLIP_RECT
+    keywordStr: 4 BEVEL_ON UNDERLAY_ON UNITY_UI_ALPHACLIP UNITY_UI_CLIP_RECT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - BEVEL_ON
+    - UNDERLAY_INNER
+    keywordStr: 4 BEVEL_ON UNDERLAY_INNER
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - BEVEL_ON
+    - UNDERLAY_INNER
+    - UNITY_UI_CLIP_RECT
+    keywordStr: 4 BEVEL_ON UNDERLAY_INNER UNITY_UI_CLIP_RECT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - BEVEL_ON
+    - UNDERLAY_INNER
+    - UNITY_UI_ALPHACLIP
+    keywordStr: 4 BEVEL_ON UNDERLAY_INNER UNITY_UI_ALPHACLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - BEVEL_ON
+    - UNDERLAY_INNER
+    - UNITY_UI_ALPHACLIP
+    - UNITY_UI_CLIP_RECT
+    keywordStr: 4 BEVEL_ON UNDERLAY_INNER UNITY_UI_ALPHACLIP UNITY_UI_CLIP_RECT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - GLOW_ON
+    keywordStr: 4 GLOW_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - GLOW_ON
+    - UNITY_UI_CLIP_RECT
+    keywordStr: 4 GLOW_ON UNITY_UI_CLIP_RECT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - GLOW_ON
+    - UNITY_UI_ALPHACLIP
+    keywordStr: 4 GLOW_ON UNITY_UI_ALPHACLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - GLOW_ON
+    - UNITY_UI_ALPHACLIP
+    - UNITY_UI_CLIP_RECT
+    keywordStr: 4 GLOW_ON UNITY_UI_ALPHACLIP UNITY_UI_CLIP_RECT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - GLOW_ON
+    - UNDERLAY_ON
+    keywordStr: 4 GLOW_ON UNDERLAY_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - GLOW_ON
+    - UNDERLAY_ON
+    - UNITY_UI_CLIP_RECT
+    keywordStr: 4 GLOW_ON UNDERLAY_ON UNITY_UI_CLIP_RECT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - GLOW_ON
+    - UNDERLAY_ON
+    - UNITY_UI_ALPHACLIP
+    keywordStr: 4 GLOW_ON UNDERLAY_ON UNITY_UI_ALPHACLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - GLOW_ON
+    - UNDERLAY_ON
+    - UNITY_UI_ALPHACLIP
+    - UNITY_UI_CLIP_RECT
+    keywordStr: 4 GLOW_ON UNDERLAY_ON UNITY_UI_ALPHACLIP UNITY_UI_CLIP_RECT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - GLOW_ON
+    - UNDERLAY_INNER
+    keywordStr: 4 GLOW_ON UNDERLAY_INNER
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - GLOW_ON
+    - UNDERLAY_INNER
+    - UNITY_UI_CLIP_RECT
+    keywordStr: 4 GLOW_ON UNDERLAY_INNER UNITY_UI_CLIP_RECT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - GLOW_ON
+    - UNDERLAY_INNER
+    - UNITY_UI_ALPHACLIP
+    keywordStr: 4 GLOW_ON UNDERLAY_INNER UNITY_UI_ALPHACLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - GLOW_ON
+    - UNDERLAY_INNER
+    - UNITY_UI_ALPHACLIP
+    - UNITY_UI_CLIP_RECT
+    keywordStr: 4 GLOW_ON UNDERLAY_INNER UNITY_UI_ALPHACLIP UNITY_UI_CLIP_RECT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - BEVEL_ON
+    - GLOW_ON
+    keywordStr: 4 BEVEL_ON GLOW_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - BEVEL_ON
+    - GLOW_ON
+    - UNITY_UI_CLIP_RECT
+    keywordStr: 4 BEVEL_ON GLOW_ON UNITY_UI_CLIP_RECT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - BEVEL_ON
+    - GLOW_ON
+    - UNITY_UI_ALPHACLIP
+    keywordStr: 4 BEVEL_ON GLOW_ON UNITY_UI_ALPHACLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - BEVEL_ON
+    - GLOW_ON
+    - UNITY_UI_ALPHACLIP
+    - UNITY_UI_CLIP_RECT
+    keywordStr: 4 BEVEL_ON GLOW_ON UNITY_UI_ALPHACLIP UNITY_UI_CLIP_RECT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - BEVEL_ON
+    - GLOW_ON
+    - UNDERLAY_ON
+    keywordStr: 4 BEVEL_ON GLOW_ON UNDERLAY_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - BEVEL_ON
+    - GLOW_ON
+    - UNDERLAY_ON
+    - UNITY_UI_CLIP_RECT
+    keywordStr: 4 BEVEL_ON GLOW_ON UNDERLAY_ON UNITY_UI_CLIP_RECT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - BEVEL_ON
+    - GLOW_ON
+    - UNDERLAY_ON
+    - UNITY_UI_ALPHACLIP
+    keywordStr: 4 BEVEL_ON GLOW_ON UNDERLAY_ON UNITY_UI_ALPHACLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - BEVEL_ON
+    - GLOW_ON
+    - UNDERLAY_ON
+    - UNITY_UI_ALPHACLIP
+    - UNITY_UI_CLIP_RECT
+    keywordStr: 4 BEVEL_ON GLOW_ON UNDERLAY_ON UNITY_UI_ALPHACLIP UNITY_UI_CLIP_RECT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - BEVEL_ON
+    - GLOW_ON
+    - UNDERLAY_INNER
+    keywordStr: 4 BEVEL_ON GLOW_ON UNDERLAY_INNER
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - BEVEL_ON
+    - GLOW_ON
+    - UNDERLAY_INNER
+    - UNITY_UI_CLIP_RECT
+    keywordStr: 4 BEVEL_ON GLOW_ON UNDERLAY_INNER UNITY_UI_CLIP_RECT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - BEVEL_ON
+    - GLOW_ON
+    - UNDERLAY_INNER
+    - UNITY_UI_ALPHACLIP
+    keywordStr: 4 BEVEL_ON GLOW_ON UNDERLAY_INNER UNITY_UI_ALPHACLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - BEVEL_ON
+    - GLOW_ON
+    - UNDERLAY_INNER
+    - UNITY_UI_ALPHACLIP
+    - UNITY_UI_CLIP_RECT
+    keywordStr: 4 BEVEL_ON GLOW_ON UNDERLAY_INNER UNITY_UI_ALPHACLIP UNITY_UI_CLIP_RECT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SOFT_CLIP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: OUTLINE_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: USE_CURVE
+        tips: 
+    keywordCount: 3
+  - pass: 1
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 1
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: BEVEL_ON
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: UNDERLAY_ON
+        tips: 
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: UNDERLAY_INNER
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: GLOW_ON
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: UNITY_UI_CLIP_RECT
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: UNITY_UI_ALPHACLIP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SOFT_CLIP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: OUTLINE_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: USE_CURVE
+        tips: 
+    keywordCount: 9
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: BEVEL_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: UNDERLAY_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: UNDERLAY_INNER
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: GLOW_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: UNITY_UI_CLIP_RECT
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: UNITY_UI_ALPHACLIP
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SOFT_CLIP
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: OUTLINE_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: USE_CURVE
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 0
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 0
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SOFT_CLIP
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: OUTLINE_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: USE_CURVE
+          tips: 
+      keywordCount: 3
+    lightMode: ForwardBase

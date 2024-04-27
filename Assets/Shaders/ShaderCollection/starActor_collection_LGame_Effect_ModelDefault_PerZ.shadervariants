@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: starActor_collection_LGame_Effect_ModelDefault_PerZ
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 80c167c469a2a5e43866998a8df167ff, type: 3}
+    second:
+      variants:
+      - keywords: _ALPHABLEND_ON
+        passType: 4
+      - keywords: _RIMLIGHT
+        passType: 4
+      - keywords: _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+        passType: 4
+      - keywords: _ALPHABLEND_ON _RIMLIGHT
+        passType: 4
+      - keywords: _ALPHABLEND_ON _FLOWLIGHTUV
+        passType: 4
+      - keywords: _ALPHABLEND_ON _FLOWLIGHTUV _USE_DIRECT_GPU_SKINNING
+        passType: 4
+      - keywords: _ALPHABLEND_ON _FLOWLIGHTUV _RIMLIGHT
+        passType: 4
+      - keywords: 
+        passType: 13

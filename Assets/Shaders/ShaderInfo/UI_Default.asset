@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: UI_Default
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 1
+  totalVariantCount: 3
+  passCount: 2
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: UI/Default
+  path: Assets/ABPack/Resources/Shaders/builtin_shaders-5.6.4p4/DefaultResourcesExtra/UI/UI_Default.shader
+  GUID: 1b61cf9d56ab6ed43af72a4009768455
+  keywordStrs:
+  - 
+  - UNITY_UI_ALPHACLIP
+  - SOFT_CLIP
+  dependShader: []
+  gcInclude: []
+  warring: 'The Shader in the always inlcude list
+
+
+    Use Alpha Clip'
+  shader: {fileID: 4800000, guid: 1b61cf9d56ab6ed43af72a4009768455, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 4e9ef530a2f5141e7aa28a2c3a62c4f4
+    - 23091159260511f4b89b009ef77fc31d
+    - 0e1ca41e5eafbf243b6364957ffae6ac
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 4e9ef530a2f5141e7aa28a2c3a62c4f4
+    - 23091159260511f4b89b009ef77fc31d
+    - 0e1ca41e5eafbf243b6364957ffae6ac
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNITY_UI_ALPHACLIP
+    keywordStr: 4 UNITY_UI_ALPHACLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SOFT_CLIP
+    keywordStr: 4 SOFT_CLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines: []
+    keywordCount: 0
+  - pass: 1
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: UNITY_UI_ALPHACLIP
+        tips: 
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: SOFT_CLIP
+        tips: 
+    keywordCount: 2
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: UNITY_UI_ALPHACLIP
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: SOFT_CLIP
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 0
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    lightMode: ForwardBase

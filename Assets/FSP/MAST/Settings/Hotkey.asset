@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8892eee62708edc4e8ecf96da9eb7d21, type: 3}
+  m_Name: Hotkey
+  m_EditorClassIdentifier: 
+  drawSingleKey: 0
+  drawSingleMod: 0
+  drawContinuousKey: 0
+  drawContinuousMod: 0
+  paintSquareKey: 0
+  paintSquareMod: 0
+  randomizerKey: 0
+  randomizerMod: 0
+  eraseKey: 264
+  eraseMod: 0
+  newRandomSeedKey: 271
+  newRandomSeedMod: 0
+  toggleGridKey: 0
+  toggleGridMod: 0
+  moveGridUpKey: 0
+  moveGridUpMod: 0
+  moveGridDownKey: 0
+  moveGridDownMod: 0
+  deselectPrefabKey: 0
+  deselectPrefabMod: 0
+  rotatePrefabKey: 269
+  rotatePrefabMod: 0
+  flipPrefabKey: 273
+  flipPrefabMod: 0
+  paintMaterialKey: 270
+  paintMaterialMod: 0
+  restoreMaterialKey: 268
+  restoreMaterialMod: 0

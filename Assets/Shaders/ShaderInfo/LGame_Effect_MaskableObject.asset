@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_Effect_MaskableObject
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 3
+  passCount: 4
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/Effect/MaskableObject
+  path: Assets/ABPack/Resources/Shaders/LGameShader/LGame_Effect_MaskableObject.shader
+  GUID: 8cfaeec7db652bc4d85b6baf11f63f22
+  keywordStrs:
+  - 
+  dependShader: []
+  gcInclude: []
+  warring: 
+  shader: {fileID: 4800000, guid: 8cfaeec7db652bc4d85b6baf11f63f22, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - e728df804b84909489395965f93fdd6b
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 2
+    lod: 7
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '13 '
+    users:
+    - e728df804b84909489395965f93fdd6b
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '13 '
+    users:
+    - e728df804b84909489395965f93fdd6b
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - e728df804b84909489395965f93fdd6b
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 2
+    lod: 7
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '13 '
+    users:
+    - e728df804b84909489395965f93fdd6b
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines: []
+    keywordCount: 0
+  - pass: 1
+    passType: 0
+    keywordLines: []
+    keywordCount: 0
+  - pass: 2
+    passType: 0
+    keywordLines: []
+    keywordCount: 0
+  - pass: 3
+    passType: 0
+    keywordLines: []
+    keywordCount: 0
+  keywords: []
+  subShaderInfos:
+  - index: -1
+    lod: 75
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 1
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 2
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    lightMode: ForwardBase

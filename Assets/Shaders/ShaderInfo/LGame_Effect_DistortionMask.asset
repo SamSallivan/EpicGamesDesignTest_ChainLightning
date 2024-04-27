@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_Effect_DistortionMask
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 2
+  passCount: 1
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/Effect/DistortionMask
+  path: Assets/ABPack/Resources/Shaders/LGameShader/LGame_Effect_DistortionMask.shader
+  GUID: f9850fd5475fcb5418b90176e506132a
+  keywordStrs:
+  - 
+  - _DISTORT_DEBUG_ON
+  dependShader: []
+  gcInclude: []
+  warring: '
+
+    Has float count: 37'
+  shader: {fileID: 4800000, guid: f9850fd5475fcb5418b90176e506132a, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '13 '
+    users:
+    - c2c3c6fdb2690554aab7b4cd3105bcbf
+    - 52f90d257d1233447ae6c6a5f3ee0701
+    - 8864d5c8a25255348b4a962c3cb551bc
+    - d6e6370f0d6a58f468c36988205a7da1
+    - c11f1fbe5a3546445abf514866bd2d4a
+    - 3be186905d2e55d4184e890e3101b1da
+    - e45b7c8a43029574aaaa9c5341c02d3a
+    - b754a150a2211134cb7aa2f17882fb72
+    - ed575ae6bda36494faaebbd59e46e264
+    - 0c183b9a3e2193f459fd5e5a49a8d657
+    - c35b081890024a745a1667b52c8d8cd9
+    - 35bcec31c672cfc4d87875b7b458c74b
+    - eeb8420604d6cb640b27b0b55cb1cf3c
+    - 46a7dca109f9fae49bb021dcfb44951d
+    - 268079bd81fe4c64c8a277bcf9a8fcb7
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 4
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '13 '
+    users:
+    - c2c3c6fdb2690554aab7b4cd3105bcbf
+    - 52f90d257d1233447ae6c6a5f3ee0701
+    - 8864d5c8a25255348b4a962c3cb551bc
+    - d6e6370f0d6a58f468c36988205a7da1
+    - c11f1fbe5a3546445abf514866bd2d4a
+    - 3be186905d2e55d4184e890e3101b1da
+    - e45b7c8a43029574aaaa9c5341c02d3a
+    - b754a150a2211134cb7aa2f17882fb72
+    - ed575ae6bda36494faaebbd59e46e264
+    - 0c183b9a3e2193f459fd5e5a49a8d657
+    - c35b081890024a745a1667b52c8d8cd9
+    - 35bcec31c672cfc4d87875b7b458c74b
+    - eeb8420604d6cb640b27b0b55cb1cf3c
+    - 46a7dca109f9fae49bb021dcfb44951d
+    - 268079bd81fe4c64c8a277bcf9a8fcb7
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 4
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISTORT_DEBUG_ON
+    keywordStr: 13 _DISTORT_DEBUG_ON
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _DISTORT_DEBUG_ON
+        tips: 
+    keywordCount: 1
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _DISTORT_DEBUG_ON
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 100
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    lightMode: DistortedObjectPass

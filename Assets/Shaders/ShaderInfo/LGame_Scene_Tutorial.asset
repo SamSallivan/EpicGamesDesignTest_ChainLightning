@@ -1,0 +1,429 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_Scene_Tutorial
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 8
+  passCount: 2
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/Scene/Tutorial
+  path: Assets/ABPack/Resources/Shaders/LGameShader/LGame_Scene_Tutorial.shader
+  GUID: e7d09fb5a7582344d83199deb9e9f02c
+  keywordStrs:
+  - 
+  - _SOFTSHADOW_ON
+  - SPOT
+  - DIRECTIONAL
+  - DIRECTIONAL_COOKIE
+  - POINT
+  - POINT_COOKIE
+  dependShader: []
+  gcInclude: []
+  warring: '
+
+    Has float count: 34
+
+    Use Alpha Clip'
+  shader: {fileID: 4800000, guid: e7d09fb5a7582344d83199deb9e9f02c, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 832a6450e1211ec40ac8775eb53d26f8
+    - f01b29b0060b97d489f37fc189156332
+    - e7c681f43a35d174b854bd0b5a7b2057
+    - 820db80504225e24ab91cbde1c21fb09
+    - 888c34653c90ead40bde7bf744771033
+    - c5271dc8d6918064da846663e6a3a959
+    - 3d93796a09a4bba47a2ec39b8a41f99c
+    - 1c8a00caaeb02cc4e836dd39970b7b9e
+    - fdcd0a0b918584c4f8ae4bd41afe78f3
+    - 22f299ec39a816847902979c323115b3
+    - 717fbdcd5a16dfd47ac0a3f3580b5baa
+    - 751558fdee12edf4ca28422d1f4b4f84
+    - 8987d7ae573f5b0469cc981c751efba0
+    - cae41d6f6dcf72441a024a41f5764a8e
+    - 32e45def6c5399a49b4323e75ee88ffd
+    - 15da013411f7fbf4785efa94a38d19c3
+    - 59829e605db6f2045876a45b3e72576d
+    - 75accc80300c38a45898d3051311d31f
+    - dc974a72f195b6c40b48bd9dc3ba173e
+    - 2cded0d228d1a284ea4ce7482701aa6a
+    - 7872e6d34b0fec7478e6949585fb6a06
+    - 699fdae3ff405b74a9e11eb49a923c9d
+    - ed8cb804f4908c744a3c38381b6d3874
+    - b927df057cef22647abccaf792d2a1e5
+    - d92cd49595804a7468643597607ee265
+    - 942aca07af28bd643a383daa8419b145
+    - d8b2abb7e60e9dc489e03ddce0dd1213
+    - 0143dff725a0bfe46aa8485891f0c5b6
+    - 341f8808b1f74c4419ac8547dd162b77
+    - 5142c4985c70e1448a9da96e26d29552
+    - df9e3b198e8dd7348b54af1d83baf6dd
+    - 61b1c269f5e1f3d428bc326410681183
+    - dd5381aa587721149bd04b6de8ffd642
+    - 0ac0319ce900bc446a7255e15be9fd97
+    - c9be8acc8c7408c4b85dfda9226ed697
+    - bea5780d853ab464e9046a1471dfe1a1
+    - 5173924de98acac4fb1e101524d94f33
+    - f27e399fa53928e4e9e8902b476559bd
+    - 6fe43c9f49d4f2e488fe853e8c0faaea
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 7
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _SOFTSHADOW_ON
+    keywordStr: 4 _SOFTSHADOW_ON
+    users: []
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 832a6450e1211ec40ac8775eb53d26f8
+    - f01b29b0060b97d489f37fc189156332
+    - e7c681f43a35d174b854bd0b5a7b2057
+    - 820db80504225e24ab91cbde1c21fb09
+    - 888c34653c90ead40bde7bf744771033
+    - c5271dc8d6918064da846663e6a3a959
+    - 3d93796a09a4bba47a2ec39b8a41f99c
+    - 1c8a00caaeb02cc4e836dd39970b7b9e
+    - fdcd0a0b918584c4f8ae4bd41afe78f3
+    - 22f299ec39a816847902979c323115b3
+    - 717fbdcd5a16dfd47ac0a3f3580b5baa
+    - 751558fdee12edf4ca28422d1f4b4f84
+    - 8987d7ae573f5b0469cc981c751efba0
+    - cae41d6f6dcf72441a024a41f5764a8e
+    - 32e45def6c5399a49b4323e75ee88ffd
+    - 15da013411f7fbf4785efa94a38d19c3
+    - 59829e605db6f2045876a45b3e72576d
+    - 75accc80300c38a45898d3051311d31f
+    - dc974a72f195b6c40b48bd9dc3ba173e
+    - 2cded0d228d1a284ea4ce7482701aa6a
+    - 7872e6d34b0fec7478e6949585fb6a06
+    - 699fdae3ff405b74a9e11eb49a923c9d
+    - ed8cb804f4908c744a3c38381b6d3874
+    - b927df057cef22647abccaf792d2a1e5
+    - d92cd49595804a7468643597607ee265
+    - 942aca07af28bd643a383daa8419b145
+    - d8b2abb7e60e9dc489e03ddce0dd1213
+    - 0143dff725a0bfe46aa8485891f0c5b6
+    - 341f8808b1f74c4419ac8547dd162b77
+    - 5142c4985c70e1448a9da96e26d29552
+    - df9e3b198e8dd7348b54af1d83baf6dd
+    - 61b1c269f5e1f3d428bc326410681183
+    - dd5381aa587721149bd04b6de8ffd642
+    - 0ac0319ce900bc446a7255e15be9fd97
+    - c9be8acc8c7408c4b85dfda9226ed697
+    - bea5780d853ab464e9046a1471dfe1a1
+    - 5173924de98acac4fb1e101524d94f33
+    - f27e399fa53928e4e9e8902b476559bd
+    - 6fe43c9f49d4f2e488fe853e8c0faaea
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 7
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _SOFTSHADOW_ON
+    keywordStr: 4 _SOFTSHADOW_ON
+    users: []
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '5 '
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SPOT
+    keywordStr: 5 SPOT
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    keywordStr: 5 DIRECTIONAL
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL_COOKIE
+    keywordStr: 5 DIRECTIONAL_COOKIE
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - POINT
+    keywordStr: 5 POINT
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - POINT_COOKIE
+    keywordStr: 5 POINT_COOKIE
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _SOFTSHADOW_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SPOT
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL_COOKIE
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: POINT
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: POINT_COOKIE
+        tips: 
+    keywordCount: 6
+  - pass: 1
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SPOT
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL_COOKIE
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: POINT
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: POINT_COOKIE
+        tips: 
+    keywordCount: 5
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _SOFTSHADOW_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SPOT
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: DIRECTIONAL
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: DIRECTIONAL_COOKIE
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: POINT
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: POINT_COOKIE
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 100
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 0
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 1
+        isFeature: 0
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _SOFTSHADOW_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SPOT
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRECTIONAL
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRECTIONAL_COOKIE
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: POINT
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: POINT_COOKIE
+          tips: 
+      keywordCount: 6
+    lightMode: ForwardBase

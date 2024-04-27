@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_Effect_StarActor_GalleryLocked
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 1
+  passCount: 1
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/Effect/StarActor/GalleryLocked
+  path: Assets/ABPack/Resources/Shaders/StarActor/LGame_Effect_StarActor_GalleryLocked.shader
+  GUID: f2c4824a63990c24bb438d78e19e6e04
+  keywordStrs:
+  - 
+  dependShader: []
+  gcInclude: []
+  warring: 
+  shader: {fileID: 4800000, guid: f2c4824a63990c24bb438d78e19e6e04, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - a6952cac2006d3b43b5dab929411953e
+    - 4b4df35127778784cacc8d9f75fb0cc3
+    - c3067702b9f559d44a87ed3e1a8a2ece
+    - c448f5fa8b709bd4ab1ac23ed9c8389e
+    - a778bfdd7361f97489b92068182217ab
+    - 1e5b7d7fad7053a49873216afec0d7ae
+    - a9feba982b4e29c4395072b1db6e6733
+    - a5c2443e6514e8144be2d95e3a57f3b0
+    - e179ad2606a08294192f575527606f5d
+    - 80538734a780878498ad08c0cff3712a
+    - 0794c4cabfc6ca34cb47d5e8847cfc37
+    - 53689977d409244429c924377907fac8
+    - 83114db4c2b9d894cb8c1fd3065238ce
+    - e0f96752c6aa1a54ebbacdb8630a6c7e
+    - e3fb27cfe911a3c4b8c36911d4a78652
+    - a8cf8a65177752248814cca82f5e49cc
+    - c4653de49f1121f40b56b3f3caabca2d
+    - 96189693935f1da4882bdc216488248a
+    - fb0af71ce40f82d4ebb52500e1afb84f
+    - dbdbccb4c595b91448fad85c1bb7cc59
+    - 791e408028e2799448803b5604c9e39c
+    - 54d19370541dd5f42bb1c291923f7c04
+    - 8c8aad89dcab77f408ba4761147181da
+    - 6fcd14e31e0e9854abf75bbc3252dbe6
+    - 13a7b857ceacb9a4488a1bdddd8549ce
+    - ec1d704283bcd21479ddba34247dd512
+    - 687fa95426014f34e86a87d627929674
+    - 26b01c9c712c9344d965fe298a80a8b2
+    - a166452318f4a9c4baabd64744587b88
+    - 75a63275386d38d4cb60448cc9ad001d
+    - 6fb500657f62d8048881315363935b4f
+    - b8c4a728887f7c4498cf0c2d61059a06
+    - b5a6e9582a9c4534ea1c24f540958d29
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - a6952cac2006d3b43b5dab929411953e
+    - 4b4df35127778784cacc8d9f75fb0cc3
+    - c3067702b9f559d44a87ed3e1a8a2ece
+    - c448f5fa8b709bd4ab1ac23ed9c8389e
+    - a778bfdd7361f97489b92068182217ab
+    - 1e5b7d7fad7053a49873216afec0d7ae
+    - a9feba982b4e29c4395072b1db6e6733
+    - a5c2443e6514e8144be2d95e3a57f3b0
+    - e179ad2606a08294192f575527606f5d
+    - 80538734a780878498ad08c0cff3712a
+    - 0794c4cabfc6ca34cb47d5e8847cfc37
+    - 53689977d409244429c924377907fac8
+    - 83114db4c2b9d894cb8c1fd3065238ce
+    - e0f96752c6aa1a54ebbacdb8630a6c7e
+    - e3fb27cfe911a3c4b8c36911d4a78652
+    - a8cf8a65177752248814cca82f5e49cc
+    - c4653de49f1121f40b56b3f3caabca2d
+    - 96189693935f1da4882bdc216488248a
+    - fb0af71ce40f82d4ebb52500e1afb84f
+    - dbdbccb4c595b91448fad85c1bb7cc59
+    - 791e408028e2799448803b5604c9e39c
+    - 54d19370541dd5f42bb1c291923f7c04
+    - 8c8aad89dcab77f408ba4761147181da
+    - 6fcd14e31e0e9854abf75bbc3252dbe6
+    - 13a7b857ceacb9a4488a1bdddd8549ce
+    - ec1d704283bcd21479ddba34247dd512
+    - 687fa95426014f34e86a87d627929674
+    - 26b01c9c712c9344d965fe298a80a8b2
+    - a166452318f4a9c4baabd64744587b88
+    - 75a63275386d38d4cb60448cc9ad001d
+    - 6fb500657f62d8048881315363935b4f
+    - b8c4a728887f7c4498cf0c2d61059a06
+    - b5a6e9582a9c4534ea1c24f540958d29
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines: []
+    keywordCount: 0
+  keywords: []
+  subShaderInfos:
+  - index: -1
+    lod: 100
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    lightMode: ForwardBase

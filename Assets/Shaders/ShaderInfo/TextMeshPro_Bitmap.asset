@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: TextMeshPro_Bitmap
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 4
+  passCount: 1
+  subShaderCount: 0
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: TextMeshPro/Bitmap
+  path: Assets/ABPack/Resources/Shaders/TextMeshPro/TextMeshPro_Bitmap.shader
+  GUID: 128e987d567d4e2c824d754223b3f3b0
+  keywordStrs:
+  - 
+  - UNITY_UI_CLIP_RECT
+  - UNITY_UI_ALPHACLIP
+  dependShader: []
+  gcInclude: []
+  warring: '
+
+    Has float count: 26
+
+    Use Alpha Clip'
+  shader: {fileID: 4800000, guid: 128e987d567d4e2c824d754223b3f3b0, type: 3}
+  used_variants: []
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNITY_UI_CLIP_RECT
+    keywordStr: 4 UNITY_UI_CLIP_RECT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNITY_UI_ALPHACLIP
+    keywordStr: 4 UNITY_UI_ALPHACLIP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - UNITY_UI_ALPHACLIP
+    - UNITY_UI_CLIP_RECT
+    keywordStr: 4 UNITY_UI_ALPHACLIP UNITY_UI_CLIP_RECT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: UNITY_UI_CLIP_RECT
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: UNITY_UI_ALPHACLIP
+        tips: 
+    keywordCount: 2
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: UNITY_UI_CLIP_RECT
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: UNITY_UI_ALPHACLIP
+    tips: 
+  subShaderInfos: []

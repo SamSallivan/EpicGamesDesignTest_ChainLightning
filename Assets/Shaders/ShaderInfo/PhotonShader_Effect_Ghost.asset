@@ -1,0 +1,404 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: PhotonShader_Effect_Ghost
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 3
+  passCount: 2
+  subShaderCount: 2
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: PhotonShader/Effect/Ghost
+  path: Assets/ABPack/Resources/Shaders/Effect/PhotonShader_Effect_Ghost.shader
+  GUID: dd9bd29dde8cfd145af5db055438e495
+  keywordStrs:
+  - 
+  - MultiplyBlend_Off
+  - MultiplyBlend_On
+  dependShader: []
+  gcInclude: []
+  warring: '
+
+    Has float count: 19'
+  shader: {fileID: 4800000, guid: dd9bd29dde8cfd145af5db055438e495, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - bbb1b5fbdf6ef7c4a866136984ccec69
+    - 371feee0bd32c4543989a2f9ec5a6c1f
+    - cc1708e6fda3b234783c3ea03c28fac7
+    - 64f997472574cc64ea2b6e26385b21ad
+    - 29889a8d5c3beba45a64e4016f6cc4aa
+    - 55f2928642bc5624f80953d133423a94
+    - 760023a5bfdb5944a93c3ad5c1c8f6a2
+    - 0b3213823d12ab04389b0692cf21830a
+    - 61c98888d1ff2db4bab11de1837c9663
+    - 7111ed5f897f7cc4cb10a348f67b22de
+    - 4c682752de175d7438bcc52e72e2a033
+    - 9785ed1959a8f5846a9c2a2e99ebcca4
+    - 2b0a3d3277eeeb648a3008dfdff58957
+    - 445ba5b58a2a9304986f9792fd0dc9f1
+    - 6f4e05ac04733004ea29a481a3ee60c5
+    - 4326175f98c37724a9cc3d56883aaf9c
+    - 4d6950da7f6095d4faffe3a62df7b601
+    - 3f211fd098e616c4a84edac903453b20
+    - 4e29bd72d0f5a91488a04289e5d4ba3d
+    - 2672bffc07b42ed4fb7d6dc8e28eb2e3
+    - 57101a7fb9479a548b689e290af0eabd
+    - 4113f2710e5223040ade409a5cea5951
+    - 5a796290e982bd6489ef385eccaa3c2d
+    - a75da83aea4fcd9468f628631ca347ed
+    - 3701310376b3bfc419a55480a7267d55
+    - c78b013b16277b6459aaf2afadd58ab6
+    - 2657083bb897fa04ab30a19484e7ab97
+    - cca2a4a28fe0252458cbb019c784a97a
+    - d295d8e38b735684eabeaf2e67c8f9f1
+    - 074c060533331d343bf55690139f4e28
+    - 8ded3070cd6bd6b40a152b09af4e5932
+    - 335dcc9f3fedc4d4a87e1fb23b344e03
+    - 09d340337ad9da24084be6be30431a31
+    - 83dacd65151d34c4e82e5cd40c7dbfd6
+    - aef1f8c03b7cb2b42bbd76cf75d84c3a
+    - 31e139e47f826c3419e6abed186fa1a7
+    - 26920f04d73892240a88a0630e679116
+    - b72460730fd66ea43adcbca8bc896264
+    - e0a09a554edae6a4db1b2258eb33cb83
+    - 44253777a14d382418122b56b4686d8a
+    - e7f60b4e2d33b7645b0260ff5e729b8b
+    - 424af78797f3cd54191d6ae82508055b
+    - 778563a729c61054896213959baef4b2
+    - 670ac85c1ac06454292bb191472b97d3
+    - 6dded9fc6cfb953488ac9e02ff31f7b0
+    - ff5aad220f3e18942904ae4de78b2191
+    - 93d17ea9c26e3ab418c522d88898e438
+    - d46cf2826eabc3147b07526fe74349b9
+    - 9b68f14d99a4424418abe12da545e57b
+    - 9cc738c0a778d6c448372cf1a25a65ec
+    - be8acbd2011787f4c8f0fdc027020a6b
+    - dd87be0eb700d534cba825f416557aa9
+    - 38ec31f951d1f15408ec99b75219cedd
+    - e5e2c1d3ff396a2449131f86517c6da2
+    - 5b23abf07e313084db36591d1a617c61
+    - 74d34131d869daf40b21141690762548
+    - c02001fbc997d234b80d44241b048dc7
+    - d67d5f4c999edb44c8ed4f65d43ca76e
+    - db596ceb7000ccc438055450365da7a1
+    - a394de760b1c8f14aadba351c2122bcd
+    - d060b971178c36f428a31e99d5097023
+    - bc8c9dfd6dfb69f44867baa015b97d5e
+    - dcab528a6a9817a4db4d8576d1cedc56
+    - 78af36409a147f14e8794da01da3f5cf
+    - 1a2c1319a94fc5b4f91da1cd0f516910
+    - 2d002048fd1122043a9728193c408c78
+    - 1e509cb191fb06b4c907d5745d184294
+    - fe8edeffb0d0ae84597a60d38bad3c5d
+    - 7c5058ddddae6eb47b145f8ce81acdfe
+    - c1794d4038d8ac94da102433e6c821b8
+    - ccdc316719a176546a11c970c4ae4663
+    - 0d3c355eff7e14a4ebcd7657d290a6a9
+    - 11e9ff92fe9cffe4db744cd3274def08
+    - ab082667a3121a643bde3dd1c3da2816
+    - 763e68b70e5a5cc4fa507d678a0b3e58
+    - 5dd3298cb3be182438c670cc2183f503
+    - 63dd8bfe1b2628148bcdd03e3bf924f8
+    - fb0cff7b049af2346a525f09568ea4a9
+    - 38afacbc4c95cbd47a35269b784b4bca
+    - aa63a5cbe0651fd448d639e63523dc75
+    - 104e0558bc8dcac48ad8d0bf236cfd9a
+    - 3d588c74fe3b9374c9a5b8a914c445c1
+    - d06802ef33271ee46a370588a7b319e2
+    - 27e93c527ac7eb643a42da0dd678e553
+    - 3e595fb98de923f4eb5844f3b313016b
+    - e06aaae1466aa5142957d727659309a2
+    - e81677c7add5e514d91ce28f14b3aadb
+    - 836de1fd1fc638b41a421d59aa481720
+    - a04ae24753b51064b9714da4a9a54973
+    - 5405f6a4c0de6a445b11bddca8b10a86
+    - 40da757b823d7f74ab11a1608a75dddf
+    - 2ef52b4b180b5ee40b15bad13a6357d5
+    - 6b37411927f5e4c468b046b56ac8ae99
+    - d63782619370afb4fa695002be56e876
+    - 9c1f224b30590874489975c1acae6459
+    - 5e8a02594f974b54697e0f9f3429408b
+    - 65f61a6231920b64eb8b373291c1d90d
+    - 514b9d3531867b84e86180496c533f9e
+    - d433a969ecbf42448907ef06b84fc54e
+    - c4e367d3a89eb454bbf05cbe5b3a712b
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - MultiplyBlend_Off
+    keywordStr: 4 MultiplyBlend_Off
+    users: []
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - bbb1b5fbdf6ef7c4a866136984ccec69
+    - 371feee0bd32c4543989a2f9ec5a6c1f
+    - cc1708e6fda3b234783c3ea03c28fac7
+    - 64f997472574cc64ea2b6e26385b21ad
+    - 29889a8d5c3beba45a64e4016f6cc4aa
+    - 55f2928642bc5624f80953d133423a94
+    - 760023a5bfdb5944a93c3ad5c1c8f6a2
+    - 0b3213823d12ab04389b0692cf21830a
+    - 61c98888d1ff2db4bab11de1837c9663
+    - 7111ed5f897f7cc4cb10a348f67b22de
+    - 4c682752de175d7438bcc52e72e2a033
+    - 9785ed1959a8f5846a9c2a2e99ebcca4
+    - 2b0a3d3277eeeb648a3008dfdff58957
+    - 445ba5b58a2a9304986f9792fd0dc9f1
+    - 6f4e05ac04733004ea29a481a3ee60c5
+    - 4326175f98c37724a9cc3d56883aaf9c
+    - 4d6950da7f6095d4faffe3a62df7b601
+    - 3f211fd098e616c4a84edac903453b20
+    - 4e29bd72d0f5a91488a04289e5d4ba3d
+    - 2672bffc07b42ed4fb7d6dc8e28eb2e3
+    - 57101a7fb9479a548b689e290af0eabd
+    - 4113f2710e5223040ade409a5cea5951
+    - 5a796290e982bd6489ef385eccaa3c2d
+    - a75da83aea4fcd9468f628631ca347ed
+    - 3701310376b3bfc419a55480a7267d55
+    - c78b013b16277b6459aaf2afadd58ab6
+    - 2657083bb897fa04ab30a19484e7ab97
+    - cca2a4a28fe0252458cbb019c784a97a
+    - d295d8e38b735684eabeaf2e67c8f9f1
+    - 074c060533331d343bf55690139f4e28
+    - 8ded3070cd6bd6b40a152b09af4e5932
+    - 335dcc9f3fedc4d4a87e1fb23b344e03
+    - 09d340337ad9da24084be6be30431a31
+    - 83dacd65151d34c4e82e5cd40c7dbfd6
+    - aef1f8c03b7cb2b42bbd76cf75d84c3a
+    - 31e139e47f826c3419e6abed186fa1a7
+    - 26920f04d73892240a88a0630e679116
+    - b72460730fd66ea43adcbca8bc896264
+    - e0a09a554edae6a4db1b2258eb33cb83
+    - 44253777a14d382418122b56b4686d8a
+    - e7f60b4e2d33b7645b0260ff5e729b8b
+    - 424af78797f3cd54191d6ae82508055b
+    - 778563a729c61054896213959baef4b2
+    - 670ac85c1ac06454292bb191472b97d3
+    - 6dded9fc6cfb953488ac9e02ff31f7b0
+    - ff5aad220f3e18942904ae4de78b2191
+    - 93d17ea9c26e3ab418c522d88898e438
+    - d46cf2826eabc3147b07526fe74349b9
+    - 9b68f14d99a4424418abe12da545e57b
+    - 9cc738c0a778d6c448372cf1a25a65ec
+    - be8acbd2011787f4c8f0fdc027020a6b
+    - dd87be0eb700d534cba825f416557aa9
+    - 38ec31f951d1f15408ec99b75219cedd
+    - e5e2c1d3ff396a2449131f86517c6da2
+    - 5b23abf07e313084db36591d1a617c61
+    - 74d34131d869daf40b21141690762548
+    - c02001fbc997d234b80d44241b048dc7
+    - d67d5f4c999edb44c8ed4f65d43ca76e
+    - db596ceb7000ccc438055450365da7a1
+    - a394de760b1c8f14aadba351c2122bcd
+    - d060b971178c36f428a31e99d5097023
+    - bc8c9dfd6dfb69f44867baa015b97d5e
+    - dcab528a6a9817a4db4d8576d1cedc56
+    - 78af36409a147f14e8794da01da3f5cf
+    - 1a2c1319a94fc5b4f91da1cd0f516910
+    - 2d002048fd1122043a9728193c408c78
+    - 1e509cb191fb06b4c907d5745d184294
+    - fe8edeffb0d0ae84597a60d38bad3c5d
+    - 7c5058ddddae6eb47b145f8ce81acdfe
+    - c1794d4038d8ac94da102433e6c821b8
+    - ccdc316719a176546a11c970c4ae4663
+    - 0d3c355eff7e14a4ebcd7657d290a6a9
+    - 11e9ff92fe9cffe4db744cd3274def08
+    - ab082667a3121a643bde3dd1c3da2816
+    - 763e68b70e5a5cc4fa507d678a0b3e58
+    - 5dd3298cb3be182438c670cc2183f503
+    - 63dd8bfe1b2628148bcdd03e3bf924f8
+    - fb0cff7b049af2346a525f09568ea4a9
+    - 38afacbc4c95cbd47a35269b784b4bca
+    - aa63a5cbe0651fd448d639e63523dc75
+    - 104e0558bc8dcac48ad8d0bf236cfd9a
+    - 3d588c74fe3b9374c9a5b8a914c445c1
+    - d06802ef33271ee46a370588a7b319e2
+    - 27e93c527ac7eb643a42da0dd678e553
+    - 3e595fb98de923f4eb5844f3b313016b
+    - e06aaae1466aa5142957d727659309a2
+    - e81677c7add5e514d91ce28f14b3aadb
+    - 836de1fd1fc638b41a421d59aa481720
+    - a04ae24753b51064b9714da4a9a54973
+    - 5405f6a4c0de6a445b11bddca8b10a86
+    - 40da757b823d7f74ab11a1608a75dddf
+    - 2ef52b4b180b5ee40b15bad13a6357d5
+    - 6b37411927f5e4c468b046b56ac8ae99
+    - d63782619370afb4fa695002be56e876
+    - 9c1f224b30590874489975c1acae6459
+    - 5e8a02594f974b54697e0f9f3429408b
+    - 65f61a6231920b64eb8b373291c1d90d
+    - 514b9d3531867b84e86180496c533f9e
+    - d433a969ecbf42448907ef06b84fc54e
+    - c4e367d3a89eb454bbf05cbe5b3a712b
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - MultiplyBlend_Off
+    keywordStr: 4 MultiplyBlend_Off
+    users: []
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - MultiplyBlend_On
+    keywordStr: 4 MultiplyBlend_On
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: "MultiplyBlend_Off\tMultiplyBlend_On"
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: MultiplyBlend_Off
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: MultiplyBlend_On
+        tips: 
+    keywordCount: 3
+  - pass: 1
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: MultiplyBlend_Off
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: MultiplyBlend_On
+        tips: 
+    keywordCount: 2
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: "MultiplyBlend_Off\tMultiplyBlend_On"
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: MultiplyBlend_Off
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: MultiplyBlend_On
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 100
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    lightMode: ForwardBase
+  - index: 0
+    lod: 5
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: "MultiplyBlend_Off\tMultiplyBlend_On"
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: MultiplyBlend_Off
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: MultiplyBlend_On
+          tips: 
+      keywordCount: 3
+    lightMode: ForwardBase

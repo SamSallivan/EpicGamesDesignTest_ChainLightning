@@ -1,0 +1,2138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_StarActor_Eye
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 116
+  passCount: 4
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/StarActor/Eye
+  path: Assets/ABPack/Resources/Shaders/StarActor/LGame_StarActor_Eye.shader
+  GUID: 400884e0b3326ef40bb5b7dafbda749f
+  keywordStrs:
+  - 
+  - DIRECTIONAL
+  - SHADOWS_SCREEN
+  - _METALLICGLOSSMAP
+  - _REFLECTION_CUBEMAP
+  - _HARD_SHADOW
+  - _SOFT_SHADOW
+  - _OCCLUSION_UV1
+  - _EYE_REFRACTION
+  - POINT
+  - SHADOWS_DEPTH
+  dependShader: []
+  gcInclude: []
+  warring: 
+  shader: {fileID: 4800000, guid: 400884e0b3326ef40bb5b7dafbda749f, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 18a38be7fbc43df4f928bbb9480322ec
+    - 2109d803c0e696b40a669190720b55d1
+    - 506c1b67382ff91429c61f5f5693bed0
+    - 068fa35ada4e1d24f8f69cdea4bcb4d7
+    - 6dabcb061b2f4f8478f36b21eb3b63cb
+    - f27a37a9a12d9974093fa4ec59a0cd88
+    - ed935cd9eb4da97469bf49b0c9aa5665
+    - 2b5fc09bce71a484dbd1499f1bca90d8
+    - 033525ba7abf2c845a8162fc59c126c7
+    - 214153c2d45be5d46b1bf768faa1c3e8
+    - dee6ca34a0dc59d409b3d7ad456dc798
+    - 7bf82002e334b7046af1409f325b0188
+    - ad06b47a56efc074e85b412c85df15ef
+    - d5603e10d87baf84c860f78e3943bb87
+    - 3ea46abc72add7b41954c1a00ac753bf
+    - e7e4e03a30ed3614683a408e76fe32e6
+    - e010408e356154246a7d150302251383
+    - 9ee568f149c073849940727d1260095b
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _METALLICGLOSSMAP
+    keywordStr: 4 DIRECTIONAL _METALLICGLOSSMAP
+    users:
+    - 2109d803c0e696b40a669190720b55d1
+    - 214153c2d45be5d46b1bf768faa1c3e8
+    - 9ee568f149c073849940727d1260095b
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - POINT
+    keywordStr: 5 POINT
+    users: []
+    passType: 5
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - SHADOWS_DEPTH
+    keywordStr: 8 SHADOWS_DEPTH
+    users: []
+    passType: 8
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 18a38be7fbc43df4f928bbb9480322ec
+    - 2109d803c0e696b40a669190720b55d1
+    - 506c1b67382ff91429c61f5f5693bed0
+    - 068fa35ada4e1d24f8f69cdea4bcb4d7
+    - 6dabcb061b2f4f8478f36b21eb3b63cb
+    - f27a37a9a12d9974093fa4ec59a0cd88
+    - ed935cd9eb4da97469bf49b0c9aa5665
+    - 2b5fc09bce71a484dbd1499f1bca90d8
+    - 033525ba7abf2c845a8162fc59c126c7
+    - 214153c2d45be5d46b1bf768faa1c3e8
+    - dee6ca34a0dc59d409b3d7ad456dc798
+    - 7bf82002e334b7046af1409f325b0188
+    - ad06b47a56efc074e85b412c85df15ef
+    - d5603e10d87baf84c860f78e3943bb87
+    - 3ea46abc72add7b41954c1a00ac753bf
+    - e7e4e03a30ed3614683a408e76fe32e6
+    - e010408e356154246a7d150302251383
+    - 9ee568f149c073849940727d1260095b
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    keywordStr: 4 DIRECTIONAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _METALLICGLOSSMAP
+    keywordStr: 4 DIRECTIONAL _METALLICGLOSSMAP
+    users:
+    - 2109d803c0e696b40a669190720b55d1
+    - 214153c2d45be5d46b1bf768faa1c3e8
+    - 9ee568f149c073849940727d1260095b
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _METALLICGLOSSMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _METALLICGLOSSMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    keywordStr: 4 DIRECTIONAL _HARD_SHADOW _METALLICGLOSSMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _HARD_SHADOW _METALLICGLOSSMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _HARD_SHADOW
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _HARD_SHADOW _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _HARD_SHADOW
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _HARD_SHADOW _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _HARD_SHADOW _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _HARD_SHADOW _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _METALLICGLOSSMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _METALLICGLOSSMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _METALLICGLOSSMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _METALLICGLOSSMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _REFLECTION_CUBEMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _REFLECTION_CUBEMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _METALLICGLOSSMAP _REFLECTION_CUBEMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _OCCLUSION_UV1
+    keywordStr: 4 DIRECTIONAL _OCCLUSION_UV1
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _OCCLUSION_UV1
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _OCCLUSION_UV1
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _METALLICGLOSSMAP
+    - _OCCLUSION_UV1
+    keywordStr: 4 DIRECTIONAL _METALLICGLOSSMAP _OCCLUSION_UV1
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _METALLICGLOSSMAP
+    - _OCCLUSION_UV1
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _METALLICGLOSSMAP _OCCLUSION_UV1
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _OCCLUSION_UV1
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _OCCLUSION_UV1 _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _OCCLUSION_UV1
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _OCCLUSION_UV1 _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _METALLICGLOSSMAP
+    - _OCCLUSION_UV1
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _METALLICGLOSSMAP _OCCLUSION_UV1 _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _METALLICGLOSSMAP
+    - _OCCLUSION_UV1
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _METALLICGLOSSMAP _OCCLUSION_UV1 _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _HARD_SHADOW
+    - _OCCLUSION_UV1
+    keywordStr: 4 DIRECTIONAL _HARD_SHADOW _OCCLUSION_UV1
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _HARD_SHADOW
+    - _OCCLUSION_UV1
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _HARD_SHADOW _OCCLUSION_UV1
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _OCCLUSION_UV1
+    keywordStr: 4 DIRECTIONAL _HARD_SHADOW _METALLICGLOSSMAP _OCCLUSION_UV1
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _OCCLUSION_UV1
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _HARD_SHADOW _METALLICGLOSSMAP _OCCLUSION_UV1
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _HARD_SHADOW
+    - _OCCLUSION_UV1
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _HARD_SHADOW _OCCLUSION_UV1 _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _HARD_SHADOW
+    - _OCCLUSION_UV1
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _HARD_SHADOW _OCCLUSION_UV1 _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _OCCLUSION_UV1
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _HARD_SHADOW _METALLICGLOSSMAP _OCCLUSION_UV1 _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _OCCLUSION_UV1
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _HARD_SHADOW _METALLICGLOSSMAP _OCCLUSION_UV1
+      _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _OCCLUSION_UV1
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _OCCLUSION_UV1 _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _OCCLUSION_UV1
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _OCCLUSION_UV1 _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _METALLICGLOSSMAP
+    - _OCCLUSION_UV1
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _METALLICGLOSSMAP _OCCLUSION_UV1 _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _METALLICGLOSSMAP
+    - _OCCLUSION_UV1
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _METALLICGLOSSMAP _OCCLUSION_UV1 _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _OCCLUSION_UV1
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _OCCLUSION_UV1 _REFLECTION_CUBEMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _OCCLUSION_UV1
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _OCCLUSION_UV1 _REFLECTION_CUBEMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _METALLICGLOSSMAP
+    - _OCCLUSION_UV1
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _METALLICGLOSSMAP _OCCLUSION_UV1 _REFLECTION_CUBEMAP
+      _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _METALLICGLOSSMAP
+    - _OCCLUSION_UV1
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _METALLICGLOSSMAP _OCCLUSION_UV1 _REFLECTION_CUBEMAP
+      _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EYE_REFRACTION
+    keywordStr: 4 DIRECTIONAL _EYE_REFRACTION
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _EYE_REFRACTION
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _EYE_REFRACTION
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EYE_REFRACTION
+    - _METALLICGLOSSMAP
+    keywordStr: 4 DIRECTIONAL _EYE_REFRACTION _METALLICGLOSSMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _EYE_REFRACTION
+    - _METALLICGLOSSMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _EYE_REFRACTION _METALLICGLOSSMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EYE_REFRACTION
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _EYE_REFRACTION _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _EYE_REFRACTION
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _EYE_REFRACTION _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EYE_REFRACTION
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _EYE_REFRACTION _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _EYE_REFRACTION
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _EYE_REFRACTION _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EYE_REFRACTION
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _EYE_REFRACTION _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _EYE_REFRACTION
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _EYE_REFRACTION _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EYE_REFRACTION
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    keywordStr: 4 DIRECTIONAL _EYE_REFRACTION _HARD_SHADOW _METALLICGLOSSMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _EYE_REFRACTION
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _EYE_REFRACTION _HARD_SHADOW _METALLICGLOSSMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EYE_REFRACTION
+    - _HARD_SHADOW
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _EYE_REFRACTION _HARD_SHADOW _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _EYE_REFRACTION
+    - _HARD_SHADOW
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _EYE_REFRACTION _HARD_SHADOW _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EYE_REFRACTION
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _EYE_REFRACTION _HARD_SHADOW _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _EYE_REFRACTION
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _EYE_REFRACTION _HARD_SHADOW _METALLICGLOSSMAP
+      _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EYE_REFRACTION
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _EYE_REFRACTION _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _EYE_REFRACTION
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _EYE_REFRACTION _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EYE_REFRACTION
+    - _METALLICGLOSSMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _EYE_REFRACTION _METALLICGLOSSMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _EYE_REFRACTION
+    - _METALLICGLOSSMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _EYE_REFRACTION _METALLICGLOSSMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EYE_REFRACTION
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _EYE_REFRACTION _REFLECTION_CUBEMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _EYE_REFRACTION
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _EYE_REFRACTION _REFLECTION_CUBEMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EYE_REFRACTION
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _EYE_REFRACTION _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _EYE_REFRACTION
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _EYE_REFRACTION _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EYE_REFRACTION
+    - _OCCLUSION_UV1
+    keywordStr: 4 DIRECTIONAL _EYE_REFRACTION _OCCLUSION_UV1
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _EYE_REFRACTION
+    - _OCCLUSION_UV1
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _EYE_REFRACTION _OCCLUSION_UV1
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EYE_REFRACTION
+    - _METALLICGLOSSMAP
+    - _OCCLUSION_UV1
+    keywordStr: 4 DIRECTIONAL _EYE_REFRACTION _METALLICGLOSSMAP _OCCLUSION_UV1
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _EYE_REFRACTION
+    - _METALLICGLOSSMAP
+    - _OCCLUSION_UV1
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _EYE_REFRACTION _METALLICGLOSSMAP _OCCLUSION_UV1
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EYE_REFRACTION
+    - _OCCLUSION_UV1
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _EYE_REFRACTION _OCCLUSION_UV1 _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _EYE_REFRACTION
+    - _OCCLUSION_UV1
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _EYE_REFRACTION _OCCLUSION_UV1 _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EYE_REFRACTION
+    - _METALLICGLOSSMAP
+    - _OCCLUSION_UV1
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _EYE_REFRACTION _METALLICGLOSSMAP _OCCLUSION_UV1 _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _EYE_REFRACTION
+    - _METALLICGLOSSMAP
+    - _OCCLUSION_UV1
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _EYE_REFRACTION _METALLICGLOSSMAP _OCCLUSION_UV1
+      _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EYE_REFRACTION
+    - _HARD_SHADOW
+    - _OCCLUSION_UV1
+    keywordStr: 4 DIRECTIONAL _EYE_REFRACTION _HARD_SHADOW _OCCLUSION_UV1
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _EYE_REFRACTION
+    - _HARD_SHADOW
+    - _OCCLUSION_UV1
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _EYE_REFRACTION _HARD_SHADOW _OCCLUSION_UV1
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EYE_REFRACTION
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _OCCLUSION_UV1
+    keywordStr: 4 DIRECTIONAL _EYE_REFRACTION _HARD_SHADOW _METALLICGLOSSMAP _OCCLUSION_UV1
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _EYE_REFRACTION
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _OCCLUSION_UV1
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _EYE_REFRACTION _HARD_SHADOW _METALLICGLOSSMAP
+      _OCCLUSION_UV1
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EYE_REFRACTION
+    - _HARD_SHADOW
+    - _OCCLUSION_UV1
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _EYE_REFRACTION _HARD_SHADOW _OCCLUSION_UV1 _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _EYE_REFRACTION
+    - _HARD_SHADOW
+    - _OCCLUSION_UV1
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _EYE_REFRACTION _HARD_SHADOW _OCCLUSION_UV1
+      _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EYE_REFRACTION
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _OCCLUSION_UV1
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _EYE_REFRACTION _HARD_SHADOW _METALLICGLOSSMAP _OCCLUSION_UV1
+      _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _EYE_REFRACTION
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _OCCLUSION_UV1
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _EYE_REFRACTION _HARD_SHADOW _METALLICGLOSSMAP
+      _OCCLUSION_UV1 _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EYE_REFRACTION
+    - _OCCLUSION_UV1
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _EYE_REFRACTION _OCCLUSION_UV1 _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _EYE_REFRACTION
+    - _OCCLUSION_UV1
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _EYE_REFRACTION _OCCLUSION_UV1 _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EYE_REFRACTION
+    - _METALLICGLOSSMAP
+    - _OCCLUSION_UV1
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _EYE_REFRACTION _METALLICGLOSSMAP _OCCLUSION_UV1 _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _EYE_REFRACTION
+    - _METALLICGLOSSMAP
+    - _OCCLUSION_UV1
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _EYE_REFRACTION _METALLICGLOSSMAP _OCCLUSION_UV1
+      _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EYE_REFRACTION
+    - _OCCLUSION_UV1
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _EYE_REFRACTION _OCCLUSION_UV1 _REFLECTION_CUBEMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _EYE_REFRACTION
+    - _OCCLUSION_UV1
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _EYE_REFRACTION _OCCLUSION_UV1 _REFLECTION_CUBEMAP
+      _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EYE_REFRACTION
+    - _METALLICGLOSSMAP
+    - _OCCLUSION_UV1
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _EYE_REFRACTION _METALLICGLOSSMAP _OCCLUSION_UV1 _REFLECTION_CUBEMAP
+      _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _EYE_REFRACTION
+    - _METALLICGLOSSMAP
+    - _OCCLUSION_UV1
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _EYE_REFRACTION _METALLICGLOSSMAP _OCCLUSION_UV1
+      _REFLECTION_CUBEMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '5 '
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    keywordStr: 5 DIRECTIONAL
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - POINT
+    keywordStr: 5 POINT
+    users: []
+    passType: 5
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _METALLICGLOSSMAP
+    keywordStr: 5 DIRECTIONAL _METALLICGLOSSMAP
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - POINT
+    - _METALLICGLOSSMAP
+    keywordStr: 5 POINT _METALLICGLOSSMAP
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _OCCLUSION_UV1
+    keywordStr: 5 DIRECTIONAL _OCCLUSION_UV1
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - POINT
+    - _OCCLUSION_UV1
+    keywordStr: 5 POINT _OCCLUSION_UV1
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _METALLICGLOSSMAP
+    - _OCCLUSION_UV1
+    keywordStr: 5 DIRECTIONAL _METALLICGLOSSMAP _OCCLUSION_UV1
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - POINT
+    - _METALLICGLOSSMAP
+    - _OCCLUSION_UV1
+    keywordStr: 5 POINT _METALLICGLOSSMAP _OCCLUSION_UV1
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EYE_REFRACTION
+    keywordStr: 5 DIRECTIONAL _EYE_REFRACTION
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - POINT
+    - _EYE_REFRACTION
+    keywordStr: 5 POINT _EYE_REFRACTION
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EYE_REFRACTION
+    - _METALLICGLOSSMAP
+    keywordStr: 5 DIRECTIONAL _EYE_REFRACTION _METALLICGLOSSMAP
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - POINT
+    - _EYE_REFRACTION
+    - _METALLICGLOSSMAP
+    keywordStr: 5 POINT _EYE_REFRACTION _METALLICGLOSSMAP
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EYE_REFRACTION
+    - _OCCLUSION_UV1
+    keywordStr: 5 DIRECTIONAL _EYE_REFRACTION _OCCLUSION_UV1
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - POINT
+    - _EYE_REFRACTION
+    - _OCCLUSION_UV1
+    keywordStr: 5 POINT _EYE_REFRACTION _OCCLUSION_UV1
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _EYE_REFRACTION
+    - _METALLICGLOSSMAP
+    - _OCCLUSION_UV1
+    keywordStr: 5 DIRECTIONAL _EYE_REFRACTION _METALLICGLOSSMAP _OCCLUSION_UV1
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - POINT
+    - _EYE_REFRACTION
+    - _METALLICGLOSSMAP
+    - _OCCLUSION_UV1
+    keywordStr: 5 POINT _EYE_REFRACTION _METALLICGLOSSMAP _OCCLUSION_UV1
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '8 '
+    users: []
+    passType: 8
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - SHADOWS_DEPTH
+    keywordStr: 8 SHADOWS_DEPTH
+    users: []
+    passType: 8
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: POINT
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 4
+  - pass: 1
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _HARD_SHADOW
+        tips: 
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _SOFT_SHADOW
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _METALLICGLOSSMAP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _OCCLUSION_UV1
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _EYE_REFRACTION
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _REFLECTION_CUBEMAP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: POINT
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 10
+  - pass: 2
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _METALLICGLOSSMAP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _OCCLUSION_UV1
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _EYE_REFRACTION
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: POINT
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 7
+  - pass: 3
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: POINT
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 4
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _HARD_SHADOW
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _SOFT_SHADOW
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _METALLICGLOSSMAP
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _OCCLUSION_UV1
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _EYE_REFRACTION
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _REFLECTION_CUBEMAP
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: DIRECTIONAL
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SHADOWS_SCREEN
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: POINT
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SHADOWS_DEPTH
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 300
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 0
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRECTIONAL
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SCREEN
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: POINT
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 4
+    - pass: 1
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 1
+        isFeature: 0
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _HARD_SHADOW
+          tips: 
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _SOFT_SHADOW
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _METALLICGLOSSMAP
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _OCCLUSION_UV1
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _EYE_REFRACTION
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _REFLECTION_CUBEMAP
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRECTIONAL
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SCREEN
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: POINT
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 10
+    - pass: 2
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _METALLICGLOSSMAP
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _OCCLUSION_UV1
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _EYE_REFRACTION
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRECTIONAL
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SCREEN
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: POINT
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 7
+    lightMode: ForwardBase

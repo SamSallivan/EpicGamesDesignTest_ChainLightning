@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_Effect_ModelRimlightTransparent
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 1
+  passCount: 1
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/Effect/Model Rimlight Transparent
+  path: Assets/ABPack/Resources/Shaders/Effect/LGame_Effect_ModelRimlightTransparent.shader
+  GUID: 8502f8d9f911a5443a07b067a80cbfaa
+  keywordStrs:
+  - 
+  dependShader: []
+  gcInclude: []
+  warring: 
+  shader: {fileID: 4800000, guid: 8502f8d9f911a5443a07b067a80cbfaa, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 4237bdf5d0d678149b9129cd2baae719
+    - abd0520afa91d334791d7be1f0523579
+    - 9740b87f03076e946a35dd5a12510ca9
+    - b05393dc818668c4098484953f75db8b
+    - 164420f5462e11d458f6113ef73d3b15
+    - 8dc57dc9ca3c3ce4f84ba33c6f5d2806
+    - 2631d83fa1beb404e9ca2758a696a10c
+    - 4aa01998fde71c64e86465224bb6c1da
+    - 81edbf812fff1de488fb979d1ce471cb
+    - afdd4e939bdacf647b6449494662a5f2
+    - 2966bdc8672652d459cc02bf7e2da7eb
+    - 72cea4b53f5804644b09facfa87e207e
+    - 1f1a37df754e0024086c882fc548c5c1
+    - d009a7461c04d4b86a671ad4a8a29537
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 4237bdf5d0d678149b9129cd2baae719
+    - abd0520afa91d334791d7be1f0523579
+    - 9740b87f03076e946a35dd5a12510ca9
+    - b05393dc818668c4098484953f75db8b
+    - 164420f5462e11d458f6113ef73d3b15
+    - 8dc57dc9ca3c3ce4f84ba33c6f5d2806
+    - 2631d83fa1beb404e9ca2758a696a10c
+    - 4aa01998fde71c64e86465224bb6c1da
+    - 81edbf812fff1de488fb979d1ce471cb
+    - afdd4e939bdacf647b6449494662a5f2
+    - 2966bdc8672652d459cc02bf7e2da7eb
+    - 72cea4b53f5804644b09facfa87e207e
+    - 1f1a37df754e0024086c882fc548c5c1
+    - d009a7461c04d4b86a671ad4a8a29537
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines: []
+    keywordCount: 0
+  keywords: []
+  subShaderInfos:
+  - index: -1
+    lod: 75
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    lightMode: ForwardBase

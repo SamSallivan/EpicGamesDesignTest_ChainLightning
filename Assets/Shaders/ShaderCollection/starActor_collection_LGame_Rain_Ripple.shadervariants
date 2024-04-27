@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: starActor_collection_LGame_Rain_Ripple
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 459c3cd6a1910af4da5959432e259ca1, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0

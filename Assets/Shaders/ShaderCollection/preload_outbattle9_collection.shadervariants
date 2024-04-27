@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_outbattle9_collection
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 2963a10c890b7814b994bca075653dfc, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 350edcbc9a1ea104f8dea0b6c6734055, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 37a5f8c41f31e5145a2b4dd8b40d7d64, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 8f7e1f213e6be394db26cc9030ebc8af, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: edb4970e790efa2479007873c9b0b76f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0

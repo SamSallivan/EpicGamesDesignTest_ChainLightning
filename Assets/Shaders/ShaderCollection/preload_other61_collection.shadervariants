@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_other61_collection
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 400884e0b3326ef40bb5b7dafbda749f, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _HARD_SHADOW
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: c4b5cec5fd131ab499f4cbdf80bf6643, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4

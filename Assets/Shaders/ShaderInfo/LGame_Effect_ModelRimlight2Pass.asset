@@ -1,0 +1,701 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_Effect_ModelRimlight2Pass
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 9
+  passCount: 4
+  subShaderCount: 2
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/Effect/Model Rimlight 2Pass
+  path: Assets/ABPack/Resources/Shaders/Effect/LGame_Effect_ModelRimlight2Pass.shader
+  GUID: 83e9c4e57f7f2c6429813faaa9e56030
+  keywordStrs:
+  - 
+  - FOG_LINEAR
+  - FOG_EXP
+  - FOG_EXP2
+  dependShader: []
+  gcInclude: []
+  warring: 
+  shader: {fileID: 4800000, guid: 83e9c4e57f7f2c6429813faaa9e56030, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - 075ee99ebea0e1b429193e9c6b49d87a
+    - 959155696634902478881f69e5ae7aab
+    - 37c7d08b4625ea148b08b22ed0713333
+    - e13cfa81fa9257a44b3de453fb869eed
+    - 98c35d8fc946c0d419f8421a348e7cc8
+    - 7c7dd56383b35ab419f75a740d19a5a9
+    - 83fb8d0b4a31af54895d255b848debb7
+    - 5cffbe8a85175884d8fbb0340ceb5731
+    - aae2e2e7fa653a24ca0c9d97067b42f8
+    - 9a550685e71110c4fa016b298be7f68f
+    - 7c0242b7ab475df41b38f9e18944d8a6
+    - eebb3134c64ccc64dbab8093422d1c77
+    - 205dddf225f4c154ea18d24991672b56
+    - 3d769f09567a7e548b484fcfe2cc5b7c
+    - fdd261ddaac58474cbb208b3c76e7b8e
+    - 9a74d9176c8367b4fa255c0c03686b1f
+    - 65c207ac1e200f94ab47b50a6af8882a
+    - 1992e292b89ff5043851ddf7b88e6027
+    - 9babd613ab920394a8cbd24291326283
+    - 3db6fefa9ec869a4f885c0e4e25c5d1a
+    - e0f9d2a2dd1eafc4486f562468dfb90f
+    - 120cf4b7a2909454593936784bdcbc11
+    - b20d3725f5b053947aa9aa4ad519d9a3
+    - 832c49438d4066d4796239753098e0ba
+    - 6fa063ae118a7844f8e3e8026e239a07
+    - 512363f3d3913b240bf51a8bf45ca0db
+    - f72d89e772bb31948853d6430cc3926f
+    - 1e1174e00cd64c54f9faddd99040b6d9
+    - 0f1a7eb784be1584eb26b9b5ec6e2922
+    - a1dd95bc646147b46a9dc864646b3a53
+    - dc940d1606bbb7b47bab45d1836e6dd7
+    - be972ad821c1b064ba5b841bc0a8b8dd
+    - 359423ee0344b7043aa55f7ab6a0d5c9
+    - 64a92a11a328e61468af3c06760d13d0
+    - 2614cf064fb32874c8888150f03d4657
+    - 9d59f303d00a886479e5b4ce5e4affae
+    - e7253709590f6e446aca19b51e7e961a
+    - 20525fda3532c0c459f6ad88dac79a37
+    - e66961e2fb64b764e8354ce76b99af97
+    - eed23c69bbb51714ca36068252c8b824
+    - d1f26d4c0e72c7845a0ccc6ec14dd1ea
+    - 64277ea5911786648b04a219dba9fa0c
+    - 37ca615f196245b4b887855e5d420cdd
+    - 50545bf182d1c854997aa51a10ec8fe9
+    - f125a5b22390ccf4d808d5b78bda04cc
+    - 8224bd78212a92c4492e8147298c5f0a
+    - 2b8756d02ff060e4888ff49d03d72932
+    - 0ba937c95dff11a439e934db19a9c3c1
+    - 83367955718e09e4a96a2e6c394892c8
+    - a8720a5e62d2ed94681ac6d616c34a41
+    - 1d2caafed4d99ad46bbc711ec1cf980f
+    - 2c44ed15e3bedc6409062517652dc5d5
+    - fd45d2c6b2b851c4d9f6b57e343711ed
+    - e270709c41366df4c909add5a07e7e9b
+    - d1c1abd2daf80e948adc3330cb21256a
+    - 380236f92867fa8489d0a38c5246dd25
+    - ca38323f5c270be42987f629e9684699
+    - 142337327e6e6e944a86a04b7a7f5800
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '13 '
+    users:
+    - 075ee99ebea0e1b429193e9c6b49d87a
+    - 959155696634902478881f69e5ae7aab
+    - 37c7d08b4625ea148b08b22ed0713333
+    - e13cfa81fa9257a44b3de453fb869eed
+    - 98c35d8fc946c0d419f8421a348e7cc8
+    - 7c7dd56383b35ab419f75a740d19a5a9
+    - 83fb8d0b4a31af54895d255b848debb7
+    - 5cffbe8a85175884d8fbb0340ceb5731
+    - aae2e2e7fa653a24ca0c9d97067b42f8
+    - 9a550685e71110c4fa016b298be7f68f
+    - 7c0242b7ab475df41b38f9e18944d8a6
+    - eebb3134c64ccc64dbab8093422d1c77
+    - 205dddf225f4c154ea18d24991672b56
+    - 3d769f09567a7e548b484fcfe2cc5b7c
+    - fdd261ddaac58474cbb208b3c76e7b8e
+    - 9a74d9176c8367b4fa255c0c03686b1f
+    - 65c207ac1e200f94ab47b50a6af8882a
+    - 1992e292b89ff5043851ddf7b88e6027
+    - 9babd613ab920394a8cbd24291326283
+    - 3db6fefa9ec869a4f885c0e4e25c5d1a
+    - e0f9d2a2dd1eafc4486f562468dfb90f
+    - 120cf4b7a2909454593936784bdcbc11
+    - b20d3725f5b053947aa9aa4ad519d9a3
+    - 832c49438d4066d4796239753098e0ba
+    - 6fa063ae118a7844f8e3e8026e239a07
+    - 512363f3d3913b240bf51a8bf45ca0db
+    - f72d89e772bb31948853d6430cc3926f
+    - 1e1174e00cd64c54f9faddd99040b6d9
+    - 0f1a7eb784be1584eb26b9b5ec6e2922
+    - a1dd95bc646147b46a9dc864646b3a53
+    - dc940d1606bbb7b47bab45d1836e6dd7
+    - be972ad821c1b064ba5b841bc0a8b8dd
+    - 359423ee0344b7043aa55f7ab6a0d5c9
+    - 64a92a11a328e61468af3c06760d13d0
+    - 2614cf064fb32874c8888150f03d4657
+    - 9d59f303d00a886479e5b4ce5e4affae
+    - e7253709590f6e446aca19b51e7e961a
+    - 20525fda3532c0c459f6ad88dac79a37
+    - e66961e2fb64b764e8354ce76b99af97
+    - eed23c69bbb51714ca36068252c8b824
+    - d1f26d4c0e72c7845a0ccc6ec14dd1ea
+    - 64277ea5911786648b04a219dba9fa0c
+    - 37ca615f196245b4b887855e5d420cdd
+    - 50545bf182d1c854997aa51a10ec8fe9
+    - f125a5b22390ccf4d808d5b78bda04cc
+    - 8224bd78212a92c4492e8147298c5f0a
+    - 2b8756d02ff060e4888ff49d03d72932
+    - 0ba937c95dff11a439e934db19a9c3c1
+    - 83367955718e09e4a96a2e6c394892c8
+    - a8720a5e62d2ed94681ac6d616c34a41
+    - 1d2caafed4d99ad46bbc711ec1cf980f
+    - 2c44ed15e3bedc6409062517652dc5d5
+    - fd45d2c6b2b851c4d9f6b57e343711ed
+    - e270709c41366df4c909add5a07e7e9b
+    - d1c1abd2daf80e948adc3330cb21256a
+    - 380236f92867fa8489d0a38c5246dd25
+    - ca38323f5c270be42987f629e9684699
+    - 142337327e6e6e944a86a04b7a7f5800
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords: []
+    keywordStr: '4 '
+    users: []
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '13 '
+    users:
+    - 075ee99ebea0e1b429193e9c6b49d87a
+    - 959155696634902478881f69e5ae7aab
+    - 37c7d08b4625ea148b08b22ed0713333
+    - e13cfa81fa9257a44b3de453fb869eed
+    - 98c35d8fc946c0d419f8421a348e7cc8
+    - 7c7dd56383b35ab419f75a740d19a5a9
+    - 83fb8d0b4a31af54895d255b848debb7
+    - 5cffbe8a85175884d8fbb0340ceb5731
+    - aae2e2e7fa653a24ca0c9d97067b42f8
+    - 9a550685e71110c4fa016b298be7f68f
+    - 7c0242b7ab475df41b38f9e18944d8a6
+    - eebb3134c64ccc64dbab8093422d1c77
+    - 205dddf225f4c154ea18d24991672b56
+    - 3d769f09567a7e548b484fcfe2cc5b7c
+    - fdd261ddaac58474cbb208b3c76e7b8e
+    - 9a74d9176c8367b4fa255c0c03686b1f
+    - 65c207ac1e200f94ab47b50a6af8882a
+    - 1992e292b89ff5043851ddf7b88e6027
+    - 9babd613ab920394a8cbd24291326283
+    - 3db6fefa9ec869a4f885c0e4e25c5d1a
+    - e0f9d2a2dd1eafc4486f562468dfb90f
+    - 120cf4b7a2909454593936784bdcbc11
+    - b20d3725f5b053947aa9aa4ad519d9a3
+    - 832c49438d4066d4796239753098e0ba
+    - 6fa063ae118a7844f8e3e8026e239a07
+    - 512363f3d3913b240bf51a8bf45ca0db
+    - f72d89e772bb31948853d6430cc3926f
+    - 1e1174e00cd64c54f9faddd99040b6d9
+    - 0f1a7eb784be1584eb26b9b5ec6e2922
+    - a1dd95bc646147b46a9dc864646b3a53
+    - dc940d1606bbb7b47bab45d1836e6dd7
+    - be972ad821c1b064ba5b841bc0a8b8dd
+    - 359423ee0344b7043aa55f7ab6a0d5c9
+    - 64a92a11a328e61468af3c06760d13d0
+    - 2614cf064fb32874c8888150f03d4657
+    - 9d59f303d00a886479e5b4ce5e4affae
+    - e7253709590f6e446aca19b51e7e961a
+    - 20525fda3532c0c459f6ad88dac79a37
+    - e66961e2fb64b764e8354ce76b99af97
+    - eed23c69bbb51714ca36068252c8b824
+    - d1f26d4c0e72c7845a0ccc6ec14dd1ea
+    - 64277ea5911786648b04a219dba9fa0c
+    - 37ca615f196245b4b887855e5d420cdd
+    - 50545bf182d1c854997aa51a10ec8fe9
+    - f125a5b22390ccf4d808d5b78bda04cc
+    - 8224bd78212a92c4492e8147298c5f0a
+    - 2b8756d02ff060e4888ff49d03d72932
+    - 0ba937c95dff11a439e934db19a9c3c1
+    - 83367955718e09e4a96a2e6c394892c8
+    - a8720a5e62d2ed94681ac6d616c34a41
+    - 1d2caafed4d99ad46bbc711ec1cf980f
+    - 2c44ed15e3bedc6409062517652dc5d5
+    - fd45d2c6b2b851c4d9f6b57e343711ed
+    - e270709c41366df4c909add5a07e7e9b
+    - d1c1abd2daf80e948adc3330cb21256a
+    - 380236f92867fa8489d0a38c5246dd25
+    - ca38323f5c270be42987f629e9684699
+    - 142337327e6e6e944a86a04b7a7f5800
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - 075ee99ebea0e1b429193e9c6b49d87a
+    - 959155696634902478881f69e5ae7aab
+    - 37c7d08b4625ea148b08b22ed0713333
+    - e13cfa81fa9257a44b3de453fb869eed
+    - 98c35d8fc946c0d419f8421a348e7cc8
+    - 7c7dd56383b35ab419f75a740d19a5a9
+    - 83fb8d0b4a31af54895d255b848debb7
+    - 5cffbe8a85175884d8fbb0340ceb5731
+    - aae2e2e7fa653a24ca0c9d97067b42f8
+    - 9a550685e71110c4fa016b298be7f68f
+    - 7c0242b7ab475df41b38f9e18944d8a6
+    - eebb3134c64ccc64dbab8093422d1c77
+    - 205dddf225f4c154ea18d24991672b56
+    - 3d769f09567a7e548b484fcfe2cc5b7c
+    - fdd261ddaac58474cbb208b3c76e7b8e
+    - 9a74d9176c8367b4fa255c0c03686b1f
+    - 65c207ac1e200f94ab47b50a6af8882a
+    - 1992e292b89ff5043851ddf7b88e6027
+    - 9babd613ab920394a8cbd24291326283
+    - 3db6fefa9ec869a4f885c0e4e25c5d1a
+    - e0f9d2a2dd1eafc4486f562468dfb90f
+    - 120cf4b7a2909454593936784bdcbc11
+    - b20d3725f5b053947aa9aa4ad519d9a3
+    - 832c49438d4066d4796239753098e0ba
+    - 6fa063ae118a7844f8e3e8026e239a07
+    - 512363f3d3913b240bf51a8bf45ca0db
+    - f72d89e772bb31948853d6430cc3926f
+    - 1e1174e00cd64c54f9faddd99040b6d9
+    - 0f1a7eb784be1584eb26b9b5ec6e2922
+    - a1dd95bc646147b46a9dc864646b3a53
+    - dc940d1606bbb7b47bab45d1836e6dd7
+    - be972ad821c1b064ba5b841bc0a8b8dd
+    - 359423ee0344b7043aa55f7ab6a0d5c9
+    - 64a92a11a328e61468af3c06760d13d0
+    - 2614cf064fb32874c8888150f03d4657
+    - 9d59f303d00a886479e5b4ce5e4affae
+    - e7253709590f6e446aca19b51e7e961a
+    - 20525fda3532c0c459f6ad88dac79a37
+    - e66961e2fb64b764e8354ce76b99af97
+    - eed23c69bbb51714ca36068252c8b824
+    - d1f26d4c0e72c7845a0ccc6ec14dd1ea
+    - 64277ea5911786648b04a219dba9fa0c
+    - 37ca615f196245b4b887855e5d420cdd
+    - 50545bf182d1c854997aa51a10ec8fe9
+    - f125a5b22390ccf4d808d5b78bda04cc
+    - 8224bd78212a92c4492e8147298c5f0a
+    - 2b8756d02ff060e4888ff49d03d72932
+    - 0ba937c95dff11a439e934db19a9c3c1
+    - 83367955718e09e4a96a2e6c394892c8
+    - a8720a5e62d2ed94681ac6d616c34a41
+    - 1d2caafed4d99ad46bbc711ec1cf980f
+    - 2c44ed15e3bedc6409062517652dc5d5
+    - fd45d2c6b2b851c4d9f6b57e343711ed
+    - e270709c41366df4c909add5a07e7e9b
+    - d1c1abd2daf80e948adc3330cb21256a
+    - 380236f92867fa8489d0a38c5246dd25
+    - ca38323f5c270be42987f629e9684699
+    - 142337327e6e6e944a86a04b7a7f5800
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_LINEAR
+    keywordStr: 0 FOG_LINEAR
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP
+    keywordStr: 0 FOG_EXP
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP2
+    keywordStr: 0 FOG_EXP2
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords: []
+    keywordStr: '4 '
+    users: []
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '13 '
+    users:
+    - 075ee99ebea0e1b429193e9c6b49d87a
+    - 959155696634902478881f69e5ae7aab
+    - 37c7d08b4625ea148b08b22ed0713333
+    - e13cfa81fa9257a44b3de453fb869eed
+    - 98c35d8fc946c0d419f8421a348e7cc8
+    - 7c7dd56383b35ab419f75a740d19a5a9
+    - 83fb8d0b4a31af54895d255b848debb7
+    - 5cffbe8a85175884d8fbb0340ceb5731
+    - aae2e2e7fa653a24ca0c9d97067b42f8
+    - 9a550685e71110c4fa016b298be7f68f
+    - 7c0242b7ab475df41b38f9e18944d8a6
+    - eebb3134c64ccc64dbab8093422d1c77
+    - 205dddf225f4c154ea18d24991672b56
+    - 3d769f09567a7e548b484fcfe2cc5b7c
+    - fdd261ddaac58474cbb208b3c76e7b8e
+    - 9a74d9176c8367b4fa255c0c03686b1f
+    - 65c207ac1e200f94ab47b50a6af8882a
+    - 1992e292b89ff5043851ddf7b88e6027
+    - 9babd613ab920394a8cbd24291326283
+    - 3db6fefa9ec869a4f885c0e4e25c5d1a
+    - e0f9d2a2dd1eafc4486f562468dfb90f
+    - 120cf4b7a2909454593936784bdcbc11
+    - b20d3725f5b053947aa9aa4ad519d9a3
+    - 832c49438d4066d4796239753098e0ba
+    - 6fa063ae118a7844f8e3e8026e239a07
+    - 512363f3d3913b240bf51a8bf45ca0db
+    - f72d89e772bb31948853d6430cc3926f
+    - 1e1174e00cd64c54f9faddd99040b6d9
+    - 0f1a7eb784be1584eb26b9b5ec6e2922
+    - a1dd95bc646147b46a9dc864646b3a53
+    - dc940d1606bbb7b47bab45d1836e6dd7
+    - be972ad821c1b064ba5b841bc0a8b8dd
+    - 359423ee0344b7043aa55f7ab6a0d5c9
+    - 64a92a11a328e61468af3c06760d13d0
+    - 2614cf064fb32874c8888150f03d4657
+    - 9d59f303d00a886479e5b4ce5e4affae
+    - e7253709590f6e446aca19b51e7e961a
+    - 20525fda3532c0c459f6ad88dac79a37
+    - e66961e2fb64b764e8354ce76b99af97
+    - eed23c69bbb51714ca36068252c8b824
+    - d1f26d4c0e72c7845a0ccc6ec14dd1ea
+    - 64277ea5911786648b04a219dba9fa0c
+    - 37ca615f196245b4b887855e5d420cdd
+    - 50545bf182d1c854997aa51a10ec8fe9
+    - f125a5b22390ccf4d808d5b78bda04cc
+    - 8224bd78212a92c4492e8147298c5f0a
+    - 2b8756d02ff060e4888ff49d03d72932
+    - 0ba937c95dff11a439e934db19a9c3c1
+    - 83367955718e09e4a96a2e6c394892c8
+    - a8720a5e62d2ed94681ac6d616c34a41
+    - 1d2caafed4d99ad46bbc711ec1cf980f
+    - 2c44ed15e3bedc6409062517652dc5d5
+    - fd45d2c6b2b851c4d9f6b57e343711ed
+    - e270709c41366df4c909add5a07e7e9b
+    - d1c1abd2daf80e948adc3330cb21256a
+    - 380236f92867fa8489d0a38c5246dd25
+    - ca38323f5c270be42987f629e9684699
+    - 142337327e6e6e944a86a04b7a7f5800
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_LINEAR
+    keywordStr: 13 FOG_LINEAR
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP
+    keywordStr: 13 FOG_EXP
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP2
+    keywordStr: 13 FOG_EXP2
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_LINEAR
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP2
+        tips: 
+    keywordCount: 3
+  - pass: 1
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_LINEAR
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP2
+        tips: 
+    keywordCount: 3
+  - pass: 2
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_LINEAR
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP2
+        tips: 
+    keywordCount: 3
+  - pass: 3
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_LINEAR
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP2
+        tips: 
+    keywordCount: 3
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_LINEAR
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_EXP
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_EXP2
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 75
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 0
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_LINEAR
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP2
+          tips: 
+      keywordCount: 3
+    - pass: 1
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_LINEAR
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP2
+          tips: 
+      keywordCount: 3
+    lightMode: ForwardBase
+  - index: 0
+    lod: 5
+    passInfos:
+    - pass: 2
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_LINEAR
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP2
+          tips: 
+      keywordCount: 3
+    lightMode: ForwardBase

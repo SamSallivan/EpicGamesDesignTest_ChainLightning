@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: UI_StarActor3D
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 2
+  passCount: 1
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: UI/StarActor3D
+  path: Assets/ABPack/Resources/Shaders/UI/UI_StarActor3D.shader
+  GUID: 8f7e1f213e6be394db26cc9030ebc8af
+  keywordStrs:
+  - 
+  - SOFT_CLIP
+  dependShader: []
+  gcInclude: []
+  warring: 
+  shader: {fileID: 4800000, guid: 8f7e1f213e6be394db26cc9030ebc8af, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - 24b02d31e0385b943be9d8f484c13b89
+    - e7144ee594efce542b0b76e98661cec2
+    - 374f173c8bf56a748905bda27014f7e5
+    - a4d97f929f18606429e9c839762ee5f8
+    - 28c66910011803640bbe43cd6f982725
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - 24b02d31e0385b943be9d8f484c13b89
+    - e7144ee594efce542b0b76e98661cec2
+    - 374f173c8bf56a748905bda27014f7e5
+    - a4d97f929f18606429e9c839762ee5f8
+    - 28c66910011803640bbe43cd6f982725
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SOFT_CLIP
+    keywordStr: 0 SOFT_CLIP
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: SOFT_CLIP
+        tips: 
+    keywordCount: 1
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: SOFT_CLIP
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 0
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    lightMode: ForwardBase

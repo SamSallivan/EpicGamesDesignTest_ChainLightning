@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_other45_collectionLow
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 99d6a31baed98694c872258a11f80e38, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL _EMISSION _REFLECTION_CUBEMAP
+        passType: 4
+      - keywords: DIRECTIONAL _REFLECTION_CUBEMAP _SPECULARHIGHLIGHTS_OFF
+        passType: 4
+      - keywords: DIRECTIONAL _EMISSION _REFLECTION_CUBEMAP _SPECULARHIGHLIGHTS_OFF
+        passType: 4
+      - keywords: DIRECTIONAL _NORMALMAP _REFLECTION_CUBEMAP _SPECULARHIGHLIGHTS_OFF
+        passType: 4
+      - keywords: DIRECTIONAL _EMISSION _NORMALMAP _REFLECTION_CUBEMAP _SPECULARHIGHLIGHTS_OFF
+        passType: 4

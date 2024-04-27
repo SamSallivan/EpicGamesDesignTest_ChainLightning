@@ -1,0 +1,504 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_Effect_ModelFresnel
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 6
+  passCount: 2
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/Effect/ModelFresnel
+  path: Assets/ABPack/Resources/Shaders/Effect/LGame_Effect_ModelFresnel.shader
+  GUID: 460adaa4375cb074ea7a5e3d15b0feed
+  keywordStrs:
+  - 
+  - INSTANCING_ON
+  - FOG_LINEAR
+  - FOG_EXP
+  - FOG_EXP2
+  dependShader: []
+  gcInclude: []
+  warring: '
+
+    Has float count: 23'
+  shader: {fileID: 4800000, guid: 460adaa4375cb074ea7a5e3d15b0feed, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 170ce0419ff5c4547a17382a0815f861
+    - 4d5dda4babb9868458639399fafc61d7
+    - 3543f6a1a064cac4c8143e7838f2cffb
+    - cdd530766139b774a8e5b3b3dfdbea3b
+    - f63959609c9e2dd48bdc239262254b83
+    - f8d10775073a23241b87af295526345d
+    - e0924ef60cdd4e24d8d1b5864b4e752f
+    - 967b68cd1664ac145b27f069c45383b6
+    - f4c77297fd5fae04aa3ce87d3d3b5d27
+    - 408184daa9968244bad09054d6ed5a7c
+    - 7905e7827555fad42bc715560b1bfe56
+    - bad5b672fee0e214faa2f70179e299a0
+    - 52ff4f7226c3cb4469367aa086660581
+    - 5175d357fcd7aff48aaddbfa125d0392
+    - 60f387fdb643b2549b3e9d169f86adcb
+    - adb6c2b9cc7d1ae4fb6693d1a37e5d0b
+    - 2ea6564686012e749b24e5477dbeb2d6
+    - 7c975f2b98ff64140904e3c5829c6b00
+    - ca077f913aecf3449a93fad4b57b2f67
+    - 8778b82f187e0344fbdfbd17da6e0413
+    - a965243b47764c04c914c0388eb25ceb
+    - e01ba2586a024fa46b027394bfbc9ded
+    - 0721b1fc834a7744f89dc842202749b6
+    - c4ef5ff87be8a4a49a0087a3e58a9581
+    - 3c9da196f349c134e89ab0d1cd36e1fd
+    - 41892f1bf01d77145b6e7376a9d24954
+    - 5a6235004e6298a489af430e48b8e3a3
+    - 9c5bddb4460affb43bba1c1cfad715d6
+    - 21d4776e441e5cf43a6c010121449467
+    - 35158c08beee7254aaeb72d7ddd56b24
+    - 5f62bc4e75d6a904a89c227aeccb37fe
+    - b78a3e23b446e3c4cb119de8f4a0e490
+    - 1be6d7aace1c36a47b4045be673422cb
+    - d20eeaaabe299d9478bede78c986fd5f
+    - e49599d2d0798e7469224666f540499f
+    - 9df22527f4596424cbad3f448f514956
+    - 1aad0af30aae63e41acee34b65e7c7dd
+    - e7c37b3e081de64408a727456978617d
+    - 07ef070eb18bf584f97467e05874af6b
+    - 22e0c4984201ec143996fceed7d2d1ae
+    - 829cfc6e419206b429d3aa92bc5fc02a
+    - 81cc8a71bb844844889eed1f9963d94a
+    - 1d340dfd18f3ecb45b9b63246c9e7d36
+    - dcc5c276a986b1343b4fc8bc70f464c6
+    - a671c5033bfd6b14ea37ffac8d89de22
+    - b357130d043f00d49a99100e97786e83
+    - e6d6e8ae3c446884eaeaa6ccda8b2d59
+    - df1f261371ade7c418fe97ac34a63af8
+    - 340acd5f61e09e148b87ff6fc2a2df52
+    - 238420d0117d3964487aae331d30ecce
+    - d56447f26c3d37c4ebbf47d7e7bd8a62
+    - 1870efeecd8bca746a9d92050d4144b8
+    - f3f5f95464d434c47a1afcea5f932731
+    - c38722413e0fab84a8e49f74898f6338
+    - 456c62a89dbacfa44833d6c2603eca1e
+    - 78b3586f5b6d08943a2a96020a1b1dd4
+    - 5eec44b9e2879624e9e6d382f08be283
+    - 29b0aeeeef2ea5f4fb01ecf2d2fd4c4a
+    - df111058844148b478b0f8f7020ac266
+    - 8b20f24ad8fb25b4b94c3bdf07579c43
+    - d19595834354b8146862a73a909eff5e
+    - 85516ee3dcbc13749a8fcfd701eab570
+    - fd44fdcafe5643847bfc9296bbf43a81
+    - b5883743453258249930a6ef5313f6cb
+    - 6583fc0345474394497dfff1deab34ec
+    - fdf8839399517b148aa15bbcc28e17b2
+    - 31c73b8d995b23c4f93b2a32084de469
+    - f4524875ef3ebc84c8dfa7407656c08b
+    - e0eb777ef2bd69c45b03f7b64423985a
+    - 31515c049b779ae44bbf29a5e9e65d38
+    - 49e5d15bb03c74940b9134333ffbe0d0
+    - 639ecb6a3412a4d47bb730f462ed0410
+    - 5b31bfdb19a98b0438e3c9b760439057
+    - 56e30d7597e88ab499bfaa995d3b444f
+    - 68144055c5d65d94e88591643ad02637
+    - 6c0cb42a732198648afd76cd7fdb8407
+    - 33e032c803e54cd48adfc9e33f9f2408
+    - 8804d744d17d6f24fa5f1aa67f451760
+    - 899a72391a84ec648b33ea0b9f94c17e
+    - 2dfc9da406f85f644b920be55e948e89
+    - 02e70036f553ba049ae71aed5cb2b669
+    - d76cb8d7d3e990d48935f8c4a210161f
+    - fe4ed071f03436547898752107d148f7
+    - 978779558a462f1468620e1b6215a1ec
+    - 164c643d0a811ec4183a31b686e7ae87
+    - 119e54d238b977445a8797e3b2c40c69
+    - 53f8752d2d911884784526307540bfb7
+    - 7e1307a296901384d941092f2e28a8c9
+    - 5453e64bb75e2d9409105d203503b0d1
+    - 22080b3bc418c0d439eecfa422b7d81b
+    - c1dc5f48c2433284abf4607ac7f59964
+    - 409aab13532c703478291158aa1206ab
+    - ea5d994d2129afa45a77f8759d9789b2
+    - 6861e4f8d2de27b499aa811a86fe6192
+    - 4a007ca865fd6c7489b5a8d8dedc445d
+    - bc18626c167e60446a89be10ba2a6b11
+    - 7bea5bc1b94408f40ae123f90c23e62c
+    - 210a53959878b7048973b0fe1db71deb
+    - b6de3da12253e5442bfd4718f982b638
+    - 5e4dd610d80755247b532a31551c2d27
+    - db108e776d4814a4ba17d6c1c0e54ba7
+    - b27433b901ff1084f9e39f96fa5207c1
+    - fc0583232338b4c4e9e7a3975651b1ff
+    - fbf3b92c50c9f584b850b7dcd04c04a3
+    - c76335238f04c6741a69d381b0897c71
+    - c7a0437292ea01144a10551a6ab9dd33
+    - d8ccfd9e303646048b7877aeea2201b6
+    - b16cc4d9e462af545a3a3c97ff95e0b9
+    - c9da1d86176c2c540aa515b36dd3bb8e
+    - 5584385cd89569c488623e28ce221d8b
+    - 4e31c2b27bd77a549891eb6234afe2d1
+    - 782e08687cd92ef44a82ebf73735d33e
+    - 8485149717a90764cb446e1f08eef15d
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 7
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    keywordStr: 4 INSTANCING_ON
+    users:
+    - 122e32dd558108c48ba564f600e8e9a5
+    - e71d5b45baf496440be4bf4393f31653
+    - 543eef0536b12794e918291761cf32cb
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 7
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 170ce0419ff5c4547a17382a0815f861
+    - 4d5dda4babb9868458639399fafc61d7
+    - 3543f6a1a064cac4c8143e7838f2cffb
+    - cdd530766139b774a8e5b3b3dfdbea3b
+    - f63959609c9e2dd48bdc239262254b83
+    - f8d10775073a23241b87af295526345d
+    - e0924ef60cdd4e24d8d1b5864b4e752f
+    - 967b68cd1664ac145b27f069c45383b6
+    - f4c77297fd5fae04aa3ce87d3d3b5d27
+    - 408184daa9968244bad09054d6ed5a7c
+    - 7905e7827555fad42bc715560b1bfe56
+    - bad5b672fee0e214faa2f70179e299a0
+    - 52ff4f7226c3cb4469367aa086660581
+    - 5175d357fcd7aff48aaddbfa125d0392
+    - 60f387fdb643b2549b3e9d169f86adcb
+    - adb6c2b9cc7d1ae4fb6693d1a37e5d0b
+    - 2ea6564686012e749b24e5477dbeb2d6
+    - 7c975f2b98ff64140904e3c5829c6b00
+    - ca077f913aecf3449a93fad4b57b2f67
+    - 8778b82f187e0344fbdfbd17da6e0413
+    - a965243b47764c04c914c0388eb25ceb
+    - e01ba2586a024fa46b027394bfbc9ded
+    - 0721b1fc834a7744f89dc842202749b6
+    - c4ef5ff87be8a4a49a0087a3e58a9581
+    - 3c9da196f349c134e89ab0d1cd36e1fd
+    - 41892f1bf01d77145b6e7376a9d24954
+    - 5a6235004e6298a489af430e48b8e3a3
+    - 9c5bddb4460affb43bba1c1cfad715d6
+    - 21d4776e441e5cf43a6c010121449467
+    - 35158c08beee7254aaeb72d7ddd56b24
+    - 5f62bc4e75d6a904a89c227aeccb37fe
+    - b78a3e23b446e3c4cb119de8f4a0e490
+    - 1be6d7aace1c36a47b4045be673422cb
+    - d20eeaaabe299d9478bede78c986fd5f
+    - e49599d2d0798e7469224666f540499f
+    - 9df22527f4596424cbad3f448f514956
+    - 1aad0af30aae63e41acee34b65e7c7dd
+    - e7c37b3e081de64408a727456978617d
+    - 07ef070eb18bf584f97467e05874af6b
+    - 22e0c4984201ec143996fceed7d2d1ae
+    - 829cfc6e419206b429d3aa92bc5fc02a
+    - 81cc8a71bb844844889eed1f9963d94a
+    - 1d340dfd18f3ecb45b9b63246c9e7d36
+    - dcc5c276a986b1343b4fc8bc70f464c6
+    - a671c5033bfd6b14ea37ffac8d89de22
+    - b357130d043f00d49a99100e97786e83
+    - e6d6e8ae3c446884eaeaa6ccda8b2d59
+    - df1f261371ade7c418fe97ac34a63af8
+    - 340acd5f61e09e148b87ff6fc2a2df52
+    - 238420d0117d3964487aae331d30ecce
+    - d56447f26c3d37c4ebbf47d7e7bd8a62
+    - 1870efeecd8bca746a9d92050d4144b8
+    - f3f5f95464d434c47a1afcea5f932731
+    - c38722413e0fab84a8e49f74898f6338
+    - 456c62a89dbacfa44833d6c2603eca1e
+    - 78b3586f5b6d08943a2a96020a1b1dd4
+    - 5eec44b9e2879624e9e6d382f08be283
+    - 29b0aeeeef2ea5f4fb01ecf2d2fd4c4a
+    - df111058844148b478b0f8f7020ac266
+    - 8b20f24ad8fb25b4b94c3bdf07579c43
+    - d19595834354b8146862a73a909eff5e
+    - 85516ee3dcbc13749a8fcfd701eab570
+    - fd44fdcafe5643847bfc9296bbf43a81
+    - b5883743453258249930a6ef5313f6cb
+    - 6583fc0345474394497dfff1deab34ec
+    - fdf8839399517b148aa15bbcc28e17b2
+    - 31c73b8d995b23c4f93b2a32084de469
+    - f4524875ef3ebc84c8dfa7407656c08b
+    - e0eb777ef2bd69c45b03f7b64423985a
+    - 31515c049b779ae44bbf29a5e9e65d38
+    - 49e5d15bb03c74940b9134333ffbe0d0
+    - 639ecb6a3412a4d47bb730f462ed0410
+    - 5b31bfdb19a98b0438e3c9b760439057
+    - 56e30d7597e88ab499bfaa995d3b444f
+    - 68144055c5d65d94e88591643ad02637
+    - 6c0cb42a732198648afd76cd7fdb8407
+    - 33e032c803e54cd48adfc9e33f9f2408
+    - 8804d744d17d6f24fa5f1aa67f451760
+    - 899a72391a84ec648b33ea0b9f94c17e
+    - 2dfc9da406f85f644b920be55e948e89
+    - 02e70036f553ba049ae71aed5cb2b669
+    - d76cb8d7d3e990d48935f8c4a210161f
+    - fe4ed071f03436547898752107d148f7
+    - 978779558a462f1468620e1b6215a1ec
+    - 164c643d0a811ec4183a31b686e7ae87
+    - 119e54d238b977445a8797e3b2c40c69
+    - 53f8752d2d911884784526307540bfb7
+    - 7e1307a296901384d941092f2e28a8c9
+    - 5453e64bb75e2d9409105d203503b0d1
+    - 22080b3bc418c0d439eecfa422b7d81b
+    - c1dc5f48c2433284abf4607ac7f59964
+    - 409aab13532c703478291158aa1206ab
+    - ea5d994d2129afa45a77f8759d9789b2
+    - 6861e4f8d2de27b499aa811a86fe6192
+    - 4a007ca865fd6c7489b5a8d8dedc445d
+    - bc18626c167e60446a89be10ba2a6b11
+    - 7bea5bc1b94408f40ae123f90c23e62c
+    - 210a53959878b7048973b0fe1db71deb
+    - b6de3da12253e5442bfd4718f982b638
+    - 5e4dd610d80755247b532a31551c2d27
+    - db108e776d4814a4ba17d6c1c0e54ba7
+    - b27433b901ff1084f9e39f96fa5207c1
+    - fc0583232338b4c4e9e7a3975651b1ff
+    - fbf3b92c50c9f584b850b7dcd04c04a3
+    - c76335238f04c6741a69d381b0897c71
+    - c7a0437292ea01144a10551a6ab9dd33
+    - d8ccfd9e303646048b7877aeea2201b6
+    - b16cc4d9e462af545a3a3c97ff95e0b9
+    - c9da1d86176c2c540aa515b36dd3bb8e
+    - 5584385cd89569c488623e28ce221d8b
+    - 4e31c2b27bd77a549891eb6234afe2d1
+    - 782e08687cd92ef44a82ebf73735d33e
+    - 8485149717a90764cb446e1f08eef15d
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 7
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    keywordStr: 4 INSTANCING_ON
+    users:
+    - 122e32dd558108c48ba564f600e8e9a5
+    - e71d5b45baf496440be4bf4393f31653
+    - 543eef0536b12794e918291761cf32cb
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 7
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '13 '
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_LINEAR
+    keywordStr: 13 FOG_LINEAR
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP
+    keywordStr: 13 FOG_EXP
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP2
+    keywordStr: 13 FOG_EXP2
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: INSTANCING_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_LINEAR
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP2
+        tips: 
+    keywordCount: 4
+  - pass: 1
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: INSTANCING_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_LINEAR
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP2
+        tips: 
+    keywordCount: 4
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: INSTANCING_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_LINEAR
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_EXP
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_EXP2
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 0
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 0
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: INSTANCING_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_LINEAR
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP2
+          tips: 
+      keywordCount: 4
+    lightMode: ForwardBase

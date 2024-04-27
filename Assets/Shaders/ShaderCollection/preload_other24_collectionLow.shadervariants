@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_other24_collectionLow
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 4cd1cc3fe24924d40bd04b92727549e0, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: _WORLD_CLIP
+        passType: 4
+  - first: {fileID: 4800000, guid: 1e50a267a76a4204b87b1f697e215875, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 4c384161875a1d6418138945edd4f864, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: b2151fc3a7f31894082f8edb4fd1baef, type: 3}
+    second:
+      variants:
+      - keywords: SHADOWS_DEPTH _WORLD_CLIP
+        passType: 8

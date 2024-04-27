@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_permanent19_collectionMid
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 1e29b5b34335d594894428199d277611, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: cf81c85f95fe47e1a27f6ae460cf182c, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: SOFT_CLIP
+        passType: 4
+  - first: {fileID: 4800000, guid: db50eea7cbcec0c438ad77d15bbe2c9b, type: 3}
+    second:
+      variants:
+      - keywords: UNITY_UI_ALPHACLIP
+        passType: 4
+  - first: {fileID: 4800000, guid: a8d231f97606de440babc70676955fc4, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0

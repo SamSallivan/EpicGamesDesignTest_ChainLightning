@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_Scene_StarActor_SwimmingPoolFront
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 4
+  passCount: 2
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/Scene/StarActor/SwimmingPoolFront
+  path: Assets/ABPack/Resources/Shaders/PoolParty/LGame_Scene_StarActor_SwimmingPoolFront.shader
+  GUID: ae7c3f55ee9b679439477cdf4524a835
+  keywordStrs:
+  - 
+  - SHADOWS_DEPTH
+  - SHADOWS_CUBE
+  dependShader: []
+  gcInclude: []
+  warring: '
+
+    Has float count: 16
+
+    Use pow fcunction : 2
+
+'
+  shader: {fileID: 4800000, guid: ae7c3f55ee9b679439477cdf4524a835, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - ef71670505ab69640a983af1233f4c96
+    - 305b78d83895b804aa729242fce2d471
+    - ca1cd786a02c60b48a88cb3738255400
+    - 4cbc6e24e0cd2a84895a98d3ff47cd15
+    - c812fb9817ecd8944b5edfce8c17b004
+    passType: 4
+    isNeedPreload: 1
+  - alwaysInclude: 1
+    keywords:
+    - SHADOWS_DEPTH
+    keywordStr: 8 SHADOWS_DEPTH
+    users: []
+    passType: 8
+    isNeedPreload: 1
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - ef71670505ab69640a983af1233f4c96
+    - 305b78d83895b804aa729242fce2d471
+    - ca1cd786a02c60b48a88cb3738255400
+    - 4cbc6e24e0cd2a84895a98d3ff47cd15
+    - c812fb9817ecd8944b5edfce8c17b004
+    passType: 4
+    isNeedPreload: 1
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '8 '
+    users: []
+    passType: 8
+    isNeedPreload: 0
+  - alwaysInclude: 1
+    keywords:
+    - SHADOWS_DEPTH
+    keywordStr: 8 SHADOWS_DEPTH
+    users: []
+    passType: 8
+    isNeedPreload: 1
+  - alwaysInclude: 0
+    keywords:
+    - SHADOWS_CUBE
+    keywordStr: 8 SHADOWS_CUBE
+    users: []
+    passType: 8
+    isNeedPreload: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_CUBE
+        tips: 
+    keywordCount: 2
+  - pass: 1
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_CUBE
+        tips: 
+    keywordCount: 2
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SHADOWS_DEPTH
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SHADOWS_CUBE
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 0
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 0
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_CUBE
+          tips: 
+      keywordCount: 2
+    lightMode: ForwardBase

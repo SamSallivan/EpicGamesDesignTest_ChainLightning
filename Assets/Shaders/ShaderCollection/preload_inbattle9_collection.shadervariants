@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_inbattle9_collection
+  m_Shaders:
+  - first: {fileID: 4800000, guid: c02c024bddbefe043a462decff6c3f93, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: _BARONBUFF_OFF
+        passType: 13
+      - keywords: _BARONBUFF_ON
+        passType: 13
+      - keywords: _BARONBUFF_OFF _SCAN_MAT_ON
+        passType: 13
+  - first: {fileID: 4800000, guid: 7b483be55fca5724b8d0fbabb1380547, type: 3}
+    second:
+      variants:
+      - keywords: _ALPHABLEND_ON
+        passType: 13

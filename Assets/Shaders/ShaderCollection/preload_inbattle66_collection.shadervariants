@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_inbattle66_collection
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 1882578aa7a1d7843b5395499d686610, type: 3}
+    second:
+      variants:
+      - keywords: MaskTex_On
+        passType: 4
+      - keywords: DissolveTex_On
+        passType: 4
+      - keywords: DissolveTex_On MaskTex_On
+        passType: 4
+      - keywords: FlowTex_On
+        passType: 4
+      - keywords: FlowTex_On MaskTex_On
+        passType: 4

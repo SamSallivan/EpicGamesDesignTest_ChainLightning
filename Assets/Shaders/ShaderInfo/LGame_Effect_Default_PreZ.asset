@@ -1,0 +1,7804 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_Effect_Default_PreZ
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 515
+  passCount: 3
+  subShaderCount: 2
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/Effect/Default_PreZ
+  path: Assets/ABPack/Resources/Shaders/Effect/LGame_Effect_Default_PreZ.shader
+  GUID: 76686e746900cd547b557b693ddd43ed
+  keywordStrs:
+  - 
+  - FOG_LINEAR
+  - FOG_EXP
+  - FOG_EXP2
+  - INSTANCING_ON
+  - _GRADIENT_ON
+  - _ENABLE_DISSOLVE_WORLD
+  - _MASK_ON
+  - _WRAPMODE_ON
+  - _WARP_ON
+  - _BILLBOARD_ON
+  - _DISSOLVE_ON
+  - _SCREENUV_ON
+  dependShader: []
+  gcInclude: []
+  warring: 
+  shader: {fileID: 4800000, guid: 76686e746900cd547b557b693ddd43ed, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 36d632c16dc8fff43ba9d98b830b6dcd
+    - 4179ae966892a1143a6ad8e6cb688903
+    - 922f737615421714098e5b5ef731b544
+    - 6e7ff78532d1c124a8be4710374842d5
+    - 606c7f7bb8f84c444a349961747b0146
+    - accda499b961f704a9e2d843c6513163
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 6
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _WRAPMODE_ON
+    keywordStr: 4 _WRAPMODE_ON
+    users:
+    - bd84de3aa1ac4a33b9000d2b68efd07a
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _WRAPMODE_ON
+    users:
+    - 849412ace0be8f344a5f531ce2934d6d
+    - 4d93d77e689e68949ab748f0ac061876
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _SCREENUV_ON _WRAPMODE_ON
+    users:
+    - b4b89cec0c0d1e840a8a5e4bc0d15d49
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 36d632c16dc8fff43ba9d98b830b6dcd
+    - 4179ae966892a1143a6ad8e6cb688903
+    - 922f737615421714098e5b5ef731b544
+    - 6e7ff78532d1c124a8be4710374842d5
+    - 606c7f7bb8f84c444a349961747b0146
+    - accda499b961f704a9e2d843c6513163
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 6
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_LINEAR
+    keywordStr: 4 FOG_LINEAR
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP
+    keywordStr: 4 FOG_EXP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP2
+    keywordStr: 4 FOG_EXP2
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    keywordStr: 4 INSTANCING_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    keywordStr: 4 _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _MASK_ON
+    keywordStr: 4 _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _WRAPMODE_ON
+    keywordStr: 4 _WRAPMODE_ON
+    users:
+    - bd84de3aa1ac4a33b9000d2b68efd07a
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _GRADIENT_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _WRAPMODE_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _GRADIENT_ON _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _WARP_ON
+    keywordStr: 4 _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _WARP_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _GRADIENT_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _GRADIENT_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _MASK_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _MASK_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _GRADIENT_ON _MASK_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _MASK_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _MASK_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON _WARP_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    keywordStr: 4 _BILLBOARD_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _MASK_ON
+    keywordStr: 4 _BILLBOARD_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON
+      _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON
+      _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON
+      _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON
+      _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _MASK_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _MASK_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _MASK_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _MASK_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _WARP_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON _WARP_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON
+      _MASK_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    keywordStr: 4 _DISSOLVE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _MASK_ON
+    keywordStr: 4 _DISSOLVE_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _WRAPMODE_ON
+    users:
+    - 849412ace0be8f344a5f531ce2934d6d
+    - 4d93d77e689e68949ab748f0ac061876
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _WARP_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _MASK_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _MASK_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _MASK_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _WARP_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON _WARP_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON
+      _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _GRADIENT_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _GRADIENT_ON _MASK_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _GRADIENT_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _WARP_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _GRADIENT_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _MASK_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _MASK_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _WARP_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _WARP_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _MASK_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON
+      _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _GRADIENT_ON _MASK_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _SCREENUV_ON
+    keywordStr: 4 _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    keywordStr: 4 _GRADIENT_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 _GRADIENT_ON _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _GRADIENT_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _MASK_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _MASK_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _GRADIENT_ON _MASK_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _MASK_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _MASK_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON _SCREENUV_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _GRADIENT_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _MASK_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _MASK_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _GRADIENT_ON _MASK_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _MASK_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _MASK_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON _SCREENUV_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _GRADIENT_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _SCREENUV_ON _WARP_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _MASK_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _MASK_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _GRADIENT_ON _MASK_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _MASK_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _MASK_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _SCREENUV_ON _WARP_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON _SCREENUV_ON _WARP_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON _SCREENUV_ON
+      _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _SCREENUV_ON
+    keywordStr: 4 _BILLBOARD_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON
+      _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 _BILLBOARD_ON _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON
+      _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _SCREENUV_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON
+      _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _MASK_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _MASK_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _MASK_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _MASK_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _SCREENUV_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON _SCREENUV_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON
+      _MASK_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _SCREENUV_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON
+      _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _MASK_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _MASK_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _MASK_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _MASK_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _SCREENUV_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON _SCREENUV_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON
+      _MASK_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _SCREENUV_ON
+      _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _SCREENUV_ON _WARP_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON
+      _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _MASK_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _MASK_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _MASK_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _MASK_ON _SCREENUV_ON _WARP_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _SCREENUV_ON _WARP_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _SCREENUV_ON
+      _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON _SCREENUV_ON
+      _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON
+      _MASK_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _SCREENUV_ON
+    keywordStr: 4 _DISSOLVE_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 _DISSOLVE_ON _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON
+      _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _SCREENUV_ON _WRAPMODE_ON
+    users:
+    - b4b89cec0c0d1e840a8a5e4bc0d15d49
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _SCREENUV_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _MASK_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _MASK_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _MASK_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _SCREENUV_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON _SCREENUV_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON
+      _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _SCREENUV_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _MASK_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _MASK_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _MASK_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _SCREENUV_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON _SCREENUV_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON
+      _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _SCREENUV_ON _WARP_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _SCREENUV_ON _WARP_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _SCREENUV_ON
+      _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _MASK_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _MASK_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _MASK_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _SCREENUV_ON _WARP_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _SCREENUV_ON _WARP_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _SCREENUV_ON
+      _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON _SCREENUV_ON
+      _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON
+      _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _SCREENUV_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _GRADIENT_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON
+      _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _GRADIENT_ON _MASK_ON _SCREENUV_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _SCREENUV_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _SCREENUV_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _GRADIENT_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _MASK_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _MASK_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _SCREENUV_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _SCREENUV_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _MASK_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON
+      _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _GRADIENT_ON _MASK_ON _SCREENUV_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _SCREENUV_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _SCREENUV_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _GRADIENT_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _MASK_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _MASK_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _SCREENUV_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _SCREENUV_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _MASK_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON
+      _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _GRADIENT_ON _MASK_ON _SCREENUV_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _SCREENUV_ON
+      _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _SCREENUV_ON _WARP_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _SCREENUV_ON
+      _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _GRADIENT_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _MASK_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _MASK_ON _SCREENUV_ON _WARP_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _SCREENUV_ON _WARP_ON
+      _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _SCREENUV_ON
+      _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _MASK_ON _SCREENUV_ON
+      _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _MASK_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD _GRADIENT_ON _MASK_ON
+      _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _ENABLE_DISSOLVE_WORLD
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SCREENUV_ON
+    - _WARP_ON
+    - _WRAPMODE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _ENABLE_DISSOLVE_WORLD
+      _GRADIENT_ON _MASK_ON _SCREENUV_ON _WARP_ON _WRAPMODE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_LINEAR
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP2
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: INSTANCING_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: _GRADIENT_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: _ENABLE_DISSOLVE_WORLD
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: _MASK_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: _WRAPMODE_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: _WARP_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: _BILLBOARD_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: _DISSOLVE_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: _SCREENUV_ON
+        tips: 
+    keywordCount: 12
+  - pass: 1
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_LINEAR
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP2
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: INSTANCING_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: _GRADIENT_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: _ENABLE_DISSOLVE_WORLD
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: _MASK_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: _WRAPMODE_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: _WARP_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: _BILLBOARD_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: _DISSOLVE_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: _SCREENUV_ON
+        tips: 
+    keywordCount: 12
+  - pass: 2
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_LINEAR
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP2
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: INSTANCING_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: _GRADIENT_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: _ENABLE_DISSOLVE_WORLD
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: _MASK_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: _WRAPMODE_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: _WARP_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: _BILLBOARD_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: _DISSOLVE_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: _SCREENUV_ON
+        tips: 
+    keywordCount: 12
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_LINEAR
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_EXP
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_EXP2
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: INSTANCING_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: _GRADIENT_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: _ENABLE_DISSOLVE_WORLD
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: _MASK_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: _WRAPMODE_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: _WARP_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: _BILLBOARD_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: _DISSOLVE_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: _SCREENUV_ON
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 100
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 0
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_LINEAR
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP2
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: INSTANCING_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: _GRADIENT_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: _ENABLE_DISSOLVE_WORLD
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: _MASK_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: _WRAPMODE_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: _WARP_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: _BILLBOARD_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: _DISSOLVE_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: _SCREENUV_ON
+          tips: 
+      keywordCount: 12
+    lightMode: PerZPass
+  - index: 0
+    lod: 5
+    passInfos:
+    - pass: 1
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_LINEAR
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP2
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: INSTANCING_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: _GRADIENT_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: _ENABLE_DISSOLVE_WORLD
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: _MASK_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: _WRAPMODE_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: _WARP_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: _BILLBOARD_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: _DISSOLVE_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: _SCREENUV_ON
+          tips: 
+      keywordCount: 12
+    lightMode: ForwardBase

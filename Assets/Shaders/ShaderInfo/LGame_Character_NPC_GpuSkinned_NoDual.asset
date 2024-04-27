@@ -1,0 +1,644 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_Character_NPC_GpuSkinned_NoDual
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 10
+  passCount: 1
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/Character/NPC_GpuSkinned_NoDual
+  path: Assets/ABPack/Resources/Shaders/LGameShader/LGame_Character_NPC_GpuSkinned_NoDual.shader
+  GUID: 355fb526030e8ef4dbc9077da229b403
+  keywordStrs:
+  - 
+  - _BARONBUFF_OFF
+  - _BARONBUFF_ON
+  - _SCAN_MAT_ON
+  dependShader: []
+  gcInclude: []
+  warring: 
+  shader: {fileID: 4800000, guid: 355fb526030e8ef4dbc9077da229b403, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - 3b4052aae3504bd42912618b01f63b05
+    - 56ed476a5bd4bc64fae5c258a087975e
+    - 575aa0bd1ee652641b18210c3f440eb4
+    - 6617ba4950b1d5b4bb61e02308750f4f
+    - c6148888cb8bc554cbc6d117b2512add
+    - 285503af609a0984b8b4b986026b54ba
+    - 9d7de13907416b74297045db45ee55d8
+    - 376f2acb8312bc349b18d3dc788745a2
+    - fc3c0dcecbd1daf44b20882e7c947355
+    - 3033dc5cf6e25f04b867e12c542716f6
+    - 51819b5015d312846a40d95d73423eb5
+    - 6d75a0dad325da4478c7f55ee66766e3
+    - 7f73ba600f9b9a44681f660e1a73d4a3
+    - d25d59abef42dac43bfaff56b687353a
+    - f0120313f6fabac42bf3fc14e6a60a19
+    - ef4575bcfd30d98468d41a74e6b2ed93
+    - 6dccddba77407324dbe0cc7ca86f0b93
+    - 315907ee5f02d5f42a767ef05446cebd
+    - 8ec382798df6f4e478ddd51ac87578ed
+    - a18bbced06f734e59a9e4a23a127cb14
+    - e3209a69034ef964b80ef7e1cb068a87
+    - f797dc458c63d9a44adcfb3d7de0a2a4
+    - f937f39c91aac4970b51ed956539c961
+    - ad5cad7eb1d1646aa808f6a9ddcd123c
+    - 2ad930908f8446340b176a80a37f1bfc
+    - a59bec05ce412424ca38279095bc0df0
+    - d46d3fad023af4f1a95e67b8f7581834
+    - 515f89722a200417f83393502bd33513
+    - 32716f0727df2a3479efae6e294a75c6
+    - c4ebd809eabfe4049bc60fa575010e31
+    - ccdfb99efadb1b945b1234d8dcd6af61
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '13 '
+    users:
+    - 3b4052aae3504bd42912618b01f63b05
+    - 56ed476a5bd4bc64fae5c258a087975e
+    - 575aa0bd1ee652641b18210c3f440eb4
+    - 6617ba4950b1d5b4bb61e02308750f4f
+    - c6148888cb8bc554cbc6d117b2512add
+    - 285503af609a0984b8b4b986026b54ba
+    - 9d7de13907416b74297045db45ee55d8
+    - 376f2acb8312bc349b18d3dc788745a2
+    - fc3c0dcecbd1daf44b20882e7c947355
+    - 3033dc5cf6e25f04b867e12c542716f6
+    - 51819b5015d312846a40d95d73423eb5
+    - 6d75a0dad325da4478c7f55ee66766e3
+    - 7f73ba600f9b9a44681f660e1a73d4a3
+    - d25d59abef42dac43bfaff56b687353a
+    - f0120313f6fabac42bf3fc14e6a60a19
+    - ef4575bcfd30d98468d41a74e6b2ed93
+    - 6dccddba77407324dbe0cc7ca86f0b93
+    - 315907ee5f02d5f42a767ef05446cebd
+    - 8ec382798df6f4e478ddd51ac87578ed
+    - a18bbced06f734e59a9e4a23a127cb14
+    - e3209a69034ef964b80ef7e1cb068a87
+    - f797dc458c63d9a44adcfb3d7de0a2a4
+    - f937f39c91aac4970b51ed956539c961
+    - ad5cad7eb1d1646aa808f6a9ddcd123c
+    - 2ad930908f8446340b176a80a37f1bfc
+    - a59bec05ce412424ca38279095bc0df0
+    - d46d3fad023af4f1a95e67b8f7581834
+    - 515f89722a200417f83393502bd33513
+    - 32716f0727df2a3479efae6e294a75c6
+    - c4ebd809eabfe4049bc60fa575010e31
+    - ccdfb99efadb1b945b1234d8dcd6af61
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_OFF
+    keywordStr: 0 _BARONBUFF_OFF
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_OFF
+    keywordStr: 13 _BARONBUFF_OFF
+    users: []
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_ON
+    keywordStr: 0 _BARONBUFF_ON
+    users:
+    - 9ce17d28063ff43dba605d2c6b905a12
+    - c5cb98201b62647679e1a2f81d198a41
+    - d329eebda751af74e9b2776d6de000b1
+    - d4c968a006a3659469b1ee982eb9e416
+    - f0225671f1e2e48f9918b2acf9df6c78
+    - 7d1037deab32d4ec3950bdaed7b834a6
+    - e6a186e5b90d2de43ac33ac2666ebcd0
+    - 215b1d508bf34ec4a8fda8e9b7fbae02
+    - ef5285540107848d5bcd06c9ea66d778
+    - ba64c2529d65d40d1817f26e1329e54e
+    - 6dd5ab77b7eea4c5090da476976ee3bc
+    - 0037ae19f3ca545ccb6a402e457d94a2
+    - 0796bebed9ee5b542a7ac06b7ca4897e
+    - c1671097c4be19142991e23e93493c62
+    - 791f04cbdbf524748b8e01e7afb23a4a
+    - c32cb66aa9f4740aaaa7867e217ed0ff
+    - e3b175ae15be241639afe4cc96c8d942
+    - 6b0ce577653cb4c03a5a45f881006f6f
+    - 7bd1ac69aea6c405c9b075d33d340d41
+    - e6e2a9d38e1eb4cada53a070b40c7a88
+    - 74994f0e31c23425a8fb0f41c7435033
+    - 426596afa19f54301bebcee9df85f390
+    - 2982cbd5c518b4d5cba100942e1c406b
+    - 537d380fffca94852b32a334b22016a7
+    - 4612a408ce3444586b19543dbecad2e8
+    - 75b851c0a6fdf489b9cd413172196321
+    - b0b1792d2cbef47a3af6fedf83467ee3
+    - 7b7ba9b784e294d699b692d17a525713
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_ON
+    keywordStr: 13 _BARONBUFF_ON
+    users:
+    - 9ce17d28063ff43dba605d2c6b905a12
+    - c5cb98201b62647679e1a2f81d198a41
+    - d329eebda751af74e9b2776d6de000b1
+    - d4c968a006a3659469b1ee982eb9e416
+    - f0225671f1e2e48f9918b2acf9df6c78
+    - 7d1037deab32d4ec3950bdaed7b834a6
+    - e6a186e5b90d2de43ac33ac2666ebcd0
+    - 215b1d508bf34ec4a8fda8e9b7fbae02
+    - ef5285540107848d5bcd06c9ea66d778
+    - ba64c2529d65d40d1817f26e1329e54e
+    - 6dd5ab77b7eea4c5090da476976ee3bc
+    - 0037ae19f3ca545ccb6a402e457d94a2
+    - 0796bebed9ee5b542a7ac06b7ca4897e
+    - c1671097c4be19142991e23e93493c62
+    - 791f04cbdbf524748b8e01e7afb23a4a
+    - c32cb66aa9f4740aaaa7867e217ed0ff
+    - e3b175ae15be241639afe4cc96c8d942
+    - 6b0ce577653cb4c03a5a45f881006f6f
+    - 7bd1ac69aea6c405c9b075d33d340d41
+    - e6e2a9d38e1eb4cada53a070b40c7a88
+    - 74994f0e31c23425a8fb0f41c7435033
+    - 426596afa19f54301bebcee9df85f390
+    - 2982cbd5c518b4d5cba100942e1c406b
+    - 537d380fffca94852b32a334b22016a7
+    - 4612a408ce3444586b19543dbecad2e8
+    - 75b851c0a6fdf489b9cd413172196321
+    - b0b1792d2cbef47a3af6fedf83467ee3
+    - 7b7ba9b784e294d699b692d17a525713
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_OFF
+    - _SCAN_MAT_ON
+    keywordStr: 0 _BARONBUFF_OFF _SCAN_MAT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_OFF
+    - _SCAN_MAT_ON
+    keywordStr: 13 _BARONBUFF_OFF _SCAN_MAT_ON
+    users: []
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_ON
+    - _SCAN_MAT_ON
+    keywordStr: 0 _BARONBUFF_ON _SCAN_MAT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_ON
+    - _SCAN_MAT_ON
+    keywordStr: 13 _BARONBUFF_ON _SCAN_MAT_ON
+    users: []
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '13 '
+    users:
+    - 3b4052aae3504bd42912618b01f63b05
+    - 56ed476a5bd4bc64fae5c258a087975e
+    - 575aa0bd1ee652641b18210c3f440eb4
+    - 6617ba4950b1d5b4bb61e02308750f4f
+    - c6148888cb8bc554cbc6d117b2512add
+    - 285503af609a0984b8b4b986026b54ba
+    - 9d7de13907416b74297045db45ee55d8
+    - 376f2acb8312bc349b18d3dc788745a2
+    - fc3c0dcecbd1daf44b20882e7c947355
+    - 3033dc5cf6e25f04b867e12c542716f6
+    - 51819b5015d312846a40d95d73423eb5
+    - 6d75a0dad325da4478c7f55ee66766e3
+    - 7f73ba600f9b9a44681f660e1a73d4a3
+    - d25d59abef42dac43bfaff56b687353a
+    - f0120313f6fabac42bf3fc14e6a60a19
+    - ef4575bcfd30d98468d41a74e6b2ed93
+    - 6dccddba77407324dbe0cc7ca86f0b93
+    - 315907ee5f02d5f42a767ef05446cebd
+    - 8ec382798df6f4e478ddd51ac87578ed
+    - a18bbced06f734e59a9e4a23a127cb14
+    - e3209a69034ef964b80ef7e1cb068a87
+    - f797dc458c63d9a44adcfb3d7de0a2a4
+    - f937f39c91aac4970b51ed956539c961
+    - ad5cad7eb1d1646aa808f6a9ddcd123c
+    - 2ad930908f8446340b176a80a37f1bfc
+    - a59bec05ce412424ca38279095bc0df0
+    - d46d3fad023af4f1a95e67b8f7581834
+    - 515f89722a200417f83393502bd33513
+    - 32716f0727df2a3479efae6e294a75c6
+    - c4ebd809eabfe4049bc60fa575010e31
+    - ccdfb99efadb1b945b1234d8dcd6af61
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_OFF
+    keywordStr: 13 _BARONBUFF_OFF
+    users: []
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_ON
+    keywordStr: 13 _BARONBUFF_ON
+    users:
+    - 9ce17d28063ff43dba605d2c6b905a12
+    - c5cb98201b62647679e1a2f81d198a41
+    - d329eebda751af74e9b2776d6de000b1
+    - d4c968a006a3659469b1ee982eb9e416
+    - f0225671f1e2e48f9918b2acf9df6c78
+    - 7d1037deab32d4ec3950bdaed7b834a6
+    - e6a186e5b90d2de43ac33ac2666ebcd0
+    - 215b1d508bf34ec4a8fda8e9b7fbae02
+    - ef5285540107848d5bcd06c9ea66d778
+    - ba64c2529d65d40d1817f26e1329e54e
+    - 6dd5ab77b7eea4c5090da476976ee3bc
+    - 0037ae19f3ca545ccb6a402e457d94a2
+    - 0796bebed9ee5b542a7ac06b7ca4897e
+    - c1671097c4be19142991e23e93493c62
+    - 791f04cbdbf524748b8e01e7afb23a4a
+    - c32cb66aa9f4740aaaa7867e217ed0ff
+    - e3b175ae15be241639afe4cc96c8d942
+    - 6b0ce577653cb4c03a5a45f881006f6f
+    - 7bd1ac69aea6c405c9b075d33d340d41
+    - e6e2a9d38e1eb4cada53a070b40c7a88
+    - 74994f0e31c23425a8fb0f41c7435033
+    - 426596afa19f54301bebcee9df85f390
+    - 2982cbd5c518b4d5cba100942e1c406b
+    - 537d380fffca94852b32a334b22016a7
+    - 4612a408ce3444586b19543dbecad2e8
+    - 75b851c0a6fdf489b9cd413172196321
+    - b0b1792d2cbef47a3af6fedf83467ee3
+    - 7b7ba9b784e294d699b692d17a525713
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_OFF
+    - _SCAN_MAT_ON
+    keywordStr: 13 _BARONBUFF_OFF _SCAN_MAT_ON
+    users: []
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_ON
+    - _SCAN_MAT_ON
+    keywordStr: 13 _BARONBUFF_ON _SCAN_MAT_ON
+    users: []
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - 3b4052aae3504bd42912618b01f63b05
+    - 56ed476a5bd4bc64fae5c258a087975e
+    - 575aa0bd1ee652641b18210c3f440eb4
+    - 6617ba4950b1d5b4bb61e02308750f4f
+    - c6148888cb8bc554cbc6d117b2512add
+    - 285503af609a0984b8b4b986026b54ba
+    - 9d7de13907416b74297045db45ee55d8
+    - 376f2acb8312bc349b18d3dc788745a2
+    - fc3c0dcecbd1daf44b20882e7c947355
+    - 3033dc5cf6e25f04b867e12c542716f6
+    - 51819b5015d312846a40d95d73423eb5
+    - 6d75a0dad325da4478c7f55ee66766e3
+    - 7f73ba600f9b9a44681f660e1a73d4a3
+    - d25d59abef42dac43bfaff56b687353a
+    - f0120313f6fabac42bf3fc14e6a60a19
+    - ef4575bcfd30d98468d41a74e6b2ed93
+    - 6dccddba77407324dbe0cc7ca86f0b93
+    - 315907ee5f02d5f42a767ef05446cebd
+    - 8ec382798df6f4e478ddd51ac87578ed
+    - a18bbced06f734e59a9e4a23a127cb14
+    - e3209a69034ef964b80ef7e1cb068a87
+    - f797dc458c63d9a44adcfb3d7de0a2a4
+    - f937f39c91aac4970b51ed956539c961
+    - ad5cad7eb1d1646aa808f6a9ddcd123c
+    - 2ad930908f8446340b176a80a37f1bfc
+    - a59bec05ce412424ca38279095bc0df0
+    - d46d3fad023af4f1a95e67b8f7581834
+    - 515f89722a200417f83393502bd33513
+    - 32716f0727df2a3479efae6e294a75c6
+    - c4ebd809eabfe4049bc60fa575010e31
+    - ccdfb99efadb1b945b1234d8dcd6af61
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_OFF
+    keywordStr: 0 _BARONBUFF_OFF
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_ON
+    keywordStr: 0 _BARONBUFF_ON
+    users:
+    - 9ce17d28063ff43dba605d2c6b905a12
+    - c5cb98201b62647679e1a2f81d198a41
+    - d329eebda751af74e9b2776d6de000b1
+    - d4c968a006a3659469b1ee982eb9e416
+    - f0225671f1e2e48f9918b2acf9df6c78
+    - 7d1037deab32d4ec3950bdaed7b834a6
+    - e6a186e5b90d2de43ac33ac2666ebcd0
+    - 215b1d508bf34ec4a8fda8e9b7fbae02
+    - ef5285540107848d5bcd06c9ea66d778
+    - ba64c2529d65d40d1817f26e1329e54e
+    - 6dd5ab77b7eea4c5090da476976ee3bc
+    - 0037ae19f3ca545ccb6a402e457d94a2
+    - 0796bebed9ee5b542a7ac06b7ca4897e
+    - c1671097c4be19142991e23e93493c62
+    - 791f04cbdbf524748b8e01e7afb23a4a
+    - c32cb66aa9f4740aaaa7867e217ed0ff
+    - e3b175ae15be241639afe4cc96c8d942
+    - 6b0ce577653cb4c03a5a45f881006f6f
+    - 7bd1ac69aea6c405c9b075d33d340d41
+    - e6e2a9d38e1eb4cada53a070b40c7a88
+    - 74994f0e31c23425a8fb0f41c7435033
+    - 426596afa19f54301bebcee9df85f390
+    - 2982cbd5c518b4d5cba100942e1c406b
+    - 537d380fffca94852b32a334b22016a7
+    - 4612a408ce3444586b19543dbecad2e8
+    - 75b851c0a6fdf489b9cd413172196321
+    - b0b1792d2cbef47a3af6fedf83467ee3
+    - 7b7ba9b784e294d699b692d17a525713
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_OFF
+    - _SCAN_MAT_ON
+    keywordStr: 0 _BARONBUFF_OFF _SCAN_MAT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_ON
+    - _SCAN_MAT_ON
+    keywordStr: 0 _BARONBUFF_ON _SCAN_MAT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '13 '
+    users:
+    - 3b4052aae3504bd42912618b01f63b05
+    - 56ed476a5bd4bc64fae5c258a087975e
+    - 575aa0bd1ee652641b18210c3f440eb4
+    - 6617ba4950b1d5b4bb61e02308750f4f
+    - c6148888cb8bc554cbc6d117b2512add
+    - 285503af609a0984b8b4b986026b54ba
+    - 9d7de13907416b74297045db45ee55d8
+    - 376f2acb8312bc349b18d3dc788745a2
+    - fc3c0dcecbd1daf44b20882e7c947355
+    - 3033dc5cf6e25f04b867e12c542716f6
+    - 51819b5015d312846a40d95d73423eb5
+    - 6d75a0dad325da4478c7f55ee66766e3
+    - 7f73ba600f9b9a44681f660e1a73d4a3
+    - d25d59abef42dac43bfaff56b687353a
+    - f0120313f6fabac42bf3fc14e6a60a19
+    - ef4575bcfd30d98468d41a74e6b2ed93
+    - 6dccddba77407324dbe0cc7ca86f0b93
+    - 315907ee5f02d5f42a767ef05446cebd
+    - 8ec382798df6f4e478ddd51ac87578ed
+    - a18bbced06f734e59a9e4a23a127cb14
+    - e3209a69034ef964b80ef7e1cb068a87
+    - f797dc458c63d9a44adcfb3d7de0a2a4
+    - f937f39c91aac4970b51ed956539c961
+    - ad5cad7eb1d1646aa808f6a9ddcd123c
+    - 2ad930908f8446340b176a80a37f1bfc
+    - a59bec05ce412424ca38279095bc0df0
+    - d46d3fad023af4f1a95e67b8f7581834
+    - 515f89722a200417f83393502bd33513
+    - 32716f0727df2a3479efae6e294a75c6
+    - c4ebd809eabfe4049bc60fa575010e31
+    - ccdfb99efadb1b945b1234d8dcd6af61
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_OFF
+    keywordStr: 13 _BARONBUFF_OFF
+    users: []
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_ON
+    keywordStr: 13 _BARONBUFF_ON
+    users:
+    - 9ce17d28063ff43dba605d2c6b905a12
+    - c5cb98201b62647679e1a2f81d198a41
+    - d329eebda751af74e9b2776d6de000b1
+    - d4c968a006a3659469b1ee982eb9e416
+    - f0225671f1e2e48f9918b2acf9df6c78
+    - 7d1037deab32d4ec3950bdaed7b834a6
+    - e6a186e5b90d2de43ac33ac2666ebcd0
+    - 215b1d508bf34ec4a8fda8e9b7fbae02
+    - ef5285540107848d5bcd06c9ea66d778
+    - ba64c2529d65d40d1817f26e1329e54e
+    - 6dd5ab77b7eea4c5090da476976ee3bc
+    - 0037ae19f3ca545ccb6a402e457d94a2
+    - 0796bebed9ee5b542a7ac06b7ca4897e
+    - c1671097c4be19142991e23e93493c62
+    - 791f04cbdbf524748b8e01e7afb23a4a
+    - c32cb66aa9f4740aaaa7867e217ed0ff
+    - e3b175ae15be241639afe4cc96c8d942
+    - 6b0ce577653cb4c03a5a45f881006f6f
+    - 7bd1ac69aea6c405c9b075d33d340d41
+    - e6e2a9d38e1eb4cada53a070b40c7a88
+    - 74994f0e31c23425a8fb0f41c7435033
+    - 426596afa19f54301bebcee9df85f390
+    - 2982cbd5c518b4d5cba100942e1c406b
+    - 537d380fffca94852b32a334b22016a7
+    - 4612a408ce3444586b19543dbecad2e8
+    - 75b851c0a6fdf489b9cd413172196321
+    - b0b1792d2cbef47a3af6fedf83467ee3
+    - 7b7ba9b784e294d699b692d17a525713
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_OFF
+    - _SCAN_MAT_ON
+    keywordStr: 13 _BARONBUFF_OFF _SCAN_MAT_ON
+    users: []
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_ON
+    - _SCAN_MAT_ON
+    keywordStr: 13 _BARONBUFF_ON _SCAN_MAT_ON
+    users: []
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _BARONBUFF_OFF
+        tips: 
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _BARONBUFF_ON
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _SCAN_MAT_ON
+        tips: 
+    keywordCount: 3
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _BARONBUFF_OFF
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _BARONBUFF_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _SCAN_MAT_ON
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 75
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    lightMode: ForwardBase

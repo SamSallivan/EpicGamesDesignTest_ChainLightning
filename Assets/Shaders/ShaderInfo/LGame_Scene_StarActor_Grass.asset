@@ -1,0 +1,735 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_Scene_StarActor_Grass
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 10
+  passCount: 3
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/Scene/StarActor/Grass
+  path: Assets/ABPack/Resources/Shaders/StarActor/LGame_Scene_StarActor_Grass.shader
+  GUID: 0f104e164f138774ea4bbb7122e1f00c
+  keywordStrs:
+  - 
+  - DIRECTIONAL
+  - SHADOWS_SCREEN
+  - LIGHTMAP_ON
+  - POINT
+  - SHADOWS_DEPTH
+  dependShader: []
+  gcInclude: []
+  warring: '
+
+    Has float count: 44
+
+    Use Alpha Clip
+
+    Use cos fcunction : 7
+
+    Use sin fcunction : 7
+
+'
+  shader: {fileID: 4800000, guid: 0f104e164f138774ea4bbb7122e1f00c, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 37f36ca097e27964fab9a83c5562e4f9
+    - a6df4f200abb06c409fc39b520954fe6
+    - b70778305d20c87468d1594840945115
+    - 73967f44a11713149a02e8b4a353976c
+    - d6f8ef3b2c4be304cba45e57ec16c050
+    - 529e94adeb8358649bdc2924b6cf53f7
+    - a0e5990048d523646bdb9f636c3bd441
+    - 96d155319423ca145a5fdb3043dc52ab
+    - feda5d65c3dc0cb44ac4a648a9f1d5aa
+    - 974f37c145981e141bc0d4da3a2a2908
+    - 310a6a0564a10b7499fe47daff78d060
+    - 20e81d15406f5794d825282fa7eedb06
+    - 32e0812559f1a9e4f81465b4a667abab
+    - a1677859f70a3794694de93c001d3e0c
+    - d51d3f5f341614343b0c7dc45ecd62b0
+    - 02380ee4c23cbd04fa3a0da232f30b13
+    - 78deb809143840e4a9b5e1390f57f1b4
+    - aaa3cb7cbf1e1d44ab8be7fa04a06e02
+    - e86a146a1604b814d819bd492d764d6e
+    - 7eb3e2ebeb26c8b4aacde41689c0aee3
+    - 4528568825e50ad418dd0df289f256dc
+    - e7a5a0b25a9b9dd4da45e8c8c9257249
+    - 244b8b55c636b38479509084f48b10f0
+    - fd9c044705755f84c8315935d42593fe
+    - 5b65ddf787f19ab419116f4b7cf6577d
+    - c77caebafc9c734459e89b0b87f1b2d2
+    - 26f5df7efaaee084794c2b4f9f75f955
+    - 642d033f14706f648b45448b44a33c7a
+    - a3452a59730f12f45b9168d3f9cc46b8
+    - 42c15350a3a09754ba0c13b353c212c8
+    - 1e01e2341fa50ab41b6e28b3c1403d99
+    - e651a5ee6b858134a8d37141ca9121f5
+    - 35230f32e077fa44ea2e5da93a4263ea
+    - 05ea505997b64c34395c973e87ce45f4
+    - 75a9ef6079455d041bdf20f6a862d4ec
+    - 17048941a65880848b10afe1377b8e66
+    - 28ba5796b84da95469f08112a88b495d
+    - 21592efa015fe2d4cbe11797b78e56a0
+    - 0eed29fb857433b489c8a91e23d4eaae
+    - d0da2a1486fc70a4288f7c4e5c933bbd
+    - 7a682584f028f8a46948c15391baebb7
+    - 689a066746ae3a647864f78c551539be
+    - b836a00a571a37345a55f7d0d9208a29
+    - 7d92563c1ef008d42a21d148d552fed8
+    - 31fd6cd4777bfc846a176a85687025af
+    - cd6178a701aa1824ea60795b3cbbd701
+    - 1eb7149854e83164f9544e09a0b289e0
+    - 3ecde33a362adb64e956a1e860efe17b
+    - 83c8db76cf95f21459308a544c32cff3
+    - d3cd467776e1a3e4a802689c52160423
+    - 8e86aaf849832b6469a259a808cc61ed
+    - ec0cacad871cebf43b0e831f84cad3a7
+    - d816560fb31ce3e49bdc342e54d4bd18
+    - 454c3e1a8e656144795d408be0840099
+    - 0c1d44de8a349a64a96ec3c5394c13b6
+    - 47c809af8efa9b94f9d1a6960ed5edfb
+    - 75cf79bd530932148aed9969c9083302
+    - 939b7ecdfd7adf542ad8f363d1e9c55c
+    - da2629c61ce2cca43a2913f1d6731bc0
+    - 99046c794b077814fb15c025bbc93e4d
+    - 48400e6cf0f27144a952999cfbcbb0ef
+    - 41e2f1c161d873c428faa1a7115bac2e
+    - 7cde6c32f36242b4598fb634540833bb
+    - ba4e741c5518c3d4da006b4067655562
+    - 6278af58c1f15ed4db6b0ba0a93cc421
+    - e99f7398b73569141ac3bd31d8c944ed
+    - eaccccfec920b734783e02cf682ea89e
+    - 79d3aad4a5654ef40bc3eb7f2db20a68
+    - 5a2828edf7c923a4ebe18359a2267e5d
+    - 6cea2eec2e4ec8d4aa01e85c36403da4
+    - 9c4910eea3db38142b1be4b10d3ec99b
+    - ed3df83c6e5878b4d936bfcd68757a20
+    - 4177012ea57626e47b3449edd097e0af
+    - 46f3cb608830b3247bf72ab72973d81f
+    - e727bb72ec11a6849b3af39f00226634
+    - 5275567a3df6c084ea15e1197738f56a
+    - 71a19b1dc091c274e9f8239a5994ad88
+    - ca645d074d9ca864183f8dcaa520ecc8
+    - 285cca1bd3665b842a3950fc63d38fad
+    - e270980ecdf48ca4f863c897fa05108b
+    - fc916afee380d3445843cc068b2699ed
+    - 77ac30c000f5dd64d952038593e78518
+    - cfc7b0a7117886a4b867b23636f2c856
+    - a90a676de96c19a4299081d90116e0f4
+    - 2454858ef15f1e742b6efddda6d36933
+    - 0f35d5f41ba998044901321aef7b973a
+    - 2c7eb9fd83295c1409dddba7ac48c427
+    - 24fb047d45a6d2d479131f961dfc8b1b
+    - ef61f7c6a069f2344a1e99fa54bae590
+    - e3a7c97000592e14f8a26c7ad1ff1cd9
+    - d01789fd8abd6a340ad7924c1b6274c7
+    - a8d3b972503480042b3adae9011b6b2f
+    - b8042b78b7314d54a88cd5c12f3c82ac
+    - fe6d536ea8d842641aa44a0e6be431f0
+    - f9b75a5beff11dd4f85b52e257f567dc
+    - 011718044caeeac46b42265302324681
+    - cd4f2267f72fd8d47a50ef7c3557f122
+    - 9f372819970ddbd41bb8b00ba80be921
+    - 8f95137b0e8630348ac180c91444a11f
+    - d2858e6b444ea0e4b9a657b2d3d30e60
+    - 56107edda8045414196926e6401c0405
+    - ee4ce126ba7bc564c815326b59c53499
+    - b9c9aca07ce36154086ff1925a4bf29d
+    - b0d275eaa3e5ff54b94f61c26e9d0528
+    - af322e2ec67554a4392244f14ec9b55f
+    - f5fcf3a270d88a846ad486d9bf21bf27
+    - ca640551eeb99c04484fbb44e7a6bd8c
+    - e76943db686ef3441aecf05eb8cbcdc5
+    - 034afa146757289409e094c7ff69bd66
+    - d53d1a153610d7345a495e46b8ab60b1
+    - c1938c520a9ce6a4095746d961368c32
+    - 5d7f50b663cdae94cbe3607c9a819cc3
+    - 07729825776261c46bd678e84e30251e
+    - da2ab6d6711f5d14f8bf1b6aec1c6f7a
+    - 0cbae48a2771cad4fb64ec6c25d44a71
+    - a215b2d4490ab0d4c92c9d1a4853bc75
+    - 3eb832ad80734f94e904e4553b10dc74
+    - 54b802227f00d22419d1196c9e032d1f
+    - a6bcc760a7647c744adb9703d91b9871
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - DIRECTIONAL
+    keywordStr: 4 DIRECTIONAL
+    users: []
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    keywordStr: 4 DIRECTIONAL LIGHTMAP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL LIGHTMAP_ON SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - POINT
+    keywordStr: 5 POINT
+    users: []
+    passType: 5
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - SHADOWS_DEPTH
+    keywordStr: 8 SHADOWS_DEPTH
+    users: []
+    passType: 8
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 37f36ca097e27964fab9a83c5562e4f9
+    - a6df4f200abb06c409fc39b520954fe6
+    - b70778305d20c87468d1594840945115
+    - 73967f44a11713149a02e8b4a353976c
+    - d6f8ef3b2c4be304cba45e57ec16c050
+    - 529e94adeb8358649bdc2924b6cf53f7
+    - a0e5990048d523646bdb9f636c3bd441
+    - 96d155319423ca145a5fdb3043dc52ab
+    - feda5d65c3dc0cb44ac4a648a9f1d5aa
+    - 974f37c145981e141bc0d4da3a2a2908
+    - 310a6a0564a10b7499fe47daff78d060
+    - 20e81d15406f5794d825282fa7eedb06
+    - 32e0812559f1a9e4f81465b4a667abab
+    - a1677859f70a3794694de93c001d3e0c
+    - d51d3f5f341614343b0c7dc45ecd62b0
+    - 02380ee4c23cbd04fa3a0da232f30b13
+    - 78deb809143840e4a9b5e1390f57f1b4
+    - aaa3cb7cbf1e1d44ab8be7fa04a06e02
+    - e86a146a1604b814d819bd492d764d6e
+    - 7eb3e2ebeb26c8b4aacde41689c0aee3
+    - 4528568825e50ad418dd0df289f256dc
+    - e7a5a0b25a9b9dd4da45e8c8c9257249
+    - 244b8b55c636b38479509084f48b10f0
+    - fd9c044705755f84c8315935d42593fe
+    - 5b65ddf787f19ab419116f4b7cf6577d
+    - c77caebafc9c734459e89b0b87f1b2d2
+    - 26f5df7efaaee084794c2b4f9f75f955
+    - 642d033f14706f648b45448b44a33c7a
+    - a3452a59730f12f45b9168d3f9cc46b8
+    - 42c15350a3a09754ba0c13b353c212c8
+    - 1e01e2341fa50ab41b6e28b3c1403d99
+    - e651a5ee6b858134a8d37141ca9121f5
+    - 35230f32e077fa44ea2e5da93a4263ea
+    - 05ea505997b64c34395c973e87ce45f4
+    - 75a9ef6079455d041bdf20f6a862d4ec
+    - 17048941a65880848b10afe1377b8e66
+    - 28ba5796b84da95469f08112a88b495d
+    - 21592efa015fe2d4cbe11797b78e56a0
+    - 0eed29fb857433b489c8a91e23d4eaae
+    - d0da2a1486fc70a4288f7c4e5c933bbd
+    - 7a682584f028f8a46948c15391baebb7
+    - 689a066746ae3a647864f78c551539be
+    - b836a00a571a37345a55f7d0d9208a29
+    - 7d92563c1ef008d42a21d148d552fed8
+    - 31fd6cd4777bfc846a176a85687025af
+    - cd6178a701aa1824ea60795b3cbbd701
+    - 1eb7149854e83164f9544e09a0b289e0
+    - 3ecde33a362adb64e956a1e860efe17b
+    - 83c8db76cf95f21459308a544c32cff3
+    - d3cd467776e1a3e4a802689c52160423
+    - 8e86aaf849832b6469a259a808cc61ed
+    - ec0cacad871cebf43b0e831f84cad3a7
+    - d816560fb31ce3e49bdc342e54d4bd18
+    - 454c3e1a8e656144795d408be0840099
+    - 0c1d44de8a349a64a96ec3c5394c13b6
+    - 47c809af8efa9b94f9d1a6960ed5edfb
+    - 75cf79bd530932148aed9969c9083302
+    - 939b7ecdfd7adf542ad8f363d1e9c55c
+    - da2629c61ce2cca43a2913f1d6731bc0
+    - 99046c794b077814fb15c025bbc93e4d
+    - 48400e6cf0f27144a952999cfbcbb0ef
+    - 41e2f1c161d873c428faa1a7115bac2e
+    - 7cde6c32f36242b4598fb634540833bb
+    - ba4e741c5518c3d4da006b4067655562
+    - 6278af58c1f15ed4db6b0ba0a93cc421
+    - e99f7398b73569141ac3bd31d8c944ed
+    - eaccccfec920b734783e02cf682ea89e
+    - 79d3aad4a5654ef40bc3eb7f2db20a68
+    - 5a2828edf7c923a4ebe18359a2267e5d
+    - 6cea2eec2e4ec8d4aa01e85c36403da4
+    - 9c4910eea3db38142b1be4b10d3ec99b
+    - ed3df83c6e5878b4d936bfcd68757a20
+    - 4177012ea57626e47b3449edd097e0af
+    - 46f3cb608830b3247bf72ab72973d81f
+    - e727bb72ec11a6849b3af39f00226634
+    - 5275567a3df6c084ea15e1197738f56a
+    - 71a19b1dc091c274e9f8239a5994ad88
+    - ca645d074d9ca864183f8dcaa520ecc8
+    - 285cca1bd3665b842a3950fc63d38fad
+    - e270980ecdf48ca4f863c897fa05108b
+    - fc916afee380d3445843cc068b2699ed
+    - 77ac30c000f5dd64d952038593e78518
+    - cfc7b0a7117886a4b867b23636f2c856
+    - a90a676de96c19a4299081d90116e0f4
+    - 2454858ef15f1e742b6efddda6d36933
+    - 0f35d5f41ba998044901321aef7b973a
+    - 2c7eb9fd83295c1409dddba7ac48c427
+    - 24fb047d45a6d2d479131f961dfc8b1b
+    - ef61f7c6a069f2344a1e99fa54bae590
+    - e3a7c97000592e14f8a26c7ad1ff1cd9
+    - d01789fd8abd6a340ad7924c1b6274c7
+    - a8d3b972503480042b3adae9011b6b2f
+    - b8042b78b7314d54a88cd5c12f3c82ac
+    - fe6d536ea8d842641aa44a0e6be431f0
+    - f9b75a5beff11dd4f85b52e257f567dc
+    - 011718044caeeac46b42265302324681
+    - cd4f2267f72fd8d47a50ef7c3557f122
+    - 9f372819970ddbd41bb8b00ba80be921
+    - 8f95137b0e8630348ac180c91444a11f
+    - d2858e6b444ea0e4b9a657b2d3d30e60
+    - 56107edda8045414196926e6401c0405
+    - ee4ce126ba7bc564c815326b59c53499
+    - b9c9aca07ce36154086ff1925a4bf29d
+    - b0d275eaa3e5ff54b94f61c26e9d0528
+    - af322e2ec67554a4392244f14ec9b55f
+    - f5fcf3a270d88a846ad486d9bf21bf27
+    - ca640551eeb99c04484fbb44e7a6bd8c
+    - e76943db686ef3441aecf05eb8cbcdc5
+    - 034afa146757289409e094c7ff69bd66
+    - d53d1a153610d7345a495e46b8ab60b1
+    - c1938c520a9ce6a4095746d961368c32
+    - 5d7f50b663cdae94cbe3607c9a819cc3
+    - 07729825776261c46bd678e84e30251e
+    - da2ab6d6711f5d14f8bf1b6aec1c6f7a
+    - 0cbae48a2771cad4fb64ec6c25d44a71
+    - a215b2d4490ab0d4c92c9d1a4853bc75
+    - 3eb832ad80734f94e904e4553b10dc74
+    - 54b802227f00d22419d1196c9e032d1f
+    - a6bcc760a7647c744adb9703d91b9871
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - DIRECTIONAL
+    keywordStr: 4 DIRECTIONAL
+    users: []
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    keywordStr: 4 DIRECTIONAL LIGHTMAP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL LIGHTMAP_ON SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '5 '
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    keywordStr: 5 DIRECTIONAL
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - POINT
+    keywordStr: 5 POINT
+    users: []
+    passType: 5
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '8 '
+    users: []
+    passType: 8
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - SHADOWS_DEPTH
+    keywordStr: 8 SHADOWS_DEPTH
+    users: []
+    passType: 8
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: LIGHTMAP_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: POINT
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 5
+  - pass: 1
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: LIGHTMAP_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: POINT
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 5
+  - pass: 2
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: LIGHTMAP_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: POINT
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 5
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: DIRECTIONAL
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SHADOWS_SCREEN
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: LIGHTMAP_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: POINT
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SHADOWS_DEPTH
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 300
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 0
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRECTIONAL
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SCREEN
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: LIGHTMAP_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: POINT
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 5
+    - pass: 1
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRECTIONAL
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SCREEN
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: LIGHTMAP_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: POINT
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 5
+    lightMode: ForwardBase

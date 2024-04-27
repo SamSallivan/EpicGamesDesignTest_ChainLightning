@@ -1,0 +1,612 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: LGame_Standard_Beta_variants
+  m_Shaders:
+    data:
+      first: {fileID: 4800000, guid: 8bb4ed8235f1b8a45a8fd78f6bc153b7, type: 3}
+      second:
+        variants:
+        - keywords: 
+          passType: 4
+        - keywords: DIRECTIONAL
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION
+          passType: 4
+        - keywords: DIRECTIONAL _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _UNIQUE_SHADOW
+          passType: 4
+        - keywords: _HIGHCLIP
+          passType: 4
+        - keywords: DIRECTIONAL _HIGHCLIP
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _HIGHCLIP
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _HIGHCLIP
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _HIGHCLIP
+          passType: 4
+        - keywords: DIRECTIONAL _HIGHCLIP _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _HIGHCLIP _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _HIGHCLIP _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _HIGHCLIP _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _METALLICGLOSSMAP
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _METALLICGLOSSMAP
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _METALLICGLOSSMAP
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _METALLICGLOSSMAP
+          passType: 4
+        - keywords: DIRECTIONAL _METALLICGLOSSMAP _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _METALLICGLOSSMAP _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _METALLICGLOSSMAP _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _METALLICGLOSSMAP _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _HIGHCLIP _METALLICGLOSSMAP
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _HIGHCLIP _METALLICGLOSSMAP
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _HIGHCLIP _METALLICGLOSSMAP
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _HIGHCLIP _METALLICGLOSSMAP
+          passType: 4
+        - keywords: DIRECTIONAL _HIGHCLIP _METALLICGLOSSMAP _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _HIGHCLIP _METALLICGLOSSMAP _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _HIGHCLIP _METALLICGLOSSMAP _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _HIGHCLIP _METALLICGLOSSMAP
+            _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _HIGHCLIP _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _HIGHCLIP _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _HIGHCLIP _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _HIGHCLIP _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _HIGHCLIP _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _HIGHCLIP _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _HIGHCLIP _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _HIGHCLIP _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _METALLICGLOSSMAP _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _METALLICGLOSSMAP _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _METALLICGLOSSMAP _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _METALLICGLOSSMAP _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _METALLICGLOSSMAP _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _METALLICGLOSSMAP _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _METALLICGLOSSMAP _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _METALLICGLOSSMAP _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _HIGHCLIP _METALLICGLOSSMAP _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _HIGHCLIP _METALLICGLOSSMAP _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _HIGHCLIP _METALLICGLOSSMAP _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _HIGHCLIP _METALLICGLOSSMAP
+            _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _HIGHCLIP _METALLICGLOSSMAP _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _HIGHCLIP _METALLICGLOSSMAP _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _HIGHCLIP _METALLICGLOSSMAP _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _HIGHCLIP _METALLICGLOSSMAP
+            _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _HIGHCLIP
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _HIGHCLIP
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _HIGHCLIP
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _HIGHCLIP
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _HIGHCLIP _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _HIGHCLIP _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _HIGHCLIP _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _HIGHCLIP _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _METALLICGLOSSMAP
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _METALLICGLOSSMAP
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _METALLICGLOSSMAP
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _METALLICGLOSSMAP
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _METALLICGLOSSMAP _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _METALLICGLOSSMAP _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _METALLICGLOSSMAP _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _METALLICGLOSSMAP
+            _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP
+            _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP
+            _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _HIGHCLIP _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _HIGHCLIP _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _HIGHCLIP _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _HIGHCLIP _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _HIGHCLIP _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _HIGHCLIP _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _HIGHCLIP _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _HIGHCLIP _SSS
+            _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _METALLICGLOSSMAP _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _METALLICGLOSSMAP _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _METALLICGLOSSMAP _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _METALLICGLOSSMAP
+            _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _METALLICGLOSSMAP _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _METALLICGLOSSMAP _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _METALLICGLOSSMAP _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _METALLICGLOSSMAP
+            _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP
+            _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP
+            _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP
+            _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP _SSS
+            _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP
+            _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL _OCCLUSION_UV1 _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _OCCLUSION_UV1 _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _OCCLUSION_UV1 _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _OCCLUSION_UV1 _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _HIGHCLIP _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _HIGHCLIP _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _HIGHCLIP _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _HIGHCLIP _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL _HIGHCLIP _OCCLUSION_UV1 _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _HIGHCLIP _OCCLUSION_UV1 _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _HIGHCLIP _OCCLUSION_UV1 _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _HIGHCLIP _OCCLUSION_UV1
+            _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _METALLICGLOSSMAP _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _METALLICGLOSSMAP _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _METALLICGLOSSMAP _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _METALLICGLOSSMAP _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL _METALLICGLOSSMAP _OCCLUSION_UV1 _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _METALLICGLOSSMAP _OCCLUSION_UV1 _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _METALLICGLOSSMAP _OCCLUSION_UV1 _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _METALLICGLOSSMAP _OCCLUSION_UV1
+            _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _HIGHCLIP _METALLICGLOSSMAP _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _HIGHCLIP _METALLICGLOSSMAP _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _HIGHCLIP _METALLICGLOSSMAP _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _HIGHCLIP _METALLICGLOSSMAP
+            _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL _HIGHCLIP _METALLICGLOSSMAP _OCCLUSION_UV1 _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _HIGHCLIP _METALLICGLOSSMAP _OCCLUSION_UV1
+            _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _HIGHCLIP _METALLICGLOSSMAP _OCCLUSION_UV1
+            _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _HIGHCLIP _METALLICGLOSSMAP
+            _OCCLUSION_UV1 _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _OCCLUSION_UV1 _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _OCCLUSION_UV1 _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _OCCLUSION_UV1 _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _OCCLUSION_UV1 _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _OCCLUSION_UV1 _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _OCCLUSION_UV1 _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _OCCLUSION_UV1 _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _OCCLUSION_UV1 _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _HIGHCLIP _OCCLUSION_UV1 _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _HIGHCLIP _OCCLUSION_UV1 _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _HIGHCLIP _OCCLUSION_UV1 _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _HIGHCLIP _OCCLUSION_UV1
+            _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _HIGHCLIP _OCCLUSION_UV1 _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _HIGHCLIP _OCCLUSION_UV1 _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _HIGHCLIP _OCCLUSION_UV1 _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _HIGHCLIP _OCCLUSION_UV1
+            _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _METALLICGLOSSMAP _OCCLUSION_UV1 _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _METALLICGLOSSMAP _OCCLUSION_UV1 _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _METALLICGLOSSMAP _OCCLUSION_UV1 _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _METALLICGLOSSMAP _OCCLUSION_UV1
+            _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _METALLICGLOSSMAP _OCCLUSION_UV1 _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _METALLICGLOSSMAP _OCCLUSION_UV1 _SSS
+            _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _METALLICGLOSSMAP _OCCLUSION_UV1 _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _METALLICGLOSSMAP _OCCLUSION_UV1
+            _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _HIGHCLIP _METALLICGLOSSMAP _OCCLUSION_UV1 _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _HIGHCLIP _METALLICGLOSSMAP _OCCLUSION_UV1
+            _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _HIGHCLIP _METALLICGLOSSMAP _OCCLUSION_UV1
+            _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _HIGHCLIP _METALLICGLOSSMAP
+            _OCCLUSION_UV1 _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _HIGHCLIP _METALLICGLOSSMAP _OCCLUSION_UV1 _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _HIGHCLIP _METALLICGLOSSMAP _OCCLUSION_UV1
+            _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _HIGHCLIP _METALLICGLOSSMAP _OCCLUSION_UV1
+            _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _HIGHCLIP _METALLICGLOSSMAP
+            _OCCLUSION_UV1 _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _OCCLUSION_UV1 _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _OCCLUSION_UV1 _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _OCCLUSION_UV1 _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _OCCLUSION_UV1
+            _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _HIGHCLIP _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _HIGHCLIP _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _HIGHCLIP _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _HIGHCLIP _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _HIGHCLIP _OCCLUSION_UV1 _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _HIGHCLIP _OCCLUSION_UV1
+            _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _HIGHCLIP _OCCLUSION_UV1 _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _HIGHCLIP _OCCLUSION_UV1
+            _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _METALLICGLOSSMAP _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _METALLICGLOSSMAP _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _METALLICGLOSSMAP _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _METALLICGLOSSMAP
+            _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _METALLICGLOSSMAP _OCCLUSION_UV1 _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _METALLICGLOSSMAP _OCCLUSION_UV1
+            _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _METALLICGLOSSMAP _OCCLUSION_UV1
+            _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _METALLICGLOSSMAP
+            _OCCLUSION_UV1 _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP
+            _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP
+            _OCCLUSION_UV1
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP _OCCLUSION_UV1
+            _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP
+            _OCCLUSION_UV1 _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP _OCCLUSION_UV1
+            _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP
+            _OCCLUSION_UV1 _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _OCCLUSION_UV1 _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _OCCLUSION_UV1 _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _OCCLUSION_UV1 _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _OCCLUSION_UV1
+            _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _OCCLUSION_UV1 _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _OCCLUSION_UV1 _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _OCCLUSION_UV1 _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _OCCLUSION_UV1
+            _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _HIGHCLIP _OCCLUSION_UV1 _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _HIGHCLIP _OCCLUSION_UV1
+            _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _HIGHCLIP _OCCLUSION_UV1 _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _HIGHCLIP _OCCLUSION_UV1
+            _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _HIGHCLIP _OCCLUSION_UV1 _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _HIGHCLIP _OCCLUSION_UV1
+            _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _HIGHCLIP _OCCLUSION_UV1 _SSS
+            _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _HIGHCLIP _OCCLUSION_UV1
+            _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _METALLICGLOSSMAP _OCCLUSION_UV1 _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _METALLICGLOSSMAP _OCCLUSION_UV1
+            _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _METALLICGLOSSMAP _OCCLUSION_UV1
+            _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _METALLICGLOSSMAP
+            _OCCLUSION_UV1 _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _METALLICGLOSSMAP _OCCLUSION_UV1 _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _METALLICGLOSSMAP _OCCLUSION_UV1
+            _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _METALLICGLOSSMAP _OCCLUSION_UV1
+            _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _METALLICGLOSSMAP
+            _OCCLUSION_UV1 _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP _OCCLUSION_UV1
+            _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP
+            _OCCLUSION_UV1 _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP _OCCLUSION_UV1
+            _SSS
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP
+            _OCCLUSION_UV1 _SSS
+          passType: 4
+        - keywords: DIRECTIONAL _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP _OCCLUSION_UV1
+            _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP
+            _OCCLUSION_UV1 _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP _OCCLUSION_UV1
+            _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: DIRECTIONAL SHADOWS_SCREEN _EMISSION _FLOWLIGHT _HIGHCLIP _METALLICGLOSSMAP
+            _OCCLUSION_UV1 _SSS _UNIQUE_SHADOW
+          passType: 4
+        - keywords: 
+          passType: 5
+        - keywords: SPOT
+          passType: 5
+        - keywords: DIRECTIONAL
+          passType: 5
+        - keywords: POINT
+          passType: 5
+        - keywords: SPOT _OCCLUSION_UV1
+          passType: 5
+        - keywords: DIRECTIONAL _OCCLUSION_UV1
+          passType: 5
+        - keywords: POINT _OCCLUSION_UV1
+          passType: 5
+        - keywords: 
+          passType: 8
+        - keywords: SHADOWS_DEPTH
+          passType: 8

@@ -1,0 +1,831 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_Scene_GrassWithFlower
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 37
+  passCount: 4
+  subShaderCount: 3
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/Scene/GrasswithFlower
+  path: Assets/ABPack/Resources/Shaders/LGame_Scene_GrassWithFlower.shader
+  GUID: 2c3fc3c23868c274a8991b13e4e51f62
+  keywordStrs:
+  - 
+  - _FOW_ON
+  - _FOW_ON_CUSTOM
+  - _SOFTSHADOW_ON
+  - _LIGHTMAP_ON
+  - _ENABLE_DISSOLVE_WORLD
+  dependShader: []
+  gcInclude: []
+  warring: '
+
+    Has float count: 40
+
+    Use Alpha Clip
+
+    Use sin fcunction : 2
+
+'
+  shader: {fileID: 4800000, guid: 2c3fc3c23868c274a8991b13e4e51f62, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - 34ee30281d21b5f4998808df70358335
+    - da7da69c2f5d17f4784845734b8542c5
+    - bcf2b982752564543bd7d140282b28ce
+    - 5a3204e984fc070429cae75e08e32dcd
+    - 153f840a73b984447a7565323c3a21c9
+    - 644ddfcefe34eae4dbeee76943487ea3
+    - 4c9b4056933c3b1438c1c46516bf7380
+    - ea5bacc93d4ff9f419124c4e9e2b886f
+    - fbd4dfeba0a7d2944a784a3c4e254f64
+    - 88490103a0614f7a9f08efb9ae67b028
+    - 85e004d7ebd4e3d4386f4f7e891bc41f
+    - ab2f2f1b76d9d224c9fdce5188de3825
+    - d7961ceb085645fba34af3447fb9d8f4
+    - a03b164d3f0a4d46a53f402e9b3621cb
+    - 6a333de0446dbd74d9db54266d0ccc4a
+    - 15ce1fc13e5d4be7b8f8ab3f240269e2
+    - b91f9502ee612a1438564e665a73f785
+    - 3873d3f3419c43d1a810dbf8f6403764
+    - 4f4409655b804fd09fbbb5ca63789be6
+    - 2440f41ab8de518478dc3794e49bcc38
+    - 2f6574dd71444179b86e68423dbb5419
+    - 6a552d96e356a3c4eb03b1c5915f2cd0
+    - ed3a8be650af4ba982a20e412e74de77
+    - fd53ba0ae1835a04594c36e8f4c27bb4
+    - e504c46db60c90a46ad3f929f87d4a8b
+    - f8217cff6d074fd991ae8b4989d09e81
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '13 '
+    users:
+    - 34ee30281d21b5f4998808df70358335
+    - da7da69c2f5d17f4784845734b8542c5
+    - bcf2b982752564543bd7d140282b28ce
+    - 5a3204e984fc070429cae75e08e32dcd
+    - 153f840a73b984447a7565323c3a21c9
+    - 644ddfcefe34eae4dbeee76943487ea3
+    - 4c9b4056933c3b1438c1c46516bf7380
+    - ea5bacc93d4ff9f419124c4e9e2b886f
+    - fbd4dfeba0a7d2944a784a3c4e254f64
+    - 88490103a0614f7a9f08efb9ae67b028
+    - 85e004d7ebd4e3d4386f4f7e891bc41f
+    - ab2f2f1b76d9d224c9fdce5188de3825
+    - d7961ceb085645fba34af3447fb9d8f4
+    - a03b164d3f0a4d46a53f402e9b3621cb
+    - 6a333de0446dbd74d9db54266d0ccc4a
+    - 15ce1fc13e5d4be7b8f8ab3f240269e2
+    - b91f9502ee612a1438564e665a73f785
+    - 3873d3f3419c43d1a810dbf8f6403764
+    - 4f4409655b804fd09fbbb5ca63789be6
+    - 2440f41ab8de518478dc3794e49bcc38
+    - 2f6574dd71444179b86e68423dbb5419
+    - 6a552d96e356a3c4eb03b1c5915f2cd0
+    - ed3a8be650af4ba982a20e412e74de77
+    - fd53ba0ae1835a04594c36e8f4c27bb4
+    - e504c46db60c90a46ad3f929f87d4a8b
+    - f8217cff6d074fd991ae8b4989d09e81
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '13 '
+    users:
+    - 34ee30281d21b5f4998808df70358335
+    - da7da69c2f5d17f4784845734b8542c5
+    - bcf2b982752564543bd7d140282b28ce
+    - 5a3204e984fc070429cae75e08e32dcd
+    - 153f840a73b984447a7565323c3a21c9
+    - 644ddfcefe34eae4dbeee76943487ea3
+    - 4c9b4056933c3b1438c1c46516bf7380
+    - ea5bacc93d4ff9f419124c4e9e2b886f
+    - fbd4dfeba0a7d2944a784a3c4e254f64
+    - 88490103a0614f7a9f08efb9ae67b028
+    - 85e004d7ebd4e3d4386f4f7e891bc41f
+    - ab2f2f1b76d9d224c9fdce5188de3825
+    - d7961ceb085645fba34af3447fb9d8f4
+    - a03b164d3f0a4d46a53f402e9b3621cb
+    - 6a333de0446dbd74d9db54266d0ccc4a
+    - 15ce1fc13e5d4be7b8f8ab3f240269e2
+    - b91f9502ee612a1438564e665a73f785
+    - 3873d3f3419c43d1a810dbf8f6403764
+    - 4f4409655b804fd09fbbb5ca63789be6
+    - 2440f41ab8de518478dc3794e49bcc38
+    - 2f6574dd71444179b86e68423dbb5419
+    - 6a552d96e356a3c4eb03b1c5915f2cd0
+    - ed3a8be650af4ba982a20e412e74de77
+    - fd53ba0ae1835a04594c36e8f4c27bb4
+    - e504c46db60c90a46ad3f929f87d4a8b
+    - f8217cff6d074fd991ae8b4989d09e81
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - 34ee30281d21b5f4998808df70358335
+    - da7da69c2f5d17f4784845734b8542c5
+    - bcf2b982752564543bd7d140282b28ce
+    - 5a3204e984fc070429cae75e08e32dcd
+    - 153f840a73b984447a7565323c3a21c9
+    - 644ddfcefe34eae4dbeee76943487ea3
+    - 4c9b4056933c3b1438c1c46516bf7380
+    - ea5bacc93d4ff9f419124c4e9e2b886f
+    - fbd4dfeba0a7d2944a784a3c4e254f64
+    - 88490103a0614f7a9f08efb9ae67b028
+    - 85e004d7ebd4e3d4386f4f7e891bc41f
+    - ab2f2f1b76d9d224c9fdce5188de3825
+    - d7961ceb085645fba34af3447fb9d8f4
+    - a03b164d3f0a4d46a53f402e9b3621cb
+    - 6a333de0446dbd74d9db54266d0ccc4a
+    - 15ce1fc13e5d4be7b8f8ab3f240269e2
+    - b91f9502ee612a1438564e665a73f785
+    - 3873d3f3419c43d1a810dbf8f6403764
+    - 4f4409655b804fd09fbbb5ca63789be6
+    - 2440f41ab8de518478dc3794e49bcc38
+    - 2f6574dd71444179b86e68423dbb5419
+    - 6a552d96e356a3c4eb03b1c5915f2cd0
+    - ed3a8be650af4ba982a20e412e74de77
+    - fd53ba0ae1835a04594c36e8f4c27bb4
+    - e504c46db60c90a46ad3f929f87d4a8b
+    - f8217cff6d074fd991ae8b4989d09e81
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FOW_ON
+    keywordStr: 0 _FOW_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FOW_ON_CUSTOM
+    keywordStr: 0 _FOW_ON_CUSTOM
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _SOFTSHADOW_ON
+    keywordStr: 0 _SOFTSHADOW_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FOW_ON
+    - _SOFTSHADOW_ON
+    keywordStr: 0 _FOW_ON _SOFTSHADOW_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FOW_ON_CUSTOM
+    - _SOFTSHADOW_ON
+    keywordStr: 0 _FOW_ON_CUSTOM _SOFTSHADOW_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _LIGHTMAP_ON
+    keywordStr: 0 _LIGHTMAP_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FOW_ON
+    - _LIGHTMAP_ON
+    keywordStr: 0 _FOW_ON _LIGHTMAP_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FOW_ON_CUSTOM
+    - _LIGHTMAP_ON
+    keywordStr: 0 _FOW_ON_CUSTOM _LIGHTMAP_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _LIGHTMAP_ON
+    - _SOFTSHADOW_ON
+    keywordStr: 0 _LIGHTMAP_ON _SOFTSHADOW_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FOW_ON
+    - _LIGHTMAP_ON
+    - _SOFTSHADOW_ON
+    keywordStr: 0 _FOW_ON _LIGHTMAP_ON _SOFTSHADOW_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FOW_ON_CUSTOM
+    - _LIGHTMAP_ON
+    - _SOFTSHADOW_ON
+    keywordStr: 0 _FOW_ON_CUSTOM _LIGHTMAP_ON _SOFTSHADOW_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '13 '
+    users:
+    - 34ee30281d21b5f4998808df70358335
+    - da7da69c2f5d17f4784845734b8542c5
+    - bcf2b982752564543bd7d140282b28ce
+    - 5a3204e984fc070429cae75e08e32dcd
+    - 153f840a73b984447a7565323c3a21c9
+    - 644ddfcefe34eae4dbeee76943487ea3
+    - 4c9b4056933c3b1438c1c46516bf7380
+    - ea5bacc93d4ff9f419124c4e9e2b886f
+    - fbd4dfeba0a7d2944a784a3c4e254f64
+    - 88490103a0614f7a9f08efb9ae67b028
+    - 85e004d7ebd4e3d4386f4f7e891bc41f
+    - ab2f2f1b76d9d224c9fdce5188de3825
+    - d7961ceb085645fba34af3447fb9d8f4
+    - a03b164d3f0a4d46a53f402e9b3621cb
+    - 6a333de0446dbd74d9db54266d0ccc4a
+    - 15ce1fc13e5d4be7b8f8ab3f240269e2
+    - b91f9502ee612a1438564e665a73f785
+    - 3873d3f3419c43d1a810dbf8f6403764
+    - 4f4409655b804fd09fbbb5ca63789be6
+    - 2440f41ab8de518478dc3794e49bcc38
+    - 2f6574dd71444179b86e68423dbb5419
+    - 6a552d96e356a3c4eb03b1c5915f2cd0
+    - ed3a8be650af4ba982a20e412e74de77
+    - fd53ba0ae1835a04594c36e8f4c27bb4
+    - e504c46db60c90a46ad3f929f87d4a8b
+    - f8217cff6d074fd991ae8b4989d09e81
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FOW_ON
+    keywordStr: 13 _FOW_ON
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FOW_ON_CUSTOM
+    keywordStr: 13 _FOW_ON_CUSTOM
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _SOFTSHADOW_ON
+    keywordStr: 13 _SOFTSHADOW_ON
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FOW_ON
+    - _SOFTSHADOW_ON
+    keywordStr: 13 _FOW_ON _SOFTSHADOW_ON
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FOW_ON_CUSTOM
+    - _SOFTSHADOW_ON
+    keywordStr: 13 _FOW_ON_CUSTOM _SOFTSHADOW_ON
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _LIGHTMAP_ON
+    keywordStr: 13 _LIGHTMAP_ON
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FOW_ON
+    - _LIGHTMAP_ON
+    keywordStr: 13 _FOW_ON _LIGHTMAP_ON
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FOW_ON_CUSTOM
+    - _LIGHTMAP_ON
+    keywordStr: 13 _FOW_ON_CUSTOM _LIGHTMAP_ON
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _LIGHTMAP_ON
+    - _SOFTSHADOW_ON
+    keywordStr: 13 _LIGHTMAP_ON _SOFTSHADOW_ON
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FOW_ON
+    - _LIGHTMAP_ON
+    - _SOFTSHADOW_ON
+    keywordStr: 13 _FOW_ON _LIGHTMAP_ON _SOFTSHADOW_ON
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FOW_ON_CUSTOM
+    - _LIGHTMAP_ON
+    - _SOFTSHADOW_ON
+    keywordStr: 13 _FOW_ON_CUSTOM _LIGHTMAP_ON _SOFTSHADOW_ON
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    keywordStr: 13 _ENABLE_DISSOLVE_WORLD
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _FOW_ON
+    keywordStr: 13 _ENABLE_DISSOLVE_WORLD _FOW_ON
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _FOW_ON_CUSTOM
+    keywordStr: 13 _ENABLE_DISSOLVE_WORLD _FOW_ON_CUSTOM
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _SOFTSHADOW_ON
+    keywordStr: 13 _ENABLE_DISSOLVE_WORLD _SOFTSHADOW_ON
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _FOW_ON
+    - _SOFTSHADOW_ON
+    keywordStr: 13 _ENABLE_DISSOLVE_WORLD _FOW_ON _SOFTSHADOW_ON
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _FOW_ON_CUSTOM
+    - _SOFTSHADOW_ON
+    keywordStr: 13 _ENABLE_DISSOLVE_WORLD _FOW_ON_CUSTOM _SOFTSHADOW_ON
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _LIGHTMAP_ON
+    keywordStr: 13 _ENABLE_DISSOLVE_WORLD _LIGHTMAP_ON
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _FOW_ON
+    - _LIGHTMAP_ON
+    keywordStr: 13 _ENABLE_DISSOLVE_WORLD _FOW_ON _LIGHTMAP_ON
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _FOW_ON_CUSTOM
+    - _LIGHTMAP_ON
+    keywordStr: 13 _ENABLE_DISSOLVE_WORLD _FOW_ON_CUSTOM _LIGHTMAP_ON
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _LIGHTMAP_ON
+    - _SOFTSHADOW_ON
+    keywordStr: 13 _ENABLE_DISSOLVE_WORLD _LIGHTMAP_ON _SOFTSHADOW_ON
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _FOW_ON
+    - _LIGHTMAP_ON
+    - _SOFTSHADOW_ON
+    keywordStr: 13 _ENABLE_DISSOLVE_WORLD _FOW_ON _LIGHTMAP_ON _SOFTSHADOW_ON
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ENABLE_DISSOLVE_WORLD
+    - _FOW_ON_CUSTOM
+    - _LIGHTMAP_ON
+    - _SOFTSHADOW_ON
+    keywordStr: 13 _ENABLE_DISSOLVE_WORLD _FOW_ON_CUSTOM _LIGHTMAP_ON _SOFTSHADOW_ON
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _FOW_ON
+        tips: 
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _FOW_ON_CUSTOM
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _LIGHTMAP_ON
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _SOFTSHADOW_ON
+        tips: 
+    keywordCount: 4
+  - pass: 1
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _FOW_ON
+        tips: 
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _FOW_ON_CUSTOM
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _LIGHTMAP_ON
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _SOFTSHADOW_ON
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _ENABLE_DISSOLVE_WORLD
+        tips: 
+    keywordCount: 5
+  - pass: 2
+    passType: 0
+    keywordLines: []
+    keywordCount: 0
+  - pass: 3
+    passType: 0
+    keywordLines: []
+    keywordCount: 0
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _FOW_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _FOW_ON_CUSTOM
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _LIGHTMAP_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _SOFTSHADOW_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _ENABLE_DISSOLVE_WORLD
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 100
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 0
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 1
+        isFeature: 0
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _FOW_ON
+          tips: 
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _FOW_ON_CUSTOM
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _LIGHTMAP_ON
+          tips: 
+      - hasUnderscoreVariant: 1
+        isFeature: 0
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _SOFTSHADOW_ON
+          tips: 
+      keywordCount: 4
+    lightMode: GrassSrp
+  - index: 0
+    lod: 10
+    passInfos:
+    - pass: 1
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 1
+        isFeature: 0
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _FOW_ON
+          tips: 
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _FOW_ON_CUSTOM
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _LIGHTMAP_ON
+          tips: 
+      - hasUnderscoreVariant: 1
+        isFeature: 0
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _SOFTSHADOW_ON
+          tips: 
+      - hasUnderscoreVariant: 1
+        isFeature: 0
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _ENABLE_DISSOLVE_WORLD
+          tips: 
+      keywordCount: 5
+    lightMode: ForwardBase
+  - index: 1
+    lod: 5
+    passInfos:
+    - pass: 2
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    lightMode: ForwardBase

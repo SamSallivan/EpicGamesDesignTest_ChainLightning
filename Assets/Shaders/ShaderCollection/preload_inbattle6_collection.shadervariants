@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_inbattle6_collection
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 5eddc06616d09cd4a9cafadbe4215350, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: _ALPHABLEND_ON
+        passType: 13
+      - keywords: _RIMLIGHT
+        passType: 13
+  - first: {fileID: 4800000, guid: b8eb5242e445bef4f95398a563ae4765, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: _SCAN_MAT_ON
+        passType: 13

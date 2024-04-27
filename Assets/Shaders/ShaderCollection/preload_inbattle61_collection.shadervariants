@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_inbattle61_collection
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 62031de109c0d9343b13873afcaf13d4, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: _FOW_ON
+        passType: 13
+  - first: {fileID: 4800000, guid: 80e7ca1fe3faec84aa30dc7cf80b3e7e, type: 3}
+    second:
+      variants:
+      - keywords: _ALPHACLIP_ON _FOW_ON _LIGHTMAP_ON _SOFTSHADOW_ON
+        passType: 4
+      - keywords: _ALPHACLIP_ON _LIGHTMAP_ON _MOVENOISE_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: cfc3ff5217d6b684d85ec6d05b0b312b, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4

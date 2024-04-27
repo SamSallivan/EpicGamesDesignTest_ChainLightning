@@ -1,0 +1,4919 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_StarActor_Chiffon_Dither_Clip
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 307
+  passCount: 4
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/StarActor/Chiffon/Dither (Clip)
+  path: Assets/ABPack/Resources/Shaders/StarActor/LGame_StarActor_Chiffon_Dither_Clip.shader
+  GUID: 9d5feb3a47731704fbb7ce7ef6f51d6e
+  keywordStrs:
+  - 
+  - DIRECTIONAL
+  - SHADOWS_SCREEN
+  - _METALLICGLOSSMAP
+  - _REFLECTION_CUBEMAP
+  - _HARD_SHADOW
+  - _SOFT_SHADOW
+  - _DUAL_RIMLIGHT
+  - _GLINT
+  - _SILK
+  - _VELVET
+  - POINT
+  - SHADOWS_DEPTH
+  - _TRANSPARENT_SHADOW
+  - _ENABLE_TRANSPARENT_SHADOW
+  dependShader: []
+  gcInclude: []
+  warring: 
+  shader: {fileID: 4800000, guid: 9d5feb3a47731704fbb7ce7ef6f51d6e, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 343fbbad9102aa04988b55dc628b73a9
+    - dc2a17a0358ab5e4a97df572d6d5e8e0
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _METALLICGLOSSMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _METALLICGLOSSMAP _SILK
+    users:
+    - dc2a17a0358ab5e4a97df572d6d5e8e0
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _METALLICGLOSSMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _METALLICGLOSSMAP _VELVET
+    users:
+    - 343fbbad9102aa04988b55dc628b73a9
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 343fbbad9102aa04988b55dc628b73a9
+    - dc2a17a0358ab5e4a97df572d6d5e8e0
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    keywordStr: 4 DIRECTIONAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _METALLICGLOSSMAP
+    keywordStr: 4 DIRECTIONAL _METALLICGLOSSMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _METALLICGLOSSMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _METALLICGLOSSMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    keywordStr: 4 DIRECTIONAL _HARD_SHADOW _METALLICGLOSSMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _HARD_SHADOW _METALLICGLOSSMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _HARD_SHADOW
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _HARD_SHADOW _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _HARD_SHADOW
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _HARD_SHADOW _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _HARD_SHADOW _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _HARD_SHADOW _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _METALLICGLOSSMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _METALLICGLOSSMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _METALLICGLOSSMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _METALLICGLOSSMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _REFLECTION_CUBEMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _REFLECTION_CUBEMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _METALLICGLOSSMAP _REFLECTION_CUBEMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _METALLICGLOSSMAP
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _METALLICGLOSSMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _METALLICGLOSSMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _METALLICGLOSSMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _HARD_SHADOW _METALLICGLOSSMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _HARD_SHADOW _METALLICGLOSSMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _HARD_SHADOW
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _HARD_SHADOW _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _HARD_SHADOW
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _HARD_SHADOW _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _HARD_SHADOW _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _HARD_SHADOW _METALLICGLOSSMAP
+      _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _METALLICGLOSSMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _METALLICGLOSSMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _METALLICGLOSSMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _METALLICGLOSSMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _REFLECTION_CUBEMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _REFLECTION_CUBEMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    keywordStr: 4 DIRECTIONAL _GLINT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _METALLICGLOSSMAP
+    keywordStr: 4 DIRECTIONAL _GLINT _METALLICGLOSSMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _METALLICGLOSSMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _METALLICGLOSSMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _GLINT _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _GLINT _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _GLINT _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    keywordStr: 4 DIRECTIONAL _GLINT _HARD_SHADOW _METALLICGLOSSMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _HARD_SHADOW _METALLICGLOSSMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _HARD_SHADOW
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _GLINT _HARD_SHADOW _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _HARD_SHADOW
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _HARD_SHADOW _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _GLINT _HARD_SHADOW _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _HARD_SHADOW _METALLICGLOSSMAP
+      _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _GLINT _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _GLINT _METALLICGLOSSMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _METALLICGLOSSMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _GLINT _REFLECTION_CUBEMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _REFLECTION_CUBEMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _GLINT _METALLICGLOSSMAP _REFLECTION_CUBEMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _METALLICGLOSSMAP
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _METALLICGLOSSMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _METALLICGLOSSMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _METALLICGLOSSMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _METALLICGLOSSMAP
+      _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _HARD_SHADOW _METALLICGLOSSMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _HARD_SHADOW _METALLICGLOSSMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _HARD_SHADOW
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _HARD_SHADOW _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _HARD_SHADOW
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _HARD_SHADOW _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _HARD_SHADOW _METALLICGLOSSMAP
+      _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _HARD_SHADOW _METALLICGLOSSMAP
+      _REFLECTION_CUBEMAP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _METALLICGLOSSMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _METALLICGLOSSMAP
+      _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _REFLECTION_CUBEMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _REFLECTION_CUBEMAP
+      _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _METALLICGLOSSMAP
+      _REFLECTION_CUBEMAP _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _METALLICGLOSSMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _METALLICGLOSSMAP _SILK
+    users:
+    - dc2a17a0358ab5e4a97df572d6d5e8e0
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _METALLICGLOSSMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _METALLICGLOSSMAP _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _REFLECTION_CUBEMAP _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _REFLECTION_CUBEMAP _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _METALLICGLOSSMAP _REFLECTION_CUBEMAP _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _HARD_SHADOW
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _HARD_SHADOW _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _HARD_SHADOW
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _HARD_SHADOW _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _HARD_SHADOW _METALLICGLOSSMAP _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _HARD_SHADOW _METALLICGLOSSMAP _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _HARD_SHADOW
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _HARD_SHADOW _REFLECTION_CUBEMAP _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _HARD_SHADOW
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _HARD_SHADOW _REFLECTION_CUBEMAP _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _HARD_SHADOW _METALLICGLOSSMAP _REFLECTION_CUBEMAP _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _HARD_SHADOW _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _METALLICGLOSSMAP
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _METALLICGLOSSMAP _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _METALLICGLOSSMAP
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _METALLICGLOSSMAP _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _REFLECTION_CUBEMAP _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _REFLECTION_CUBEMAP _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _METALLICGLOSSMAP _REFLECTION_CUBEMAP _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _METALLICGLOSSMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _METALLICGLOSSMAP _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _METALLICGLOSSMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _METALLICGLOSSMAP _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _REFLECTION_CUBEMAP _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _REFLECTION_CUBEMAP _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _HARD_SHADOW
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _HARD_SHADOW _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _HARD_SHADOW
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _HARD_SHADOW _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _HARD_SHADOW _METALLICGLOSSMAP _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _HARD_SHADOW _METALLICGLOSSMAP
+      _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _HARD_SHADOW
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _HARD_SHADOW _REFLECTION_CUBEMAP _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _HARD_SHADOW
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _HARD_SHADOW _REFLECTION_CUBEMAP
+      _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _HARD_SHADOW _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _HARD_SHADOW _METALLICGLOSSMAP
+      _REFLECTION_CUBEMAP _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _METALLICGLOSSMAP
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _METALLICGLOSSMAP _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _METALLICGLOSSMAP
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _METALLICGLOSSMAP _SILK
+      _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _REFLECTION_CUBEMAP _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _REFLECTION_CUBEMAP _SILK
+      _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _GLINT _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _GLINT _METALLICGLOSSMAP _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _METALLICGLOSSMAP _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _GLINT _REFLECTION_CUBEMAP _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _REFLECTION_CUBEMAP _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _GLINT _METALLICGLOSSMAP _REFLECTION_CUBEMAP _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _HARD_SHADOW
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _GLINT _HARD_SHADOW _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _HARD_SHADOW
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _HARD_SHADOW _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _GLINT _HARD_SHADOW _METALLICGLOSSMAP _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _HARD_SHADOW _METALLICGLOSSMAP
+      _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _HARD_SHADOW
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _GLINT _HARD_SHADOW _REFLECTION_CUBEMAP _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _HARD_SHADOW
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _HARD_SHADOW _REFLECTION_CUBEMAP
+      _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _GLINT _HARD_SHADOW _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _HARD_SHADOW _METALLICGLOSSMAP
+      _REFLECTION_CUBEMAP _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _GLINT _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _GLINT _METALLICGLOSSMAP _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _METALLICGLOSSMAP _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _GLINT _REFLECTION_CUBEMAP _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _REFLECTION_CUBEMAP _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _GLINT _METALLICGLOSSMAP _REFLECTION_CUBEMAP _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _METALLICGLOSSMAP _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _METALLICGLOSSMAP
+      _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _REFLECTION_CUBEMAP _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _REFLECTION_CUBEMAP
+      _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _METALLICGLOSSMAP
+      _REFLECTION_CUBEMAP _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _HARD_SHADOW
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _HARD_SHADOW _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _HARD_SHADOW
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _HARD_SHADOW _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _HARD_SHADOW _METALLICGLOSSMAP
+      _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _HARD_SHADOW _METALLICGLOSSMAP
+      _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _HARD_SHADOW
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _HARD_SHADOW _REFLECTION_CUBEMAP
+      _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _HARD_SHADOW
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _HARD_SHADOW _REFLECTION_CUBEMAP
+      _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _HARD_SHADOW _METALLICGLOSSMAP
+      _REFLECTION_CUBEMAP _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _HARD_SHADOW _METALLICGLOSSMAP
+      _REFLECTION_CUBEMAP _SILK
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _METALLICGLOSSMAP _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _METALLICGLOSSMAP
+      _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _REFLECTION_CUBEMAP _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _REFLECTION_CUBEMAP
+      _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SILK
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _METALLICGLOSSMAP
+      _REFLECTION_CUBEMAP _SILK _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _METALLICGLOSSMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _METALLICGLOSSMAP _VELVET
+    users:
+    - 343fbbad9102aa04988b55dc628b73a9
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _METALLICGLOSSMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _METALLICGLOSSMAP _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _REFLECTION_CUBEMAP _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _REFLECTION_CUBEMAP _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _METALLICGLOSSMAP _REFLECTION_CUBEMAP _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _HARD_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _HARD_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _HARD_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _HARD_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _HARD_SHADOW _METALLICGLOSSMAP _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _HARD_SHADOW _METALLICGLOSSMAP _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _HARD_SHADOW
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _HARD_SHADOW _REFLECTION_CUBEMAP _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _HARD_SHADOW
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _HARD_SHADOW _REFLECTION_CUBEMAP _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _HARD_SHADOW _METALLICGLOSSMAP _REFLECTION_CUBEMAP _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _HARD_SHADOW _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _SOFT_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _SOFT_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _METALLICGLOSSMAP
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _METALLICGLOSSMAP _SOFT_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _METALLICGLOSSMAP
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _METALLICGLOSSMAP _SOFT_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _REFLECTION_CUBEMAP _SOFT_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _REFLECTION_CUBEMAP _SOFT_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _METALLICGLOSSMAP _REFLECTION_CUBEMAP _SOFT_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _SOFT_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _METALLICGLOSSMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _METALLICGLOSSMAP _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _METALLICGLOSSMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _METALLICGLOSSMAP _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _REFLECTION_CUBEMAP _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _REFLECTION_CUBEMAP _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _HARD_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _HARD_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _HARD_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _HARD_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _HARD_SHADOW _METALLICGLOSSMAP _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _HARD_SHADOW _METALLICGLOSSMAP
+      _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _HARD_SHADOW
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _HARD_SHADOW _REFLECTION_CUBEMAP _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _HARD_SHADOW
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _HARD_SHADOW _REFLECTION_CUBEMAP
+      _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _HARD_SHADOW _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _HARD_SHADOW _METALLICGLOSSMAP
+      _REFLECTION_CUBEMAP _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _SOFT_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _SOFT_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _METALLICGLOSSMAP
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _METALLICGLOSSMAP _SOFT_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _METALLICGLOSSMAP
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _METALLICGLOSSMAP _SOFT_SHADOW
+      _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _REFLECTION_CUBEMAP _SOFT_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _REFLECTION_CUBEMAP _SOFT_SHADOW
+      _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _SOFT_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _SOFT_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _GLINT _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _GLINT _METALLICGLOSSMAP _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _METALLICGLOSSMAP _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _GLINT _REFLECTION_CUBEMAP _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _REFLECTION_CUBEMAP _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _GLINT _METALLICGLOSSMAP _REFLECTION_CUBEMAP _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _HARD_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _GLINT _HARD_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _HARD_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _HARD_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _GLINT _HARD_SHADOW _METALLICGLOSSMAP _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _HARD_SHADOW _METALLICGLOSSMAP
+      _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _HARD_SHADOW
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _GLINT _HARD_SHADOW _REFLECTION_CUBEMAP _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _HARD_SHADOW
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _HARD_SHADOW _REFLECTION_CUBEMAP
+      _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _GLINT _HARD_SHADOW _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _HARD_SHADOW _METALLICGLOSSMAP
+      _REFLECTION_CUBEMAP _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _GLINT _SOFT_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _SOFT_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _GLINT _METALLICGLOSSMAP _SOFT_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _METALLICGLOSSMAP _SOFT_SHADOW
+      _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _GLINT _REFLECTION_CUBEMAP _SOFT_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _REFLECTION_CUBEMAP _SOFT_SHADOW
+      _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _GLINT _METALLICGLOSSMAP _REFLECTION_CUBEMAP _SOFT_SHADOW
+      _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _SOFT_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _METALLICGLOSSMAP _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _METALLICGLOSSMAP
+      _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _REFLECTION_CUBEMAP _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _REFLECTION_CUBEMAP
+      _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _METALLICGLOSSMAP
+      _REFLECTION_CUBEMAP _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _HARD_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _HARD_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _HARD_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _HARD_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _HARD_SHADOW _METALLICGLOSSMAP
+      _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _HARD_SHADOW _METALLICGLOSSMAP
+      _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _HARD_SHADOW
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _HARD_SHADOW _REFLECTION_CUBEMAP
+      _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _HARD_SHADOW
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _HARD_SHADOW _REFLECTION_CUBEMAP
+      _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _HARD_SHADOW _METALLICGLOSSMAP
+      _REFLECTION_CUBEMAP _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _HARD_SHADOW
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _HARD_SHADOW _METALLICGLOSSMAP
+      _REFLECTION_CUBEMAP _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _SOFT_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _SOFT_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _METALLICGLOSSMAP _SOFT_SHADOW
+      _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _METALLICGLOSSMAP
+      _SOFT_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _REFLECTION_CUBEMAP _SOFT_SHADOW
+      _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _REFLECTION_CUBEMAP
+      _SOFT_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL _DUAL_RIMLIGHT _GLINT _METALLICGLOSSMAP _REFLECTION_CUBEMAP
+      _SOFT_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DUAL_RIMLIGHT
+    - _GLINT
+    - _METALLICGLOSSMAP
+    - _REFLECTION_CUBEMAP
+    - _SOFT_SHADOW
+    - _VELVET
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DUAL_RIMLIGHT _GLINT _METALLICGLOSSMAP
+      _REFLECTION_CUBEMAP _SOFT_SHADOW _VELVET
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '5 '
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    keywordStr: 5 DIRECTIONAL
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - POINT
+    keywordStr: 5 POINT
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _METALLICGLOSSMAP
+    keywordStr: 5 DIRECTIONAL _METALLICGLOSSMAP
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - POINT
+    - _METALLICGLOSSMAP
+    keywordStr: 5 POINT _METALLICGLOSSMAP
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _SILK
+    keywordStr: 5 DIRECTIONAL _SILK
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - POINT
+    - _SILK
+    keywordStr: 5 POINT _SILK
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _METALLICGLOSSMAP
+    - _SILK
+    keywordStr: 5 DIRECTIONAL _METALLICGLOSSMAP _SILK
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - POINT
+    - _METALLICGLOSSMAP
+    - _SILK
+    keywordStr: 5 POINT _METALLICGLOSSMAP _SILK
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _VELVET
+    keywordStr: 5 DIRECTIONAL _VELVET
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - POINT
+    - _VELVET
+    keywordStr: 5 POINT _VELVET
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _METALLICGLOSSMAP
+    - _VELVET
+    keywordStr: 5 DIRECTIONAL _METALLICGLOSSMAP _VELVET
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - POINT
+    - _METALLICGLOSSMAP
+    - _VELVET
+    keywordStr: 5 POINT _METALLICGLOSSMAP _VELVET
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '8 '
+    users: []
+    passType: 8
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SHADOWS_DEPTH
+    keywordStr: 8 SHADOWS_DEPTH
+    users: []
+    passType: 8
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SHADOWS_DEPTH
+    - _TRANSPARENT_SHADOW
+    keywordStr: 8 SHADOWS_DEPTH _TRANSPARENT_SHADOW
+    users: []
+    passType: 8
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SHADOWS_DEPTH
+    - _ENABLE_TRANSPARENT_SHADOW
+    keywordStr: 8 SHADOWS_DEPTH _ENABLE_TRANSPARENT_SHADOW
+    users: []
+    passType: 8
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SHADOWS_DEPTH
+    - _ENABLE_TRANSPARENT_SHADOW
+    - _TRANSPARENT_SHADOW
+    keywordStr: 8 SHADOWS_DEPTH _ENABLE_TRANSPARENT_SHADOW _TRANSPARENT_SHADOW
+    users: []
+    passType: 8
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: POINT
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 4
+  - pass: 1
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _HARD_SHADOW
+        tips: 
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _SOFT_SHADOW
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _METALLICGLOSSMAP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _REFLECTION_CUBEMAP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _DUAL_RIMLIGHT
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _GLINT
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _VELVET
+        tips: 
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _SILK
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: POINT
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 12
+  - pass: 2
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _METALLICGLOSSMAP
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _VELVET
+        tips: 
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _SILK
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: POINT
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 7
+  - pass: 3
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _ENABLE_TRANSPARENT_SHADOW
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _TRANSPARENT_SHADOW
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: POINT
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 6
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _HARD_SHADOW
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _SOFT_SHADOW
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _METALLICGLOSSMAP
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _REFLECTION_CUBEMAP
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _DUAL_RIMLIGHT
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _GLINT
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _VELVET
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _SILK
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _ENABLE_TRANSPARENT_SHADOW
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _TRANSPARENT_SHADOW
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: DIRECTIONAL
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SHADOWS_SCREEN
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: POINT
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SHADOWS_DEPTH
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 300
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 0
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRECTIONAL
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SCREEN
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: POINT
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 4
+    - pass: 1
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 1
+        isFeature: 0
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _HARD_SHADOW
+          tips: 
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _SOFT_SHADOW
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _METALLICGLOSSMAP
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _REFLECTION_CUBEMAP
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _DUAL_RIMLIGHT
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _GLINT
+          tips: 
+      - hasUnderscoreVariant: 1
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _VELVET
+          tips: 
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _SILK
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRECTIONAL
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SCREEN
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: POINT
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 12
+    - pass: 2
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _METALLICGLOSSMAP
+          tips: 
+      - hasUnderscoreVariant: 1
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _VELVET
+          tips: 
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _SILK
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRECTIONAL
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SCREEN
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: POINT
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 7
+    lightMode: ForwardBase

@@ -1,0 +1,17 @@
+{
+    "name": "LGameEditor_VFXTool",
+    "references": [
+        "LGameScripts_Common",
+        "LGameScripts_VFXTool"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

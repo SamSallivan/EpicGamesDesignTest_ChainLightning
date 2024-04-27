@@ -1,0 +1,6796 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_StarActor_Gem_PreZ
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 394
+  passCount: 5
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/StarActor/Gem/PreZ
+  path: Assets/ABPack/Resources/Shaders/StarActor/Gem/LGame_StarActor_Gem_PreZ.shader
+  GUID: 4e159a820fd281544b3f40aa41d2f5ea
+  keywordStrs:
+  - 
+  - FOG_LINEAR
+  - FOG_EXP
+  - FOG_EXP2
+  - DIRECTIONAL
+  - SHADOWS_SCREEN
+  - _HARD_SHADOW
+  - _SOFT_SHADOW
+  - _FASTEST_QUALITY
+  - _OPAL
+  - _DECAL
+  - _GLINT
+  - _WIREFRAME
+  - _FLOCCULE
+  - POINT
+  - SHADOWS_DEPTH
+  dependShader: []
+  gcInclude: []
+  warring: 
+  shader: {fileID: 4800000, guid: 4e159a820fd281544b3f40aa41d2f5ea, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - 5660f30f9f311f14caa93da24d6c69e6
+    - 10c8dde1f7e16fd4b9be602607d04439
+    - 106239a54d1704143b7fe12f98611b1e
+    - 0a0de615182ef034b98998a5d6c19eca
+    - 6dc2e233493c5b146bff5b9e4fb13fe4
+    - 9198a5055070ce64d8667ad12f3d353d
+    - 3ddc4562515ff6a4ba0af9122d5b37ce
+    - 4693d208f11a5324c84f033c7ba13773
+    - f44c139b245a4344d97f366d79a954a0
+    - 3f11340456678b6498fcd8ffd153d9d7
+    - 03f3abaf8d9650e4b96aef2e5ccea2df
+    - 50ed14922b0ab354c99da62624a274d3
+    - e7368eab35f759f44b1166f2ed0097dc
+    - c747f3c027870eb4181edbab6d0c6416
+    - 3129eb992b6a6cc44a5c8907dcdd74da
+    - 0bbeef174c0a39243a3830122f63dbd5
+    - fa082b2a906c73e479e50449d5b4bee6
+    - fec0bdd9433c29d49a34379ca9f80b72
+    - b72942e846dfe73489895ac226a63660
+    - b7b9edc4bb4c5304198d999a18d39734
+    - 0d3cd31669f9b1b44b54ff8bc8e40dcc
+    - 9446dc42f3131434cbc31ef81a82d34b
+    - 8ac13d617bc6d5b408a0965a5308bad1
+    - c526bf71f5f493940913abda42c113f1
+    - 87468cd6b309bc449afb0d38a075267d
+    - 531f09132e533d448a0ec79933c916ad
+    - 20beca7ce804d42489dcdc99edb5b71c
+    - 094c9ca1f58da34479976e8b39af07c3
+    - a225453ec21bf1948b667581400f199c
+    - 5add4ff12a5267c4b801868aceda2664
+    - ccd6cc24deef6454783c47e893bfe823
+    - f93107b6f14d6b0458508da37d15b3e4
+    - b2d92d6b2ab097a4f984455b62553e30
+    - ef3cfd4fba62f924bb03e5f650615f8c
+    - 50d1c73f78a39344294bb50339c2a647
+    - dfd25f98a64b7c742aacbb5e75dd24a4
+    - 27002c064c19d8d419f49f0fd0785ade
+    - 61d0848f873e2884cb01bd425f67e562
+    - fc6dabd24dcbbbf4dab5c54f708c54a3
+    - a1535675a06b1d943ae2e4e46d8bf5bc
+    - ed3f9007285a7f942adbc67056dccdb4
+    - 47f26321da27dea40bcd6274956eff4f
+    - 0e5d6ed21965125499a24529b091976a
+    - 5c0c4f91bb4668643b674139d7319ab3
+    - c03ce1102fad32f41a3283853a5e68f4
+    - 559f9ce214e0aaa42a22c0c26a844ffb
+    - f4fdfa1cd010a4d49b723ee3cfbcce33
+    - 30de11d3a6188e740a678ee74cc34c30
+    - df4587045d4c02844ba54272b5c01fa8
+    - 864f9fa81dfcab0479b2725621c70b73
+    - 66fdbedad01080542a070e63ec7bbf42
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _OPAL
+    users:
+    - 10c8dde1f7e16fd4b9be602607d04439
+    - 6dc2e233493c5b146bff5b9e4fb13fe4
+    - 3ddc4562515ff6a4ba0af9122d5b37ce
+    - b7b9edc4bb4c5304198d999a18d39734
+    - 0d3cd31669f9b1b44b54ff8bc8e40dcc
+    - 9446dc42f3131434cbc31ef81a82d34b
+    - 5add4ff12a5267c4b801868aceda2664
+    - f93107b6f14d6b0458508da37d15b3e4
+    - fc6dabd24dcbbbf4dab5c54f708c54a3
+    - a1535675a06b1d943ae2e4e46d8bf5bc
+    - ed3f9007285a7f942adbc67056dccdb4
+    - 30de11d3a6188e740a678ee74cc34c30
+    - df4587045d4c02844ba54272b5c01fa8
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _DECAL _OPAL
+    users:
+    - 4693d208f11a5324c84f033c7ba13773
+    - f44c139b245a4344d97f366d79a954a0
+    - 8ac13d617bc6d5b408a0965a5308bad1
+    - 87468cd6b309bc449afb0d38a075267d
+    - c03ce1102fad32f41a3283853a5e68f4
+    - f4fdfa1cd010a4d49b723ee3cfbcce33
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    keywordStr: 4 DIRECTIONAL _GLINT
+    users:
+    - 531f09132e533d448a0ec79933c916ad
+    - 864f9fa81dfcab0479b2725621c70b73
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _GLINT _OPAL
+    users:
+    - 03f3abaf8d9650e4b96aef2e5ccea2df
+    - 50ed14922b0ab354c99da62624a274d3
+    - c747f3c027870eb4181edbab6d0c6416
+    - fa082b2a906c73e479e50449d5b4bee6
+    - c526bf71f5f493940913abda42c113f1
+    - 66fdbedad01080542a070e63ec7bbf42
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _GLINT
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _DECAL _GLINT _OPAL
+    users:
+    - 094c9ca1f58da34479976e8b39af07c3
+    - a225453ec21bf1948b667581400f199c
+    - 47f26321da27dea40bcd6274956eff4f
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FLOCCULE
+    keywordStr: 4 DIRECTIONAL _FLOCCULE
+    users:
+    - 0a0de615182ef034b98998a5d6c19eca
+    - 3f11340456678b6498fcd8ffd153d9d7
+    - b2d92d6b2ab097a4f984455b62553e30
+    - ef3cfd4fba62f924bb03e5f650615f8c
+    - 50d1c73f78a39344294bb50339c2a647
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FLOCCULE
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _FLOCCULE _OPAL
+    users:
+    - 9198a5055070ce64d8667ad12f3d353d
+    - e7368eab35f759f44b1166f2ed0097dc
+    - 3129eb992b6a6cc44a5c8907dcdd74da
+    - 0bbeef174c0a39243a3830122f63dbd5
+    - 559f9ce214e0aaa42a22c0c26a844ffb
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _FLOCCULE _GLINT _OPAL
+    users:
+    - 5660f30f9f311f14caa93da24d6c69e6
+    - 0e5d6ed21965125499a24529b091976a
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FLOCCULE
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FLOCCULE _OPAL _WIREFRAME
+    users:
+    - fec0bdd9433c29d49a34379ca9f80b72
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FLOCCULE
+    - _GLINT
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FLOCCULE _GLINT _WIREFRAME
+    users:
+    - b72942e846dfe73489895ac226a63660
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - 5660f30f9f311f14caa93da24d6c69e6
+    - 10c8dde1f7e16fd4b9be602607d04439
+    - 106239a54d1704143b7fe12f98611b1e
+    - 0a0de615182ef034b98998a5d6c19eca
+    - 6dc2e233493c5b146bff5b9e4fb13fe4
+    - 9198a5055070ce64d8667ad12f3d353d
+    - 3ddc4562515ff6a4ba0af9122d5b37ce
+    - 4693d208f11a5324c84f033c7ba13773
+    - f44c139b245a4344d97f366d79a954a0
+    - 3f11340456678b6498fcd8ffd153d9d7
+    - 03f3abaf8d9650e4b96aef2e5ccea2df
+    - 50ed14922b0ab354c99da62624a274d3
+    - e7368eab35f759f44b1166f2ed0097dc
+    - c747f3c027870eb4181edbab6d0c6416
+    - 3129eb992b6a6cc44a5c8907dcdd74da
+    - 0bbeef174c0a39243a3830122f63dbd5
+    - fa082b2a906c73e479e50449d5b4bee6
+    - fec0bdd9433c29d49a34379ca9f80b72
+    - b72942e846dfe73489895ac226a63660
+    - b7b9edc4bb4c5304198d999a18d39734
+    - 0d3cd31669f9b1b44b54ff8bc8e40dcc
+    - 9446dc42f3131434cbc31ef81a82d34b
+    - 8ac13d617bc6d5b408a0965a5308bad1
+    - c526bf71f5f493940913abda42c113f1
+    - 87468cd6b309bc449afb0d38a075267d
+    - 531f09132e533d448a0ec79933c916ad
+    - 20beca7ce804d42489dcdc99edb5b71c
+    - 094c9ca1f58da34479976e8b39af07c3
+    - a225453ec21bf1948b667581400f199c
+    - 5add4ff12a5267c4b801868aceda2664
+    - ccd6cc24deef6454783c47e893bfe823
+    - f93107b6f14d6b0458508da37d15b3e4
+    - b2d92d6b2ab097a4f984455b62553e30
+    - ef3cfd4fba62f924bb03e5f650615f8c
+    - 50d1c73f78a39344294bb50339c2a647
+    - dfd25f98a64b7c742aacbb5e75dd24a4
+    - 27002c064c19d8d419f49f0fd0785ade
+    - 61d0848f873e2884cb01bd425f67e562
+    - fc6dabd24dcbbbf4dab5c54f708c54a3
+    - a1535675a06b1d943ae2e4e46d8bf5bc
+    - ed3f9007285a7f942adbc67056dccdb4
+    - 47f26321da27dea40bcd6274956eff4f
+    - 0e5d6ed21965125499a24529b091976a
+    - 5c0c4f91bb4668643b674139d7319ab3
+    - c03ce1102fad32f41a3283853a5e68f4
+    - 559f9ce214e0aaa42a22c0c26a844ffb
+    - f4fdfa1cd010a4d49b723ee3cfbcce33
+    - 30de11d3a6188e740a678ee74cc34c30
+    - df4587045d4c02844ba54272b5c01fa8
+    - 864f9fa81dfcab0479b2725621c70b73
+    - 66fdbedad01080542a070e63ec7bbf42
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_LINEAR
+    keywordStr: 0 FOG_LINEAR
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP
+    keywordStr: 0 FOG_EXP
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP2
+    keywordStr: 0 FOG_EXP2
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    keywordStr: 4 DIRECTIONAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _OPAL
+    users:
+    - 10c8dde1f7e16fd4b9be602607d04439
+    - 6dc2e233493c5b146bff5b9e4fb13fe4
+    - 3ddc4562515ff6a4ba0af9122d5b37ce
+    - b7b9edc4bb4c5304198d999a18d39734
+    - 0d3cd31669f9b1b44b54ff8bc8e40dcc
+    - 9446dc42f3131434cbc31ef81a82d34b
+    - 5add4ff12a5267c4b801868aceda2664
+    - f93107b6f14d6b0458508da37d15b3e4
+    - fc6dabd24dcbbbf4dab5c54f708c54a3
+    - a1535675a06b1d943ae2e4e46d8bf5bc
+    - ed3f9007285a7f942adbc67056dccdb4
+    - 30de11d3a6188e740a678ee74cc34c30
+    - df4587045d4c02844ba54272b5c01fa8
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _HARD_SHADOW _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _HARD_SHADOW _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _OPAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _OPAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _HARD_SHADOW _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _HARD_SHADOW _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _OPAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _OPAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    keywordStr: 4 DIRECTIONAL _DECAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _DECAL _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DECAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _DECAL _OPAL
+    users:
+    - 4693d208f11a5324c84f033c7ba13773
+    - f44c139b245a4344d97f366d79a954a0
+    - 8ac13d617bc6d5b408a0965a5308bad1
+    - 87468cd6b309bc449afb0d38a075267d
+    - c03ce1102fad32f41a3283853a5e68f4
+    - f4fdfa1cd010a4d49b723ee3cfbcce33
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _DECAL _HARD_SHADOW _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _HARD_SHADOW _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DECAL _OPAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _OPAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _HARD_SHADOW _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _HARD_SHADOW
+      _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _OPAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _OPAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    keywordStr: 4 DIRECTIONAL _GLINT
+    users:
+    - 531f09132e533d448a0ec79933c916ad
+    - 864f9fa81dfcab0479b2725621c70b73
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _GLINT _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _GLINT _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _GLINT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _GLINT
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _GLINT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _GLINT _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _GLINT _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _GLINT _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _GLINT _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _GLINT _OPAL
+    users:
+    - 03f3abaf8d9650e4b96aef2e5ccea2df
+    - 50ed14922b0ab354c99da62624a274d3
+    - c747f3c027870eb4181edbab6d0c6416
+    - fa082b2a906c73e479e50449d5b4bee6
+    - c526bf71f5f493940913abda42c113f1
+    - 66fdbedad01080542a070e63ec7bbf42
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _GLINT _HARD_SHADOW _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _HARD_SHADOW _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _GLINT _OPAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _OPAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _GLINT _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _GLINT _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _GLINT _HARD_SHADOW _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _GLINT _HARD_SHADOW
+      _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _GLINT _OPAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _GLINT _OPAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _GLINT
+    keywordStr: 4 DIRECTIONAL _DECAL _GLINT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _GLINT
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _GLINT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _GLINT
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _DECAL _GLINT _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _GLINT
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _GLINT _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _GLINT
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DECAL _GLINT _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _GLINT
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _GLINT _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _GLINT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _GLINT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _GLINT _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _GLINT _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _GLINT _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _GLINT _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _GLINT
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _DECAL _GLINT _OPAL
+    users:
+    - 094c9ca1f58da34479976e8b39af07c3
+    - a225453ec21bf1948b667581400f199c
+    - 47f26321da27dea40bcd6274956eff4f
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _GLINT
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _GLINT _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _DECAL _GLINT _HARD_SHADOW _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _GLINT _HARD_SHADOW _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DECAL _GLINT _OPAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _GLINT _OPAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _GLINT _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _GLINT _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _GLINT _HARD_SHADOW _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _GLINT _HARD_SHADOW
+      _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _GLINT _OPAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _GLINT _OPAL
+      _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _HARD_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _HARD_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _HARD_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _HARD_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _HARD_SHADOW _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _HARD_SHADOW _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _OPAL _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _OPAL _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _HARD_SHADOW _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _HARD_SHADOW _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _OPAL _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _OPAL _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _HARD_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _HARD_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _HARD_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _HARD_SHADOW
+      _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _SOFT_SHADOW
+      _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _HARD_SHADOW _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _HARD_SHADOW _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _OPAL _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _OPAL _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _HARD_SHADOW _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _HARD_SHADOW
+      _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _OPAL _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _OPAL _SOFT_SHADOW
+      _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _GLINT _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _GLINT _HARD_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _HARD_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _GLINT _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _GLINT _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _GLINT _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _GLINT _HARD_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _GLINT _HARD_SHADOW
+      _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _GLINT _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _GLINT _SOFT_SHADOW
+      _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _GLINT _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _GLINT _HARD_SHADOW _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _HARD_SHADOW _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _GLINT _OPAL _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _GLINT _OPAL _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _GLINT _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _GLINT _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _GLINT _HARD_SHADOW _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _GLINT _HARD_SHADOW
+      _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _GLINT _OPAL _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _GLINT _OPAL _SOFT_SHADOW
+      _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _GLINT
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _GLINT _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _GLINT
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _GLINT _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _GLINT
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _GLINT _HARD_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _GLINT
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _GLINT _HARD_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _GLINT
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _GLINT _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _GLINT
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _GLINT _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _GLINT _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _GLINT _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _GLINT _HARD_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _GLINT _HARD_SHADOW
+      _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _GLINT _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _GLINT _SOFT_SHADOW
+      _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _GLINT
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _GLINT _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _GLINT
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _GLINT _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _GLINT _HARD_SHADOW _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _GLINT _HARD_SHADOW _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _GLINT _OPAL _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _GLINT _OPAL _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _GLINT _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _GLINT _OPAL
+      _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _GLINT _HARD_SHADOW _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _GLINT _HARD_SHADOW
+      _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _GLINT _OPAL _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _GLINT _OPAL
+      _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FLOCCULE
+    keywordStr: 4 DIRECTIONAL _FLOCCULE
+    users:
+    - 0a0de615182ef034b98998a5d6c19eca
+    - 3f11340456678b6498fcd8ffd153d9d7
+    - b2d92d6b2ab097a4f984455b62553e30
+    - ef3cfd4fba62f924bb03e5f650615f8c
+    - 50d1c73f78a39344294bb50339c2a647
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FLOCCULE
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FLOCCULE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FLOCCULE
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _FLOCCULE _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FLOCCULE
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FLOCCULE _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FLOCCULE
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _FLOCCULE _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FLOCCULE
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FLOCCULE _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _FLOCCULE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _FLOCCULE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _FLOCCULE _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _FLOCCULE _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _FLOCCULE _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _FLOCCULE _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FLOCCULE
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _FLOCCULE _OPAL
+    users:
+    - 9198a5055070ce64d8667ad12f3d353d
+    - e7368eab35f759f44b1166f2ed0097dc
+    - 3129eb992b6a6cc44a5c8907dcdd74da
+    - 0bbeef174c0a39243a3830122f63dbd5
+    - 559f9ce214e0aaa42a22c0c26a844ffb
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FLOCCULE
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FLOCCULE _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FLOCCULE
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _FLOCCULE _HARD_SHADOW _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FLOCCULE
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FLOCCULE _HARD_SHADOW _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FLOCCULE
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _FLOCCULE _OPAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FLOCCULE
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FLOCCULE _OPAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _FLOCCULE _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _FLOCCULE _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _FLOCCULE _HARD_SHADOW _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _FLOCCULE _HARD_SHADOW
+      _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _FLOCCULE _OPAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _FLOCCULE _OPAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FLOCCULE
+    keywordStr: 4 DIRECTIONAL _DECAL _FLOCCULE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FLOCCULE
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FLOCCULE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FLOCCULE
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _DECAL _FLOCCULE _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FLOCCULE
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FLOCCULE _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FLOCCULE
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DECAL _FLOCCULE _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FLOCCULE
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FLOCCULE _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _FLOCCULE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _FLOCCULE
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _FLOCCULE _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _FLOCCULE _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _FLOCCULE _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _FLOCCULE _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FLOCCULE
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _DECAL _FLOCCULE _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FLOCCULE
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FLOCCULE _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FLOCCULE
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _DECAL _FLOCCULE _HARD_SHADOW _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FLOCCULE
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FLOCCULE _HARD_SHADOW _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FLOCCULE
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DECAL _FLOCCULE _OPAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FLOCCULE
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FLOCCULE _OPAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _FLOCCULE _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _FLOCCULE _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _FLOCCULE _HARD_SHADOW _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _FLOCCULE _HARD_SHADOW
+      _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _FLOCCULE _OPAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _FLOCCULE _OPAL
+      _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FLOCCULE
+    - _GLINT
+    keywordStr: 4 DIRECTIONAL _FLOCCULE _GLINT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FLOCCULE
+    - _GLINT
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FLOCCULE _GLINT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _FLOCCULE _GLINT _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FLOCCULE _GLINT _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FLOCCULE
+    - _GLINT
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _FLOCCULE _GLINT _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FLOCCULE
+    - _GLINT
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FLOCCULE _GLINT _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _FLOCCULE _GLINT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _FLOCCULE _GLINT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _FLOCCULE _GLINT _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _FLOCCULE _GLINT _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _FLOCCULE _GLINT _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _FLOCCULE _GLINT _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _FLOCCULE _GLINT _OPAL
+    users:
+    - 5660f30f9f311f14caa93da24d6c69e6
+    - 0e5d6ed21965125499a24529b091976a
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FLOCCULE _GLINT _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _FLOCCULE _GLINT _HARD_SHADOW _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FLOCCULE _GLINT _HARD_SHADOW _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _FLOCCULE _GLINT _OPAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FLOCCULE _GLINT _OPAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _FLOCCULE _GLINT _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _FLOCCULE _GLINT _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _FLOCCULE _GLINT _HARD_SHADOW _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _FLOCCULE _GLINT _HARD_SHADOW
+      _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _FLOCCULE _GLINT _OPAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _FLOCCULE _GLINT _OPAL
+      _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FLOCCULE
+    - _GLINT
+    keywordStr: 4 DIRECTIONAL _DECAL _FLOCCULE _GLINT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FLOCCULE
+    - _GLINT
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FLOCCULE _GLINT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _DECAL _FLOCCULE _GLINT _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FLOCCULE _GLINT _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FLOCCULE
+    - _GLINT
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DECAL _FLOCCULE _GLINT _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FLOCCULE
+    - _GLINT
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FLOCCULE _GLINT _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _FLOCCULE _GLINT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _FLOCCULE _GLINT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _FLOCCULE _GLINT _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _FLOCCULE _GLINT
+      _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _FLOCCULE _GLINT _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _FLOCCULE _GLINT
+      _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _DECAL _FLOCCULE _GLINT _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FLOCCULE _GLINT _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _DECAL _FLOCCULE _GLINT _HARD_SHADOW _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FLOCCULE _GLINT _HARD_SHADOW
+      _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DECAL _FLOCCULE _GLINT _OPAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FLOCCULE _GLINT _OPAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _FLOCCULE _GLINT _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _FLOCCULE _GLINT
+      _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _FLOCCULE _GLINT _HARD_SHADOW
+      _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _FLOCCULE _GLINT
+      _HARD_SHADOW _OPAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _FLOCCULE _GLINT _OPAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _FLOCCULE _GLINT
+      _OPAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FLOCCULE
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FLOCCULE _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FLOCCULE
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FLOCCULE _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FLOCCULE
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FLOCCULE _HARD_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FLOCCULE
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FLOCCULE _HARD_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FLOCCULE
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FLOCCULE _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FLOCCULE
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FLOCCULE _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _FLOCCULE _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _FLOCCULE _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _FLOCCULE _HARD_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _FLOCCULE _HARD_SHADOW
+      _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _FLOCCULE _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _FLOCCULE _SOFT_SHADOW
+      _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FLOCCULE
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FLOCCULE _OPAL _WIREFRAME
+    users:
+    - fec0bdd9433c29d49a34379ca9f80b72
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FLOCCULE
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FLOCCULE _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FLOCCULE
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FLOCCULE _HARD_SHADOW _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FLOCCULE
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FLOCCULE _HARD_SHADOW _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FLOCCULE
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FLOCCULE _OPAL _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FLOCCULE
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FLOCCULE _OPAL _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _FLOCCULE _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _FLOCCULE _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _FLOCCULE _HARD_SHADOW _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _FLOCCULE _HARD_SHADOW
+      _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _FLOCCULE _OPAL _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _FLOCCULE _OPAL _SOFT_SHADOW
+      _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FLOCCULE
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FLOCCULE _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FLOCCULE
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FLOCCULE _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FLOCCULE
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FLOCCULE _HARD_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FLOCCULE
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FLOCCULE _HARD_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FLOCCULE
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FLOCCULE _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FLOCCULE
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FLOCCULE _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _FLOCCULE _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _FLOCCULE _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _FLOCCULE _HARD_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _FLOCCULE _HARD_SHADOW
+      _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _FLOCCULE _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _FLOCCULE _SOFT_SHADOW
+      _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FLOCCULE
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FLOCCULE _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FLOCCULE
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FLOCCULE _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FLOCCULE
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FLOCCULE _HARD_SHADOW _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FLOCCULE
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FLOCCULE _HARD_SHADOW _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FLOCCULE
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FLOCCULE _OPAL _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FLOCCULE
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FLOCCULE _OPAL _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _FLOCCULE _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _FLOCCULE _OPAL
+      _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _FLOCCULE _HARD_SHADOW _OPAL
+      _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _FLOCCULE _HARD_SHADOW
+      _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _FLOCCULE _OPAL _SOFT_SHADOW
+      _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _FLOCCULE _OPAL
+      _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FLOCCULE
+    - _GLINT
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FLOCCULE _GLINT _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FLOCCULE
+    - _GLINT
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FLOCCULE _GLINT _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FLOCCULE _GLINT _HARD_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FLOCCULE _GLINT _HARD_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FLOCCULE
+    - _GLINT
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FLOCCULE _GLINT _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FLOCCULE
+    - _GLINT
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FLOCCULE _GLINT _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _FLOCCULE _GLINT _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _FLOCCULE _GLINT _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _FLOCCULE _GLINT _HARD_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _FLOCCULE _GLINT _HARD_SHADOW
+      _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _FLOCCULE _GLINT _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _FLOCCULE _GLINT _SOFT_SHADOW
+      _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FLOCCULE _GLINT _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FLOCCULE _GLINT _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FLOCCULE _GLINT _HARD_SHADOW _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FLOCCULE _GLINT _HARD_SHADOW _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FLOCCULE _GLINT _OPAL _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FLOCCULE _GLINT _OPAL _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _FLOCCULE _GLINT _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _FLOCCULE _GLINT _OPAL
+      _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _FLOCCULE _GLINT _HARD_SHADOW _OPAL
+      _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _FLOCCULE _GLINT _HARD_SHADOW
+      _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _FLOCCULE _GLINT _OPAL _SOFT_SHADOW
+      _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _FLOCCULE _GLINT _OPAL
+      _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FLOCCULE
+    - _GLINT
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FLOCCULE _GLINT _WIREFRAME
+    users:
+    - b72942e846dfe73489895ac226a63660
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FLOCCULE
+    - _GLINT
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FLOCCULE _GLINT _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FLOCCULE _GLINT _HARD_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FLOCCULE _GLINT _HARD_SHADOW
+      _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FLOCCULE
+    - _GLINT
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FLOCCULE _GLINT _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FLOCCULE
+    - _GLINT
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FLOCCULE _GLINT _SOFT_SHADOW
+      _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _FLOCCULE _GLINT _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _FLOCCULE _GLINT
+      _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _FLOCCULE _GLINT _HARD_SHADOW
+      _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _FLOCCULE _GLINT
+      _HARD_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _FLOCCULE _GLINT _SOFT_SHADOW
+      _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _FLOCCULE _GLINT
+      _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FLOCCULE _GLINT _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FLOCCULE _GLINT _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FLOCCULE _GLINT _HARD_SHADOW _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FLOCCULE _GLINT _HARD_SHADOW
+      _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FLOCCULE _GLINT _OPAL _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FLOCCULE _GLINT _OPAL _SOFT_SHADOW
+      _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _FLOCCULE _GLINT _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _FLOCCULE _GLINT
+      _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _FLOCCULE _GLINT _HARD_SHADOW
+      _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _HARD_SHADOW
+    - _OPAL
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _FLOCCULE _GLINT
+      _HARD_SHADOW _OPAL _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL _DECAL _FASTEST_QUALITY _FLOCCULE _GLINT _OPAL _SOFT_SHADOW
+      _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _DECAL
+    - _FASTEST_QUALITY
+    - _FLOCCULE
+    - _GLINT
+    - _OPAL
+    - _SOFT_SHADOW
+    - _WIREFRAME
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _DECAL _FASTEST_QUALITY _FLOCCULE _GLINT
+      _OPAL _SOFT_SHADOW _WIREFRAME
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '5 '
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    keywordStr: 5 DIRECTIONAL
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - POINT
+    keywordStr: 5 POINT
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '8 '
+    users: []
+    passType: 8
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SHADOWS_DEPTH
+    keywordStr: 8 SHADOWS_DEPTH
+    users: []
+    passType: 8
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_LINEAR
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP2
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: POINT
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 7
+  - pass: 1
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_LINEAR
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP2
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: POINT
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 7
+  - pass: 2
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _HARD_SHADOW
+        tips: 
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _SOFT_SHADOW
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _FASTEST_QUALITY
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _OPAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _DECAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _GLINT
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _WIREFRAME
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _FLOCCULE
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_LINEAR
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP2
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: POINT
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 15
+  - pass: 3
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_LINEAR
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP2
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: POINT
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 7
+  - pass: 4
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_LINEAR
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP2
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: POINT
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 7
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _HARD_SHADOW
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _SOFT_SHADOW
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _FASTEST_QUALITY
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _OPAL
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _DECAL
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _GLINT
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _WIREFRAME
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _FLOCCULE
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_LINEAR
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_EXP
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_EXP2
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: DIRECTIONAL
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SHADOWS_SCREEN
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: POINT
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SHADOWS_DEPTH
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 300
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 0
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_LINEAR
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP2
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRECTIONAL
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SCREEN
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: POINT
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 7
+    - pass: 1
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_LINEAR
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP2
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRECTIONAL
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SCREEN
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: POINT
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 7
+    - pass: 2
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 1
+        isFeature: 0
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _HARD_SHADOW
+          tips: 
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _SOFT_SHADOW
+          tips: 
+      - hasUnderscoreVariant: 1
+        isFeature: 0
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _FASTEST_QUALITY
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _OPAL
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _DECAL
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _GLINT
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _WIREFRAME
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _FLOCCULE
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_LINEAR
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP2
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRECTIONAL
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SCREEN
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: POINT
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 15
+    - pass: 3
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_LINEAR
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP2
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRECTIONAL
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SCREEN
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: POINT
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 7
+    lightMode: ShadowCaster

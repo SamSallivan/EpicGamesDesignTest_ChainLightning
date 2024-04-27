@@ -1,0 +1,409 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_Character_NPC_GpuSkinned
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 10
+  passCount: 1
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/Character/NPC_GpuSkinned
+  path: Assets/ABPack/Resources/Shaders/LGameShader/LGame_Character_NPC_GpuSkinned.shader
+  GUID: c02c024bddbefe043a462decff6c3f93
+  keywordStrs:
+  - 
+  - _BARONBUFF_OFF
+  - _BARONBUFF_ON
+  - _SCAN_MAT_ON
+  dependShader: []
+  gcInclude: []
+  warring: 
+  shader: {fileID: 4800000, guid: c02c024bddbefe043a462decff6c3f93, type: 3}
+  used_variants:
+  - alwaysInclude: 1
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - ed490e83a75ae6b40adcd0e14816b652
+    - 408c52ad373bf224bae4ef4ac42ed6e4
+    - 0c173ef11b18d7e449a843e9121ceec5
+    - ff5a6bcb68f835246a78e6a3b412a705
+    - 391bf31e07a4650419c13764eecc17c0
+    - a6377bd28c5cdae479569252c722f755
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords: []
+    keywordStr: '13 '
+    users:
+    - ed490e83a75ae6b40adcd0e14816b652
+    - 408c52ad373bf224bae4ef4ac42ed6e4
+    - 0c173ef11b18d7e449a843e9121ceec5
+    - ff5a6bcb68f835246a78e6a3b412a705
+    - 391bf31e07a4650419c13764eecc17c0
+    - a6377bd28c5cdae479569252c722f755
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_OFF
+    keywordStr: 0 _BARONBUFF_OFF
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_OFF
+    keywordStr: 13 _BARONBUFF_OFF
+    users: []
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_ON
+    keywordStr: 0 _BARONBUFF_ON
+    users:
+    - f10a883772eeae64f9ec9f0b3a993047
+    - d34f07dfa8fd2404fadd8abdc80c5fc1
+    - 47c35fcceb7e8c14eac02dd81a39ab7d
+    - ec69fddc45b81b54e9be24920397e224
+    - af778f476e2c3eb409631faa7631a620
+    - 9f6c8ba7b42683240a0457c542a00183
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_ON
+    keywordStr: 13 _BARONBUFF_ON
+    users:
+    - f10a883772eeae64f9ec9f0b3a993047
+    - d34f07dfa8fd2404fadd8abdc80c5fc1
+    - 47c35fcceb7e8c14eac02dd81a39ab7d
+    - ec69fddc45b81b54e9be24920397e224
+    - af778f476e2c3eb409631faa7631a620
+    - 9f6c8ba7b42683240a0457c542a00183
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_OFF
+    - _SCAN_MAT_ON
+    keywordStr: 0 _BARONBUFF_OFF _SCAN_MAT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_OFF
+    - _SCAN_MAT_ON
+    keywordStr: 13 _BARONBUFF_OFF _SCAN_MAT_ON
+    users: []
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_ON
+    - _SCAN_MAT_ON
+    keywordStr: 0 _BARONBUFF_ON _SCAN_MAT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_ON
+    - _SCAN_MAT_ON
+    keywordStr: 13 _BARONBUFF_ON _SCAN_MAT_ON
+    users: []
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords: []
+    keywordStr: '13 '
+    users:
+    - ed490e83a75ae6b40adcd0e14816b652
+    - 408c52ad373bf224bae4ef4ac42ed6e4
+    - 0c173ef11b18d7e449a843e9121ceec5
+    - ff5a6bcb68f835246a78e6a3b412a705
+    - 391bf31e07a4650419c13764eecc17c0
+    - a6377bd28c5cdae479569252c722f755
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_OFF
+    keywordStr: 13 _BARONBUFF_OFF
+    users: []
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_ON
+    keywordStr: 13 _BARONBUFF_ON
+    users:
+    - f10a883772eeae64f9ec9f0b3a993047
+    - d34f07dfa8fd2404fadd8abdc80c5fc1
+    - 47c35fcceb7e8c14eac02dd81a39ab7d
+    - ec69fddc45b81b54e9be24920397e224
+    - af778f476e2c3eb409631faa7631a620
+    - 9f6c8ba7b42683240a0457c542a00183
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_OFF
+    - _SCAN_MAT_ON
+    keywordStr: 13 _BARONBUFF_OFF _SCAN_MAT_ON
+    users: []
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_ON
+    - _SCAN_MAT_ON
+    keywordStr: 13 _BARONBUFF_ON _SCAN_MAT_ON
+    users: []
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 1
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - ed490e83a75ae6b40adcd0e14816b652
+    - 408c52ad373bf224bae4ef4ac42ed6e4
+    - 0c173ef11b18d7e449a843e9121ceec5
+    - ff5a6bcb68f835246a78e6a3b412a705
+    - 391bf31e07a4650419c13764eecc17c0
+    - a6377bd28c5cdae479569252c722f755
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_OFF
+    keywordStr: 0 _BARONBUFF_OFF
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_ON
+    keywordStr: 0 _BARONBUFF_ON
+    users:
+    - f10a883772eeae64f9ec9f0b3a993047
+    - d34f07dfa8fd2404fadd8abdc80c5fc1
+    - 47c35fcceb7e8c14eac02dd81a39ab7d
+    - ec69fddc45b81b54e9be24920397e224
+    - af778f476e2c3eb409631faa7631a620
+    - 9f6c8ba7b42683240a0457c542a00183
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_OFF
+    - _SCAN_MAT_ON
+    keywordStr: 0 _BARONBUFF_OFF _SCAN_MAT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_ON
+    - _SCAN_MAT_ON
+    keywordStr: 0 _BARONBUFF_ON _SCAN_MAT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords: []
+    keywordStr: '13 '
+    users:
+    - ed490e83a75ae6b40adcd0e14816b652
+    - 408c52ad373bf224bae4ef4ac42ed6e4
+    - 0c173ef11b18d7e449a843e9121ceec5
+    - ff5a6bcb68f835246a78e6a3b412a705
+    - 391bf31e07a4650419c13764eecc17c0
+    - a6377bd28c5cdae479569252c722f755
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_OFF
+    keywordStr: 13 _BARONBUFF_OFF
+    users: []
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_ON
+    keywordStr: 13 _BARONBUFF_ON
+    users:
+    - f10a883772eeae64f9ec9f0b3a993047
+    - d34f07dfa8fd2404fadd8abdc80c5fc1
+    - 47c35fcceb7e8c14eac02dd81a39ab7d
+    - ec69fddc45b81b54e9be24920397e224
+    - af778f476e2c3eb409631faa7631a620
+    - 9f6c8ba7b42683240a0457c542a00183
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_OFF
+    - _SCAN_MAT_ON
+    keywordStr: 13 _BARONBUFF_OFF _SCAN_MAT_ON
+    users: []
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _BARONBUFF_ON
+    - _SCAN_MAT_ON
+    keywordStr: 13 _BARONBUFF_ON _SCAN_MAT_ON
+    users: []
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _BARONBUFF_OFF
+        tips: 
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _BARONBUFF_ON
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _SCAN_MAT_ON
+        tips: 
+    keywordCount: 3
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _BARONBUFF_OFF
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _BARONBUFF_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _SCAN_MAT_ON
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 75
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    lightMode: ForwardBase

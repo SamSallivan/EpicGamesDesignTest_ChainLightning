@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_other83_collectionLow
+  m_Shaders:
+  - first: {fileID: 4800000, guid: b861b3b8c00f1ab469ab548b1b70265a, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: d736df24ddb442245b30239d26c9ff55, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: DIRECTIONAL _OPAL _WIREFRAME
+        passType: 4
+      - keywords: DIRECTIONAL _GLINT _WIREFRAME
+        passType: 4
+      - keywords: DIRECTIONAL _FLOCCULE _OPAL
+        passType: 4

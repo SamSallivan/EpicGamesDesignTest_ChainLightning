@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_Character_NPC_GpuSkinned_Transparent_Effect_NoDual
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 1
+  passCount: 1
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/Character/NPC_GpuSkinned_Transparent_Effect_Nodual
+  path: Assets/ABPack/Resources/Shaders/LGameShader/LGame_Character_NPC_GpuSkinned_Transparent_Effect_NoDual.shader
+  GUID: b3736f0b8176bd3418769d9b83a3fd7f
+  keywordStrs:
+  - 
+  dependShader: []
+  gcInclude: []
+  warring: 
+  shader: {fileID: 4800000, guid: b3736f0b8176bd3418769d9b83a3fd7f, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '13 '
+    users:
+    - 78e470936674a464a9605685fef255bf
+    - 4366505d7c8feda4783eeeda8701e9b2
+    - 1c64ce9fa4cfa974c8e226021c21ad09
+    - fa33c0e0ab7718a42b2b456851e8cf77
+    - 5d60a4f671f89e549bd11dd8362c00fb
+    - 505b2323044237441a89b860a5624c2f
+    - 7a373de8c49fccc498f56b780cc6f33e
+    - 6c85851148c9ae34abaf21d1a37b5d6e
+    - f6fa907e2d1d4d14783f090197979574
+    - 90405c25c6319e749b6e2c113b8d2280
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '13 '
+    users:
+    - 78e470936674a464a9605685fef255bf
+    - 4366505d7c8feda4783eeeda8701e9b2
+    - 1c64ce9fa4cfa974c8e226021c21ad09
+    - fa33c0e0ab7718a42b2b456851e8cf77
+    - 5d60a4f671f89e549bd11dd8362c00fb
+    - 505b2323044237441a89b860a5624c2f
+    - 7a373de8c49fccc498f56b780cc6f33e
+    - 6c85851148c9ae34abaf21d1a37b5d6e
+    - f6fa907e2d1d4d14783f090197979574
+    - 90405c25c6319e749b6e2c113b8d2280
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines: []
+    keywordCount: 0
+  keywords: []
+  subShaderInfos:
+  - index: -1
+    lod: 75
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    lightMode: ForwardBase

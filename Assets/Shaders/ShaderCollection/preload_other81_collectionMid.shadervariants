@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_other81_collectionMid
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 384810326b097774c9acb1e3bd60206c, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL _DUAL_RIMLIGHT _METALLICGLOSSMAP _SUBSURFACE_SCATTERING
+        passType: 4
+      - keywords: DIRECTIONAL _DUAL_RIMLIGHT _EMISSION _METALLICGLOSSMAP _SUBSURFACE_SCATTERING
+        passType: 4
+      - keywords: DIRECTIONAL _ANISOTROPY
+        passType: 4
+      - keywords: DIRECTIONAL _ANISOTROPY _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL _ANISOTROPY _METALLICGLOSSMAP
+        passType: 4

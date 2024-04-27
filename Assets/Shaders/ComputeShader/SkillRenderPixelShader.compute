@@ -1,0 +1,37 @@
+﻿#pragma kernel CSMain
+#pragma kernel InitMain
+
+Texture2D<float4> targetTexture;
+
+struct SkillPiexlData
+{
+	float overdraw;
+	float alpha;
+    float area;
+};
+
+RWStructuredBuffer<SkillPiexlData> output;
+
+float2 pixelOffect;
+
+[numthreads(1, 1, 1)]
+void InitMain(uint3 id : SV_DispatchThreadID)
+{
+	output[id.x].overdraw = 0;
+	output[id.x].alpha = 0;
+    output[id.x].area = 0;
+}
+
+[numthreads(16,16,1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{	
+	output[id.x*16 + id.y].overdraw += (targetTexture[id.xy +(pixelOffect.xy * 16)].x / 0.15);
+
+	output[id.x*16 + id.y].alpha += targetTexture[id.xy +(pixelOffect.xy * 16)].w;
+    
+    if (targetTexture[id.xy + (pixelOffect.xy * 16)].x > 0.14)
+    {
+        output[id.x * 16 + id.y].area += 1;
+    }
+}
+

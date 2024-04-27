@@ -1,0 +1,630 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: PhotonShader_Effect_SkillIndicatorAlways
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 32
+  passCount: 4
+  subShaderCount: 2
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: PhotonShader/Effect/SkillIndicatorAlways
+  path: Assets/ABPack/Resources/Shaders/Effect/PhotonShader_Effect_SkillIndicatorAlways.shader
+  GUID: d784e53c65ac03345854bf41def05b87
+  keywordStrs:
+  - 
+  - MaskTex_On
+  - DissolveTex_On
+  - FlowTex_On
+  - _MAINTEX_BLENDFILTER_TOGGLE_ON
+  dependShader: []
+  gcInclude: []
+  warring: '
+
+    Has float count: 30'
+  shader: {fileID: 4800000, guid: d784e53c65ac03345854bf41def05b87, type: 3}
+  used_variants: []
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - MaskTex_On
+    keywordStr: 0 MaskTex_On
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DissolveTex_On
+    keywordStr: 0 DissolveTex_On
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DissolveTex_On
+    - MaskTex_On
+    keywordStr: 0 DissolveTex_On MaskTex_On
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FlowTex_On
+    keywordStr: 0 FlowTex_On
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FlowTex_On
+    - MaskTex_On
+    keywordStr: 0 FlowTex_On MaskTex_On
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DissolveTex_On
+    - FlowTex_On
+    keywordStr: 0 DissolveTex_On FlowTex_On
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DissolveTex_On
+    - FlowTex_On
+    - MaskTex_On
+    keywordStr: 0 DissolveTex_On FlowTex_On MaskTex_On
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _MAINTEX_BLENDFILTER_TOGGLE_ON
+    keywordStr: 0 _MAINTEX_BLENDFILTER_TOGGLE_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - MaskTex_On
+    - _MAINTEX_BLENDFILTER_TOGGLE_ON
+    keywordStr: 0 MaskTex_On _MAINTEX_BLENDFILTER_TOGGLE_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DissolveTex_On
+    - _MAINTEX_BLENDFILTER_TOGGLE_ON
+    keywordStr: 0 DissolveTex_On _MAINTEX_BLENDFILTER_TOGGLE_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DissolveTex_On
+    - MaskTex_On
+    - _MAINTEX_BLENDFILTER_TOGGLE_ON
+    keywordStr: 0 DissolveTex_On MaskTex_On _MAINTEX_BLENDFILTER_TOGGLE_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FlowTex_On
+    - _MAINTEX_BLENDFILTER_TOGGLE_ON
+    keywordStr: 0 FlowTex_On _MAINTEX_BLENDFILTER_TOGGLE_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FlowTex_On
+    - MaskTex_On
+    - _MAINTEX_BLENDFILTER_TOGGLE_ON
+    keywordStr: 0 FlowTex_On MaskTex_On _MAINTEX_BLENDFILTER_TOGGLE_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DissolveTex_On
+    - FlowTex_On
+    - _MAINTEX_BLENDFILTER_TOGGLE_ON
+    keywordStr: 0 DissolveTex_On FlowTex_On _MAINTEX_BLENDFILTER_TOGGLE_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DissolveTex_On
+    - FlowTex_On
+    - MaskTex_On
+    - _MAINTEX_BLENDFILTER_TOGGLE_ON
+    keywordStr: 0 DissolveTex_On FlowTex_On MaskTex_On _MAINTEX_BLENDFILTER_TOGGLE_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '13 '
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - MaskTex_On
+    keywordStr: 13 MaskTex_On
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DissolveTex_On
+    keywordStr: 13 DissolveTex_On
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DissolveTex_On
+    - MaskTex_On
+    keywordStr: 13 DissolveTex_On MaskTex_On
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FlowTex_On
+    keywordStr: 13 FlowTex_On
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FlowTex_On
+    - MaskTex_On
+    keywordStr: 13 FlowTex_On MaskTex_On
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DissolveTex_On
+    - FlowTex_On
+    keywordStr: 13 DissolveTex_On FlowTex_On
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DissolveTex_On
+    - FlowTex_On
+    - MaskTex_On
+    keywordStr: 13 DissolveTex_On FlowTex_On MaskTex_On
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _MAINTEX_BLENDFILTER_TOGGLE_ON
+    keywordStr: 13 _MAINTEX_BLENDFILTER_TOGGLE_ON
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - MaskTex_On
+    - _MAINTEX_BLENDFILTER_TOGGLE_ON
+    keywordStr: 13 MaskTex_On _MAINTEX_BLENDFILTER_TOGGLE_ON
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DissolveTex_On
+    - _MAINTEX_BLENDFILTER_TOGGLE_ON
+    keywordStr: 13 DissolveTex_On _MAINTEX_BLENDFILTER_TOGGLE_ON
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DissolveTex_On
+    - MaskTex_On
+    - _MAINTEX_BLENDFILTER_TOGGLE_ON
+    keywordStr: 13 DissolveTex_On MaskTex_On _MAINTEX_BLENDFILTER_TOGGLE_ON
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FlowTex_On
+    - _MAINTEX_BLENDFILTER_TOGGLE_ON
+    keywordStr: 13 FlowTex_On _MAINTEX_BLENDFILTER_TOGGLE_ON
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FlowTex_On
+    - MaskTex_On
+    - _MAINTEX_BLENDFILTER_TOGGLE_ON
+    keywordStr: 13 FlowTex_On MaskTex_On _MAINTEX_BLENDFILTER_TOGGLE_ON
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DissolveTex_On
+    - FlowTex_On
+    - _MAINTEX_BLENDFILTER_TOGGLE_ON
+    keywordStr: 13 DissolveTex_On FlowTex_On _MAINTEX_BLENDFILTER_TOGGLE_ON
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DissolveTex_On
+    - FlowTex_On
+    - MaskTex_On
+    - _MAINTEX_BLENDFILTER_TOGGLE_ON
+    keywordStr: 13 DissolveTex_On FlowTex_On MaskTex_On _MAINTEX_BLENDFILTER_TOGGLE_ON
+    users: []
+    passType: 13
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: MaskTex_On
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: DissolveTex_On
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: FlowTex_On
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _MAINTEX_BLENDFILTER_TOGGLE_ON
+        tips: 
+    keywordCount: 4
+  - pass: 1
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: MaskTex_On
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: DissolveTex_On
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: FlowTex_On
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _MAINTEX_BLENDFILTER_TOGGLE_ON
+        tips: 
+    keywordCount: 4
+  - pass: 2
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: FlowTex_On
+        tips: 
+    keywordCount: 1
+  - pass: 3
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: FlowTex_On
+        tips: 
+    keywordCount: 1
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: MaskTex_On
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: DissolveTex_On
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: FlowTex_On
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _MAINTEX_BLENDFILTER_TOGGLE_ON
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 10
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 0
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: MaskTex_On
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: DissolveTex_On
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: FlowTex_On
+          tips: 
+      - hasUnderscoreVariant: 1
+        isFeature: 0
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _MAINTEX_BLENDFILTER_TOGGLE_ON
+          tips: 
+      keywordCount: 4
+    lightMode: IndicatorPass
+  - index: 0
+    lod: 5
+    passInfos:
+    - pass: 1
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: MaskTex_On
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: DissolveTex_On
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: FlowTex_On
+          tips: 
+      - hasUnderscoreVariant: 1
+        isFeature: 0
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _MAINTEX_BLENDFILTER_TOGGLE_ON
+          tips: 
+      keywordCount: 4
+    - pass: 2
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: FlowTex_On
+          tips: 
+      keywordCount: 1
+    lightMode: IndicatorPass

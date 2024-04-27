@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ce9b708a5d9d0094b8eed1a8e0271f6f
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _MainTex: {instanceID: 0}
+  - _SubTex: {instanceID: 0}
+  - _MaskTex: {instanceID: 0}
+  - _MatCap: {instanceID: 0}
+  - _FlowlightTex: {instanceID: 0}
+  - _DissolveTex: {instanceID: 0}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

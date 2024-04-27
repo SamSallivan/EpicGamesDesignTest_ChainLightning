@@ -1,0 +1,1338 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_Scene_StarActor_LightMap
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 14
+  passCount: 4
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/Scene/StarActor/LightMap
+  path: Assets/ABPack/Resources/Shaders/StarActor/LGame_Scene_StarActor_LightMap.shader
+  GUID: 02501c77a5ae02047a8063c83b84e509
+  keywordStrs:
+  - 
+  - DIRECTIONAL
+  - SHADOWS_SCREEN
+  - LIGHTMAP_ON
+  - _CUSTOMLIGHTMAP_ON
+  - POINT
+  - SHADOWS_DEPTH
+  dependShader: []
+  gcInclude: []
+  warring: '
+
+    Has float count: 18'
+  shader: {fileID: 4800000, guid: 02501c77a5ae02047a8063c83b84e509, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 8ee5189b36841c248864d3f96977fcaf
+    - 8a59110e6624740429f19a9947c6751e
+    - 9cbee2d08714e494facfd6c5810554e3
+    - 0daba3062b3f1d4498ffc8c458c82598
+    - 57ce6fddd5900c5489a019dfb33ca248
+    - 8f516f0f9855f8b4a9755375684caf5e
+    - e3b8f62c202048a4f989f1ee6e8f3808
+    - 5c1e6bb0b110b2543a760440a8cb2eaf
+    - 325b2b9dbec669f44b021045d758a0b2
+    - 23cece0c58449eb4e818f3abafa14608
+    - 3a9d346ba98a53f41a4e67f6681fc281
+    - 2aa4da8b8d2cb3a478f7bd493f1beb98
+    - 7f3e937dd11721f45bcaada11427a737
+    - 35db2830b723914448b228d1d41b3f59
+    - 4e4edf3b2594fb4439fd2bb6c2c5224f
+    - b52ae3aaf6c576043a61a8c6c7929898
+    - 0369b370589cc3e46a283c9608f3797d
+    - 1e8c021a0098d064ba54739f92a15a62
+    - c310bebe2ab97f54d8f992fb14840ff1
+    - 6455a6a7843b1f9499d5dd4b216dff66
+    - eb6edf6221fe9964da7c672ab26ca53a
+    - 9a4ee5e1faca3134fbd32c952565700f
+    - 1f4977929d0963b419886b8369a5929a
+    - 18310e85648e9ef44ad594598b9bb26e
+    - c43850b17187ef6408c0c8ec4628b725
+    - 8b35a89a20a291a4497ac429a38a79f8
+    - a8ae17989cf7c8843bbdf842126ebd33
+    - a9d209047b953f141939db16799a0ded
+    - 910e4b49dfb77b7488484e2823dfaa0e
+    - 2a9a2c80573af1c418e6a8a7fd7b0a01
+    - 8146f11510bc0074d8443027e6e14edd
+    - 4811929b4ca6411459684c95a4428317
+    - b87b808d71ae755499b344fe4a67f623
+    - 81507d8474a42be41bdcb4356914b078
+    - 73588c0db30a9f54788fcea6e3d578dd
+    - 4fe416c2f7fd6b745b348645a31342ed
+    - 2a0826f5e078dc5438220304b489b3b8
+    - eb2da37682347614a9a090da2fe03761
+    - 88da90fcf9446e04bad64af911ec975c
+    - bf04aa4595f8d3e4c9411bb868b7bff7
+    - 31fdffe7c44e9a5468dd43fe8b3df29f
+    - 27cdffb2d6af4b742b4daa685c71bdf1
+    - 28c61b7e000132642b69edee60ebcff1
+    - 2829fd0973f7ac94caead3d83e9d730d
+    - 17512d69f6a38e544ae283f1d98168ca
+    - e17b3b637267a9c469ebd6bfa3646f97
+    - 8ff73f4999caa234bba0bfa88fd92c7e
+    - c23a5e002a832c048849e1f8abf944af
+    - fc80a6647e50b2844b59f6a28ba176d4
+    - be1d24c92bd88ad4391a02617a5f0fbb
+    - 8d0998fba259ee1458ea095d0f19afb9
+    - e0fbf074d53455049bfe9af63de3a881
+    - 7d75c18a2ef7f7d4c8e60dbedd673790
+    - c55cd312a55d33545a7689b982cfb964
+    - 5534cfbf635c9774e95d95ea2733e511
+    - d3f932f0f72a8f342ad79e9225bcb1af
+    - 5846c1f114e648b44a5fef59ae7fc960
+    - b692b2a2cd754a946b241d44b86b5030
+    - b3828092f372ce14596ae056720be5e4
+    - 6e66ab7b76024bc47a62d4e821cecae4
+    - 99547d23d06f5344fac20a5d6d9b8fca
+    - d7c4803e009c4084191a6cde97f895e1
+    - ef3860961a9083642b69b73f687cec32
+    - 5afb813dd11964e4285452e5c84b995c
+    - ddf97f8535a5f34468c69c47130a8717
+    - 35cf9e56ceb3b6a43a7d3b4ca03fa485
+    - 16baea6b2a008f04ab7aa37bb8efeaf9
+    - 5bf4c6d1564ff2449ae56f91af20df93
+    - c6c83b82e792c524d9600f2ecd47301f
+    - db806db785c25924ab949ca89d2ea486
+    - 46a73ecca93853244846b8f6b425bc22
+    - 9bb2e01d6914e75449876ed375e2cc5a
+    - 17e0fb8fd1e682e418ecd0f139eff52b
+    - cb431fcb7ffce544695564786ef89e53
+    - d3eaae1151425ed4698e065274eaec5d
+    - 73d0ee31852052c4893f780b49a1ae30
+    - 65f91751bc7d0ed4c9c261b211b2f75c
+    - a41654938bab8ed4ca861a49c72724b1
+    - 943569255abba444e997b5c036a142d2
+    - ee3adaa4a22896e41a52d3294839b782
+    - 9c39d439d3365e642b24219af23cda89
+    - 2a5b27c692011574bae9f84b632e39e9
+    - d4a20370e91baf946b3b9f7b9d60b57e
+    - 40b6d4b76b7128a4cbd57090f3a4942a
+    - d0f262e47b2de624489c96ba56b39776
+    - 6b40fa55d73fa3e499a9d40bda764229
+    - 1bbc71b19f917e2469a3732a6cc441cc
+    - 7c0a96d8e016c81429e7f63c65c56c6a
+    - fe6d248c942c2cf4c974852013188558
+    - da7ac52342765f543a8677c3bec672be
+    - ffe00149923d5104b8cd2aab74dec446
+    - 52e186428960c4a408f685d6c1ab628d
+    - 1f266d067605d3c48a519c650e515d06
+    - 04d7913269abc4d429ae8b8c0508ab03
+    - 3d5e4475d5e5a2d4991a92d300b9b424
+    - efd2cf96fe949544abd35e38feb259a4
+    - c51a25c8601ad294fafead884ce2efcb
+    - dac7012a621a41641b3477f4c74afeaa
+    - 3d03d32e497735848bff3b818a07e4ec
+    - 0d93ab3148d401441acf65964cb39e98
+    - a1b9d852437b2024f824e7ba16a14864
+    - af1d07546d5416042b67e052661c6b6c
+    - 8669675a03158d54cb59eb74fabb7ed9
+    - 663f3d6b017ee724fa09544e8bdff011
+    - bd6946ac99cca714dbca743529980b26
+    - a4e1b7823557ff842a4e7405132e42b2
+    - 713a7d92fa9d4b845b9a376ff7f56f0b
+    - 98aafef2da6825c4ea1b66034a158fb8
+    - 9c7d5ad7c10683d49be8ff80e2a7ddcf
+    - 615eb35b507642d46a3e27377b36c312
+    - ab4f4640eda804e4c93e37b9a8012afa
+    - 098fcf2565cf95a49a1cc2c5fb98e3db
+    - 6206df858e20f8a44976646b2b2b9775
+    - d98255795a617ec4392e2962649e4491
+    - 4e2ae07ab506a4e48af713ae33df93bd
+    - 2250302b11f0b7a4cb010568e3d2b41f
+    - 77dc00abd832dc54ca0da9781626046c
+    - b3067bfc0b2cc614b90e3a1f59aa6eb4
+    - abb630c025249ba4690d538c94d8ab36
+    - 08806a02a1a04df499300ab1881e12c8
+    - 44115ab3440366a4f84d921400e59e3c
+    - b6246614b9b6d174082ee5a72ec0a5ba
+    - ba381e9629c9763479b520315c914701
+    - 20e7318a1dcbbe847a7a3c99d7f222d5
+    - 35eb8fdc9f1153043be5f4b32aba7e4e
+    - 61c79d9e22ae6be4e96270cb087b00ed
+    - 95a9988fc3f2b6c42b4537ab3c49ff6a
+    - 4ba530effedad6a4daebb3692cd04662
+    - ef8032a6f86264e42974726f4c1f9e1b
+    - 6064ea80638374f44a8d8cac71ce6677
+    - 4da937d2f48f6b64481e7aa61380da24
+    - 04dd0d23b4f11f54fa5c10deeebf52ba
+    - ac4a871b6ab11d942b50603ca3da1b88
+    - f14904bbef72ced42b14a4cd1880dced
+    - dedf5d1dd36e1164bbf85d1620da3f7b
+    - 3c9df3cd4fa414b42bdd50e5283252f6
+    - d85bb85b752358347a4e3d04540c4049
+    - 4053af1eb2a0cae43968b55eb278b1d6
+    - 8bd4188ee51c4b54fbb71f7be21eb93a
+    - d46b5242e4daba843971360131299cea
+    - c4cfc86af4d7c3245acb9c6867fa4b7e
+    - 30248e7fbaa4cb0428e1f0204cbab940
+    - f837967a1707b284f80e7782d308530b
+    - 6f7542f39bdcae249a6934c19626dd14
+    - 6d80cc8c657b8cc4f811f559a90ea621
+    - a8bdb90af9db21b4b8cc5be22406b9e9
+    - e59f89e2e67fa23449f95dd883bf4e27
+    - a022b6085ff83dd47a47de084cc75ccf
+    - 06556fef09ab9b94c9538d39972da911
+    - 793e13d3115e8bf429ae8f1e4b0ce2f3
+    - 3e87db8a49e367342989cbb275783d99
+    - d183863f877c4f1499625595f7185c38
+    - 8ce6746444b6c164dbdb8cb49f5484f3
+    - 3516fa95b9b1eb344ab21f7486621ea1
+    - 1d16bb88c430c244286fca09b3057ec8
+    - 7bfa5c4d2010a514ca6b3157aae2eb0a
+    - 09173bb53541f90448a92af3c03c15a4
+    - 2dd5ad4b4f8c9dc45bbd1683606e4bf1
+    - 795ea8ebf96c94a4b8b943996597ce9f
+    - e34aac8f4645cbf4d8b1c9a0af700c9c
+    - 42577ce2b2fae9041853355346e551a8
+    - b71a2ca68e0151144b3989b598af088c
+    - 87decc7b986547d489edd00adad42c5a
+    - d8f54c9ef9bae8842bfe0a0d539bbd16
+    - a3737510833cdd743bca591e18156fbe
+    - 0798f2b53606dfa46acea3c679ceff7d
+    - 44e45ff7c839eac4e9f7d78f1e8c9bb9
+    - 0a4de75bc8e66fa4f9d6c96810dedfb2
+    - 9b31ef7b8ec73b9448c29fb43de2857b
+    - 04d759cbea8c31d40b4f0f93102f5d5e
+    - 17301e5d940e6da4e824285658286bf1
+    - d3469abeff9cab44288af14f01eafb43
+    - 2ff0d64023f7e434ead3b921301cad08
+    - d26dd3c1624bbdf498c3bc899161c750
+    - 8dcfe45e66778a346863423e33836f17
+    - e35ceef2bb23e6447a405e788ee9759c
+    - 031e7dd3d2c1b054ea19354928a9cf5b
+    - 816fa1a892b726c4b94f1d27b179cf1b
+    - 78c4bee85e5bd6a4ea35c28392109823
+    - 153b9c0dbd40c0848b8892cd8ea369f2
+    - bb7c7b184e7ec2c47b745094cc9b0b09
+    - 9cc193ad88aa2e74eb8911bc82bc7e5c
+    - 346cb58e44de39847bcf41f10b0d47e2
+    - 3f76fc1510275974e9a0347115b6464e
+    - f271bf7c1350c1148915fabba0a58805
+    - 03845826951215d4c8bebc396e05ad34
+    - 0b981e781246dc0499a5231e7051a8fa
+    - f169fa30508942240969050978b1ef11
+    - 3aebd405632a8924298e403925e71bf1
+    - 3cc2165559a5d174aa1fea67f23d1515
+    - 563e98ad0b9912547b58228f201874fd
+    - 85e062fe07b8ff34f9e530a7d799acaa
+    - d95e316204651174d81be6a4ba9eb8cb
+    - 5e6ccc767b1c25742bcfc8cb3283101c
+    - 18690d719fd096749a50954c3fffe4e4
+    - e838f727007999b46a3eaf2642c496ee
+    - 41086909bbde7af4d9fadf604f2705b7
+    - b063a4ede748e284f961c4c8d8060173
+    - b9885a4f034412f49a255dc86993bebd
+    - 2310c05b96de70f45bd043504e031e04
+    - 3269e2fb88fe27a4e9fa38b5337ea70c
+    - e49f112e707655c4eaeb64df305f47df
+    - af72b4aff2f6e8e418c9d7d0a911f805
+    - cc4763d1fb6163945864cfa00b6091d3
+    - bd328ff6a6aa555478a2628060534fa2
+    - b8f0db9330917574985df7e43bc88264
+    - 15a002a7fb859cc4a8696e9fc2384a00
+    - 0bfb524afc2b19f4c9c2051347dca614
+    - 8b66054b7785c0342a8ef64672c5ce86
+    - 93ce6b9e13c932a4195b731e62d1d5f9
+    - 9841eeae595d9d048b225ef318430679
+    - e699a1887233e5c4a8575d120960dbdc
+    - 988ea719877e4e64882f0be95fbbb5d4
+    - 464bc47e8ba74ac40a0f79bf9498106e
+    - 2541c1d456796034793a40360c5acae7
+    - e99f43aa8ad31834692b4611ab917ccb
+    - cbf507410f76c6343b24239661e4331f
+    - d8e69f92b49e052458987cf87af90284
+    - d38468e803d3c5342b06f4df03363def
+    - 6b01aabb33cd0ae4988aaee2ec14bcbf
+    - a8d06603156f1ab42b1f505bfaa223c2
+    - 4c8ff63afc8975e4997a4de08cae2fb9
+    - a78a239c89d948b438c76c3a57b80222
+    - 896cd1dda22d79344bf35bda850588c3
+    - 88742a99c4d2729459e8b9baf8e991ba
+    - fe3ddd439df307046b95335c35855a37
+    - 22cb75c5198b0274f81592b124d4fc1c
+    - 50edda932d2b0f24194658958c335581
+    - 399ca5da672fdca41a97b4ada723006c
+    - dcc80950cf5eb2e4b84d4ec80d15f8fc
+    - 9c652af0dccd8e44ab6e2fea820b17e9
+    - bfc183a4229242c4388736cc53e36cd6
+    - 0d0edeb9d1695274187743034f937323
+    - b0d87f4ab720a144688b8abc313db357
+    - ff43d8155328d3e478e2260e3509aa17
+    - d298710b6a9b394418b06fa66b1e3dac
+    - 9398ac10697f8344698122bae147d5b1
+    - ca27dcf8d4bc5d34c84b6befba4a34ee
+    - cee3663e7ca695f45ac59ac2e9c28fe6
+    - d8831eced5647d249a9264ffe6a6b8f1
+    - 34d0a2776d3a34e4b8e3e6372645711b
+    - 3e081281264a63d4598657a24c27c6db
+    - a50992cebd25c9e48a8a06f5f8603213
+    - c72f990f2ab998b4f80cc8af0fd1de59
+    - 3a7e4b42e5e095546b547063e21cda8e
+    - ee829d92c30943d4dab45f8f51210d4d
+    - 37626563eefaf6245837f412455c0fb3
+    - 586750340f8e92245b212a1df88d99a1
+    - dcf8286c7efd0f64a910a3bc31280636
+    - 2208ca6ee8adc4947af79f3c1875655c
+    - 9255137290d4b0a40b4807478379fff0
+    - cd8880f5ddbff4d46b159d669d9903c2
+    - 899395b34f8e7ca4d9a5d4eedf258498
+    - 4cdad457bbdba5c4f88921ade319ab40
+    - dcf6d52a8a1060c4fba82ca2133bf810
+    - 604cacca7316e3b40872581f7feda890
+    - 9bb9771c859bb1a469f3cdcb4a6cdfed
+    - 54fcb4ec339af0e4b8fe234136c75e13
+    - 32893e5dcc5ffc048ad3cfc71464060e
+    - 849c4022355b7354eb571dd4f916d312
+    - df95b3ea3d6e5d94dbb8f07217569144
+    - 5f4a640ea354c4247876cca10bf8a5dc
+    - f0fceb7e2b31e874692cb3da0c155eb9
+    - e545a8368b844bc40a2d39748cf07a97
+    - 356097c66b94f2f45ad55bf349c86823
+    - bca2ac98294886941aa07839817d4127
+    - 4742b079d11c0584d84184f3a5473199
+    - 6acfd9cc39b357c45b20490d2d693ad0
+    - 6fb3bf0449c66c84aa3dbdfdff9b3943
+    - 79b94a860b6959240a9b6a1423fbe096
+    - 6e073a7819e11c6489fb04e03599816f
+    - 969328c5790773741a6b2102e5ee1cd8
+    - a363d33a5fcd1bc45a6add8e09b0c072
+    - 2ce0eafeb94d48d40a62b73c2f5d38b3
+    - 34469a33027e42e4ea015a726147d95d
+    - e2945be420d95424a87846695800adeb
+    - ecea34e717fe7c4459b5f0bbfce86af8
+    - ef6179a9ec5a353428e218b689006d1f
+    - ef68da51d15ceda4bac8777c961994ea
+    - 51d39f583fd86ad41a3a71b902de771f
+    - 4b02246d3013b5a4f8f39d6ce82981eb
+    - ebe1c323bef57b444957faabeaeabaf2
+    - f733828ab9aa2fd47b4d58e98f905430
+    - 746edf01ea137f24dbb36fc5eba07f8a
+    - 322e9081c920fb449b5423f8edf8bb7e
+    - 85709b281bfdd224ebff7ce9fff6330a
+    - 4e18da5a14851ea46919e7b06bde94e9
+    - c52993aca74c2924bb4bead8d4eaa3c0
+    - a2f17e161ca36b1479f52a6069353393
+    - a8d7f6c8fcf3e524fb5b6e10a4ba7aa1
+    - 32f7d9bccd9eb354893c2e118986d664
+    - e7cba749d11b0ba4aab66228f79b6aab
+    - 6f88e9550dcc44545be61e5955bd7cf0
+    - dadac7d92f6e2074da5ba77dde0ffad7
+    - 1289ab7cf0fd38f4d8030ae9066a5b50
+    - 947144982e5d93647a2f1abc8bb63f05
+    - 51e7746bb2232634380b121d5ce8c848
+    - 662d2ada847f4b840879765b942480d5
+    - f099b6cc4c784f84091699935a8bc0bb
+    - e83377c24b88eac498c166c9f28e6714
+    - 049796981dc14eb42ae7bb8b6d38af00
+    - dc84c1fc811dc9f41bf77a7e66bef32b
+    - 5f1311d69d2c3e7478968da3b56cbb4c
+    - e57f3877f4a35ac46b477dcbdcd01eba
+    - f5c60f5dda694ce40b28257ba8aa0cf5
+    - d6d4d96d855218d45a3eb5d9124c1360
+    - f9c6288fff79b5d46afe737dbe8f14ec
+    - e617e4221a4781043b09276cab37dc7f
+    - af30e11006f522b4b919702764ad4719
+    - b1848f18788680e41a961fe8cfc3cae1
+    - 506b5f095ae481546a8eadbd5db8d9c4
+    - 9a0442b2bd63be145a21997c79baa430
+    - e21baf78023e8e546b0e43fb1589d1f9
+    - fdf0cc5869bafb540883bd7c7f0b6cbb
+    - 3b807cbd5e73e5040b79823b4a4a7d3e
+    - d6bb31ece35574046888b95a2d3a7823
+    - 488529abb9e0daa459c283233cee9bbc
+    - b4e4b1edeb5d07341ae9333b78669872
+    - 65928151ca7e2064faaa921a00dae6b0
+    - 9678fab87d014b94f9e3e2bae95fbdd0
+    - 60d7ec7cecbf98245be184afc7ff0b77
+    - e75618466eb64c84e92c347df2ef013b
+    - 806bf35dcfe26604abef5d3db9a8d01f
+    - 7ce9da377550cd64da467a84e8fc6b48
+    - 6cae8636b67c99e48856d298ce0dade5
+    - 3fe7da217602deb4c9c4acb53339bc96
+    - ab7a4d191e45f944e9302f4b940aa786
+    - 3ebb33eb0dae6c14ba551f625625ab2a
+    - f20e7f150e63c8649bc5c34ebb5a0112
+    - 659e7db2c39f4f1489417f847f0e2f66
+    - 0886bed7991960d4d91fc548dbb8751b
+    - 0659a598a4114274f94530ed45f9b173
+    - 5534519a9c5d1c2459f9fa5f00d08627
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - DIRECTIONAL
+    keywordStr: 4 DIRECTIONAL
+    users: []
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    keywordStr: 4 DIRECTIONAL LIGHTMAP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL LIGHTMAP_ON SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _CUSTOMLIGHTMAP_ON
+    keywordStr: 4 DIRECTIONAL _CUSTOMLIGHTMAP_ON
+    users:
+    - 5c1e6bb0b110b2543a760440a8cb2eaf
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - POINT
+    keywordStr: 5 POINT
+    users: []
+    passType: 5
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - SHADOWS_DEPTH
+    keywordStr: 8 SHADOWS_DEPTH
+    users: []
+    passType: 8
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 8ee5189b36841c248864d3f96977fcaf
+    - 8a59110e6624740429f19a9947c6751e
+    - 9cbee2d08714e494facfd6c5810554e3
+    - 0daba3062b3f1d4498ffc8c458c82598
+    - 57ce6fddd5900c5489a019dfb33ca248
+    - 8f516f0f9855f8b4a9755375684caf5e
+    - e3b8f62c202048a4f989f1ee6e8f3808
+    - 5c1e6bb0b110b2543a760440a8cb2eaf
+    - 325b2b9dbec669f44b021045d758a0b2
+    - 23cece0c58449eb4e818f3abafa14608
+    - 3a9d346ba98a53f41a4e67f6681fc281
+    - 2aa4da8b8d2cb3a478f7bd493f1beb98
+    - 7f3e937dd11721f45bcaada11427a737
+    - 35db2830b723914448b228d1d41b3f59
+    - 4e4edf3b2594fb4439fd2bb6c2c5224f
+    - b52ae3aaf6c576043a61a8c6c7929898
+    - 0369b370589cc3e46a283c9608f3797d
+    - 1e8c021a0098d064ba54739f92a15a62
+    - c310bebe2ab97f54d8f992fb14840ff1
+    - 6455a6a7843b1f9499d5dd4b216dff66
+    - eb6edf6221fe9964da7c672ab26ca53a
+    - 9a4ee5e1faca3134fbd32c952565700f
+    - 1f4977929d0963b419886b8369a5929a
+    - 18310e85648e9ef44ad594598b9bb26e
+    - c43850b17187ef6408c0c8ec4628b725
+    - 8b35a89a20a291a4497ac429a38a79f8
+    - a8ae17989cf7c8843bbdf842126ebd33
+    - a9d209047b953f141939db16799a0ded
+    - 910e4b49dfb77b7488484e2823dfaa0e
+    - 2a9a2c80573af1c418e6a8a7fd7b0a01
+    - 8146f11510bc0074d8443027e6e14edd
+    - 4811929b4ca6411459684c95a4428317
+    - b87b808d71ae755499b344fe4a67f623
+    - 81507d8474a42be41bdcb4356914b078
+    - 73588c0db30a9f54788fcea6e3d578dd
+    - 4fe416c2f7fd6b745b348645a31342ed
+    - 2a0826f5e078dc5438220304b489b3b8
+    - eb2da37682347614a9a090da2fe03761
+    - 88da90fcf9446e04bad64af911ec975c
+    - bf04aa4595f8d3e4c9411bb868b7bff7
+    - 31fdffe7c44e9a5468dd43fe8b3df29f
+    - 27cdffb2d6af4b742b4daa685c71bdf1
+    - 28c61b7e000132642b69edee60ebcff1
+    - 2829fd0973f7ac94caead3d83e9d730d
+    - 17512d69f6a38e544ae283f1d98168ca
+    - e17b3b637267a9c469ebd6bfa3646f97
+    - 8ff73f4999caa234bba0bfa88fd92c7e
+    - c23a5e002a832c048849e1f8abf944af
+    - fc80a6647e50b2844b59f6a28ba176d4
+    - be1d24c92bd88ad4391a02617a5f0fbb
+    - 8d0998fba259ee1458ea095d0f19afb9
+    - e0fbf074d53455049bfe9af63de3a881
+    - 7d75c18a2ef7f7d4c8e60dbedd673790
+    - c55cd312a55d33545a7689b982cfb964
+    - 5534cfbf635c9774e95d95ea2733e511
+    - d3f932f0f72a8f342ad79e9225bcb1af
+    - 5846c1f114e648b44a5fef59ae7fc960
+    - b692b2a2cd754a946b241d44b86b5030
+    - b3828092f372ce14596ae056720be5e4
+    - 6e66ab7b76024bc47a62d4e821cecae4
+    - 99547d23d06f5344fac20a5d6d9b8fca
+    - d7c4803e009c4084191a6cde97f895e1
+    - ef3860961a9083642b69b73f687cec32
+    - 5afb813dd11964e4285452e5c84b995c
+    - ddf97f8535a5f34468c69c47130a8717
+    - 35cf9e56ceb3b6a43a7d3b4ca03fa485
+    - 16baea6b2a008f04ab7aa37bb8efeaf9
+    - 5bf4c6d1564ff2449ae56f91af20df93
+    - c6c83b82e792c524d9600f2ecd47301f
+    - db806db785c25924ab949ca89d2ea486
+    - 46a73ecca93853244846b8f6b425bc22
+    - 9bb2e01d6914e75449876ed375e2cc5a
+    - 17e0fb8fd1e682e418ecd0f139eff52b
+    - cb431fcb7ffce544695564786ef89e53
+    - d3eaae1151425ed4698e065274eaec5d
+    - 73d0ee31852052c4893f780b49a1ae30
+    - 65f91751bc7d0ed4c9c261b211b2f75c
+    - a41654938bab8ed4ca861a49c72724b1
+    - 943569255abba444e997b5c036a142d2
+    - ee3adaa4a22896e41a52d3294839b782
+    - 9c39d439d3365e642b24219af23cda89
+    - 2a5b27c692011574bae9f84b632e39e9
+    - d4a20370e91baf946b3b9f7b9d60b57e
+    - 40b6d4b76b7128a4cbd57090f3a4942a
+    - d0f262e47b2de624489c96ba56b39776
+    - 6b40fa55d73fa3e499a9d40bda764229
+    - 1bbc71b19f917e2469a3732a6cc441cc
+    - 7c0a96d8e016c81429e7f63c65c56c6a
+    - fe6d248c942c2cf4c974852013188558
+    - da7ac52342765f543a8677c3bec672be
+    - ffe00149923d5104b8cd2aab74dec446
+    - 52e186428960c4a408f685d6c1ab628d
+    - 1f266d067605d3c48a519c650e515d06
+    - 04d7913269abc4d429ae8b8c0508ab03
+    - 3d5e4475d5e5a2d4991a92d300b9b424
+    - efd2cf96fe949544abd35e38feb259a4
+    - c51a25c8601ad294fafead884ce2efcb
+    - dac7012a621a41641b3477f4c74afeaa
+    - 3d03d32e497735848bff3b818a07e4ec
+    - 0d93ab3148d401441acf65964cb39e98
+    - a1b9d852437b2024f824e7ba16a14864
+    - af1d07546d5416042b67e052661c6b6c
+    - 8669675a03158d54cb59eb74fabb7ed9
+    - 663f3d6b017ee724fa09544e8bdff011
+    - bd6946ac99cca714dbca743529980b26
+    - a4e1b7823557ff842a4e7405132e42b2
+    - 713a7d92fa9d4b845b9a376ff7f56f0b
+    - 98aafef2da6825c4ea1b66034a158fb8
+    - 9c7d5ad7c10683d49be8ff80e2a7ddcf
+    - 615eb35b507642d46a3e27377b36c312
+    - ab4f4640eda804e4c93e37b9a8012afa
+    - 098fcf2565cf95a49a1cc2c5fb98e3db
+    - 6206df858e20f8a44976646b2b2b9775
+    - d98255795a617ec4392e2962649e4491
+    - 4e2ae07ab506a4e48af713ae33df93bd
+    - 2250302b11f0b7a4cb010568e3d2b41f
+    - 77dc00abd832dc54ca0da9781626046c
+    - b3067bfc0b2cc614b90e3a1f59aa6eb4
+    - abb630c025249ba4690d538c94d8ab36
+    - 08806a02a1a04df499300ab1881e12c8
+    - 44115ab3440366a4f84d921400e59e3c
+    - b6246614b9b6d174082ee5a72ec0a5ba
+    - ba381e9629c9763479b520315c914701
+    - 20e7318a1dcbbe847a7a3c99d7f222d5
+    - 35eb8fdc9f1153043be5f4b32aba7e4e
+    - 61c79d9e22ae6be4e96270cb087b00ed
+    - 95a9988fc3f2b6c42b4537ab3c49ff6a
+    - 4ba530effedad6a4daebb3692cd04662
+    - ef8032a6f86264e42974726f4c1f9e1b
+    - 6064ea80638374f44a8d8cac71ce6677
+    - 4da937d2f48f6b64481e7aa61380da24
+    - 04dd0d23b4f11f54fa5c10deeebf52ba
+    - ac4a871b6ab11d942b50603ca3da1b88
+    - f14904bbef72ced42b14a4cd1880dced
+    - dedf5d1dd36e1164bbf85d1620da3f7b
+    - 3c9df3cd4fa414b42bdd50e5283252f6
+    - d85bb85b752358347a4e3d04540c4049
+    - 4053af1eb2a0cae43968b55eb278b1d6
+    - 8bd4188ee51c4b54fbb71f7be21eb93a
+    - d46b5242e4daba843971360131299cea
+    - c4cfc86af4d7c3245acb9c6867fa4b7e
+    - 30248e7fbaa4cb0428e1f0204cbab940
+    - f837967a1707b284f80e7782d308530b
+    - 6f7542f39bdcae249a6934c19626dd14
+    - 6d80cc8c657b8cc4f811f559a90ea621
+    - a8bdb90af9db21b4b8cc5be22406b9e9
+    - e59f89e2e67fa23449f95dd883bf4e27
+    - a022b6085ff83dd47a47de084cc75ccf
+    - 06556fef09ab9b94c9538d39972da911
+    - 793e13d3115e8bf429ae8f1e4b0ce2f3
+    - 3e87db8a49e367342989cbb275783d99
+    - d183863f877c4f1499625595f7185c38
+    - 8ce6746444b6c164dbdb8cb49f5484f3
+    - 3516fa95b9b1eb344ab21f7486621ea1
+    - 1d16bb88c430c244286fca09b3057ec8
+    - 7bfa5c4d2010a514ca6b3157aae2eb0a
+    - 09173bb53541f90448a92af3c03c15a4
+    - 2dd5ad4b4f8c9dc45bbd1683606e4bf1
+    - 795ea8ebf96c94a4b8b943996597ce9f
+    - e34aac8f4645cbf4d8b1c9a0af700c9c
+    - 42577ce2b2fae9041853355346e551a8
+    - b71a2ca68e0151144b3989b598af088c
+    - 87decc7b986547d489edd00adad42c5a
+    - d8f54c9ef9bae8842bfe0a0d539bbd16
+    - a3737510833cdd743bca591e18156fbe
+    - 0798f2b53606dfa46acea3c679ceff7d
+    - 44e45ff7c839eac4e9f7d78f1e8c9bb9
+    - 0a4de75bc8e66fa4f9d6c96810dedfb2
+    - 9b31ef7b8ec73b9448c29fb43de2857b
+    - 04d759cbea8c31d40b4f0f93102f5d5e
+    - 17301e5d940e6da4e824285658286bf1
+    - d3469abeff9cab44288af14f01eafb43
+    - 2ff0d64023f7e434ead3b921301cad08
+    - d26dd3c1624bbdf498c3bc899161c750
+    - 8dcfe45e66778a346863423e33836f17
+    - e35ceef2bb23e6447a405e788ee9759c
+    - 031e7dd3d2c1b054ea19354928a9cf5b
+    - 816fa1a892b726c4b94f1d27b179cf1b
+    - 78c4bee85e5bd6a4ea35c28392109823
+    - 153b9c0dbd40c0848b8892cd8ea369f2
+    - bb7c7b184e7ec2c47b745094cc9b0b09
+    - 9cc193ad88aa2e74eb8911bc82bc7e5c
+    - 346cb58e44de39847bcf41f10b0d47e2
+    - 3f76fc1510275974e9a0347115b6464e
+    - f271bf7c1350c1148915fabba0a58805
+    - 03845826951215d4c8bebc396e05ad34
+    - 0b981e781246dc0499a5231e7051a8fa
+    - f169fa30508942240969050978b1ef11
+    - 3aebd405632a8924298e403925e71bf1
+    - 3cc2165559a5d174aa1fea67f23d1515
+    - 563e98ad0b9912547b58228f201874fd
+    - 85e062fe07b8ff34f9e530a7d799acaa
+    - d95e316204651174d81be6a4ba9eb8cb
+    - 5e6ccc767b1c25742bcfc8cb3283101c
+    - 18690d719fd096749a50954c3fffe4e4
+    - e838f727007999b46a3eaf2642c496ee
+    - 41086909bbde7af4d9fadf604f2705b7
+    - b063a4ede748e284f961c4c8d8060173
+    - b9885a4f034412f49a255dc86993bebd
+    - 2310c05b96de70f45bd043504e031e04
+    - 3269e2fb88fe27a4e9fa38b5337ea70c
+    - e49f112e707655c4eaeb64df305f47df
+    - af72b4aff2f6e8e418c9d7d0a911f805
+    - cc4763d1fb6163945864cfa00b6091d3
+    - bd328ff6a6aa555478a2628060534fa2
+    - b8f0db9330917574985df7e43bc88264
+    - 15a002a7fb859cc4a8696e9fc2384a00
+    - 0bfb524afc2b19f4c9c2051347dca614
+    - 8b66054b7785c0342a8ef64672c5ce86
+    - 93ce6b9e13c932a4195b731e62d1d5f9
+    - 9841eeae595d9d048b225ef318430679
+    - e699a1887233e5c4a8575d120960dbdc
+    - 988ea719877e4e64882f0be95fbbb5d4
+    - 464bc47e8ba74ac40a0f79bf9498106e
+    - 2541c1d456796034793a40360c5acae7
+    - e99f43aa8ad31834692b4611ab917ccb
+    - cbf507410f76c6343b24239661e4331f
+    - d8e69f92b49e052458987cf87af90284
+    - d38468e803d3c5342b06f4df03363def
+    - 6b01aabb33cd0ae4988aaee2ec14bcbf
+    - a8d06603156f1ab42b1f505bfaa223c2
+    - 4c8ff63afc8975e4997a4de08cae2fb9
+    - a78a239c89d948b438c76c3a57b80222
+    - 896cd1dda22d79344bf35bda850588c3
+    - 88742a99c4d2729459e8b9baf8e991ba
+    - fe3ddd439df307046b95335c35855a37
+    - 22cb75c5198b0274f81592b124d4fc1c
+    - 50edda932d2b0f24194658958c335581
+    - 399ca5da672fdca41a97b4ada723006c
+    - dcc80950cf5eb2e4b84d4ec80d15f8fc
+    - 9c652af0dccd8e44ab6e2fea820b17e9
+    - bfc183a4229242c4388736cc53e36cd6
+    - 0d0edeb9d1695274187743034f937323
+    - b0d87f4ab720a144688b8abc313db357
+    - ff43d8155328d3e478e2260e3509aa17
+    - d298710b6a9b394418b06fa66b1e3dac
+    - 9398ac10697f8344698122bae147d5b1
+    - ca27dcf8d4bc5d34c84b6befba4a34ee
+    - cee3663e7ca695f45ac59ac2e9c28fe6
+    - d8831eced5647d249a9264ffe6a6b8f1
+    - 34d0a2776d3a34e4b8e3e6372645711b
+    - 3e081281264a63d4598657a24c27c6db
+    - a50992cebd25c9e48a8a06f5f8603213
+    - c72f990f2ab998b4f80cc8af0fd1de59
+    - 3a7e4b42e5e095546b547063e21cda8e
+    - ee829d92c30943d4dab45f8f51210d4d
+    - 37626563eefaf6245837f412455c0fb3
+    - 586750340f8e92245b212a1df88d99a1
+    - dcf8286c7efd0f64a910a3bc31280636
+    - 2208ca6ee8adc4947af79f3c1875655c
+    - 9255137290d4b0a40b4807478379fff0
+    - cd8880f5ddbff4d46b159d669d9903c2
+    - 899395b34f8e7ca4d9a5d4eedf258498
+    - 4cdad457bbdba5c4f88921ade319ab40
+    - dcf6d52a8a1060c4fba82ca2133bf810
+    - 604cacca7316e3b40872581f7feda890
+    - 9bb9771c859bb1a469f3cdcb4a6cdfed
+    - 54fcb4ec339af0e4b8fe234136c75e13
+    - 32893e5dcc5ffc048ad3cfc71464060e
+    - 849c4022355b7354eb571dd4f916d312
+    - df95b3ea3d6e5d94dbb8f07217569144
+    - 5f4a640ea354c4247876cca10bf8a5dc
+    - f0fceb7e2b31e874692cb3da0c155eb9
+    - e545a8368b844bc40a2d39748cf07a97
+    - 356097c66b94f2f45ad55bf349c86823
+    - bca2ac98294886941aa07839817d4127
+    - 4742b079d11c0584d84184f3a5473199
+    - 6acfd9cc39b357c45b20490d2d693ad0
+    - 6fb3bf0449c66c84aa3dbdfdff9b3943
+    - 79b94a860b6959240a9b6a1423fbe096
+    - 6e073a7819e11c6489fb04e03599816f
+    - 969328c5790773741a6b2102e5ee1cd8
+    - a363d33a5fcd1bc45a6add8e09b0c072
+    - 2ce0eafeb94d48d40a62b73c2f5d38b3
+    - 34469a33027e42e4ea015a726147d95d
+    - e2945be420d95424a87846695800adeb
+    - ecea34e717fe7c4459b5f0bbfce86af8
+    - ef6179a9ec5a353428e218b689006d1f
+    - ef68da51d15ceda4bac8777c961994ea
+    - 51d39f583fd86ad41a3a71b902de771f
+    - 4b02246d3013b5a4f8f39d6ce82981eb
+    - ebe1c323bef57b444957faabeaeabaf2
+    - f733828ab9aa2fd47b4d58e98f905430
+    - 746edf01ea137f24dbb36fc5eba07f8a
+    - 322e9081c920fb449b5423f8edf8bb7e
+    - 85709b281bfdd224ebff7ce9fff6330a
+    - 4e18da5a14851ea46919e7b06bde94e9
+    - c52993aca74c2924bb4bead8d4eaa3c0
+    - a2f17e161ca36b1479f52a6069353393
+    - a8d7f6c8fcf3e524fb5b6e10a4ba7aa1
+    - 32f7d9bccd9eb354893c2e118986d664
+    - e7cba749d11b0ba4aab66228f79b6aab
+    - 6f88e9550dcc44545be61e5955bd7cf0
+    - dadac7d92f6e2074da5ba77dde0ffad7
+    - 1289ab7cf0fd38f4d8030ae9066a5b50
+    - 947144982e5d93647a2f1abc8bb63f05
+    - 51e7746bb2232634380b121d5ce8c848
+    - 662d2ada847f4b840879765b942480d5
+    - f099b6cc4c784f84091699935a8bc0bb
+    - e83377c24b88eac498c166c9f28e6714
+    - 049796981dc14eb42ae7bb8b6d38af00
+    - dc84c1fc811dc9f41bf77a7e66bef32b
+    - 5f1311d69d2c3e7478968da3b56cbb4c
+    - e57f3877f4a35ac46b477dcbdcd01eba
+    - f5c60f5dda694ce40b28257ba8aa0cf5
+    - d6d4d96d855218d45a3eb5d9124c1360
+    - f9c6288fff79b5d46afe737dbe8f14ec
+    - e617e4221a4781043b09276cab37dc7f
+    - af30e11006f522b4b919702764ad4719
+    - b1848f18788680e41a961fe8cfc3cae1
+    - 506b5f095ae481546a8eadbd5db8d9c4
+    - 9a0442b2bd63be145a21997c79baa430
+    - e21baf78023e8e546b0e43fb1589d1f9
+    - fdf0cc5869bafb540883bd7c7f0b6cbb
+    - 3b807cbd5e73e5040b79823b4a4a7d3e
+    - d6bb31ece35574046888b95a2d3a7823
+    - 488529abb9e0daa459c283233cee9bbc
+    - b4e4b1edeb5d07341ae9333b78669872
+    - 65928151ca7e2064faaa921a00dae6b0
+    - 9678fab87d014b94f9e3e2bae95fbdd0
+    - 60d7ec7cecbf98245be184afc7ff0b77
+    - e75618466eb64c84e92c347df2ef013b
+    - 806bf35dcfe26604abef5d3db9a8d01f
+    - 7ce9da377550cd64da467a84e8fc6b48
+    - 6cae8636b67c99e48856d298ce0dade5
+    - 3fe7da217602deb4c9c4acb53339bc96
+    - ab7a4d191e45f944e9302f4b940aa786
+    - 3ebb33eb0dae6c14ba551f625625ab2a
+    - f20e7f150e63c8649bc5c34ebb5a0112
+    - 659e7db2c39f4f1489417f847f0e2f66
+    - 0886bed7991960d4d91fc548dbb8751b
+    - 0659a598a4114274f94530ed45f9b173
+    - 5534519a9c5d1c2459f9fa5f00d08627
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - DIRECTIONAL
+    keywordStr: 4 DIRECTIONAL
+    users: []
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    keywordStr: 4 DIRECTIONAL LIGHTMAP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL LIGHTMAP_ON SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _CUSTOMLIGHTMAP_ON
+    keywordStr: 4 DIRECTIONAL _CUSTOMLIGHTMAP_ON
+    users:
+    - 5c1e6bb0b110b2543a760440a8cb2eaf
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _CUSTOMLIGHTMAP_ON
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _CUSTOMLIGHTMAP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    - _CUSTOMLIGHTMAP_ON
+    keywordStr: 4 DIRECTIONAL LIGHTMAP_ON _CUSTOMLIGHTMAP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    - SHADOWS_SCREEN
+    - _CUSTOMLIGHTMAP_ON
+    keywordStr: 4 DIRECTIONAL LIGHTMAP_ON SHADOWS_SCREEN _CUSTOMLIGHTMAP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '5 '
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    keywordStr: 5 DIRECTIONAL
+    users: []
+    passType: 5
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - POINT
+    keywordStr: 5 POINT
+    users: []
+    passType: 5
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '8 '
+    users: []
+    passType: 8
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - SHADOWS_DEPTH
+    keywordStr: 8 SHADOWS_DEPTH
+    users: []
+    passType: 8
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: LIGHTMAP_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: POINT
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 5
+  - pass: 1
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _CUSTOMLIGHTMAP_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: LIGHTMAP_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: POINT
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 6
+  - pass: 2
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: LIGHTMAP_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: POINT
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 5
+  - pass: 3
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: LIGHTMAP_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: POINT
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 5
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _CUSTOMLIGHTMAP_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: DIRECTIONAL
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SHADOWS_SCREEN
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: LIGHTMAP_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: POINT
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SHADOWS_DEPTH
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 100
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 0
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRECTIONAL
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SCREEN
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: LIGHTMAP_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: POINT
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 5
+    - pass: 1
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _CUSTOMLIGHTMAP_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRECTIONAL
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SCREEN
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: LIGHTMAP_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: POINT
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 6
+    - pass: 2
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRECTIONAL
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SCREEN
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: LIGHTMAP_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: POINT
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 5
+    lightMode: ForwardAdd

@@ -1,0 +1,448 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_Scene_StarActor_Reflection
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 11
+  passCount: 2
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/Scene/StarActor/Reflection
+  path: Assets/ABPack/Resources/Shaders/StarActor/LGame_Scene_StarActor_Reflection.shader
+  GUID: 938ea1f1f39b2a94a869048b208065e7
+  keywordStrs:
+  - 
+  - DIRECTIONAL
+  - SHADOWS_SCREEN
+  - LIGHTMAP_ON
+  - _PLANAR_REFLECTION
+  - SHADOWS_DEPTH
+  dependShader: []
+  gcInclude: []
+  warring: '
+
+    Has float count: 18'
+  shader: {fileID: 4800000, guid: 938ea1f1f39b2a94a869048b208065e7, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - e919537450943984f99286fb819bb2ba
+    - edd943a9a383d2e4d8cf4528c13162c3
+    - 1eaee3e55025d114bb6f0dab379e2064
+    - 4694ceb4fdf01f9418c81e83225b9da4
+    - 3842262aa9a02eb4d811b67000004ea7
+    - 4b7225f72f680b24f9db5601bc30f8fb
+    - 57d8934d1c7356c4aafab3e3ef0c414c
+    - aa4fe0052d6ac724ab2d80014a5c4e71
+    - 67b44a88f85b33c4d819ae5f50215c4c
+    - c5369ff8af1375d429fc8efb0ba47e85
+    - 10142cf39257fdb4a93bfa39f4da741f
+    - e00e75fbc70f8d343ac2983e7d1b0c76
+    - 2c7c08931de39e946b99ff9310057a66
+    - b3c4c7e76ea8d9949baf4a73c1716412
+    - 9373845169b04124d8b591abea4d6b0a
+    - f4e7058d875c2f3448c564919d2f2844
+    - 7e3080f7ccef7b1468fd236fca941327
+    - 9aa76f1c6427a1d4085b5bf50640a4b6
+    - 1e808c8dc9fb71e44ad7224bd7dd077c
+    - 33772dee3cf70034bbd1987bff59b119
+    - 3efdfe5a4c5ba4f47a78e8d5e4a7e203
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - DIRECTIONAL
+    - _PLANAR_REFLECTION
+    keywordStr: 4 DIRECTIONAL _PLANAR_REFLECTION
+    users: []
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _PLANAR_REFLECTION
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _PLANAR_REFLECTION
+    users: []
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    - _PLANAR_REFLECTION
+    keywordStr: 4 DIRECTIONAL LIGHTMAP_ON _PLANAR_REFLECTION
+    users: []
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    - SHADOWS_SCREEN
+    - _PLANAR_REFLECTION
+    keywordStr: 4 DIRECTIONAL LIGHTMAP_ON SHADOWS_SCREEN _PLANAR_REFLECTION
+    users: []
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - SHADOWS_DEPTH
+    keywordStr: 8 SHADOWS_DEPTH
+    users: []
+    passType: 8
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - e919537450943984f99286fb819bb2ba
+    - edd943a9a383d2e4d8cf4528c13162c3
+    - 1eaee3e55025d114bb6f0dab379e2064
+    - 4694ceb4fdf01f9418c81e83225b9da4
+    - 3842262aa9a02eb4d811b67000004ea7
+    - 4b7225f72f680b24f9db5601bc30f8fb
+    - 57d8934d1c7356c4aafab3e3ef0c414c
+    - aa4fe0052d6ac724ab2d80014a5c4e71
+    - 67b44a88f85b33c4d819ae5f50215c4c
+    - c5369ff8af1375d429fc8efb0ba47e85
+    - 10142cf39257fdb4a93bfa39f4da741f
+    - e00e75fbc70f8d343ac2983e7d1b0c76
+    - 2c7c08931de39e946b99ff9310057a66
+    - b3c4c7e76ea8d9949baf4a73c1716412
+    - 9373845169b04124d8b591abea4d6b0a
+    - f4e7058d875c2f3448c564919d2f2844
+    - 7e3080f7ccef7b1468fd236fca941327
+    - 9aa76f1c6427a1d4085b5bf50640a4b6
+    - 1e808c8dc9fb71e44ad7224bd7dd077c
+    - 33772dee3cf70034bbd1987bff59b119
+    - 3efdfe5a4c5ba4f47a78e8d5e4a7e203
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    keywordStr: 4 DIRECTIONAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    keywordStr: 4 DIRECTIONAL LIGHTMAP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL LIGHTMAP_ON SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - DIRECTIONAL
+    - _PLANAR_REFLECTION
+    keywordStr: 4 DIRECTIONAL _PLANAR_REFLECTION
+    users: []
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _PLANAR_REFLECTION
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _PLANAR_REFLECTION
+    users: []
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    - _PLANAR_REFLECTION
+    keywordStr: 4 DIRECTIONAL LIGHTMAP_ON _PLANAR_REFLECTION
+    users: []
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_ON
+    - SHADOWS_SCREEN
+    - _PLANAR_REFLECTION
+    keywordStr: 4 DIRECTIONAL LIGHTMAP_ON SHADOWS_SCREEN _PLANAR_REFLECTION
+    users: []
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '8 '
+    users: []
+    passType: 8
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - SHADOWS_DEPTH
+    keywordStr: 8 SHADOWS_DEPTH
+    users: []
+    passType: 8
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _PLANAR_REFLECTION
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: LIGHTMAP_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 5
+  - pass: 1
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: LIGHTMAP_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 4
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _PLANAR_REFLECTION
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: DIRECTIONAL
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SHADOWS_SCREEN
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: LIGHTMAP_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SHADOWS_DEPTH
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 200
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 0
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 1
+        isFeature: 0
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _PLANAR_REFLECTION
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRECTIONAL
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SCREEN
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: LIGHTMAP_ON
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 5
+    lightMode: ForwardBase

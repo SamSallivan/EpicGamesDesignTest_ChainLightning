@@ -1,0 +1,1668 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: Mobile_BumpedSpecular
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 112
+  passCount: 1
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: Mobile/Bumped Specular
+  path: Assets/ABPack/Resources/Shaders/builtin_shaders-5.6.4p4/DefaultResourcesExtra/Mobile/Mobile_BumpedSpecular.shader
+  GUID: 1bce064f7ad226f4694e50ff0c4bc425
+  keywordStrs:
+  - 
+  - SPOT
+  - POINT
+  - FOG_LINEAR
+  - FOG_EXP
+  - FOG_EXP2
+  - DIRECTIONAL
+  - SHADOWS_SCREEN
+  - LIGHTPROBE_SH
+  - LIGHTMAP_SHADOW_MIXING
+  - VERTEXLIGHT_ON
+  - INSTANCING_ON
+  - SHADOWS_DEPTH
+  - SHADOWS_CUBE
+  dependShader: []
+  gcInclude: []
+  warring: 
+  shader: {fileID: 4800000, guid: 1bce064f7ad226f4694e50ff0c4bc425, type: 3}
+  used_variants: []
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '1 '
+    users: []
+    passType: 1
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SPOT
+    keywordStr: 1 SPOT
+    users: []
+    passType: 1
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - POINT
+    keywordStr: 1 POINT
+    users: []
+    passType: 1
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_LINEAR
+    keywordStr: 1 FOG_LINEAR
+    users: []
+    passType: 1
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_LINEAR
+    - SPOT
+    keywordStr: 1 FOG_LINEAR SPOT
+    users: []
+    passType: 1
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_LINEAR
+    - POINT
+    keywordStr: 1 FOG_LINEAR POINT
+    users: []
+    passType: 1
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP
+    keywordStr: 1 FOG_EXP
+    users: []
+    passType: 1
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP
+    - SPOT
+    keywordStr: 1 FOG_EXP SPOT
+    users: []
+    passType: 1
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP
+    - POINT
+    keywordStr: 1 FOG_EXP POINT
+    users: []
+    passType: 1
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP2
+    keywordStr: 1 FOG_EXP2
+    users: []
+    passType: 1
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP2
+    - SPOT
+    keywordStr: 1 FOG_EXP2 SPOT
+    users: []
+    passType: 1
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP2
+    - POINT
+    keywordStr: 1 FOG_EXP2 POINT
+    users: []
+    passType: 1
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '2 '
+    users: []
+    passType: 2
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_LINEAR
+    keywordStr: 2 FOG_LINEAR
+    users: []
+    passType: 2
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP
+    keywordStr: 2 FOG_EXP
+    users: []
+    passType: 2
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP2
+    keywordStr: 2 FOG_EXP2
+    users: []
+    passType: 2
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '3 '
+    users: []
+    passType: 3
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_LINEAR
+    keywordStr: 3 FOG_LINEAR
+    users: []
+    passType: 3
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP
+    keywordStr: 3 FOG_EXP
+    users: []
+    passType: 3
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP2
+    keywordStr: 3 FOG_EXP2
+    users: []
+    passType: 3
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    keywordStr: 4 DIRECTIONAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTPROBE_SH
+    keywordStr: 4 DIRECTIONAL LIGHTPROBE_SH
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_SHADOW_MIXING
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL LIGHTMAP_SHADOW_MIXING LIGHTPROBE_SH SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_LINEAR
+    keywordStr: 4 DIRECTIONAL FOG_LINEAR
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_LINEAR
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL FOG_LINEAR SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_LINEAR
+    - LIGHTPROBE_SH
+    keywordStr: 4 DIRECTIONAL FOG_LINEAR LIGHTPROBE_SH
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_LINEAR
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL FOG_LINEAR LIGHTPROBE_SH SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_LINEAR
+    - LIGHTMAP_SHADOW_MIXING
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL FOG_LINEAR LIGHTMAP_SHADOW_MIXING LIGHTPROBE_SH SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP
+    keywordStr: 4 DIRECTIONAL FOG_EXP
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL FOG_EXP SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP
+    - LIGHTPROBE_SH
+    keywordStr: 4 DIRECTIONAL FOG_EXP LIGHTPROBE_SH
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL FOG_EXP LIGHTPROBE_SH SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP
+    - LIGHTMAP_SHADOW_MIXING
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL FOG_EXP LIGHTMAP_SHADOW_MIXING LIGHTPROBE_SH SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP2
+    keywordStr: 4 DIRECTIONAL FOG_EXP2
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP2
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL FOG_EXP2 SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP2
+    - LIGHTPROBE_SH
+    keywordStr: 4 DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP2
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP2
+    - LIGHTMAP_SHADOW_MIXING
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL FOG_EXP2 LIGHTMAP_SHADOW_MIXING LIGHTPROBE_SH SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_SHADOW_MIXING
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL LIGHTMAP_SHADOW_MIXING SHADOWS_SCREEN VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTPROBE_SH
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL LIGHTPROBE_SH VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - LIGHTMAP_SHADOW_MIXING
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL LIGHTMAP_SHADOW_MIXING LIGHTPROBE_SH SHADOWS_SCREEN
+      VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_LINEAR
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_LINEAR VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_LINEAR
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_LINEAR SHADOWS_SCREEN VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_LINEAR
+    - LIGHTMAP_SHADOW_MIXING
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_LINEAR LIGHTMAP_SHADOW_MIXING SHADOWS_SCREEN VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_LINEAR
+    - LIGHTPROBE_SH
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_LINEAR LIGHTPROBE_SH VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_LINEAR
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_LINEAR LIGHTPROBE_SH SHADOWS_SCREEN VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_LINEAR
+    - LIGHTMAP_SHADOW_MIXING
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_LINEAR LIGHTMAP_SHADOW_MIXING LIGHTPROBE_SH SHADOWS_SCREEN
+      VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_EXP VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_EXP SHADOWS_SCREEN VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP
+    - LIGHTMAP_SHADOW_MIXING
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_EXP LIGHTMAP_SHADOW_MIXING SHADOWS_SCREEN VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP
+    - LIGHTPROBE_SH
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_EXP LIGHTPROBE_SH VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_EXP LIGHTPROBE_SH SHADOWS_SCREEN VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP
+    - LIGHTMAP_SHADOW_MIXING
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_EXP LIGHTMAP_SHADOW_MIXING LIGHTPROBE_SH SHADOWS_SCREEN
+      VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP2
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_EXP2 VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP2
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_EXP2 SHADOWS_SCREEN VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP2
+    - LIGHTMAP_SHADOW_MIXING
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_EXP2 LIGHTMAP_SHADOW_MIXING SHADOWS_SCREEN VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP2
+    - LIGHTPROBE_SH
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP2
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH SHADOWS_SCREEN VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP2
+    - LIGHTMAP_SHADOW_MIXING
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_EXP2 LIGHTMAP_SHADOW_MIXING LIGHTPROBE_SH SHADOWS_SCREEN
+      VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - INSTANCING_ON
+    keywordStr: 4 DIRECTIONAL INSTANCING_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - INSTANCING_ON
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL INSTANCING_ON SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - INSTANCING_ON
+    - LIGHTPROBE_SH
+    keywordStr: 4 DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - INSTANCING_ON
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - INSTANCING_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL INSTANCING_ON LIGHTMAP_SHADOW_MIXING LIGHTPROBE_SH SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_LINEAR
+    - INSTANCING_ON
+    keywordStr: 4 DIRECTIONAL FOG_LINEAR INSTANCING_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_LINEAR
+    - INSTANCING_ON
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL FOG_LINEAR INSTANCING_ON SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_LINEAR
+    - INSTANCING_ON
+    - LIGHTPROBE_SH
+    keywordStr: 4 DIRECTIONAL FOG_LINEAR INSTANCING_ON LIGHTPROBE_SH
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_LINEAR
+    - INSTANCING_ON
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL FOG_LINEAR INSTANCING_ON LIGHTPROBE_SH SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_LINEAR
+    - INSTANCING_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL FOG_LINEAR INSTANCING_ON LIGHTMAP_SHADOW_MIXING LIGHTPROBE_SH
+      SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP
+    - INSTANCING_ON
+    keywordStr: 4 DIRECTIONAL FOG_EXP INSTANCING_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP
+    - INSTANCING_ON
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL FOG_EXP INSTANCING_ON SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP
+    - INSTANCING_ON
+    - LIGHTPROBE_SH
+    keywordStr: 4 DIRECTIONAL FOG_EXP INSTANCING_ON LIGHTPROBE_SH
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP
+    - INSTANCING_ON
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL FOG_EXP INSTANCING_ON LIGHTPROBE_SH SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP
+    - INSTANCING_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL FOG_EXP INSTANCING_ON LIGHTMAP_SHADOW_MIXING LIGHTPROBE_SH
+      SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP2
+    - INSTANCING_ON
+    keywordStr: 4 DIRECTIONAL FOG_EXP2 INSTANCING_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP2
+    - INSTANCING_ON
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL FOG_EXP2 INSTANCING_ON SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP2
+    - INSTANCING_ON
+    - LIGHTPROBE_SH
+    keywordStr: 4 DIRECTIONAL FOG_EXP2 INSTANCING_ON LIGHTPROBE_SH
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP2
+    - INSTANCING_ON
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL FOG_EXP2 INSTANCING_ON LIGHTPROBE_SH SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP2
+    - INSTANCING_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL FOG_EXP2 INSTANCING_ON LIGHTMAP_SHADOW_MIXING LIGHTPROBE_SH
+      SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - INSTANCING_ON
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL INSTANCING_ON VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - INSTANCING_ON
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL INSTANCING_ON SHADOWS_SCREEN VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - INSTANCING_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL INSTANCING_ON LIGHTMAP_SHADOW_MIXING SHADOWS_SCREEN
+      VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - INSTANCING_ON
+    - LIGHTPROBE_SH
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - INSTANCING_ON
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH SHADOWS_SCREEN VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - INSTANCING_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL INSTANCING_ON LIGHTMAP_SHADOW_MIXING LIGHTPROBE_SH SHADOWS_SCREEN
+      VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_LINEAR
+    - INSTANCING_ON
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_LINEAR INSTANCING_ON VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_LINEAR
+    - INSTANCING_ON
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_LINEAR INSTANCING_ON SHADOWS_SCREEN VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_LINEAR
+    - INSTANCING_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_LINEAR INSTANCING_ON LIGHTMAP_SHADOW_MIXING SHADOWS_SCREEN
+      VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_LINEAR
+    - INSTANCING_ON
+    - LIGHTPROBE_SH
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_LINEAR INSTANCING_ON LIGHTPROBE_SH VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_LINEAR
+    - INSTANCING_ON
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_LINEAR INSTANCING_ON LIGHTPROBE_SH SHADOWS_SCREEN
+      VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_LINEAR
+    - INSTANCING_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_LINEAR INSTANCING_ON LIGHTMAP_SHADOW_MIXING LIGHTPROBE_SH
+      SHADOWS_SCREEN VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP
+    - INSTANCING_ON
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_EXP INSTANCING_ON VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP
+    - INSTANCING_ON
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_EXP INSTANCING_ON SHADOWS_SCREEN VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP
+    - INSTANCING_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_EXP INSTANCING_ON LIGHTMAP_SHADOW_MIXING SHADOWS_SCREEN
+      VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP
+    - INSTANCING_ON
+    - LIGHTPROBE_SH
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_EXP INSTANCING_ON LIGHTPROBE_SH VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP
+    - INSTANCING_ON
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_EXP INSTANCING_ON LIGHTPROBE_SH SHADOWS_SCREEN VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP
+    - INSTANCING_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_EXP INSTANCING_ON LIGHTMAP_SHADOW_MIXING LIGHTPROBE_SH
+      SHADOWS_SCREEN VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP2
+    - INSTANCING_ON
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_EXP2 INSTANCING_ON VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP2
+    - INSTANCING_ON
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_EXP2 INSTANCING_ON SHADOWS_SCREEN VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP2
+    - INSTANCING_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_EXP2 INSTANCING_ON LIGHTMAP_SHADOW_MIXING SHADOWS_SCREEN
+      VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP2
+    - INSTANCING_ON
+    - LIGHTPROBE_SH
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_EXP2 INSTANCING_ON LIGHTPROBE_SH VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP2
+    - INSTANCING_ON
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_EXP2 INSTANCING_ON LIGHTPROBE_SH SHADOWS_SCREEN
+      VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - FOG_EXP2
+    - INSTANCING_ON
+    - LIGHTMAP_SHADOW_MIXING
+    - LIGHTPROBE_SH
+    - SHADOWS_SCREEN
+    - VERTEXLIGHT_ON
+    keywordStr: 4 DIRECTIONAL FOG_EXP2 INSTANCING_ON LIGHTMAP_SHADOW_MIXING LIGHTPROBE_SH
+      SHADOWS_SCREEN VERTEXLIGHT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '8 '
+    users: []
+    passType: 8
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SHADOWS_DEPTH
+    keywordStr: 8 SHADOWS_DEPTH
+    users: []
+    passType: 8
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SHADOWS_CUBE
+    keywordStr: 8 SHADOWS_CUBE
+    users: []
+    passType: 8
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SPOT
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: POINT
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_LINEAR
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP2
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: LIGHTPROBE_SH
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: LIGHTMAP_SHADOW_MIXING
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: VERTEXLIGHT_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: INSTANCING_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_CUBE
+        tips: 
+    keywordCount: 13
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SPOT
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: POINT
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_LINEAR
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_EXP
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_EXP2
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: DIRECTIONAL
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SHADOWS_SCREEN
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: LIGHTPROBE_SH
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: LIGHTMAP_SHADOW_MIXING
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: VERTEXLIGHT_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: INSTANCING_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SHADOWS_DEPTH
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SHADOWS_CUBE
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 250
+    passInfos: []
+    lightMode: ForwardBase

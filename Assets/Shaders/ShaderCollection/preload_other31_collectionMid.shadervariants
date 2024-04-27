@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_other31_collectionMid
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 4168f089fc075d4449a725d847f6640f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 5890f93b7d22cf146bc831c6df1770c4, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 8f2f9bdb7df9f8d42be015f4c137da80, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: f2c4824a63990c24bb438d78e19e6e04, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 388a50dfc7e4f5d4091895528d9c38e6, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0

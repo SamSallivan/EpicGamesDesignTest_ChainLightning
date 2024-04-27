@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_other47_collectionLow
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 61bcc695e9952eb4895406ac6cb0a4a9, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+  - first: {fileID: 4800000, guid: 8db11e00eca2ea74ea620e1443a169cf, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+  - first: {fileID: 4800000, guid: ae7c3f55ee9b679439477cdf4524a835, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: 99d6a31baed98694c872258a11f80e38, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL _METALLICGLOSSMAP _REFLECTION_PLANAR _SPECULARHIGHLIGHTS_OFF
+        passType: 4

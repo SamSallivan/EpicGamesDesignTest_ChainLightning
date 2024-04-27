@@ -1,0 +1,32 @@
+﻿#pragma kernel CSMain
+#pragma kernel InitMain
+
+Texture2D<float4> targetTexture;
+
+RWStructuredBuffer<float> output1;
+RWStructuredBuffer<float> output2;
+RWStructuredBuffer<float> output3;
+
+float2 pixelOffect;
+
+[numthreads(1, 1, 1)]
+void InitMain(uint3 id : SV_DispatchThreadID)
+{
+    output1[id.x] = 0;
+    output2[id.x] = 0;
+    output3[id.x] = 0;
+}
+
+[numthreads(16, 16, 1)]
+void CSMain(uint3 id : SV_DispatchThreadID)
+{
+    output1[id.x * 16 + id.y] += (targetTexture[id.xy + (pixelOffect.xy * 16)].x / 0.015);
+
+    if (targetTexture[id.xy + (pixelOffect.xy * 16)].x > 0.014)
+    {
+        output3[id.x * 16 + id.y] += 1;
+    }
+
+    output2[id.x * 16 + id.y] += targetTexture[id.xy + (pixelOffect.xy * 16)].w;
+}
+

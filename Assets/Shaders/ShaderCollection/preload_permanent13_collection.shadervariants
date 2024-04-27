@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_permanent13_collection
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 757404bdaaa913545828e518f0ffae5d, type: 3}
+    second:
+      variants:
+      - keywords: _FLOWLIGHTSCREEN
+        passType: 4
+      - keywords: _ALPHABLEND_ON _FLOWLIGHTSCREEN _RIMLIGHT
+        passType: 4
+  - first: {fileID: 4800000, guid: 83e9c4e57f7f2c6429813faaa9e56030, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 460adaa4375cb074ea7a5e3d15b0feed, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4

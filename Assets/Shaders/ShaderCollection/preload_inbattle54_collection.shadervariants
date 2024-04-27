@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_inbattle54_collection
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 2f68c8980f6c1b045b9ef33e76e86332, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 4df9a215a27365746b4c238278080161, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: cbff0bb64b895f045acefb789fc1cece, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: _USE_DIRECT_GPU_SKINNING
+        passType: 4

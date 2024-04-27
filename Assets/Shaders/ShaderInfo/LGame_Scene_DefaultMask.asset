@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_Scene_DefaultMask
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 1
+  passCount: 1
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/Scene/DefaultMask
+  path: Assets/ABPack/Resources/Shaders/LGameShader/LGame_Scene_DefaultMask.shader
+  GUID: cfc3ff5217d6b684d85ec6d05b0b312b
+  keywordStrs:
+  - 
+  dependShader: []
+  gcInclude: []
+  warring: 
+  shader: {fileID: 4800000, guid: cfc3ff5217d6b684d85ec6d05b0b312b, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 96b8ce569f459be42a6003af23e2d82c
+    - ec443ea8215dea64ab214d3999047ac1
+    - 2414be51bc4c6264daf1da0393393971
+    - 195db8a7acba8784dad1595402cff3d7
+    - c5d546f2335507c45ba823496ade289c
+    - 5fd8ba556cb95f14b8f1a37a6acf0ac2
+    - 87e0270c80b6dd9419cb7a6fee8e998a
+    - e272b23c67513d240b5d28049a194cd6
+    - 241d447f83e931d439a21d09f06bcb23
+    - 941e565a216c88a4182c32e143533eec
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 7
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 96b8ce569f459be42a6003af23e2d82c
+    - ec443ea8215dea64ab214d3999047ac1
+    - 2414be51bc4c6264daf1da0393393971
+    - 195db8a7acba8784dad1595402cff3d7
+    - c5d546f2335507c45ba823496ade289c
+    - 5fd8ba556cb95f14b8f1a37a6acf0ac2
+    - 87e0270c80b6dd9419cb7a6fee8e998a
+    - e272b23c67513d240b5d28049a194cd6
+    - 241d447f83e931d439a21d09f06bcb23
+    - 941e565a216c88a4182c32e143533eec
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 7
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines: []
+    keywordCount: 0
+  keywords: []
+  subShaderInfos:
+  - index: -1
+    lod: 100
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    lightMode: ForwardBase

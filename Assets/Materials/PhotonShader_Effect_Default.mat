@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PhotonShader_Effect_Default
+  m_Shader: {fileID: 4800000, guid: 69c762194cd734f9a81405d4b761162e, type: 3}
+  m_ShaderKeywords: _GRADIENT_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DissolveTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GradientTex:
+        m_Texture: {fileID: 2800000, guid: c1298e625b0245043bae2529a96a7656, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaCtrl: 1
+    - _CardClip: 0
+    - _ColorMask: 15
+    - _CullMode: 0
+    - _Dissolve: 0
+    - _DissolveRange: 0
+    - _DstAlphaFactor: 10
+    - _DstFactor: 10
+    - _FlowScale: 0
+    - _FowBlend: 0
+    - _IsDissolveSecond: 0
+    - _Multiplier: 1
+    - _OffsetColorLerp: 0
+    - _OffsetFactor: 0
+    - _OffsetUnits: 0
+    - _ScaleOnCenter: 1
+    - _ShadingRate: 0
+    - _SrcAlphaFactor: 0
+    - _SrcFactor: 5
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _TimeScale: 1
+    - _ToggleDissolveTex: 1
+    - _ToggleFlowTex: 1
+    - _ZTestMode: 4
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DissolveColor1: {r: 1, g: 0, b: 0, a: 1}
+    - _DissolveColor2: {r: 0, g: 0, b: 0, a: 1}
+    - _DissolveRot: {r: 0, g: 1, b: 0, a: 1}
+    - _FlowTexTransform: {r: 0, g: 0, b: 0, a: 1}
+    - _MainTexTransform: {r: 0, g: 0, b: 0, a: 1}
+    - _MainTexWrapMode: {r: 1, g: 1, b: 0, a: 0}
+    - _MaskTexTransform: {r: 0, g: 0, b: 0, a: 1}
+    - _MaskTexWrapMode: {r: 1, g: 1, b: 0, a: 0}
+    - _OffsetColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

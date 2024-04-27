@@ -1,0 +1,301 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: PhotonShader_Effect_Rim
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 2
+  passCount: 3
+  subShaderCount: 2
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: PhotonShader/Effect/Rim
+  path: Assets/ABPack/Resources/Shaders/Effect/PhotonShader_Effect_Rim.shader
+  GUID: 323bf3520738f7145b2078b7e4fe8e42
+  keywordStrs:
+  - 
+  - _USE_DIRECT_GPU_SKINNING
+  dependShader: []
+  gcInclude: []
+  warring: '
+
+    Has float count: 25'
+  shader: {fileID: 4800000, guid: 323bf3520738f7145b2078b7e4fe8e42, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - b59f6091ccf27074796bc2c641c17e2f
+    - b36ef72dead261248ac6020f483fb418
+    - 372055da91bdbe647b10eb2e484ac418
+    - 51bbc5ab9b3bcc246b3b4eca5ed9aed5
+    - 0d274316a1f884b45a379369a50fe9fe
+    - a46dc7e9a0667ab47bb1606ab4acbe6d
+    - a3039e3878931ca4b99bdfa12620a2f6
+    - 56437cd367ca3154fa0ac3bde374bfd5
+    - 5a10075e90e7c914293950915d17df1a
+    - 6946977a722dfc749b418ef914fcd455
+    - e85ec633e49ed144faef498b563610b5
+    - 191a9650601535945954920ac1932607
+    - e8eb2467094d45e43a66cbdd343e5581
+    - ed20eb454036f8243a37b59dc1f63677
+    - 30892c918ffaa3742b905d9dfc932cd1
+    - 5fc6e1efc7ea31744949bf11a34d5b2a
+    - bf3f2f74586e42240a76ea963e1d88cd
+    - ae182402af9a91d47a49963f8944ddad
+    - 90527d07554f63c4eb62dd621c557fbc
+    - 3dda944b8a9336f4fb99685107e355bf
+    - fa8c5a5bd9619bd4f98717350cb6c8a7
+    - 4bc3aa45feb81cc459d63cf560f45199
+    - 57169a214acf93547a2055d44f06f3af
+    - c43e1d6087ba288478fcb2cd04c57b67
+    - 9d4228f2fb3adcd448788464a2cec214
+    - 33e3de8e2a8724f44baef55738b0ab35
+    - afc7a3435daf72b4d89cbb478bff36fb
+    - 4d679d18bb46f1f44bde7c4f163ed07e
+    - 6c470cea4da52c049a206175e6d394a2
+    - cc08b4ed9c8e74c47b5d0879951c07c8
+    - 32f4d3b04dd65b042b9e857b4299dabb
+    - a6d92f4514f5cca4896f107ca8fb641a
+    - c67e6cfe9bfc0bb468d83442de935905
+    - 8cc1e276ff59cd044be7db27b62d6e64
+    - 7f57305a93cac2f428c068c8bb6d1aef
+    - e93e587c9e0a8e7418c77efcd7da66d2
+    - e7091c6cb6523a1429fec96a315c5911
+    - 515ea6320d305c84a94eff751fddf8f6
+    - 4cd9e15de1f9c4f4682bb6d45d070c52
+    - 5f9b3dd7f4727594f86220ef5614f58b
+    - 2e85be050dda2f945acb1ab6dcb37f62
+    - 91ff48d6296d57d4bb6c34085d0fcfcd
+    - c2a963a64dc145742a06226c6d72c59c
+    - c11c6a5e0df3636469cda0a65103671d
+    - 64aae723c5d2ced47bf8b76121060e52
+    - 88b0bc1f81098894a85b9441f5272300
+    - 3b6684868c928c5459666cb40aae2ba7
+    - 04f8ca885d2081443ac8b457dafc51a9
+    - fa7a35b67a1326a4aafc0109b938feab
+    - 1ec13c1d35c359c4b91452124f6e3949
+    - d37fc62cef42217429283549e54bb073
+    - 4f209b7ee6bc91e4daba853d355eedcb
+    - d72057ec22ca3c745986fd70635af8de
+    - 4129bc7b4dbeb8c499d37f6e2c04b788
+    - 923deab8140a7e846bceef3e43996531
+    - 46dd7caea4fc0ee45b5a24cd623215d7
+    - 637e6102c837b534da52b2d4d3c4d90b
+    - 9e7568da46e6bcc499bfbf3d537b0cbe
+    - eb5821a7581f6014495877cbfa6756cb
+    - 7d72f3c6fae65754ba17a8cb389149b7
+    - 524713a10feebcb4b833598e09daf7c6
+    - d9a0994de0d4f914ebfb43bcbbeb9f22
+    - 4a6048e2efcf8cf4580fa06e596f28e2
+    - 9862389df63d16048a92f52e58171b1a
+    - d00b2285a982f0e42b5c3f97eab59afc
+    - b1311938bebba4944af2f284228a59f2
+    - f2e3cfd96902a87479587a4ff1d054cd
+    - 36b8ce6bbe102494787ecc7aedc9de88
+    - 7080157732786444dbed54d40f7d7612
+    - e6f411f1183ac43b18d203536f94d255
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 4 _USE_DIRECT_GPU_SKINNING
+    users:
+    - 36b8ce6bbe102494787ecc7aedc9de88
+    - 7080157732786444dbed54d40f7d7612
+    - e6f411f1183ac43b18d203536f94d255
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 1
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - b59f6091ccf27074796bc2c641c17e2f
+    - b36ef72dead261248ac6020f483fb418
+    - 372055da91bdbe647b10eb2e484ac418
+    - 51bbc5ab9b3bcc246b3b4eca5ed9aed5
+    - 0d274316a1f884b45a379369a50fe9fe
+    - a46dc7e9a0667ab47bb1606ab4acbe6d
+    - a3039e3878931ca4b99bdfa12620a2f6
+    - 56437cd367ca3154fa0ac3bde374bfd5
+    - 5a10075e90e7c914293950915d17df1a
+    - 6946977a722dfc749b418ef914fcd455
+    - e85ec633e49ed144faef498b563610b5
+    - 191a9650601535945954920ac1932607
+    - e8eb2467094d45e43a66cbdd343e5581
+    - ed20eb454036f8243a37b59dc1f63677
+    - 30892c918ffaa3742b905d9dfc932cd1
+    - 5fc6e1efc7ea31744949bf11a34d5b2a
+    - bf3f2f74586e42240a76ea963e1d88cd
+    - ae182402af9a91d47a49963f8944ddad
+    - 90527d07554f63c4eb62dd621c557fbc
+    - 3dda944b8a9336f4fb99685107e355bf
+    - fa8c5a5bd9619bd4f98717350cb6c8a7
+    - 4bc3aa45feb81cc459d63cf560f45199
+    - 57169a214acf93547a2055d44f06f3af
+    - c43e1d6087ba288478fcb2cd04c57b67
+    - 9d4228f2fb3adcd448788464a2cec214
+    - 33e3de8e2a8724f44baef55738b0ab35
+    - afc7a3435daf72b4d89cbb478bff36fb
+    - 4d679d18bb46f1f44bde7c4f163ed07e
+    - 6c470cea4da52c049a206175e6d394a2
+    - cc08b4ed9c8e74c47b5d0879951c07c8
+    - 32f4d3b04dd65b042b9e857b4299dabb
+    - a6d92f4514f5cca4896f107ca8fb641a
+    - c67e6cfe9bfc0bb468d83442de935905
+    - 8cc1e276ff59cd044be7db27b62d6e64
+    - 7f57305a93cac2f428c068c8bb6d1aef
+    - e93e587c9e0a8e7418c77efcd7da66d2
+    - e7091c6cb6523a1429fec96a315c5911
+    - 515ea6320d305c84a94eff751fddf8f6
+    - 4cd9e15de1f9c4f4682bb6d45d070c52
+    - 5f9b3dd7f4727594f86220ef5614f58b
+    - 2e85be050dda2f945acb1ab6dcb37f62
+    - 91ff48d6296d57d4bb6c34085d0fcfcd
+    - c2a963a64dc145742a06226c6d72c59c
+    - c11c6a5e0df3636469cda0a65103671d
+    - 64aae723c5d2ced47bf8b76121060e52
+    - 88b0bc1f81098894a85b9441f5272300
+    - 3b6684868c928c5459666cb40aae2ba7
+    - 04f8ca885d2081443ac8b457dafc51a9
+    - fa7a35b67a1326a4aafc0109b938feab
+    - 1ec13c1d35c359c4b91452124f6e3949
+    - d37fc62cef42217429283549e54bb073
+    - 4f209b7ee6bc91e4daba853d355eedcb
+    - d72057ec22ca3c745986fd70635af8de
+    - 4129bc7b4dbeb8c499d37f6e2c04b788
+    - 923deab8140a7e846bceef3e43996531
+    - 46dd7caea4fc0ee45b5a24cd623215d7
+    - 637e6102c837b534da52b2d4d3c4d90b
+    - 9e7568da46e6bcc499bfbf3d537b0cbe
+    - eb5821a7581f6014495877cbfa6756cb
+    - 7d72f3c6fae65754ba17a8cb389149b7
+    - 524713a10feebcb4b833598e09daf7c6
+    - d9a0994de0d4f914ebfb43bcbbeb9f22
+    - 4a6048e2efcf8cf4580fa06e596f28e2
+    - 9862389df63d16048a92f52e58171b1a
+    - d00b2285a982f0e42b5c3f97eab59afc
+    - b1311938bebba4944af2f284228a59f2
+    - f2e3cfd96902a87479587a4ff1d054cd
+    - 36b8ce6bbe102494787ecc7aedc9de88
+    - 7080157732786444dbed54d40f7d7612
+    - e6f411f1183ac43b18d203536f94d255
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 3
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _USE_DIRECT_GPU_SKINNING
+    keywordStr: 4 _USE_DIRECT_GPU_SKINNING
+    users:
+    - 36b8ce6bbe102494787ecc7aedc9de88
+    - 7080157732786444dbed54d40f7d7612
+    - e6f411f1183ac43b18d203536f94d255
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 1
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _USE_DIRECT_GPU_SKINNING
+        tips: 
+    keywordCount: 1
+  - pass: 1
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _USE_DIRECT_GPU_SKINNING
+        tips: 
+    keywordCount: 1
+  - pass: 2
+    passType: 0
+    keywordLines: []
+    keywordCount: 0
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _USE_DIRECT_GPU_SKINNING
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 100
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 0
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 1
+        isFeature: 0
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _USE_DIRECT_GPU_SKINNING
+          tips: 
+      keywordCount: 1
+    lightMode: ForwardBase
+  - index: 0
+    lod: 5
+    passInfos:
+    - pass: 1
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 1
+        isFeature: 0
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _USE_DIRECT_GPU_SKINNING
+          tips: 
+      keywordCount: 1
+    lightMode: ForwardBase

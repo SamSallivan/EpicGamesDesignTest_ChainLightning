@@ -1,0 +1,7157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: Lgame_Beta_Effect_Default
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 512
+  passCount: 1
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: Hidden/Lgame/Effect/Ubershader
+  path: Assets/ABPack/Resources/Shaders/Beta/Lgame_Beta_Effect_Default.shader
+  GUID: 2e6d1fcb18f942b48adc8b25aaaf9f30
+  keywordStrs:
+  - 
+  - INSTANCING_ON
+  - _RIMLIGHT
+  - _GRADIENT_ON
+  - _MASK_ON
+  - _DISSOLVE_ON
+  - _WARP_ON
+  - _FLOWLIGHT
+  - _BILLBOARD_ON
+  - _SUBMASK_ON
+  dependShader: []
+  gcInclude: []
+  warring: '
+
+    Has float count: 40'
+  shader: {fileID: 4800000, guid: 2e6d1fcb18f942b48adc8b25aaaf9f30, type: 3}
+  used_variants: []
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    keywordStr: 4 INSTANCING_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _RIMLIGHT
+    keywordStr: 4 _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    keywordStr: 4 _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    keywordStr: 4 _GRADIENT_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _MASK_ON
+    keywordStr: 4 _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 _GRADIENT_ON _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    keywordStr: 4 _DISSOLVE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _RIMLIGHT
+    keywordStr: 4 _DISSOLVE_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _MASK_ON
+    keywordStr: 4 _DISSOLVE_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 _DISSOLVE_ON _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _WARP_ON
+    keywordStr: 4 _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _GRADIENT_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _MASK_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _MASK_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _GRADIENT_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _GRADIENT_ON _MASK_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _MASK_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _MASK_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _MASK_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _MASK_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    keywordStr: 4 _FLOWLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    keywordStr: 4 _FLOWLIGHT _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    keywordStr: 4 _FLOWLIGHT _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    keywordStr: 4 _FLOWLIGHT _GRADIENT_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _GRADIENT_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _MASK_ON
+    keywordStr: 4 _FLOWLIGHT _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 _FLOWLIGHT _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 _FLOWLIGHT _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 _FLOWLIGHT _GRADIENT_ON _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _WARP_ON
+    keywordStr: 4 _FLOWLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _FLOWLIGHT _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 _FLOWLIGHT _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _FLOWLIGHT _GRADIENT_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _GRADIENT_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _FLOWLIGHT _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _FLOWLIGHT _MASK_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _MASK_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _FLOWLIGHT _GRADIENT_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _FLOWLIGHT _GRADIENT_ON _MASK_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _MASK_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _MASK_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _RIMLIGHT
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    keywordStr: 4 _BILLBOARD_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _RIMLIGHT
+    keywordStr: 4 _BILLBOARD_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _MASK_ON
+    keywordStr: 4 _BILLBOARD_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 _BILLBOARD_ON _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _RIMLIGHT
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _MASK_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _MASK_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _MASK_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _MASK_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _RIMLIGHT
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _MASK_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _MASK_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _RIMLIGHT
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON
+      _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON
+      _MASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON
+      _MASK_ON _RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _MASK_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _MASK_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _RIMLIGHT
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON
+      _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _MASK_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _MASK_ON _RIMLIGHT
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON
+      _MASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _RIMLIGHT
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON
+      _MASK_ON _RIMLIGHT _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _SUBMASK_ON
+    keywordStr: 4 _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    keywordStr: 4 _GRADIENT_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _GRADIENT_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _MASK_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _MASK_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 _GRADIENT_ON _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _GRADIENT_ON _MASK_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _MASK_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _SUBMASK_ON
+    keywordStr: 4 _DISSOLVE_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _DISSOLVE_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 _DISSOLVE_ON _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _DISSOLVE_ON _MASK_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _MASK_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _MASK_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _GRADIENT_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _GRADIENT_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _MASK_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _MASK_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _MASK_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _MASK_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _GRADIENT_ON _MASK_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _MASK_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _GRADIENT_ON _MASK_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _GRADIENT_ON _MASK_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _MASK_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _MASK_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _MASK_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _MASK_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _MASK_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _GRADIENT_ON _MASK_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _RIMLIGHT _SUBMASK_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _FLOWLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _FLOWLIGHT _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    keywordStr: 4 _FLOWLIGHT _GRADIENT_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _GRADIENT_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _FLOWLIGHT _GRADIENT_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _GRADIENT_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 _FLOWLIGHT _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _FLOWLIGHT _MASK_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _MASK_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 _FLOWLIGHT _GRADIENT_ON _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _FLOWLIGHT _GRADIENT_ON _MASK_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _MASK_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _MASK_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _RIMLIGHT
+      _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _FLOWLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _FLOWLIGHT _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _FLOWLIGHT _GRADIENT_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _GRADIENT_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _FLOWLIGHT _GRADIENT_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _GRADIENT_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _FLOWLIGHT _MASK_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _MASK_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _FLOWLIGHT _MASK_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _MASK_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _FLOWLIGHT _GRADIENT_ON _MASK_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _FLOWLIGHT _GRADIENT_ON _MASK_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _RIMLIGHT _SUBMASK_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _RIMLIGHT _SUBMASK_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _MASK_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _MASK_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _MASK_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _MASK_ON _RIMLIGHT _SUBMASK_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _SUBMASK_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _RIMLIGHT _SUBMASK_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _RIMLIGHT
+      _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _MASK_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _MASK_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _MASK_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _MASK_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _RIMLIGHT
+      _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _MASK_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _MASK_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _RIMLIGHT
+      _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _MASK_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _MASK_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _MASK_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _MASK_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _MASK_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _MASK_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _GRADIENT_ON _MASK_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _GRADIENT_ON _MASK_ON _RIMLIGHT _SUBMASK_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _SUBMASK_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _RIMLIGHT
+      _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _MASK_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _MASK_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _MASK_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _MASK_ON _RIMLIGHT _SUBMASK_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _SUBMASK_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _RIMLIGHT _SUBMASK_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _GRADIENT_ON _MASK_ON _RIMLIGHT
+      _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _MASK_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _MASK_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _RIMLIGHT
+      _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON
+      _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON
+      _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _MASK_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _MASK_ON _RIMLIGHT
+      _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON
+      _MASK_ON _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _RIMLIGHT
+      _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON
+      _MASK_ON _RIMLIGHT _SUBMASK_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _SUBMASK_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _RIMLIGHT _SUBMASK_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _MASK_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _MASK_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _MASK_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _MASK_ON _RIMLIGHT _SUBMASK_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _SUBMASK_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _RIMLIGHT _SUBMASK_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _RIMLIGHT
+      _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _SUBMASK_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _RIMLIGHT _SUBMASK_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON
+      _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _RIMLIGHT _SUBMASK_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON
+      _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _MASK_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _MASK_ON _SUBMASK_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _MASK_ON _RIMLIGHT _SUBMASK_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _MASK_ON _RIMLIGHT
+      _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _SUBMASK_ON
+      _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON
+      _MASK_ON _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON _MASK_ON _RIMLIGHT
+      _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - INSTANCING_ON
+    - _BILLBOARD_ON
+    - _DISSOLVE_ON
+    - _FLOWLIGHT
+    - _GRADIENT_ON
+    - _MASK_ON
+    - _RIMLIGHT
+    - _SUBMASK_ON
+    - _WARP_ON
+    keywordStr: 4 INSTANCING_ON _BILLBOARD_ON _DISSOLVE_ON _FLOWLIGHT _GRADIENT_ON
+      _MASK_ON _RIMLIGHT _SUBMASK_ON _WARP_ON
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 1
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _RIMLIGHT
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _BILLBOARD_ON
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _MASK_ON
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _SUBMASK_ON
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _DISSOLVE_ON
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _WARP_ON
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _FLOWLIGHT
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _GRADIENT_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: INSTANCING_ON
+        tips: 
+    keywordCount: 9
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _RIMLIGHT
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _BILLBOARD_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _MASK_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _SUBMASK_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _DISSOLVE_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _WARP_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _FLOWLIGHT
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _GRADIENT_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: INSTANCING_ON
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 100
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    lightMode: ForwardBase

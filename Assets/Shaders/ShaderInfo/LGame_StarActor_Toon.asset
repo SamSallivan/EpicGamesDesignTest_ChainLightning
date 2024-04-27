@@ -1,0 +1,1366 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_StarActor_Toon
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 55
+  passCount: 5
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/StarActor/Toon
+  path: Assets/ABPack/Resources/Shaders/StarActor/LGame_StarActor_Toon.shader
+  GUID: 0faed9fdd5a22004794d08c744c066c5
+  keywordStrs:
+  - 
+  - DIRECTIONAL
+  - SHADOWS_SCREEN
+  - _HARD_SHADOW
+  - _SOFT_SHADOW
+  - _FASTEST_QUALITY
+  - _ENABLE_HIGHLIGHT
+  - _ENABLE_RIMLIGHT
+  - SHADOWS_DEPTH
+  - _TRANSPARENT_SHADOW
+  - _ENABLE_TRANSPARENT_SHADOW
+  dependShader: []
+  gcInclude: []
+  warring: '
+
+    Has float count: 39'
+  shader: {fileID: 4800000, guid: 0faed9fdd5a22004794d08c744c066c5, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - 7eddacd4b2f9613459bb8a33a5bb4dd6
+    - dc9839869d817794c9c885d06e6cb1de
+    - a0f93cfbb97f31e44a9bb7d8b1a099f4
+    - 00e3f74d913854c4f833639a792b5342
+    - 10c35105ae4ba4245930ab54678cde1b
+    - a3a8d627f7125284eaf5dde8ac1a85d3
+    - 9437fb7c9e86fe646b3e1124006e5dfb
+    - 9d3800ccad45f4943b53e9321dd5c48b
+    - c3499504499392342a233f8e8b55e455
+    - dbefb4c63712c4242b18d93536810cdb
+    - 0b23e458b116c7f48af66de16e7ce372
+    - 7c078ea51f599724e9a2e9be17d3e744
+    - b729fa125baa3704ea165b64d7f8b32c
+    - f8b9b270b9f3b6746b1f6e6f2e3238ea
+    - 9ed28ec0f780b474296a73f0decbb2c9
+    - 05524511c413ebb4f92fb685fbfa98a0
+    - 30d500b22d5021242a4e5c344ef603c4
+    - 7205eb646bd05d044888150c98b2c151
+    - 85dff326e2b7aa74d9863602a7a71ed6
+    - ad5ec89d3f41a3f4393520ee3faf24a3
+    - 765d3328ac92fea4d936a86878314b0b
+    - f34a505dd9454cc44ad638c24706681a
+    - a7b7a93584b816c4696393ffdcea8821
+    - df4bdfb68264aed4980fb0c8a22162a7
+    - 8bf3fed263aeba14b8ea91845bc2b472
+    - 9c416ff27b35e5544b89879530d98294
+    - c347240665bd0984f9612fed9bc2eab9
+    - 743d3147d7355564abc34142698b8df9
+    - a6d311585278cd347a8729463c7402f5
+    - 54f0970963a98084292e4fc3d2295524
+    - 0a2b648be73e4cb4cad5486654e22648
+    - 4ac1c9a2b444fc34fab772414e6cc893
+    - 4f0d2d65fbcb7044fbaddeebdf60b257
+    - 53d12bcea6d58044eaa68466e37732c3
+    - 5545407fe089cfb4c8a018dc6582b144
+    - 7e711a30ff18cba4d854ce6fc5ddb125
+    - 063b20c6e2e3d6d458271834dc3031ee
+    - 6c4c72f7a8dc2fa43ab6fb75bfc1229a
+    - 497950ba75da00241afab7077be283cd
+    - bc367af3406c7fb4e92bb3caf060df7d
+    - fbdd5b98aa2c70e408c2521545b003f5
+    - b445b6a888afcf949bafeecf8d20924f
+    - 7465cb8f2ad7e024b9f92e6095bcfaac
+    - 076aed20b5948bd4a831d52822494963
+    - 56f978b09c250704e9b21e86a2e44ed3
+    - 276847f183b02004c89333c72e347193
+    - 9cd0a1385fdb89640b07f8858a061309
+    - 8fb62e5c73622da409c2d2c658e9aa10
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _ENABLE_HIGHLIGHT
+    keywordStr: 4 DIRECTIONAL _ENABLE_HIGHLIGHT
+    users:
+    - a0f93cfbb97f31e44a9bb7d8b1a099f4
+    - 10c35105ae4ba4245930ab54678cde1b
+    - 765d3328ac92fea4d936a86878314b0b
+    - 4f0d2d65fbcb7044fbaddeebdf60b257
+    - bc367af3406c7fb4e92bb3caf060df7d
+    - fbdd5b98aa2c70e408c2521545b003f5
+    - 56f978b09c250704e9b21e86a2e44ed3
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _ENABLE_RIMLIGHT
+    keywordStr: 4 DIRECTIONAL _ENABLE_RIMLIGHT
+    users:
+    - a7b7a93584b816c4696393ffdcea8821
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _ENABLE_HIGHLIGHT
+    - _ENABLE_RIMLIGHT
+    keywordStr: 4 DIRECTIONAL _ENABLE_HIGHLIGHT _ENABLE_RIMLIGHT
+    users:
+    - 7eddacd4b2f9613459bb8a33a5bb4dd6
+    - dc9839869d817794c9c885d06e6cb1de
+    - 9437fb7c9e86fe646b3e1124006e5dfb
+    - 9d3800ccad45f4943b53e9321dd5c48b
+    - f8b9b270b9f3b6746b1f6e6f2e3238ea
+    - 9ed28ec0f780b474296a73f0decbb2c9
+    - 05524511c413ebb4f92fb685fbfa98a0
+    - 30d500b22d5021242a4e5c344ef603c4
+    - 7205eb646bd05d044888150c98b2c151
+    - 85dff326e2b7aa74d9863602a7a71ed6
+    - f34a505dd9454cc44ad638c24706681a
+    - df4bdfb68264aed4980fb0c8a22162a7
+    - 063b20c6e2e3d6d458271834dc3031ee
+    - 6c4c72f7a8dc2fa43ab6fb75bfc1229a
+    - b445b6a888afcf949bafeecf8d20924f
+    - 7465cb8f2ad7e024b9f92e6095bcfaac
+    - 076aed20b5948bd4a831d52822494963
+    - 276847f183b02004c89333c72e347193
+    - 9cd0a1385fdb89640b07f8858a061309
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - 7eddacd4b2f9613459bb8a33a5bb4dd6
+    - dc9839869d817794c9c885d06e6cb1de
+    - a0f93cfbb97f31e44a9bb7d8b1a099f4
+    - 00e3f74d913854c4f833639a792b5342
+    - 10c35105ae4ba4245930ab54678cde1b
+    - a3a8d627f7125284eaf5dde8ac1a85d3
+    - 9437fb7c9e86fe646b3e1124006e5dfb
+    - 9d3800ccad45f4943b53e9321dd5c48b
+    - c3499504499392342a233f8e8b55e455
+    - dbefb4c63712c4242b18d93536810cdb
+    - 0b23e458b116c7f48af66de16e7ce372
+    - 7c078ea51f599724e9a2e9be17d3e744
+    - b729fa125baa3704ea165b64d7f8b32c
+    - f8b9b270b9f3b6746b1f6e6f2e3238ea
+    - 9ed28ec0f780b474296a73f0decbb2c9
+    - 05524511c413ebb4f92fb685fbfa98a0
+    - 30d500b22d5021242a4e5c344ef603c4
+    - 7205eb646bd05d044888150c98b2c151
+    - 85dff326e2b7aa74d9863602a7a71ed6
+    - ad5ec89d3f41a3f4393520ee3faf24a3
+    - 765d3328ac92fea4d936a86878314b0b
+    - f34a505dd9454cc44ad638c24706681a
+    - a7b7a93584b816c4696393ffdcea8821
+    - df4bdfb68264aed4980fb0c8a22162a7
+    - 8bf3fed263aeba14b8ea91845bc2b472
+    - 9c416ff27b35e5544b89879530d98294
+    - c347240665bd0984f9612fed9bc2eab9
+    - 743d3147d7355564abc34142698b8df9
+    - a6d311585278cd347a8729463c7402f5
+    - 54f0970963a98084292e4fc3d2295524
+    - 0a2b648be73e4cb4cad5486654e22648
+    - 4ac1c9a2b444fc34fab772414e6cc893
+    - 4f0d2d65fbcb7044fbaddeebdf60b257
+    - 53d12bcea6d58044eaa68466e37732c3
+    - 5545407fe089cfb4c8a018dc6582b144
+    - 7e711a30ff18cba4d854ce6fc5ddb125
+    - 063b20c6e2e3d6d458271834dc3031ee
+    - 6c4c72f7a8dc2fa43ab6fb75bfc1229a
+    - 497950ba75da00241afab7077be283cd
+    - bc367af3406c7fb4e92bb3caf060df7d
+    - fbdd5b98aa2c70e408c2521545b003f5
+    - b445b6a888afcf949bafeecf8d20924f
+    - 7465cb8f2ad7e024b9f92e6095bcfaac
+    - 076aed20b5948bd4a831d52822494963
+    - 56f978b09c250704e9b21e86a2e44ed3
+    - 276847f183b02004c89333c72e347193
+    - 9cd0a1385fdb89640b07f8858a061309
+    - 8fb62e5c73622da409c2d2c658e9aa10
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    keywordStr: 4 DIRECTIONAL
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _FASTEST_QUALITY
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _FASTEST_QUALITY _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _FASTEST_QUALITY
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _FASTEST_QUALITY _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _ENABLE_HIGHLIGHT
+    keywordStr: 4 DIRECTIONAL _ENABLE_HIGHLIGHT
+    users:
+    - a0f93cfbb97f31e44a9bb7d8b1a099f4
+    - 10c35105ae4ba4245930ab54678cde1b
+    - 765d3328ac92fea4d936a86878314b0b
+    - 4f0d2d65fbcb7044fbaddeebdf60b257
+    - bc367af3406c7fb4e92bb3caf060df7d
+    - fbdd5b98aa2c70e408c2521545b003f5
+    - 56f978b09c250704e9b21e86a2e44ed3
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _ENABLE_HIGHLIGHT
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _ENABLE_HIGHLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _ENABLE_HIGHLIGHT
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _ENABLE_HIGHLIGHT _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _ENABLE_HIGHLIGHT
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _ENABLE_HIGHLIGHT _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _ENABLE_HIGHLIGHT
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _ENABLE_HIGHLIGHT _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _ENABLE_HIGHLIGHT
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _ENABLE_HIGHLIGHT _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _ENABLE_HIGHLIGHT
+    - _FASTEST_QUALITY
+    keywordStr: 4 DIRECTIONAL _ENABLE_HIGHLIGHT _FASTEST_QUALITY
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _ENABLE_HIGHLIGHT
+    - _FASTEST_QUALITY
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _ENABLE_HIGHLIGHT _FASTEST_QUALITY
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _ENABLE_HIGHLIGHT
+    - _FASTEST_QUALITY
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _ENABLE_HIGHLIGHT _FASTEST_QUALITY _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _ENABLE_HIGHLIGHT
+    - _FASTEST_QUALITY
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _ENABLE_HIGHLIGHT _FASTEST_QUALITY _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _ENABLE_HIGHLIGHT
+    - _FASTEST_QUALITY
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _ENABLE_HIGHLIGHT _FASTEST_QUALITY _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _ENABLE_HIGHLIGHT
+    - _FASTEST_QUALITY
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _ENABLE_HIGHLIGHT _FASTEST_QUALITY _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _ENABLE_RIMLIGHT
+    keywordStr: 4 DIRECTIONAL _ENABLE_RIMLIGHT
+    users:
+    - a7b7a93584b816c4696393ffdcea8821
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _ENABLE_RIMLIGHT
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _ENABLE_RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _ENABLE_RIMLIGHT
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _ENABLE_RIMLIGHT _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _ENABLE_RIMLIGHT
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _ENABLE_RIMLIGHT _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _ENABLE_RIMLIGHT
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _ENABLE_RIMLIGHT _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _ENABLE_RIMLIGHT
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _ENABLE_RIMLIGHT _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _ENABLE_RIMLIGHT
+    - _FASTEST_QUALITY
+    keywordStr: 4 DIRECTIONAL _ENABLE_RIMLIGHT _FASTEST_QUALITY
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _ENABLE_RIMLIGHT
+    - _FASTEST_QUALITY
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _ENABLE_RIMLIGHT _FASTEST_QUALITY
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _ENABLE_RIMLIGHT
+    - _FASTEST_QUALITY
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _ENABLE_RIMLIGHT _FASTEST_QUALITY _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _ENABLE_RIMLIGHT
+    - _FASTEST_QUALITY
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _ENABLE_RIMLIGHT _FASTEST_QUALITY _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _ENABLE_RIMLIGHT
+    - _FASTEST_QUALITY
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _ENABLE_RIMLIGHT _FASTEST_QUALITY _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _ENABLE_RIMLIGHT
+    - _FASTEST_QUALITY
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _ENABLE_RIMLIGHT _FASTEST_QUALITY _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _ENABLE_HIGHLIGHT
+    - _ENABLE_RIMLIGHT
+    keywordStr: 4 DIRECTIONAL _ENABLE_HIGHLIGHT _ENABLE_RIMLIGHT
+    users:
+    - 7eddacd4b2f9613459bb8a33a5bb4dd6
+    - dc9839869d817794c9c885d06e6cb1de
+    - 9437fb7c9e86fe646b3e1124006e5dfb
+    - 9d3800ccad45f4943b53e9321dd5c48b
+    - f8b9b270b9f3b6746b1f6e6f2e3238ea
+    - 9ed28ec0f780b474296a73f0decbb2c9
+    - 05524511c413ebb4f92fb685fbfa98a0
+    - 30d500b22d5021242a4e5c344ef603c4
+    - 7205eb646bd05d044888150c98b2c151
+    - 85dff326e2b7aa74d9863602a7a71ed6
+    - f34a505dd9454cc44ad638c24706681a
+    - df4bdfb68264aed4980fb0c8a22162a7
+    - 063b20c6e2e3d6d458271834dc3031ee
+    - 6c4c72f7a8dc2fa43ab6fb75bfc1229a
+    - b445b6a888afcf949bafeecf8d20924f
+    - 7465cb8f2ad7e024b9f92e6095bcfaac
+    - 076aed20b5948bd4a831d52822494963
+    - 276847f183b02004c89333c72e347193
+    - 9cd0a1385fdb89640b07f8858a061309
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _ENABLE_HIGHLIGHT
+    - _ENABLE_RIMLIGHT
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _ENABLE_HIGHLIGHT _ENABLE_RIMLIGHT
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _ENABLE_HIGHLIGHT
+    - _ENABLE_RIMLIGHT
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _ENABLE_HIGHLIGHT _ENABLE_RIMLIGHT _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _ENABLE_HIGHLIGHT
+    - _ENABLE_RIMLIGHT
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _ENABLE_HIGHLIGHT _ENABLE_RIMLIGHT _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _ENABLE_HIGHLIGHT
+    - _ENABLE_RIMLIGHT
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _ENABLE_HIGHLIGHT _ENABLE_RIMLIGHT _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _ENABLE_HIGHLIGHT
+    - _ENABLE_RIMLIGHT
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _ENABLE_HIGHLIGHT _ENABLE_RIMLIGHT _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _ENABLE_HIGHLIGHT
+    - _ENABLE_RIMLIGHT
+    - _FASTEST_QUALITY
+    keywordStr: 4 DIRECTIONAL _ENABLE_HIGHLIGHT _ENABLE_RIMLIGHT _FASTEST_QUALITY
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _ENABLE_HIGHLIGHT
+    - _ENABLE_RIMLIGHT
+    - _FASTEST_QUALITY
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _ENABLE_HIGHLIGHT _ENABLE_RIMLIGHT _FASTEST_QUALITY
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _ENABLE_HIGHLIGHT
+    - _ENABLE_RIMLIGHT
+    - _FASTEST_QUALITY
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL _ENABLE_HIGHLIGHT _ENABLE_RIMLIGHT _FASTEST_QUALITY
+      _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _ENABLE_HIGHLIGHT
+    - _ENABLE_RIMLIGHT
+    - _FASTEST_QUALITY
+    - _HARD_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _ENABLE_HIGHLIGHT _ENABLE_RIMLIGHT _FASTEST_QUALITY
+      _HARD_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - _ENABLE_HIGHLIGHT
+    - _ENABLE_RIMLIGHT
+    - _FASTEST_QUALITY
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL _ENABLE_HIGHLIGHT _ENABLE_RIMLIGHT _FASTEST_QUALITY
+      _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - DIRECTIONAL
+    - SHADOWS_SCREEN
+    - _ENABLE_HIGHLIGHT
+    - _ENABLE_RIMLIGHT
+    - _FASTEST_QUALITY
+    - _SOFT_SHADOW
+    keywordStr: 4 DIRECTIONAL SHADOWS_SCREEN _ENABLE_HIGHLIGHT _ENABLE_RIMLIGHT _FASTEST_QUALITY
+      _SOFT_SHADOW
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '8 '
+    users: []
+    passType: 8
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SHADOWS_DEPTH
+    keywordStr: 8 SHADOWS_DEPTH
+    users: []
+    passType: 8
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SHADOWS_DEPTH
+    - _TRANSPARENT_SHADOW
+    keywordStr: 8 SHADOWS_DEPTH _TRANSPARENT_SHADOW
+    users: []
+    passType: 8
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SHADOWS_DEPTH
+    - _ENABLE_TRANSPARENT_SHADOW
+    keywordStr: 8 SHADOWS_DEPTH _ENABLE_TRANSPARENT_SHADOW
+    users: []
+    passType: 8
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - SHADOWS_DEPTH
+    - _ENABLE_TRANSPARENT_SHADOW
+    - _TRANSPARENT_SHADOW
+    keywordStr: 8 SHADOWS_DEPTH _ENABLE_TRANSPARENT_SHADOW _TRANSPARENT_SHADOW
+    users: []
+    passType: 8
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 3
+  - pass: 1
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _HARD_SHADOW
+        tips: 
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _SOFT_SHADOW
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _FASTEST_QUALITY
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _ENABLE_HIGHLIGHT
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _ENABLE_RIMLIGHT
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 8
+  - pass: 2
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 3
+  - pass: 3
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 3
+  - pass: 4
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _TRANSPARENT_SHADOW
+        tips: 
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _ENABLE_TRANSPARENT_SHADOW
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: DIRECTIONAL
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_SCREEN
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 5
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _HARD_SHADOW
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _SOFT_SHADOW
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _FASTEST_QUALITY
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _ENABLE_HIGHLIGHT
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _ENABLE_RIMLIGHT
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _TRANSPARENT_SHADOW
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _ENABLE_TRANSPARENT_SHADOW
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: DIRECTIONAL
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SHADOWS_SCREEN
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SHADOWS_DEPTH
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 300
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 0
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRECTIONAL
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SCREEN
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 3
+    - pass: 1
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 1
+        isFeature: 0
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _HARD_SHADOW
+          tips: 
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _SOFT_SHADOW
+          tips: 
+      - hasUnderscoreVariant: 1
+        isFeature: 0
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _FASTEST_QUALITY
+          tips: 
+      - hasUnderscoreVariant: 1
+        isFeature: 0
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _ENABLE_HIGHLIGHT
+          tips: 
+      - hasUnderscoreVariant: 1
+        isFeature: 0
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _ENABLE_RIMLIGHT
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRECTIONAL
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SCREEN
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 8
+    - pass: 2
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRECTIONAL
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SCREEN
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 3
+    - pass: 3
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: DIRECTIONAL
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_SCREEN
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 3
+    lightMode: ShadowCaster

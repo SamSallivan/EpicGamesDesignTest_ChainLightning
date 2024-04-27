@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_Effect_FireForMid
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 1
+  passCount: 1
+  subShaderCount: 0
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/Effect/FireForMid
+  path: Assets/ABPack/Resources/Shaders/Effect/LGame_Effect_FireForMid.shader
+  GUID: c1aada551955bd84182958d598724415
+  keywordStrs:
+  - 
+  dependShader: []
+  gcInclude: []
+  warring: '
+
+    Has float count: 43'
+  shader: {fileID: 4800000, guid: c1aada551955bd84182958d598724415, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 01426a56b684e4b41b4cda563e55aef6
+    - 9aef7f70692543aa8249993528fc5c93
+    - 5a3c235c24f3489496511f04fa173d56
+    - fa09d94f8427d104898b605179f0682c
+    - 42487fa427712064c96af4917360b340
+    - 41b5299baff013e419d7b14e6cc2d4ee
+    - 3a019c179eb548178a80e4fd0415ddb1
+    - 73c325d1f4bd744418cf67d7308c5395
+    - 4a9749c17396450c9f6577795cb7e790
+    - f51a85eb2a447284bb419cc9105a912e
+    - f8850bf555ee4293b6d631307e9a8ee8
+    - f6198477bf460f54fa1de8acd7501646
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - 01426a56b684e4b41b4cda563e55aef6
+    - 9aef7f70692543aa8249993528fc5c93
+    - 5a3c235c24f3489496511f04fa173d56
+    - fa09d94f8427d104898b605179f0682c
+    - 42487fa427712064c96af4917360b340
+    - 41b5299baff013e419d7b14e6cc2d4ee
+    - 3a019c179eb548178a80e4fd0415ddb1
+    - 73c325d1f4bd744418cf67d7308c5395
+    - 4a9749c17396450c9f6577795cb7e790
+    - f51a85eb2a447284bb419cc9105a912e
+    - f8850bf555ee4293b6d631307e9a8ee8
+    - f6198477bf460f54fa1de8acd7501646
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines: []
+    keywordCount: 0
+  keywords: []
+  subShaderInfos: []

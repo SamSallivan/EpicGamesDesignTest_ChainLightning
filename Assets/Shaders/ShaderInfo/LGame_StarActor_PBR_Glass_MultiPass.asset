@@ -1,0 +1,541 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_StarActor_PBR_Glass_MultiPass
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 10
+  passCount: 3
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/StarActor/PBR_Glass_MultiPass
+  path: Assets/ABPack/Resources/Shaders/StarActor/LGame_StarActor_PBR_Glass_MultiPass.shader
+  GUID: 6d625852492a9d941a43160a626c6c9d
+  keywordStrs:
+  - 
+  - FOG_LINEAR
+  - FOG_EXP
+  - FOG_EXP2
+  - _EMISSION
+  - _METALLICGLOSSMAP
+  - SHADOWS_DEPTH
+  dependShader: []
+  gcInclude: []
+  warring: 
+  shader: {fileID: 4800000, guid: 6d625852492a9d941a43160a626c6c9d, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - dc8763273c5eba849a5906804439ae85
+    - 638d4cce2a36dde48b6bb74ae54f7513
+    - fd6d664ec6be91647b0009ae5e3f7e3d
+    - 8a96620cfbe4681449711ff61b82a5c1
+    - 8b432cf40a1c2d746a5fe6885040af9d
+    - 39b2cd1e0ced3ad4688b051213d04a8b
+    - 2ce01cf54f81a394d8845e8f8fb34de3
+    - f95dadad784f7f043946be73f9952f37
+    - 13ce0247b4e339b4683fe50d739e88bb
+    - b069697dab968cd409d90d1fe8179f48
+    - 7693f5aee56fba04c89f03e0c65f9867
+    - fe29c69fd22b8054a9cd9f4ec881d2e0
+    - bda5d33d00ab30043bba609708cdc2e7
+    - 62d6263442f6ee54d99d9a2010d15eb9
+    - 691792c0904febb499a9bbf10861c59b
+    - 5b84e732d1d05e9429fa6dd86b823d32
+    - 0a6bd9e242a88574eba0ef731805332c
+    - 899ca0d753d1f6549a2b575bc55ae300
+    - 0aaf070a2ef04eb46b5497ef23b44ad3
+    - 8d182bd22b574824185b716442dea939
+    - d633ec5507165704a97dbcba9f2211f9
+    - 1f1203578e7d80b49b6836fa80e687e3
+    - 10dfcd97a1a65ef49b7a7d9d068cefdd
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _EMISSION
+    keywordStr: 4 _EMISSION
+    users:
+    - 638d4cce2a36dde48b6bb74ae54f7513
+    - fd6d664ec6be91647b0009ae5e3f7e3d
+    - fe29c69fd22b8054a9cd9f4ec881d2e0
+    - 899ca0d753d1f6549a2b575bc55ae300
+    - 10dfcd97a1a65ef49b7a7d9d068cefdd
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _METALLICGLOSSMAP
+    keywordStr: 4 _METALLICGLOSSMAP
+    users:
+    - dc8763273c5eba849a5906804439ae85
+    - 8a96620cfbe4681449711ff61b82a5c1
+    - 0aaf070a2ef04eb46b5497ef23b44ad3
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _EMISSION
+    - _METALLICGLOSSMAP
+    keywordStr: 4 _EMISSION _METALLICGLOSSMAP
+    users:
+    - 8b432cf40a1c2d746a5fe6885040af9d
+    - 39b2cd1e0ced3ad4688b051213d04a8b
+    - 62d6263442f6ee54d99d9a2010d15eb9
+    - 691792c0904febb499a9bbf10861c59b
+    - 5b84e732d1d05e9429fa6dd86b823d32
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - SHADOWS_DEPTH
+    keywordStr: 8 SHADOWS_DEPTH
+    users: []
+    passType: 8
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - dc8763273c5eba849a5906804439ae85
+    - 638d4cce2a36dde48b6bb74ae54f7513
+    - fd6d664ec6be91647b0009ae5e3f7e3d
+    - 8a96620cfbe4681449711ff61b82a5c1
+    - 8b432cf40a1c2d746a5fe6885040af9d
+    - 39b2cd1e0ced3ad4688b051213d04a8b
+    - 2ce01cf54f81a394d8845e8f8fb34de3
+    - f95dadad784f7f043946be73f9952f37
+    - 13ce0247b4e339b4683fe50d739e88bb
+    - b069697dab968cd409d90d1fe8179f48
+    - 7693f5aee56fba04c89f03e0c65f9867
+    - fe29c69fd22b8054a9cd9f4ec881d2e0
+    - bda5d33d00ab30043bba609708cdc2e7
+    - 62d6263442f6ee54d99d9a2010d15eb9
+    - 691792c0904febb499a9bbf10861c59b
+    - 5b84e732d1d05e9429fa6dd86b823d32
+    - 0a6bd9e242a88574eba0ef731805332c
+    - 899ca0d753d1f6549a2b575bc55ae300
+    - 0aaf070a2ef04eb46b5497ef23b44ad3
+    - 8d182bd22b574824185b716442dea939
+    - d633ec5507165704a97dbcba9f2211f9
+    - 1f1203578e7d80b49b6836fa80e687e3
+    - 10dfcd97a1a65ef49b7a7d9d068cefdd
+    passType: 0
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_LINEAR
+    keywordStr: 0 FOG_LINEAR
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP
+    keywordStr: 0 FOG_EXP
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - FOG_EXP2
+    keywordStr: 0 FOG_EXP2
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users: []
+    passType: 4
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _EMISSION
+    keywordStr: 4 _EMISSION
+    users:
+    - 638d4cce2a36dde48b6bb74ae54f7513
+    - fd6d664ec6be91647b0009ae5e3f7e3d
+    - fe29c69fd22b8054a9cd9f4ec881d2e0
+    - 899ca0d753d1f6549a2b575bc55ae300
+    - 10dfcd97a1a65ef49b7a7d9d068cefdd
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _METALLICGLOSSMAP
+    keywordStr: 4 _METALLICGLOSSMAP
+    users:
+    - dc8763273c5eba849a5906804439ae85
+    - 8a96620cfbe4681449711ff61b82a5c1
+    - 0aaf070a2ef04eb46b5497ef23b44ad3
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _EMISSION
+    - _METALLICGLOSSMAP
+    keywordStr: 4 _EMISSION _METALLICGLOSSMAP
+    users:
+    - 8b432cf40a1c2d746a5fe6885040af9d
+    - 39b2cd1e0ced3ad4688b051213d04a8b
+    - 62d6263442f6ee54d99d9a2010d15eb9
+    - 691792c0904febb499a9bbf10861c59b
+    - 5b84e732d1d05e9429fa6dd86b823d32
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 1
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '8 '
+    users: []
+    passType: 8
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - SHADOWS_DEPTH
+    keywordStr: 8 SHADOWS_DEPTH
+    users: []
+    passType: 8
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_LINEAR
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP2
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 4
+  - pass: 1
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _METALLICGLOSSMAP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _EMISSION
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_LINEAR
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP2
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 6
+  - pass: 2
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_LINEAR
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: FOG_EXP2
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 0
+      isOtherDefine: 1
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 0
+        name: SHADOWS_DEPTH
+        tips: 
+    keywordCount: 4
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _METALLICGLOSSMAP
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _EMISSION
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_LINEAR
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_EXP
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: FOG_EXP2
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 0
+    name: SHADOWS_DEPTH
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 100
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    - pass: 0
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_LINEAR
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP2
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 4
+    - pass: 1
+      passType: 0
+      keywordLines:
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _METALLICGLOSSMAP
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 1
+        isOtherDefine: 0
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 1
+          name: _EMISSION
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_LINEAR
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: FOG_EXP2
+          tips: 
+      - hasUnderscoreVariant: 0
+        isFeature: 0
+        isOtherDefine: 1
+        keywords:
+        - enabled: 1
+          isUnderscoreKeyword: 0
+          isWrite: 0
+          name: SHADOWS_DEPTH
+          tips: 
+      keywordCount: 6
+    lightMode: ForwardBase

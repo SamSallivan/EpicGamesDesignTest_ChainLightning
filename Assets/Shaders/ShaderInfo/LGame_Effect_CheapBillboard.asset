@@ -1,0 +1,537 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_Effect_CheapBillboard
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 4
+  passCount: 2
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/Effect/CheapBillboard
+  path: Assets/ABPack/Resources/Shaders/Effect/LGame_Effect_CheapBillboard.shader
+  GUID: 810c5c87796581447bdd4092fadb89a4
+  keywordStrs:
+  - 
+  - _BILLBOARD_ON
+  - _ATLASWALK_ON
+  dependShader: []
+  gcInclude: []
+  warring: '
+
+    Has float count: 38'
+  shader: {fileID: 4800000, guid: 810c5c87796581447bdd4092fadb89a4, type: 3}
+  used_variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - d615205dad3e30044a5953c3ca754743
+    - 359a6fd6c8b1a804d9fe1a86715c8f2e
+    - b8b65bbd4fea87e4db063196d9fbd474
+    - d4f3eed82c6a8444887f7cd0cfa1957d
+    - db2f9a6c97e6653449e2fce8770538bf
+    - f86414ac8d658f84cbbff265ed339593
+    - 91ac47c900cbb98448ca8a6dbd0d1d1a
+    - d5ad369d300ecd249ac19ed05f180161
+    - e0f21b032073c4f45a195e3b47fba520
+    - f5abd781b4135974d9878c86bd573216
+    - 02bba9f8d1d05604aaefe23b3e15f040
+    - 54e259a0776c4c44b92d5372232fd30b
+    - c8ff7bf3d569f2142ac14ffca220708b
+    - 96c6c7df27b9c8148b7e79c7197d388c
+    - 507e71713d127b14481f17d29190c31d
+    - ffc5853e161bd55409f2edbc70a12c59
+    - 03f47a91056edd24e8c87eaf88640edd
+    - b50d819dea4a0ef46854ba7a2c25e4ad
+    - 33beea3358d57ad45be38a1b7458dec2
+    - 4a4290311c93a4749bd1428b43d744b8
+    - e2cf522e409b78e4eab76f0a3a7ae2a6
+    - 346fa53344c95f247a6ad34ed64cbf5a
+    - 3a6c2a7e4e8bc414e9ffd25c66c72699
+    - 25d8facf772a7e4448df1caf0bec826a
+    - 0ba6d213a961ff7439a020f55cfcff2d
+    - 10fb05c9bc0ee984d8381f1c2a80ec8c
+    - ec541b91f0181e34e8f5432855c2c483
+    - eb9ca8d9283607845b4b57a5f5369bbf
+    - e382ec8a4a51b7a4690946e3da77e7dc
+    - 2364672ede581a74fb0c0f4493b87f2d
+    - 15c14c0dd90a1dd41862bb6d8877e0d3
+    - 0da771716f0d104458afc4ab9bf3c6f6
+    - 3bbb6ae181ec76d44b14786f539bd015
+    - 94c83909b56738f40be3c24d818a1471
+    - 8d7a869d3e0057e469a6842581bcacaf
+    - 8ca5aa486797f7845be3f8bec190abed
+    - e344dff180104294d9ca6211274ca2db
+    - 55de9f7d6aff79140a036454371e39c0
+    - c915502490c82044facd3276264767a4
+    - d4f77f71dcd69b6428414f6176fb8b1d
+    - 5071d1353f0f4b1498b4671f6ddbb5ae
+    - 1e7fb06820b2e884081482d435d7415a
+    - dcd10bb04f56fae449b68469b313cc4c
+    - 2b264d088e6928148bd5927f9105cc00
+    - db63521134e856d46895b2e66bf424be
+    - f38023303b1fc3549b3810149724294f
+    - 764592010a0b2d64daa71a5da49ac46f
+    - 8ad06f0dc9bbd134b9c275213ea30a5d
+    - 42842ba1ba315c74bbe030b22eb9621a
+    - 58bb9592e57a12b40a273b5099c02414
+    - bc5437ccd5990b6438a5097b534305f1
+    - dd74c597628dbb54cbeeb7bf08ec191c
+    - 5b4a246a1676eee40b44d9ec0971d9a2
+    - a82f59d51d0b6ed4798fdb07b5067191
+    - fa527606711025f459da7755a0c8a638
+    - 8d48386c90d42d24793fbb97a39031a1
+    - 0182f31c59c1a9744b0ebfb9aa3813d0
+    - 1260e93e17df08341b0e40b84539cb57
+    - 62a4aae3e48fd5f4aa578b19171e4dee
+    - 95cd2f7cc13bbf84d94cb1fb326eb5f5
+    - 8a4de512e8378b442bafd86fab117004
+    - 0e6e95cf9008a5b4aa6291168756a153
+    - 63a2faff87f5a7d44b41f18517377050
+    - 321449a7f94d21d4b81dff0b896d8287
+    - baf5ffa3f9611d749bc74e9788c94451
+    - c2a9d5d67b02f6f488aeaa90d760417f
+    - 7d96d3c1e5fffa04a9c1dccc55242403
+    - 60dca298db289994594d3ce2a5f49e1f
+    - 57a7ec0249f772241a217745c814a7fb
+    - 2904a8453ba68f0499b9a0d7a00c1459
+    - 9a3c43bbb4a483946be8286df70ece9e
+    - feb79c6cac2337f4abc900f7689baeb1
+    - ed4484a6bafa92d46a9a8a1a4c67e5ad
+    - ee092b4ffb673a347a494950c6e0e72c
+    - 548e16a581cb5b2479ff9ff804a334ff
+    - df27318f9d441114796e420c19633af3
+    - c21d02b8e72f6ae4d90bfab9baf2cc2c
+    - 2d50794fbe9b91844bd326566257f7d7
+    - 8a034d6f1949fee4ab3b742cfa66d331
+    - 0309bc29aae97a6438347f0c612917a3
+    - 80bf1baae4f78ea41b8c1b470f8d68b0
+    - 4b3d908357dcc504c8b2d7557a33147e
+    - 723756799eac8cd4ab36834e728eaef1
+    - 642d39a9035635346882d60b645b71e4
+    - 068fa0cecde4562458b0ba742a37a2c7
+    - 48527cda225268b469c1e64cac60a913
+    - 42756784ef308514f939d67c0cd85fd0
+    - f1f8f01c811fd5944bc0ab5b3f2f9429
+    - d0569d0401c35df428856ce2cb56708b
+    - 3c40106dd00bbfd40b033cf92a8e78a4
+    - 42f4c69b0eff0bf4299823756e281155
+    - 613cb029561446040bdae2658123a36d
+    - 6bbe3a32a51fa9445a935988ec54cf49
+    - ed62d849bd570da4ca6b5f1209536111
+    - 2eee362095c41314fb19ec2feb3a477f
+    - 7cfb0ed68ffdce14f96bc4bda400fa15
+    - e89839a7e3090aa47a86a4e7372d119a
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 7
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    keywordStr: 4 _BILLBOARD_ON
+    users:
+    - d615205dad3e30044a5953c3ca754743
+    - 359a6fd6c8b1a804d9fe1a86715c8f2e
+    - b8b65bbd4fea87e4db063196d9fbd474
+    - d4f3eed82c6a8444887f7cd0cfa1957d
+    - db2f9a6c97e6653449e2fce8770538bf
+    - f86414ac8d658f84cbbff265ed339593
+    - e0f21b032073c4f45a195e3b47fba520
+    - 03f47a91056edd24e8c87eaf88640edd
+    - b50d819dea4a0ef46854ba7a2c25e4ad
+    - 33beea3358d57ad45be38a1b7458dec2
+    - e2cf522e409b78e4eab76f0a3a7ae2a6
+    - 3a6c2a7e4e8bc414e9ffd25c66c72699
+    - 25d8facf772a7e4448df1caf0bec826a
+    - 0ba6d213a961ff7439a020f55cfcff2d
+    - e382ec8a4a51b7a4690946e3da77e7dc
+    - 0da771716f0d104458afc4ab9bf3c6f6
+    - 3bbb6ae181ec76d44b14786f539bd015
+    - 94c83909b56738f40be3c24d818a1471
+    - 8d7a869d3e0057e469a6842581bcacaf
+    - 8ca5aa486797f7845be3f8bec190abed
+    - e344dff180104294d9ca6211274ca2db
+    - 5071d1353f0f4b1498b4671f6ddbb5ae
+    - 1e7fb06820b2e884081482d435d7415a
+    - dcd10bb04f56fae449b68469b313cc4c
+    - 2b264d088e6928148bd5927f9105cc00
+    - f38023303b1fc3549b3810149724294f
+    - 764592010a0b2d64daa71a5da49ac46f
+    - 8ad06f0dc9bbd134b9c275213ea30a5d
+    - 42842ba1ba315c74bbe030b22eb9621a
+    - 58bb9592e57a12b40a273b5099c02414
+    - bc5437ccd5990b6438a5097b534305f1
+    - dd74c597628dbb54cbeeb7bf08ec191c
+    - 5b4a246a1676eee40b44d9ec0971d9a2
+    - 8d48386c90d42d24793fbb97a39031a1
+    - 321449a7f94d21d4b81dff0b896d8287
+    - baf5ffa3f9611d749bc74e9788c94451
+    - c2a9d5d67b02f6f488aeaa90d760417f
+    - 7d96d3c1e5fffa04a9c1dccc55242403
+    - 57a7ec0249f772241a217745c814a7fb
+    - 2904a8453ba68f0499b9a0d7a00c1459
+    - 9a3c43bbb4a483946be8286df70ece9e
+    - feb79c6cac2337f4abc900f7689baeb1
+    - ed4484a6bafa92d46a9a8a1a4c67e5ad
+    - 548e16a581cb5b2479ff9ff804a334ff
+    - df27318f9d441114796e420c19633af3
+    - c21d02b8e72f6ae4d90bfab9baf2cc2c
+    - 2d50794fbe9b91844bd326566257f7d7
+    - 8a034d6f1949fee4ab3b742cfa66d331
+    - 42756784ef308514f939d67c0cd85fd0
+    - f1f8f01c811fd5944bc0ab5b3f2f9429
+    - d0569d0401c35df428856ce2cb56708b
+    - 3c40106dd00bbfd40b033cf92a8e78a4
+    - 42f4c69b0eff0bf4299823756e281155
+    - ed62d849bd570da4ca6b5f1209536111
+    - 2eee362095c41314fb19ec2feb3a477f
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 7
+    alwaysInLod: 1
+  - alwaysInclude: 0
+    keywords:
+    - _ATLASWALK_ON
+    keywordStr: 4 _ATLASWALK_ON
+    users:
+    - d5ad369d300ecd249ac19ed05f180161
+    - c8ff7bf3d569f2142ac14ffca220708b
+    - 96c6c7df27b9c8148b7e79c7197d388c
+    - 507e71713d127b14481f17d29190c31d
+    - 346fa53344c95f247a6ad34ed64cbf5a
+    - 10fb05c9bc0ee984d8381f1c2a80ec8c
+    - ec541b91f0181e34e8f5432855c2c483
+    - eb9ca8d9283607845b4b57a5f5369bbf
+    - d4f77f71dcd69b6428414f6176fb8b1d
+    - db63521134e856d46895b2e66bf424be
+    - 0182f31c59c1a9744b0ebfb9aa3813d0
+    - 1260e93e17df08341b0e40b84539cb57
+    - 8a4de512e8378b442bafd86fab117004
+    - 0e6e95cf9008a5b4aa6291168756a153
+    - 63a2faff87f5a7d44b41f18517377050
+    - 0309bc29aae97a6438347f0c612917a3
+    - 80bf1baae4f78ea41b8c1b470f8d68b0
+    - 4b3d908357dcc504c8b2d7557a33147e
+    - 723756799eac8cd4ab36834e728eaef1
+    - 642d39a9035635346882d60b645b71e4
+    - 068fa0cecde4562458b0ba742a37a2c7
+    - 48527cda225268b469c1e64cac60a913
+    - 6bbe3a32a51fa9445a935988ec54cf49
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 7
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ATLASWALK_ON
+    - _BILLBOARD_ON
+    keywordStr: 4 _ATLASWALK_ON _BILLBOARD_ON
+    users:
+    - 91ac47c900cbb98448ca8a6dbd0d1d1a
+    - f5abd781b4135974d9878c86bd573216
+    - 02bba9f8d1d05604aaefe23b3e15f040
+    - ffc5853e161bd55409f2edbc70a12c59
+    - 55de9f7d6aff79140a036454371e39c0
+    - c915502490c82044facd3276264767a4
+    - a82f59d51d0b6ed4798fdb07b5067191
+    - 62a4aae3e48fd5f4aa578b19171e4dee
+    - 95cd2f7cc13bbf84d94cb1fb326eb5f5
+    - 60dca298db289994594d3ce2a5f49e1f
+    - ee092b4ffb673a347a494950c6e0e72c
+    - 613cb029561446040bdae2658123a36d
+    - 7cfb0ed68ffdce14f96bc4bda400fa15
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 7
+    alwaysInLod: 1
+  used_keywords: []
+  variants:
+  - alwaysInclude: 0
+    keywords: []
+    keywordStr: '4 '
+    users:
+    - d615205dad3e30044a5953c3ca754743
+    - 359a6fd6c8b1a804d9fe1a86715c8f2e
+    - b8b65bbd4fea87e4db063196d9fbd474
+    - d4f3eed82c6a8444887f7cd0cfa1957d
+    - db2f9a6c97e6653449e2fce8770538bf
+    - f86414ac8d658f84cbbff265ed339593
+    - 91ac47c900cbb98448ca8a6dbd0d1d1a
+    - d5ad369d300ecd249ac19ed05f180161
+    - e0f21b032073c4f45a195e3b47fba520
+    - f5abd781b4135974d9878c86bd573216
+    - 02bba9f8d1d05604aaefe23b3e15f040
+    - 54e259a0776c4c44b92d5372232fd30b
+    - c8ff7bf3d569f2142ac14ffca220708b
+    - 96c6c7df27b9c8148b7e79c7197d388c
+    - 507e71713d127b14481f17d29190c31d
+    - ffc5853e161bd55409f2edbc70a12c59
+    - 03f47a91056edd24e8c87eaf88640edd
+    - b50d819dea4a0ef46854ba7a2c25e4ad
+    - 33beea3358d57ad45be38a1b7458dec2
+    - 4a4290311c93a4749bd1428b43d744b8
+    - e2cf522e409b78e4eab76f0a3a7ae2a6
+    - 346fa53344c95f247a6ad34ed64cbf5a
+    - 3a6c2a7e4e8bc414e9ffd25c66c72699
+    - 25d8facf772a7e4448df1caf0bec826a
+    - 0ba6d213a961ff7439a020f55cfcff2d
+    - 10fb05c9bc0ee984d8381f1c2a80ec8c
+    - ec541b91f0181e34e8f5432855c2c483
+    - eb9ca8d9283607845b4b57a5f5369bbf
+    - e382ec8a4a51b7a4690946e3da77e7dc
+    - 2364672ede581a74fb0c0f4493b87f2d
+    - 15c14c0dd90a1dd41862bb6d8877e0d3
+    - 0da771716f0d104458afc4ab9bf3c6f6
+    - 3bbb6ae181ec76d44b14786f539bd015
+    - 94c83909b56738f40be3c24d818a1471
+    - 8d7a869d3e0057e469a6842581bcacaf
+    - 8ca5aa486797f7845be3f8bec190abed
+    - e344dff180104294d9ca6211274ca2db
+    - 55de9f7d6aff79140a036454371e39c0
+    - c915502490c82044facd3276264767a4
+    - d4f77f71dcd69b6428414f6176fb8b1d
+    - 5071d1353f0f4b1498b4671f6ddbb5ae
+    - 1e7fb06820b2e884081482d435d7415a
+    - dcd10bb04f56fae449b68469b313cc4c
+    - 2b264d088e6928148bd5927f9105cc00
+    - db63521134e856d46895b2e66bf424be
+    - f38023303b1fc3549b3810149724294f
+    - 764592010a0b2d64daa71a5da49ac46f
+    - 8ad06f0dc9bbd134b9c275213ea30a5d
+    - 42842ba1ba315c74bbe030b22eb9621a
+    - 58bb9592e57a12b40a273b5099c02414
+    - bc5437ccd5990b6438a5097b534305f1
+    - dd74c597628dbb54cbeeb7bf08ec191c
+    - 5b4a246a1676eee40b44d9ec0971d9a2
+    - a82f59d51d0b6ed4798fdb07b5067191
+    - fa527606711025f459da7755a0c8a638
+    - 8d48386c90d42d24793fbb97a39031a1
+    - 0182f31c59c1a9744b0ebfb9aa3813d0
+    - 1260e93e17df08341b0e40b84539cb57
+    - 62a4aae3e48fd5f4aa578b19171e4dee
+    - 95cd2f7cc13bbf84d94cb1fb326eb5f5
+    - 8a4de512e8378b442bafd86fab117004
+    - 0e6e95cf9008a5b4aa6291168756a153
+    - 63a2faff87f5a7d44b41f18517377050
+    - 321449a7f94d21d4b81dff0b896d8287
+    - baf5ffa3f9611d749bc74e9788c94451
+    - c2a9d5d67b02f6f488aeaa90d760417f
+    - 7d96d3c1e5fffa04a9c1dccc55242403
+    - 60dca298db289994594d3ce2a5f49e1f
+    - 57a7ec0249f772241a217745c814a7fb
+    - 2904a8453ba68f0499b9a0d7a00c1459
+    - 9a3c43bbb4a483946be8286df70ece9e
+    - feb79c6cac2337f4abc900f7689baeb1
+    - ed4484a6bafa92d46a9a8a1a4c67e5ad
+    - ee092b4ffb673a347a494950c6e0e72c
+    - 548e16a581cb5b2479ff9ff804a334ff
+    - df27318f9d441114796e420c19633af3
+    - c21d02b8e72f6ae4d90bfab9baf2cc2c
+    - 2d50794fbe9b91844bd326566257f7d7
+    - 8a034d6f1949fee4ab3b742cfa66d331
+    - 0309bc29aae97a6438347f0c612917a3
+    - 80bf1baae4f78ea41b8c1b470f8d68b0
+    - 4b3d908357dcc504c8b2d7557a33147e
+    - 723756799eac8cd4ab36834e728eaef1
+    - 642d39a9035635346882d60b645b71e4
+    - 068fa0cecde4562458b0ba742a37a2c7
+    - 48527cda225268b469c1e64cac60a913
+    - 42756784ef308514f939d67c0cd85fd0
+    - f1f8f01c811fd5944bc0ab5b3f2f9429
+    - d0569d0401c35df428856ce2cb56708b
+    - 3c40106dd00bbfd40b033cf92a8e78a4
+    - 42f4c69b0eff0bf4299823756e281155
+    - 613cb029561446040bdae2658123a36d
+    - 6bbe3a32a51fa9445a935988ec54cf49
+    - ed62d849bd570da4ca6b5f1209536111
+    - 2eee362095c41314fb19ec2feb3a477f
+    - 7cfb0ed68ffdce14f96bc4bda400fa15
+    - e89839a7e3090aa47a86a4e7372d119a
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 7
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _BILLBOARD_ON
+    keywordStr: 4 _BILLBOARD_ON
+    users:
+    - d615205dad3e30044a5953c3ca754743
+    - 359a6fd6c8b1a804d9fe1a86715c8f2e
+    - b8b65bbd4fea87e4db063196d9fbd474
+    - d4f3eed82c6a8444887f7cd0cfa1957d
+    - db2f9a6c97e6653449e2fce8770538bf
+    - f86414ac8d658f84cbbff265ed339593
+    - e0f21b032073c4f45a195e3b47fba520
+    - 03f47a91056edd24e8c87eaf88640edd
+    - b50d819dea4a0ef46854ba7a2c25e4ad
+    - 33beea3358d57ad45be38a1b7458dec2
+    - e2cf522e409b78e4eab76f0a3a7ae2a6
+    - 3a6c2a7e4e8bc414e9ffd25c66c72699
+    - 25d8facf772a7e4448df1caf0bec826a
+    - 0ba6d213a961ff7439a020f55cfcff2d
+    - e382ec8a4a51b7a4690946e3da77e7dc
+    - 0da771716f0d104458afc4ab9bf3c6f6
+    - 3bbb6ae181ec76d44b14786f539bd015
+    - 94c83909b56738f40be3c24d818a1471
+    - 8d7a869d3e0057e469a6842581bcacaf
+    - 8ca5aa486797f7845be3f8bec190abed
+    - e344dff180104294d9ca6211274ca2db
+    - 5071d1353f0f4b1498b4671f6ddbb5ae
+    - 1e7fb06820b2e884081482d435d7415a
+    - dcd10bb04f56fae449b68469b313cc4c
+    - 2b264d088e6928148bd5927f9105cc00
+    - f38023303b1fc3549b3810149724294f
+    - 764592010a0b2d64daa71a5da49ac46f
+    - 8ad06f0dc9bbd134b9c275213ea30a5d
+    - 42842ba1ba315c74bbe030b22eb9621a
+    - 58bb9592e57a12b40a273b5099c02414
+    - bc5437ccd5990b6438a5097b534305f1
+    - dd74c597628dbb54cbeeb7bf08ec191c
+    - 5b4a246a1676eee40b44d9ec0971d9a2
+    - 8d48386c90d42d24793fbb97a39031a1
+    - 321449a7f94d21d4b81dff0b896d8287
+    - baf5ffa3f9611d749bc74e9788c94451
+    - c2a9d5d67b02f6f488aeaa90d760417f
+    - 7d96d3c1e5fffa04a9c1dccc55242403
+    - 57a7ec0249f772241a217745c814a7fb
+    - 2904a8453ba68f0499b9a0d7a00c1459
+    - 9a3c43bbb4a483946be8286df70ece9e
+    - feb79c6cac2337f4abc900f7689baeb1
+    - ed4484a6bafa92d46a9a8a1a4c67e5ad
+    - 548e16a581cb5b2479ff9ff804a334ff
+    - df27318f9d441114796e420c19633af3
+    - c21d02b8e72f6ae4d90bfab9baf2cc2c
+    - 2d50794fbe9b91844bd326566257f7d7
+    - 8a034d6f1949fee4ab3b742cfa66d331
+    - 42756784ef308514f939d67c0cd85fd0
+    - f1f8f01c811fd5944bc0ab5b3f2f9429
+    - d0569d0401c35df428856ce2cb56708b
+    - 3c40106dd00bbfd40b033cf92a8e78a4
+    - 42f4c69b0eff0bf4299823756e281155
+    - ed62d849bd570da4ca6b5f1209536111
+    - 2eee362095c41314fb19ec2feb3a477f
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 7
+    alwaysInLod: 1
+  - alwaysInclude: 0
+    keywords:
+    - _ATLASWALK_ON
+    keywordStr: 4 _ATLASWALK_ON
+    users:
+    - d5ad369d300ecd249ac19ed05f180161
+    - c8ff7bf3d569f2142ac14ffca220708b
+    - 96c6c7df27b9c8148b7e79c7197d388c
+    - 507e71713d127b14481f17d29190c31d
+    - 346fa53344c95f247a6ad34ed64cbf5a
+    - 10fb05c9bc0ee984d8381f1c2a80ec8c
+    - ec541b91f0181e34e8f5432855c2c483
+    - eb9ca8d9283607845b4b57a5f5369bbf
+    - d4f77f71dcd69b6428414f6176fb8b1d
+    - db63521134e856d46895b2e66bf424be
+    - 0182f31c59c1a9744b0ebfb9aa3813d0
+    - 1260e93e17df08341b0e40b84539cb57
+    - 8a4de512e8378b442bafd86fab117004
+    - 0e6e95cf9008a5b4aa6291168756a153
+    - 63a2faff87f5a7d44b41f18517377050
+    - 0309bc29aae97a6438347f0c612917a3
+    - 80bf1baae4f78ea41b8c1b470f8d68b0
+    - 4b3d908357dcc504c8b2d7557a33147e
+    - 723756799eac8cd4ab36834e728eaef1
+    - 642d39a9035635346882d60b645b71e4
+    - 068fa0cecde4562458b0ba742a37a2c7
+    - 48527cda225268b469c1e64cac60a913
+    - 6bbe3a32a51fa9445a935988ec54cf49
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 7
+    alwaysInLod: 0
+  - alwaysInclude: 0
+    keywords:
+    - _ATLASWALK_ON
+    - _BILLBOARD_ON
+    keywordStr: 4 _ATLASWALK_ON _BILLBOARD_ON
+    users:
+    - 91ac47c900cbb98448ca8a6dbd0d1d1a
+    - f5abd781b4135974d9878c86bd573216
+    - 02bba9f8d1d05604aaefe23b3e15f040
+    - ffc5853e161bd55409f2edbc70a12c59
+    - 55de9f7d6aff79140a036454371e39c0
+    - c915502490c82044facd3276264767a4
+    - a82f59d51d0b6ed4798fdb07b5067191
+    - 62a4aae3e48fd5f4aa578b19171e4dee
+    - 95cd2f7cc13bbf84d94cb1fb326eb5f5
+    - 60dca298db289994594d3ce2a5f49e1f
+    - ee092b4ffb673a347a494950c6e0e72c
+    - 613cb029561446040bdae2658123a36d
+    - 7cfb0ed68ffdce14f96bc4bda400fa15
+    passType: 4
+    isNeedPreload: 1
+    inOutBattle: 2
+    lod: 7
+    alwaysInLod: 1
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _ATLASWALK_ON
+        tips: 
+    - hasUnderscoreVariant: 0
+      isFeature: 1
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _BILLBOARD_ON
+        tips: 
+    keywordCount: 2
+  - pass: 1
+    passType: 0
+    keywordLines: []
+    keywordCount: 0
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _ATLASWALK_ON
+    tips: 
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _BILLBOARD_ON
+    tips: 
+  subShaderInfos: []

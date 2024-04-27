@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_other52_collection
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 61bcc695e9952eb4895406ac6cb0a4a9, type: 3}
+    second:
+      variants:
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: 9abd0253403c7d9418eb81ab9fc36009, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _STATIC_CAUSTIC
+        passType: 0
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: ae7c3f55ee9b679439477cdf4524a835, type: 3}
+    second:
+      variants:
+      - keywords: _DISTORT_ON
+        passType: 4

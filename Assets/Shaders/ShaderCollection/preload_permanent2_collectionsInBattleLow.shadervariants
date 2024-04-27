@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_permanent2_collectionsInBattleLow
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 757404bdaaa913545828e518f0ffae5d, type: 3}
+    second:
+      variants:
+      - keywords: _DISSOLVE _RIMLIGHT
+        passType: 4
+      - keywords: _DISSOLVE _RIMLIGHT _USE_DIRECT_GPU_SKINNING
+        passType: 4
+      - keywords: _METAL
+        passType: 4
+      - keywords: _ALPHABLEND_ON _METAL
+        passType: 4
+      - keywords: _ALPHABLEND_ON _METAL _USE_DIRECT_GPU_SKINNING
+        passType: 4

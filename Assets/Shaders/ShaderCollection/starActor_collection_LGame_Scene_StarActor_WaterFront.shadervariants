@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: starActor_collection_LGame_Scene_StarActor_WaterFront
+  m_Shaders:
+  - first: {fileID: 4800000, guid: ae7c3f55ee9b679439477cdf4524a835, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: _DISTORT_ON
+        passType: 4
+      - keywords: _ENABLE_GRAB
+        passType: 4
+      - keywords: SHADOWS_DEPTH
+        passType: 8

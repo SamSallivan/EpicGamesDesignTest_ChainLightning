@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98304a5b3e9674a06a32d4f2a62dc596, type: 3}
+  m_Name: LGame_Character_NPC_GpuSkinned_Transparent
+  m_EditorClassIdentifier: 
+  usedTf: 0
+  suportInstance: 0
+  usedFallBack: 0
+  hasMuitlPass: 0
+  hasClip: 0
+  inAlwaysInclude: 0
+  totalVariantCount: 4
+  passCount: 1
+  subShaderCount: 1
+  muitlPass: 
+  floadCount: 0
+  halfCount: 0
+  shaderName: LGame/Character/NPC_GpuSkinned_Transparent
+  path: Assets/ABPack/Resources/Shaders/LGameShader/LGame_Character_NPC_GpuSkinned_Transparent.shader
+  GUID: 6ecbef305846ff1439f9647ef9b53470
+  keywordStrs:
+  - 
+  - _SCAN_MAT_ON
+  dependShader: []
+  gcInclude: []
+  warring: 
+  shader: {fileID: 4800000, guid: 6ecbef305846ff1439f9647ef9b53470, type: 3}
+  used_variants:
+  - alwaysInclude: 1
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - ab2f56216dc681c4dbf8a49d0fad5b2a
+    - fd32535c1d394174a8e876ac5173fd3f
+    - 4a8c248dbb1f1b34f9824c1a7e25d720
+    - a9865d0fe378a8b4dba12ea66f5f5ead
+    - f34b585a70ddb6e418f070c1c09e48c5
+    - 77e4d80095bcae946a0031349797a71e
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords: []
+    keywordStr: '13 '
+    users:
+    - ab2f56216dc681c4dbf8a49d0fad5b2a
+    - fd32535c1d394174a8e876ac5173fd3f
+    - 4a8c248dbb1f1b34f9824c1a7e25d720
+    - a9865d0fe378a8b4dba12ea66f5f5ead
+    - f34b585a70ddb6e418f070c1c09e48c5
+    - 77e4d80095bcae946a0031349797a71e
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _SCAN_MAT_ON
+    keywordStr: 0 _SCAN_MAT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _SCAN_MAT_ON
+    keywordStr: 13 _SCAN_MAT_ON
+    users: []
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords: []
+    keywordStr: '13 '
+    users:
+    - ab2f56216dc681c4dbf8a49d0fad5b2a
+    - fd32535c1d394174a8e876ac5173fd3f
+    - 4a8c248dbb1f1b34f9824c1a7e25d720
+    - a9865d0fe378a8b4dba12ea66f5f5ead
+    - f34b585a70ddb6e418f070c1c09e48c5
+    - 77e4d80095bcae946a0031349797a71e
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _SCAN_MAT_ON
+    keywordStr: 13 _SCAN_MAT_ON
+    users: []
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  used_keywords: []
+  variants:
+  - alwaysInclude: 1
+    keywords: []
+    keywordStr: '0 '
+    users:
+    - ab2f56216dc681c4dbf8a49d0fad5b2a
+    - fd32535c1d394174a8e876ac5173fd3f
+    - 4a8c248dbb1f1b34f9824c1a7e25d720
+    - a9865d0fe378a8b4dba12ea66f5f5ead
+    - f34b585a70ddb6e418f070c1c09e48c5
+    - 77e4d80095bcae946a0031349797a71e
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 2
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _SCAN_MAT_ON
+    keywordStr: 0 _SCAN_MAT_ON
+    users: []
+    passType: 0
+    isNeedPreload: 0
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords: []
+    keywordStr: '13 '
+    users:
+    - ab2f56216dc681c4dbf8a49d0fad5b2a
+    - fd32535c1d394174a8e876ac5173fd3f
+    - 4a8c248dbb1f1b34f9824c1a7e25d720
+    - a9865d0fe378a8b4dba12ea66f5f5ead
+    - f34b585a70ddb6e418f070c1c09e48c5
+    - 77e4d80095bcae946a0031349797a71e
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  - alwaysInclude: 1
+    keywords:
+    - _SCAN_MAT_ON
+    keywordStr: 13 _SCAN_MAT_ON
+    users: []
+    passType: 13
+    isNeedPreload: 1
+    inOutBattle: 0
+    lod: 0
+    alwaysInLod: 0
+  passInfos:
+  - pass: 0
+    passType: 0
+    keywordLines:
+    - hasUnderscoreVariant: 1
+      isFeature: 0
+      isOtherDefine: 0
+      keywords:
+      - enabled: 1
+        isUnderscoreKeyword: 0
+        isWrite: 1
+        name: _SCAN_MAT_ON
+        tips: 
+    keywordCount: 1
+  keywords:
+  - enabled: 1
+    isUnderscoreKeyword: 0
+    isWrite: 1
+    name: _SCAN_MAT_ON
+    tips: 
+  subShaderInfos:
+  - index: -1
+    lod: 75
+    passInfos:
+    - pass: 0
+      passType: 0
+      keywordLines: []
+      keywordCount: 0
+    lightMode: ForwardBase

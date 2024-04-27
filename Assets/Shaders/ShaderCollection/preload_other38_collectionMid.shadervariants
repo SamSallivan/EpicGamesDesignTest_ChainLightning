@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_other38_collectionMid
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 1c537df9baa55ac4ba30318c09360f73, type: 3}
+    second:
+      variants:
+      - keywords: DissolveTex_On MaskTex_On
+        passType: 0
+      - keywords: FlowTex_On
+        passType: 0
+      - keywords: FlowTex_On _GRADIENT_ON
+        passType: 0
+      - keywords: FlowTex_On MaskTex_On
+        passType: 0
+      - keywords: FlowTex_On MaskTex_On _GRADIENT_ON
+        passType: 0

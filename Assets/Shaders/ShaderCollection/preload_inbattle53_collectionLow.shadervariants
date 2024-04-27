@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_inbattle53_collectionLow
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 6630c33cf8eb86944997895163cdcc5e, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+  - first: {fileID: 4800000, guid: c6e7ea50f8df93e40b53dc6046ccc213, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: _WATERWAVE_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: d8be21409d9faa84cbb31afc7e8097b4, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 221dc7d77b101384c839dcf49de7f9d0, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_outbattle3_collectionLow
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 2a5723e9820d25b43b890e635f076fff, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: e9a20661dacc086488529508e5baceef, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+  - first: {fileID: 4800000, guid: 52cf6cb7d34070f42afe52b0d879d90d, type: 3}
+    second:
+      variants:
+      - keywords: _MASK_ON
+        passType: 4
+      - keywords: _WRAPMODE_ON
+        passType: 4
+      - keywords: _MASK_ON _WRAPMODE_ON
+        passType: 4

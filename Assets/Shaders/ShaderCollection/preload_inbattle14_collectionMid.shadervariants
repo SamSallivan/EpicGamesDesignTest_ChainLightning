@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: preload_inbattle14_collectionMid
+  m_Shaders:
+  - first: {fileID: 4800000, guid: cdb737d8de9b33b4b9ad528fa133dd08, type: 3}
+    second:
+      variants:
+      - keywords: _FLOWLIGHTUV
+        passType: 13
+      - keywords: _ALPHABLEND_ON _FLOWLIGHTUV
+        passType: 13
+      - keywords: _FLOWLIGHTUV _RIMLIGHT
+        passType: 13
+      - keywords: _ALPHABLEND_ON _FLOWLIGHTUV _RIMLIGHT
+        passType: 13
+      - keywords: _DISSOLVE _FLOWLIGHTUV
+        passType: 13
